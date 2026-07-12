@@ -21,5 +21,16 @@
       "season": "winter",
       "typeIDs": 1
     }
+  },
+  "trails": {
+    "host": "https://www.skiwelt.at",
+    "pathname": "/webapi/micadoweb",
+    "query": {
+      "api": "Micado.Ski.Web/Micado.Ski.Web.IO.Api.FacilityApi/List.api",
+      "region": "skiwelt",
+      "season": "winter",
+      "typeIDs": 2
+    },
+    "json": true
   }
 }
