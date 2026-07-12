@@ -1,0 +1,19 @@
+{
+  "name": "Canaan Valley",
+  "url": {
+    "host": "https://www.canaanresort.com",
+    "pathname": "/trail-report"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "West Virginia"
+  ],
+  "ll": [
+    -79.4379,
+    39.0337
+  ],
+  "twitter": "CanaanResortWV"
+}
