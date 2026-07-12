@@ -1,0 +1,16 @@
+{
+  "name": "Big Moose Mountain",
+  "url": {
+    "host": "https://skibigmoose.com",
+    "pathname": "/trail-report-1"
+  },
+  "trails": true,
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -69.696,
+    45.49
+  ]
+}
