@@ -16,6 +16,7 @@ import opening from './lib/opening.js';
 import * as plugins from './lib/plugins.js';
 import dataRoutes from './lib/routes/data.js';
 import routes from './lib/routes/index.js';
+import trails from './lib/trails/index.js';
 import weather from './lib/weather/index.js';
 import webcams from './lib/webcams.js';
 
@@ -68,6 +69,7 @@ app.loaders.register(loader);
 
 app.plugins = plugins;
 app.plugins.register('lifts', lifts);
+app.plugins.register('trails', trails);
 app.plugins.register('opening', opening);
 app.plugins.register('weather', weather);
 app.plugins.register('webcams', webcams);
