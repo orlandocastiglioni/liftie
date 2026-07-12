@@ -11,5 +11,9 @@
     -76.79553,
     45.25789
   ],
-  "twitter": "CalabogiePeaks"
+  "twitter": "CalabogiePeaks",
+  "trails": true,
+  "no": {
+    "lifts": true
+  }
 }
