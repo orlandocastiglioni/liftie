@@ -21,5 +21,15 @@
   "ll": [
     10.75339,
     47.14966
-  ]
+  ],
+  "trails": {
+    "host": "https://www.hochzeiger.com",
+    "pathname": "/webapi/micadoweb",
+    "query": {
+      "api": "Micado.Ski.Web/Micado.Ski.Web.IO.Api.FacilityApi/List.api",
+      "region": "hochzeiger",
+      "typeIDs": 2
+    },
+    "json": true
+  }
 }
