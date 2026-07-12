@@ -83,8 +83,10 @@ app.run = function run() {
       process.exit(1);
       return;
     }
-    http.createServer(app).listen(PORT, () => {
-      console.log(`Running on: http://localhost:${PORT}`);
+    // local patch: bind loopback only unless LIFTIE_HOST overrides
+    const host = process.env.LIFTIE_HOST || '127.0.0.1';
+    http.createServer(app).listen(PORT, host, () => {
+      console.log(`Running on: http://${host}:${PORT}`);
     });
   });
 };
