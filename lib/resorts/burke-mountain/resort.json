@@ -14,5 +14,6 @@
   ],
   "twitter": "skiburke",
   "opening": "2017-12-01",
-  "noaa": "BTV/130,69"
+  "noaa": "BTV/130,69",
+  "trails": true
 }
