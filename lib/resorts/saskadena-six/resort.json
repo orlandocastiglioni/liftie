@@ -1,0 +1,16 @@
+{
+  "name": "Saskadena Six",
+  "url": {
+    "host": "https://www.saskadenasix.com",
+    "pathname": "/winter/conditions"
+  },
+  "trails": true,
+  "tags": [
+    "Vermont",
+    "New England"
+  ],
+  "ll": [
+    -72.5464,
+    43.6702
+  ]
+}
