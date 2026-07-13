@@ -1,0 +1,17 @@
+{
+  "name": "Castle Mountain",
+  "url": {
+    "host": "https://www.skicastle.ca",
+    "pathname": "/snowreport/"
+  },
+  "trails": true,
+  "tags": [
+    "Alberta",
+    "Canadian Rockies"
+  ],
+  "ll": [
+    -114.4167,
+    49.3167
+  ],
+  "twitter": "skicastle"
+}
