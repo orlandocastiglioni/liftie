@@ -1,0 +1,16 @@
+{
+  "name": "Lutsen Mountains",
+  "url": {
+    "host": "https://www.lutsen.com",
+    "pathname": "/mountain-info/mountain-report"
+  },
+  "trails": true,
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -90.7135,
+    47.654
+  ]
+}
