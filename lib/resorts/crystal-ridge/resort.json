@@ -1,0 +1,16 @@
+{
+  "name": "Crystal Ridge",
+  "url": {
+    "host": "https://crystalridge.com",
+    "pathname": "/mountain-info/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -88.0384,
+    42.8886
+  ]
+}
