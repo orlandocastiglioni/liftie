@@ -1,0 +1,16 @@
+{
+  "name": "Snowriver Mountain Resort",
+  "url": {
+    "host": "https://www.snowriver.com",
+    "pathname": "/mountain-info/mountain-report"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -89.899,
+    46.49
+  ]
+}
