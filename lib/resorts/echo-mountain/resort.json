@@ -1,0 +1,15 @@
+{
+  "name": "Echo Mountain",
+  "url": {
+    "host": "https://echomtn.com",
+    "pathname": "/mountain-conditions"
+  },
+  "trails": true,
+  "tags": [
+    "Colorado"
+  ],
+  "ll": [
+    -105.5225,
+    39.6842
+  ]
+}
