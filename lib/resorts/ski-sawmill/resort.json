@@ -1,0 +1,15 @@
+{
+  "name": "Ski Sawmill",
+  "url": {
+    "host": "https://skisawmill.com",
+    "pathname": "/ski-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -77.3628,
+    41.5545
+  ]
+}
