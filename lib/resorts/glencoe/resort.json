@@ -1,0 +1,16 @@
+{
+  "name": "Glencoe Mountain",
+  "url": {
+    "host": "https://www.glencoemountain.co.uk",
+    "pathname": "/snow-report"
+  },
+  "trails": true,
+  "tags": [
+    "Scotland"
+  ],
+  "ll": [
+    -4.8253,
+    56.6266
+  ],
+  "twitter": "GlencoeMountain"
+}
