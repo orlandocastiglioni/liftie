@@ -1,0 +1,15 @@
+{
+  "name": "Wintergreen Resort",
+  "url": {
+    "host": "https://www.wintergreenresort.com",
+    "pathname": "/mountain-report-cams/"
+  },
+  "trails": true,
+  "tags": [
+    "Virginia"
+  ],
+  "ll": [
+    -78.945,
+    37.9106
+  ]
+}
