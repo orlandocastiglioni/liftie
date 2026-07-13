@@ -1,0 +1,15 @@
+{
+  "name": "Wisp Resort",
+  "url": {
+    "host": "https://www.wispresort.com",
+    "pathname": "/mountain-report-cams/"
+  },
+  "trails": true,
+  "tags": [
+    "Maryland"
+  ],
+  "ll": [
+    -79.3903,
+    39.5626
+  ]
+}
