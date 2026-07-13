@@ -1,0 +1,16 @@
+{
+  "name": "Togakushi",
+  "url": {
+    "host": "https://www.togakusi.com",
+    "pathname": "/ski/course/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Nagano"
+  ],
+  "ll": [
+    138.0808,
+    36.7745
+  ]
+}
