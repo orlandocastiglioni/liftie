@@ -1,0 +1,15 @@
+{
+  "name": "Dynaland",
+  "url": {
+    "host": "https://www.dynaland.co.jp",
+    "pathname": "/condition/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan"
+  ],
+  "ll": [
+    136.8852,
+    35.9973
+  ]
+}
