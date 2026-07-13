@@ -1,0 +1,15 @@
+{
+  "name": "Cooper Spur",
+  "url": {
+    "host": "https://www.cooperspur.com",
+    "pathname": "/conditions-report/"
+  },
+  "tags": [
+    "Oregon",
+    "Mt Hood"
+  ],
+  "ll": [
+    -121.6273,
+    45.4479
+  ]
+}
