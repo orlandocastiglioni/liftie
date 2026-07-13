@@ -1,0 +1,15 @@
+{
+  "name": "Eagle Point",
+  "url": {
+    "host": "https://www.eaglepointresort.com",
+    "pathname": "/mountain-conditions"
+  },
+  "trails": true,
+  "tags": [
+    "Utah"
+  ],
+  "ll": [
+    -112.3839,
+    38.3204
+  ]
+}
