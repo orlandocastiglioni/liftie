@@ -1,0 +1,19 @@
+{
+  "name": "Sundown Mountain",
+  "url": {
+    "host": "https://sundownmtn.com",
+    "pathname": "/the-mountain/snow-report-trail-map/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Iowa",
+    "Midwest"
+  ],
+  "ll": [
+    -90.7815,
+    42.5326
+  ]
+}
