@@ -1,0 +1,16 @@
+{
+  "name": "Nordic Mountain",
+  "url": {
+    "host": "https://www.nordicmountain.com",
+    "pathname": "/mountain-info/snow-report-nordic"
+  },
+  "trails": true,
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -89.2126,
+    44.1197
+  ]
+}
