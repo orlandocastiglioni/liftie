@@ -1,0 +1,15 @@
+{
+  "name": "Washigatake",
+  "url": {
+    "host": "https://ski.washigatake.jp",
+    "pathname": "/condition/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan"
+  ],
+  "ll": [
+    136.9276,
+    35.9808
+  ]
+}
