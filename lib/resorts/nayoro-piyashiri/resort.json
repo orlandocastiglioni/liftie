@@ -1,0 +1,16 @@
+{
+  "name": "Nayoro Piyashiri",
+  "url": {
+    "host": "https://www.nayoro.co.jp",
+    "pathname": "/piyashiri/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Hokkaido"
+  ],
+  "ll": [
+    142.4841,
+    44.4106
+  ]
+}
