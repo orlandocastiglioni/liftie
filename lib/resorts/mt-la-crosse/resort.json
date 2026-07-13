@@ -1,0 +1,19 @@
+{
+  "name": "Mt. La Crosse",
+  "url": {
+    "host": "https://mtlacrosse.com",
+    "pathname": "/trail-map-conditions/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -91.2094,
+    43.7469
+  ]
+}
