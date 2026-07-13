@@ -1,0 +1,239 @@
+import trails from '../trails/index.js';
+
+trails('mt-abram', [
+  {
+    'name': 'Mahoosuc Meadow',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Mahoosuc Meadow',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Skyline Drive',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Hawthorne Learning Area',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Hay Road',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Polka Dot',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'One Today',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Wilks Way',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': "Taylor's Treat",
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Easy Rider',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Egomaineah',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Dudley-Do-Right',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Sweeper',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Frostbite Falls',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Roundabout',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Bullwinkle',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Lower Bullwinkle',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Maybelle's Tail",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Natasha's Niche",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Presto',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Moose-A-Rama',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Rough Rider',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Snowfields',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Snake',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Bullwinkle's Horn",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Bullwinkle's Other Horn",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Pat's Pass",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Peabody's Pass",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Chicken Chute',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': "Sherman's Pass",
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Boris Badenov',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Fearless Leader',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Lallypalooza',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Upper Fractured Fairytales',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Lower Fractured Fairytales',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Wassomata U',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': "Upper Rocky's Run",
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Snidely Whiplash',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Zephyr (GLADE)',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Lower Zephyr',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'The Cliff',
+    'status': 'closed',
+    'level': 'doubleBlack'
+  },
+  {
+    'name': 'The Zone (GLADE)',
+    'status': 'closed',
+    'level': 'doubleBlack'
+  },
+  {
+    'name': "Lower Rocky's Run",
+    'status': 'closed',
+    'level': 'doubleBlack'
+  },
+  {
+    'name': 'Easy Rider to Rough Rider',
+    'status': 'closed'
+  },
+  {
+    'name': 'Easy Rider to Rough Rider',
+    'status': 'closed'
+  },
+  {
+    'name': 'Skyline Drive to Rough Rider',
+    'status': 'closed'
+  },
+  {
+    'name': 'Round-a-bout to Sweeper',
+    'status': 'closed'
+  },
+  {
+    'name': 'Uphill Trail',
+    'status': 'closed'
+  }
+]);

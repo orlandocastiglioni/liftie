@@ -1,0 +1,16 @@
+{
+  "name": "Mt. Abram",
+  "url": {
+    "host": "https://www.mtabram.com",
+    "pathname": "/winter/mountain-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -70.706,
+    44.385
+  ]
+}
