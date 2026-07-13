@@ -1,0 +1,16 @@
+{
+  "name": "Little Switzerland",
+  "url": {
+    "host": "https://www.littleswitz.com",
+    "pathname": "/mountain-info/snow-report"
+  },
+  "trails": true,
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -88.2848,
+    43.3327
+  ]
+}
