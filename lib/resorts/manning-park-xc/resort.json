@@ -1,0 +1,25 @@
+{
+  "name": "Manning Park Nordic",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Manning-Park-Resort"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Manning-Park-Resort",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia",
+    "Nordic"
+  ],
+  "ll": [
+    -120.91434,
+    49.06907
+  ]
+}
