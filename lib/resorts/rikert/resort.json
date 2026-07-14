@@ -1,0 +1,26 @@
+{
+  "name": "Rikert Outdoor Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/rikert-outdoor-center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/rikert-outdoor-center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Vermont",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -73.1265,
+    43.9591
+  ]
+}

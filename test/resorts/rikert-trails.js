@@ -1,0 +1,194 @@
+import trails from '../trails/index.js';
+
+trails('rikert', [
+  {
+    'name': 'Unnamed Trails',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Holland',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Second Loop',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': "Upson's Figure Eight",
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': "Myhre's Driveway",
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Frost Fields',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Freeman',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Battell',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Craigs Hill',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Frost',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Practice Loops',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Wagonwheel Road',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'First Loop',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': 'S Turns',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Picnic',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Springhouse Loop',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Brown Gate',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Blue Bed Meadow',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Rock Garden',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Cook',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Sheehan',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Upper Gilmore',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Sugarhouse',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': 'Bower',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Blue Bed House',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Gilmore',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Battell Alternate',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Hobbit',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Thomas',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Kiwi',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Crooked Brook',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Old Farm Road',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Mandy',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Inner Frost',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Stadium',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': 'Viola White',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Practice Loop Connector',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Brandy Brook',
+    'status': 'closed',
+    'level': 'green'
+  }
+]);
