@@ -7,11 +7,6 @@ trails('mt-abram', [
     'level': 'green'
   },
   {
-    'name': 'Mahoosuc Meadow',
-    'status': 'closed',
-    'level': 'green'
-  },
-  {
     'name': 'Skyline Drive',
     'status': 'closed',
     'level': 'green'
@@ -215,10 +210,6 @@ trails('mt-abram', [
     'name': "Lower Rocky's Run",
     'status': 'closed',
     'level': 'doubleBlack'
-  },
-  {
-    'name': 'Easy Rider to Rough Rider',
-    'status': 'closed'
   },
   {
     'name': 'Easy Rider to Rough Rider',
