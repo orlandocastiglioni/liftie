@@ -112,29 +112,29 @@ trails('big-moose', [
     'level': 'black'
   },
   {
-    'name': 'Upper Penobscot - Blue Square',
+    'name': 'Upper Penobscot',
     'status': 'closed',
-    'level': 'doubleBlack'
+    'level': 'blue'
   },
   {
-    'name': 'East Branch - Blue Square',
+    'name': 'East Branch',
     'status': 'open',
-    'level': 'doubleBlack'
+    'level': 'blue'
   },
   {
-    'name': 'St Croix - Black Diamond',
+    'name': 'St Croix',
     'status': 'closed',
-    'level': 'doubleBlack'
+    'level': 'black'
   },
   {
-    'name': 'Moose River - Black Diamond',
+    'name': 'Moose River',
     'status': 'closed',
-    'level': 'doubleBlack'
+    'level': 'black'
   },
   {
-    'name': 'Piscataquis (The Cat) - Black Diamond',
+    'name': 'Piscataquis (The Cat)',
     'status': 'closed',
-    'level': 'doubleBlack'
+    'level': 'black'
   },
   {
     'name': 'Terrain Park',
