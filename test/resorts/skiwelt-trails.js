@@ -1,508 +1,87 @@
 import trails from '../trails/index.js';
 
-trails(
-  'skiwelt',
-  [
-    {
-      'name': 'Fun Park - Jump-Line',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Fun Park - Jib-Line',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Kaslach Abfahrt',
-      'status': 'closed',
-      'level': 'black'
-    },
-    {
-      'name': 'Umfahrung',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Streif',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Brixen Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Tanzer Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Kälberalm Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Hochbrixen Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Kälberalm Südabfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Rennstrecke Brixen',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Südabfahrt-Hohe Salve',
-      'status': 'closed',
-      'level': 'black'
-    },
-    {
-      'name': 'Zinsbergabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Poldanger Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Holzalm Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Joch Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Joch Abfahrt',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Filzboden Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Filzboden Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Geschwindigkeitsmessstrecke Brixen',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Filzboden Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Übungslift Hochbrixen Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Skischullift Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Kandleralm Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Umfahrung Marast',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Götschen Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Schusterbühel Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Direttissima - Jochbahn',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Umfahrung Otten',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Talabfahrt Hopfgarten',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Talabfahrt Hopfgarten Umfahrung Skiroute',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Rigi-Mittelstation Hopfgarten',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Rigi-Mittelstation Hopfgarten',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Rigi-Mittelstation Hopfgarten',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Hohe Salve - Rigi',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Schernthannabfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Schernthannabfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Skiweg Schernthann Wildbichl - Foisching',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Foischingabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Foischingabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Foischingabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Skiroute Klaus',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Zauberteppich Bodenschmied',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Zauberteppich Högerfeld',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Rigi-Kraftalm',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Talabfahrt Itter',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Kraftalm - Kasbichl',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Kraftalm - Kasbichl',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Rigi - Kraftalm Skiweg',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Tellerschlepplift-Salvista Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Piste Kleine Salve',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Skiroute Hexen6er-Kasbichl',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Kraftalm - Kasbichl',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Familienabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Hohe Salve - Kraftalmabfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Talabfahrt Söll',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Black Eagle (Gipfelabfahrt)',
-      'status': 'closed',
-      'level': 'black'
-    },
-    {
-      'name': 'Gipfel - Hangbrücke',
-      'status': 'closed',
-      'level': 'black'
-    },
-    {
-      'name': 'Black Pipe',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Keatabfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Trainingsstrecke Keat',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Skiweg Keat Siller - Hochsöll',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Stöcklabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Hexen6er-Abfahrt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Rinnerabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Hexenwelle',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Boardercross - Red Viper',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Hans im Glück Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Hans im Glück Skiparcours',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Siller-Keat',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Siller-Keat',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Skiweg (Silleralmschiweg)',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Knollnabfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Hexenteppich Abfahrt',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Trainingsstrecke Stöckl',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Talabfahrt bis Mittelstation',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': '80c nach Ellmau',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': '80 Talabfahrt bis Mittelstation (Bergbahn Ellmau - Going)',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'nach Scheffau',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Ellmi´s Zauberteppich Abfahrt III',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Talabfahrt Hartkaiserbahn',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Harmstätt',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Hartkaiserbahn Talabfahrt',
-      'status': 'closed',
-      'level': 'black'
-    },
-    {
-      'name': 'Talabfahrt Fraunwalden',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Schmiedalm zur Rübezahlalm',
-      'status': 'closed',
-      'level': 'doubleBlack'
-    },
-    {
-      'name': 'Umfahrung Seppenbauer',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Umfahrung Seppenbauer',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Ranhart',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Schmiedalm',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Ellmis 6er',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Ellmis 6er',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Kaiserexpress',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Verbindung Eiberg - Ellmau/Going',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Kaiserexpress',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Kaiserexpress',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Verbindung Übungslift Berg - Ellmau/Going',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Verbinung Ostlift - Tanzboden',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Köglbahn',
-      'status': 'closed',
-      'level': 'blue'
-    },
-    {
-      'name': 'Köglbahn',
-      'status': 'closed',
-      'level': 'green'
-    },
-    {
-      'name': 'Köglbahn',
-      'status': 'closed',
-      'level': 'green'
-    }
-  ],
-  { ext: 'json', example: 'skiwelt-trails' }
-);
+trails('skiwelt', [
+  { name: 'Fun Park - Jump-Line', status: 'closed', level: 'blue' },
+  { name: 'Fun Park - Jib-Line', status: 'closed', level: 'blue' },
+  { name: 'Kaslach Abfahrt', status: 'closed', level: 'black' },
+  { name: 'Umfahrung', status: 'closed', level: 'blue' },
+  { name: 'Streif', status: 'closed', level: 'doubleBlack' },
+  { name: 'Brixen Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Tanzer Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Kälberalm Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Hochbrixen Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Kälberalm Südabfahrt', status: 'closed', level: 'blue' },
+  { name: 'Rennstrecke Brixen', status: 'closed', level: 'blue' },
+  { name: 'Südabfahrt-Hohe Salve', status: 'closed', level: 'black' },
+  { name: 'Zinsbergabfahrt', status: 'closed', level: 'green' },
+  { name: 'Poldanger Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Holzalm Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Joch Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Filzboden Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Geschwindigkeitsmessstrecke Brixen', status: 'closed', level: 'green' },
+  { name: 'Übungslift Hochbrixen Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Skischullift Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Kandleralm Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Umfahrung Marast', status: 'closed', level: 'blue' },
+  { name: 'Götschen Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Schusterbühel Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Direttissima - Jochbahn', status: 'closed', level: 'doubleBlack' },
+  { name: 'Umfahrung Otten', status: 'closed', level: 'green' },
+  { name: 'Talabfahrt Hopfgarten', status: 'closed', level: 'blue' },
+  { name: 'Talabfahrt Hopfgarten Umfahrung Skiroute', status: 'closed', level: 'doubleBlack' },
+  { name: 'Rigi-Mittelstation Hopfgarten', status: 'closed', level: 'blue' },
+  { name: 'Hohe Salve - Rigi', status: 'closed', level: 'blue' },
+  { name: 'Schernthannabfahrt', status: 'closed', level: 'blue' },
+  { name: 'Skiweg Schernthann Wildbichl - Foisching', status: 'closed', level: 'green' },
+  { name: 'Foischingabfahrt', status: 'closed', level: 'green' },
+  { name: 'Skiroute Klaus', status: 'closed', level: 'doubleBlack' },
+  { name: 'Zauberteppich Bodenschmied', status: 'closed', level: 'green' },
+  { name: 'Zauberteppich Högerfeld', status: 'closed', level: 'green' },
+  { name: 'Rigi-Kraftalm', status: 'closed', level: 'green' },
+  { name: 'Talabfahrt Itter', status: 'closed', level: 'blue' },
+  { name: 'Kraftalm - Kasbichl', status: 'closed', level: 'green' },
+  { name: 'Rigi - Kraftalm Skiweg', status: 'closed', level: 'green' },
+  { name: 'Tellerschlepplift-Salvista Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Piste Kleine Salve', status: 'closed', level: 'green' },
+  { name: 'Skiroute Hexen6er-Kasbichl', status: 'closed', level: 'doubleBlack' },
+  { name: 'Familienabfahrt', status: 'closed', level: 'green' },
+  { name: 'Hohe Salve - Kraftalmabfahrt', status: 'closed', level: 'blue' },
+  { name: 'Talabfahrt Söll', status: 'closed', level: 'blue' },
+  { name: 'Black Eagle (Gipfelabfahrt)', status: 'closed', level: 'black' },
+  { name: 'Gipfel - Hangbrücke', status: 'closed', level: 'black' },
+  { name: 'Black Pipe', status: 'closed', level: 'doubleBlack' },
+  { name: 'Keatabfahrt', status: 'closed', level: 'blue' },
+  { name: 'Trainingsstrecke Keat', status: 'closed', level: 'blue' },
+  { name: 'Skiweg Keat Siller - Hochsöll', status: 'closed', level: 'green' },
+  { name: 'Stöcklabfahrt', status: 'closed', level: 'green' },
+  { name: 'Hexen6er-Abfahrt', status: 'closed', level: 'blue' },
+  { name: 'Rinnerabfahrt', status: 'closed', level: 'green' },
+  { name: 'Hexenwelle', status: 'closed', level: 'blue' },
+  { name: 'Boardercross - Red Viper', status: 'closed', level: 'blue' },
+  { name: 'Hans im Glück Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Hans im Glück Skiparcours', status: 'closed', level: 'blue' },
+  { name: 'Siller-Keat', status: 'closed', level: 'blue' },
+  { name: 'Skiweg (Silleralmschiweg)', status: 'closed', level: 'doubleBlack' },
+  { name: 'Knollnabfahrt', status: 'closed', level: 'green' },
+  { name: 'Hexenteppich Abfahrt', status: 'closed', level: 'green' },
+  { name: 'Trainingsstrecke Stöckl', status: 'closed', level: 'green' },
+  { name: 'Talabfahrt bis Mittelstation', status: 'closed', level: 'blue' },
+  { name: '80c nach Ellmau', status: 'closed', level: 'doubleBlack' },
+  { name: '80 Talabfahrt bis Mittelstation (Bergbahn Ellmau - Going)', status: 'closed', level: 'blue' },
+  { name: 'nach Scheffau', status: 'closed', level: 'blue' },
+  { name: 'Ellmi´s Zauberteppich Abfahrt III', status: 'closed', level: 'green' },
+  { name: 'Talabfahrt Hartkaiserbahn', status: 'closed', level: 'green' },
+  { name: 'Harmstätt', status: 'closed', level: 'blue' },
+  { name: 'Hartkaiserbahn Talabfahrt', status: 'closed', level: 'black' },
+  { name: 'Talabfahrt Fraunwalden', status: 'closed', level: 'doubleBlack' },
+  { name: 'Schmiedalm zur Rübezahlalm', status: 'closed', level: 'doubleBlack' },
+  { name: 'Umfahrung Seppenbauer', status: 'closed', level: 'green' },
+  { name: 'Ranhart', status: 'closed', level: 'blue' },
+  { name: 'Schmiedalm', status: 'closed', level: 'blue' },
+  { name: 'Ellmis 6er', status: 'closed', level: 'green' },
+  { name: 'Kaiserexpress', status: 'closed', level: 'green' },
+  { name: 'Verbindung Eiberg - Ellmau/Going', status: 'closed', level: 'green' },
+  { name: 'Verbindung Übungslift Berg - Ellmau/Going', status: 'closed', level: 'green' },
+  { name: 'Verbinung Ostlift - Tanzboden', status: 'closed', level: 'green' },
+  { name: 'Köglbahn', status: 'closed', level: 'blue' }
+], { ext: 'json', example: 'skiwelt-trails' });
