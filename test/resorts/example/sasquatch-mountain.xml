@@ -294,7 +294,19 @@
                     <Summer>0</Summer>
                     <Summer_bis>3</Summer_bis>
                 </ELEMENT>
-            </ELEMENTGROUP>
+            <ELEMENT>
+                    <ID>999999</ID>
+                    <Initial></Initial>
+                    <Name>new object by hemlock_resort</Name>
+                    <Type>606</Type>
+                    <Status>7</Status>
+                    <AdditionalStatus>128</AdditionalStatus>
+                    <Active>activ</Active>
+                    <Priority>0</Priority>
+                    <Summer>0</Summer>
+                    <Summer_bis>3</Summer_bis>
+                </ELEMENT>
+                </ELEMENTGROUP>
             <ELEMENTGROUP NAME="SLOPE">
                 <LASTUPDATE>2022-01-02T04:31:18</LASTUPDATE>
                 <ELEMENT>
