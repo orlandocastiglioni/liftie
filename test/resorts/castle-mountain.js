@@ -7,7 +7,5 @@ lifts('castle-mountain', 'html', {
   'Sundance (Blue) Chair': 'closed',
   'T-Rex': 'closed',
   'Tamarack (Red) Chair': 'closed',
-  'Stagecoach Express Chair': 'closed',
-  'Tumbleweed Terrain Park': 'closed',
-  'Meadows S/M Park': 'closed'
+  'Stagecoach Express Chair': 'closed'
 });
