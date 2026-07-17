@@ -1,10 +1,10 @@
 import lifts from '../lifts/index.js';
 
 lifts('owlshead', 'html', {
-  'Main': 'open',
-  'Baby': 'open',
-  'Black': 'open',
-  'Lake': 'closed',
+  'Summit': 'closed',
+  'Family': 'closed',
   'Blue': 'closed',
-  'Magic carpet': 'open'
-});
+  'Panorama': 'closed',
+  'Lake': 'closed',
+  'Magic carpet': 'closed'
+}, { example: 'owlshead-2026' });
