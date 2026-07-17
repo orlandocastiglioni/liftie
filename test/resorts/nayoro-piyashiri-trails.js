@@ -3,54 +3,54 @@ import trails from '../trails/index.js';
 trails('nayoro-piyashiri', [
   {
     'name': '一般ゲレンデ第1',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': '一般ゲレンデ第2',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': '林間コース',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ジャイアント第1',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ジャイアント第2',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'イースタンコース',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'チャレンジコース',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': '壁',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': '樹氷コース',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ツリーラン エリアⅠ',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ツリーラン エリアⅡ',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ツリーラン エリアⅢ',
-    'status': 'hold'
+    'status': 'closed'
   },
   {
     'name': 'ツリーラン フリーエリア',
-    'status': 'hold'
+    'status': 'closed'
   }
 ]);
