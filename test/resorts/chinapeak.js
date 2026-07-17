@@ -8,6 +8,6 @@ lifts('chinapeak', 'html', {
   'Chair 6': 'closed',
   'Chair 7': 'closed',
   'Kids Carpet': 'closed',
-  'Boulder Carpet': 'closed',
-  'Juniper Carpet': 'closed'
-});
+  'Juniper Carpet': 'closed',
+  'Boulder Carpet': 'closed'
+}, { example: 'chinapeak-2026' });
