@@ -1,0 +1,11 @@
+{
+  "data": [
+    { "id": "644", "name": "Lifts", "timeZone": "US/Pacific", "types": ["SECTOR"] },
+    { "id": "723", "name": "Parking Lots", "parentId": "644", "timeZone": "US/Pacific", "types": ["SECTOR"] },
+    { "id": "801", "name": "Mt. Hood Express", "parentId": "644", "timeZone": "US/Pacific", "types": ["LIFT"], "openingStatus": "OPEN", "openingStatusCompl": "OPEN" },
+    { "id": "802", "name": "Blue", "parentId": "644", "timeZone": "US/Pacific", "types": ["LIFT"], "openingStatus": "CLOSED", "openingStatusCompl": "CLOSED" },
+    { "id": "803", "name": "Cascade Express", "parentId": "644", "timeZone": "US/Pacific", "types": ["LIFT"], "openingStatus": "FORECAST", "openingStatusCompl": "FORECAST" },
+    { "id": "804", "name": "Vista Express ", "parentId": "644", "timeZone": "US/Pacific", "types": ["LIFT"], "openingStatus": "OPEN", "openingStatusCompl": "OPEN" }
+  ],
+  "counters": [{ "name": "Lifts", "open": 2, "pending": 1, "closed": 1 }]
+}

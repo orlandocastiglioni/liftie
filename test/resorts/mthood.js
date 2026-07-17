@@ -1,16 +1,8 @@
 import lifts from '../lifts/index.js';
 
-lifts('mthood', 'html', {
-  'Ballroom Carpet': 'closed',
-  'Buttercup': 'closed',
-  'Daisy': 'closed',
-  'Mt Hood Express': 'closed',
-  'Shooting Star Express': 'closed',
-  'Hood River Express': 'closed',
-  'Cascade Express': 'closed',
-  'Heather Canyon': 'closed',
-  'Easy Rider': 'closed',
-  'Stadium Express': 'closed',
+lifts('mthood', 'json', {
+  'Mt. Hood Express': 'open',
   'Blue': 'closed',
-  'Vista Express': 'closed'
+  'Cascade Express': 'scheduled',
+  'Vista Express': 'open'
 });

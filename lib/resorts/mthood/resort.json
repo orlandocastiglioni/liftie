@@ -2,7 +2,7 @@
   "name": "Mount Hood",
   "url": {
     "host": "https://www.skihood.com",
-    "pathname": "/the-mountain/conditions"
+    "pathname": "/mountain-report"
   },
   "tags": [
     "Oregon"
@@ -12,5 +12,13 @@
     45.331936
   ],
   "twitter": "MHMLifts",
-  "noaa": "PQR/144,88"
+  "noaa": "PQR/144,88",
+  "api": {
+    "host": "https://www.skihood.com",
+    "pathname": "/api/weather/poi",
+    "query": {
+      "include": "Lifts"
+    },
+    "json": true
+  }
 }
