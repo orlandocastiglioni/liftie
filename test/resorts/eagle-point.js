@@ -5,6 +5,5 @@ lifts('eagle-point', 'html', {
   'Monarch Triple Chair': 'closed',
   'Skyline Double Chair': 'closed',
   'Tushar Peaks Surface Lift': 'closed',
-  'Canyonside Double Chair': 'closed',
-  'Terrain Parks': 'closed'
+  'Canyonside Double Chair': 'closed'
 });
