@@ -2,10 +2,10 @@ import lifts from '../lifts/index.js';
 
 lifts('red-lodge-mountain', 'html', {
   'Magic Carpet': 'closed',
-  'Miami Beach': 'closed',
   'Triple Chair': 'closed',
-  'Grizzly Peak': 'closed',
+  'The Stache Express': 'closed',
   'Willow Creek': 'closed',
-  'Cole Creek Quad': 'closed',
-  'Palisades Quad': 'closed'
-});
+  'Grizzly Peak': 'closed',
+  'Cole Creek': 'closed',
+  'Palisades': 'closed'
+}, { example: 'red-lodge-mountain-2026' });
