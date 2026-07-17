@@ -6,7 +6,8 @@ import makeParse from '../../lib/lifts/parse.js';
 import parser from '../../lib/lifts/parser.js';
 
 export default async function testResort(name, ext, expected, opts = {}) {
-  const filename = resolve(import.meta.dirname, `../resorts/example/${name}.${ext}`);
+  const { example = name, ...testOpts } = opts;
+  const filename = resolve(import.meta.dirname, `../resorts/example/${example}.${ext}`);
   const parse = await makeParse(name);
 
   function testHTML(_t, done) {
@@ -34,7 +35,7 @@ export default async function testResort(name, ext, expected, opts = {}) {
   }
 
   const tested = ext === 'json' ? testJSON : testHTML;
-  test(`${name} should return lift status`, opts, tested);
+  test(`${name} should return lift status`, testOpts, tested);
 }
 
 testResort.only = (...args) => testResort(...args, { only: true });
