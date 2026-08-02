@@ -4,6 +4,7 @@
     "host": "https://berkshireeast.com",
     "pathname": "/winter/mountain-conditions"
   },
+  "trails": true,
   "tags": [
     "Massachusetts"
   ],
