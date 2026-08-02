@@ -60,5 +60,25 @@ trails('nordic-mountain', [
     'name': "Nordy's Narrows",
     'status': 'closed',
     'level': 'black'
+  },
+  {
+    'name': 'Poma Pass Terrain Park (Small)',
+    'status': 'closed',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'Short Cut Terrain Park (Small)',
+    'status': 'closed',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'Thunder Terrain Park (Medium)',
+    'status': 'closed',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'Skiers Outlet Terrain Park (Large)',
+    'status': 'closed',
+    'level': 'terrainPark'
   }
 ]);
