@@ -4,6 +4,7 @@
     "host": "https://skiloveland.com",
     "pathname": "/trail-lift-report/"
   },
+  "trails": true,
   "tags": [
     "Colorado"
   ],
