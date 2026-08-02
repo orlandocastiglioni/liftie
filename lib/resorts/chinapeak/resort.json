@@ -4,6 +4,7 @@
     "host": "https://www.skichinapeak.com",
     "pathname": "/conditions"
   },
+  "trails": true,
   "tags": [
     "California"
   ],
