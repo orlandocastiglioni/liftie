@@ -7,11 +7,11 @@ trails('saskadena-six', [
   },
   {
     'name': 'UPHILL - Easy Mile',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'UPHILL - Easy Mile Woods Route',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'UPHILL - Milky Way>Top of Chair 2',
@@ -19,114 +19,142 @@ trails('saskadena-six', [
   },
   {
     'name': 'Begin-A-Glade',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'green'
   },
   {
     'name': 'Easy Mile',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'green'
   },
   {
     'name': 'Milky Way',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'green'
   },
   {
     'name': "Pearson's Path",
-    'status': 'closed'
+    'status': 'open',
+    'level': 'green'
   },
   {
     'name': 'Standard',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'green'
   },
   {
     'name': 'Back Door',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'blue'
   },
   {
     'name': 'Bee Line',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': "Bourdon's Bowl",
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': "Bunny's Boulevard",
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Chimney',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Double Dip',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': "Duane's Drop",
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Lasky Lot',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': "Perley's Peril",
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Road Way',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Skyline',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Spring Pine Glade',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'blue'
   },
   {
     'name': 'The Chute',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'The Gully',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'blue'
   },
   {
     'name': 'Crystal',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'black'
   },
   {
     'name': 'Jug Handle',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'black'
   },
   {
     'name': 'Showoff',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'black'
   },
   {
     'name': 'The Face',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'black'
   },
   {
     'name': 'Back Scratcher',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'doubleBlack'
   },
   {
     'name': 'Mid Face',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'doubleBlack'
   },
   {
     'name': 'Pomfret Plunge',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'doubleBlack'
   },
   {
     'name': 'Porcupine',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'doubleBlack'
   },
   {
     'name': 'The Glade',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'doubleBlack'
   }
 ]);
