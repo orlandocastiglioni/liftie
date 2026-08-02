@@ -3,132 +3,132 @@ import trails from '../trails/index.js';
 trails('mt-la-crosse', [
   {
     'name': 'Bottoms Up',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Schoolyard',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Lower Catwalk',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Aug’s Access',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Summit Catwalk',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Mileaway',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Applebottom Catwalk',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Applebottom Loop',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'First Kiss',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Ahnna’s Dive',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Applebottom',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Midway',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Spotlight',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'White House',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Thunderation',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Quits Catwalk',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Old Loop',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Call it Quits',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Rainy Day',
-    'status': 'closed',
+    'status': 'open',
     'level': 'doubleBlack'
   },
   {
     'name': 'Salvation',
-    'status': 'closed',
+    'status': 'open',
     'level': 'doubleBlack'
   },
   {
     'name': 'Thanks L.P.',
-    'status': 'closed',
+    'status': 'open',
     'level': 'doubleBlack'
   },
   {
     'name': 'Race-lers Alley',
-    'status': 'closed',
+    'status': 'open',
     'level': 'doubleBlack'
   },
   {
     'name': 'Damnation',
-    'status': 'closed',
+    'status': 'open',
     'level': 'doubleBlack'
   },
   {
     'name': 'Area 23',
-    'status': 'closed',
+    'status': 'open',
     'level': 'terrainPark'
   },
   {
     'name': 'Boneyard',
-    'status': 'closed',
+    'status': 'open',
     'level': 'terrainPark'
   },
   {
     'name': 'Freestyle Terrain',
-    'status': 'closed',
+    'status': 'open',
     'level': 'terrainPark'
   }
 ]);

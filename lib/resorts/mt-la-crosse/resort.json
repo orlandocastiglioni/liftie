@@ -5,9 +5,6 @@
     "pathname": "/trail-map-conditions/"
   },
   "trails": true,
-  "no": {
-    "lifts": true
-  },
   "tags": [
     "Wisconsin",
     "Midwest"
