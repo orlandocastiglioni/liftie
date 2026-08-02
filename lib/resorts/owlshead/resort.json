@@ -4,6 +4,7 @@
     "host": "https://owlshead.com",
     "pathname": "/en/ski-conditions/"
   },
+  "trails": true,
   "tags": [
     "Quebec"
   ],

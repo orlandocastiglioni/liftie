@@ -1,5 +1,16 @@
 import lifts from '../lifts/index.js';
 
+// winter snapshot - mixed statuses
+lifts('owlshead', 'html', {
+  'Summit': 'open',
+  'Family': 'open',
+  'Blue': 'closed',
+  'Panorama': 'open',
+  'Lake': 'open',
+  'Magic carpet': 'open'
+});
+
+// summer page - everything closed
 lifts(
   'owlshead',
   'html',
