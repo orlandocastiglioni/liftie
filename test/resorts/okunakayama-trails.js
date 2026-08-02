@@ -3,46 +3,46 @@ import trails from '../trails/index.js';
 trails('okunakayama', [
   {
     'name': 'ぶなの木',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'つばめ',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'こなゆき',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': '山彦',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'こぐまゲレンデ',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': '西岳',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'はやぶさ',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'やまばと',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'しらかば',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'ビギナー',
-    'status': 'closed'
+    'status': 'open'
   },
   {
     'name': 'かもしか',
-    'status': 'closed'
+    'status': 'open'
   }
 ]);
