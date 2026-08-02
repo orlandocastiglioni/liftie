@@ -8,6 +8,7 @@
     "host": "https://digital.jaypeakresort.com",
     "pathname": "/conditions/snow-report/snow-report/"
   },
+  "trails": true,
   "tags": [
     "New England",
     "Vermont"

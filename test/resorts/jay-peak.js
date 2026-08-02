@@ -1,13 +1,13 @@
 import lifts from '../lifts/index.js';
 
 lifts('jay-peak', 'html', {
-  'Aerial Tram': 'open',
+  'Aerial Tram': 'hold',
   'Bonaventure Quad': 'open',
-  'Flyer Quad': 'closed',
+  'Flyer Quad': 'open',
   'Jet Triple': 'open',
   'Metro Quad': 'open',
   'Stateside Carpet': 'open',
   'Taxi Quad': 'open',
   'Tramside Carpet': 'open',
-  'Village Double': 'closed'
+  'Village Double': 'open'
 });
