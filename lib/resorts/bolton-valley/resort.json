@@ -10,7 +10,17 @@
     "query": {
       "action": "get_prop_conditions"
     },
-    "json": true
+    "json": true,
+    "fixJson": true
+  },
+  "trails": {
+    "host": "https://www.boltonvalley.com",
+    "pathname": "/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "get_prop_conditions"
+    },
+    "json": true,
+    "fixJson": true
   },
   "tags": [
     "Vermont",
