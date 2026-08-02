@@ -1,15 +1,15 @@
 import lifts from '../lifts/index.js';
 
 lifts('pats-peak', 'json', {
-  'Hurricane Triple Chair': 'closed',
+  'Hurricane Quad Chair': 'closed',
   'Turbulence Triple Chair': 'closed',
   'Cascade Basin Triple Chair': 'closed',
-  'Peak Double Chair': 'closed',
+  'Peak Triple Chair': 'closed',
   'Vortex Double Chair': 'closed',
   'Valley Double Chair': 'closed',
   'Bluster Carpet': 'closed',
+  'Beginner Carpet': 'closed',
   'Gusty JBar': 'closed',
   'Beginner Tow I': 'closed',
-  'Beginner Carpet': 'closed',
   'F5 Tow': 'closed'
 });

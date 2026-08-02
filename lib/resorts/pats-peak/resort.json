@@ -2,11 +2,18 @@
   "name": "Pats Peak",
   "url": {
     "host": "https://www.patspeak.com",
-    "pathname": "/Plan-Your-Visit/Snow-Report.aspx"
+    "pathname": "/the-mountain/mountain-info/snow-report/"
   },
   "api": {
-    "host": "https://services.patspeak.com",
-    "pathname": "/api/SnowReport/Status"
+    "host": "https://wp-api.patspeak.com",
+    "pathname": "/api/SnowReport/Status",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://wp-api.patspeak.com",
+    "pathname": "/api/SnowReport/Status",
+    "json": true,
+    "via": "flaresolverr"
   },
   "tags": [
     "New Hampshire",
