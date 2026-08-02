@@ -4,6 +4,13 @@
     "host": "https://tsumagoiskiresort.life",
     "pathname": "/"
   },
+  "dataUrl": {
+    "host": "https://tsumagoiskiresort.life",
+    "pathname": "/",
+    "via": "flaresolverr",
+    "maxTimeout": 90000
+  },
+  "trails": true,
   "tags": [
     "Japan"
   ],
