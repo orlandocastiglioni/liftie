@@ -4,6 +4,7 @@
     "host": "https://www.redlodgemountain.com",
     "pathname": "/mountain/snow-report/"
   },
+  "trails": true,
   "tags": [
     "Montana"
   ],
