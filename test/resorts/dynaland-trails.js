@@ -3,72 +3,72 @@ import trails from '../trails/index.js';
 trails('dynaland', [
   {
     'name': 'パラダイスAコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': '乙女コース（上部）',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': '乙女コース（下部）',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': '第1ゲレンデ',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'から松ゲレンデ',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': '第6ゲレンデ',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': '神中Aコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'ラビットコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'β‐α連絡コース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'ダウンヒルコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'パラダイスツリーラン',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'モーグルコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'スカイラインBコース（上部）',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'スカイラインBコース（下部）',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
@@ -78,47 +78,67 @@ trails('dynaland', [
   },
   {
     'name': 'クマダナコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': '神中Bコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'black'
   },
   {
     'name': '神中回転バーン',
-    'status': 'closed',
+    'status': 'open',
     'level': 'black'
   },
   {
     'name': 'チャレンジBコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'black'
   },
   {
     'name': 'チャレンジCコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'black'
   },
   {
     'name': 'スカイラインAコース',
-    'status': 'closed',
+    'status': 'open',
     'level': 'black'
   },
   {
     'name': 'チャレンジツリーランエリア',
-    'status': 'closed',
+    'status': 'hold',
     'level': 'black'
   },
   {
     'name': 'ウマノセツリーランエリア',
-    'status': 'closed',
+    'status': 'hold',
     'level': 'black'
   },
   {
     'name': '乙女ツリーランエリア',
-    'status': 'closed',
+    'status': 'hold',
     'level': 'black'
+  },
+  {
+    'name': 'ステップアップパーク',
+    'status': 'open',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'Re:テレインパーク',
+    'status': 'open',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'サーフライドパーク',
+    'status': 'closed',
+    'level': 'terrainPark'
+  },
+  {
+    'name': 'ナイトパーク',
+    'status': 'open',
+    'level': 'terrainPark'
   }
 ]);
