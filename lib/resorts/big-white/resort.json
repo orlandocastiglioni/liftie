@@ -1,8 +1,12 @@
 {
   "name": "Big White",
   "url": {
-    "host": "http://www.bigwhite.com",
-    "pathname": "/mountain-info/mountain-reports/lift-status"
+    "host": "https://www.bigwhite.com",
+    "pathname": "/lift-status-hours"
+  },
+  "trails": {
+    "host": "https://www.bigwhite.com",
+    "pathname": "/grooming-report"
   },
   "tags": [
     "British Columbia"
