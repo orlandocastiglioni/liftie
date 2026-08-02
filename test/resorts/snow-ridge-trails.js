@@ -2,118 +2,158 @@ import trails from '../trails/index.js';
 
 trails('snow-ridge', [
   {
-    'name': 'Von Allmen',
-    'status': 'closed',
-    'level': 'black'
+    name: 'Sap Line Glades',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'Black River',
-    'status': 'closed',
-    'level': 'blue'
+    name: 'Von Allmen',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'Snow Pocket',
-    'status': 'closed',
-    'level': 'blue'
+    name: 'Black River',
+    status: 'closed',
+    level: 'blue'
   },
   {
-    'name': 'Side Pocket',
-    'status': 'closed',
-    'level': 'blue'
+    name: 'Snow Pocket',
+    status: 'closed',
+    level: 'blue'
   },
   {
-    'name': 'Upper Pocket Glades',
-    'status': 'closed',
-    'level': 'blue'
+    name: 'Side Pocket',
+    status: 'closed',
+    level: 'blue'
   },
   {
-    'name': 'Rockin Robin',
-    'status': 'closed',
-    'level': 'black'
+    name: 'Upper Pocket Glades',
+    status: 'closed',
+    level: 'blue'
   },
   {
-    'name': 'Kuersteiner',
-    'status': 'open',
-    'level': 'black'
+    name: 'Lower Pocket Glades',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'Bunny Bowl',
-    'status': 'open',
-    'level': 'green'
+    name: 'Pocket Knife',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'Main Park:',
-    'status': 'closed',
-    'level': 'black'
+    name: 'Rockin Robin',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'South Slope',
-    'status': 'open',
-    'level': 'blue'
+    name: 'Kuersteiner',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Progression Park:',
-    'status': 'open',
-    'level': 'black'
+    name: 'Bunny Bowl',
+    status: 'open',
+    level: 'green'
   },
   {
-    'name': 'Ridge Run',
-    'status': 'open',
-    'level': 'black'
+    name: 'Main Park:',
+    status: 'closed',
+    level: 'terrainPark'
   },
   {
-    'name': 'The Bumps',
-    'status': 'open',
-    'level': 'black'
+    name: 'South Slope',
+    status: 'open',
+    level: 'blue'
   },
   {
-    'name': 'North Slope',
-    'status': 'open',
-    'level': 'blue'
+    name: 'Progression Park:',
+    status: 'open',
+    level: 'terrainPark'
   },
   {
-    'name': 'Silversmith',
-    'status': 'open',
-    'level': 'black'
+    name: 'Ridge Run',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Johannsen',
-    'status': 'open',
-    'level': 'black'
+    name: 'The Bumps',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Cruikshank',
-    'status': 'open',
-    'level': 'black'
+    name: 'North Slope',
+    status: 'open',
+    level: 'blue'
   },
   {
-    'name': 'Silver Glades',
-    'status': 'open',
-    'level': 'black'
+    name: 'Silversmith',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Challenger',
-    'status': 'open',
-    'level': 'black'
+    name: 'Johannsen',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Amazing Grace',
-    'status': 'open',
-    'level': 'black'
+    name: 'Cruikshank',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'One Way Out',
-    'status': 'open',
-    'level': 'black'
+    name: 'Silver Glades',
+    status: 'open',
+    level: 'black'
   },
   {
-    'name': 'Little Mountain',
-    'status': 'open',
-    'level': 'blue'
+    name: 'Sugar Bush Glades',
+    status: 'closed',
+    level: 'black'
   },
   {
-    'name': 'Little North',
-    'status': 'open',
-    'level': 'blue'
+    name: 'Challenger',
+    status: 'open',
+    level: 'black'
+  },
+  {
+    name: 'Lower Gulf Glades',
+    status: 'closed',
+    level: 'black'
+  },
+  {
+    name: 'Amazing Grace',
+    status: 'open',
+    level: 'black'
+  },
+  {
+    name: 'One Way Out',
+    status: 'open',
+    level: 'black'
+  },
+  {
+    name: 'Snowy Meadows',
+    status: 'closed',
+    level: 'green'
+  },
+  {
+    name: 'Easy Rider',
+    status: 'closed',
+    level: 'green'
+  },
+  {
+    name: 'Little Mountain',
+    status: 'open',
+    level: 'blue'
+  },
+  {
+    name: 'Little Lumi Land',
+    status: 'closed',
+    level: 'blue'
+  },
+  {
+    name: 'Little North',
+    status: 'open',
+    level: 'blue'
   }
 ]);
