@@ -5,9 +5,6 @@
     "pathname": "/trail-report"
   },
   "trails": true,
-  "no": {
-    "lifts": true
-  },
   "tags": [
     "West Virginia"
   ],
