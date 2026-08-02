@@ -4,10 +4,11 @@
     "host": "http://www.kingpine.com",
     "pathname": "/snow-report-conditions"
   },
-  "api": {
-    "host": "https://vicomap-cdn.resorts-interactive.com",
-    "pathname": "/api/details/821"
+  "dataUrl": {
+    "host": "https://conditions.kingpine.com",
+    "pathname": "/conditions/snow-report/"
   },
+  "trails": true,
   "tags": [
     "New Hampshire",
     "New England"
