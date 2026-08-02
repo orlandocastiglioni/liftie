@@ -4,6 +4,7 @@
     "host": "https://www.cannonmt.com",
     "pathname": "/trails-lifts"
   },
+  "trails": true,
   "tags": [
     "New England",
     "New Hampshire"
