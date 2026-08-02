@@ -1,9 +1,10 @@
 import lifts from '../lifts/index.js';
 
 lifts('ragged-mountain', 'html', {
-  'Barnyard Triple': 'open',
-  'Six Pack Summit Express': 'open',
-  'Spear Mountain Quad': 'open',
+  'Summit Six Express': 'open',
+  'Spear Mountain Express': 'open',
+  'Barnyard Triple': 'closed',
   'Wanna Be Wild Carpet': 'open',
-  'Meadows Carpet': 'open'
+  'Meadows Carpet': 'open',
+  'Uphill Route': 'open'
 });

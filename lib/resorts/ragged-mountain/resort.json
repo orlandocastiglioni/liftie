@@ -2,8 +2,9 @@
   "name": "Ragged Mountain",
   "url": {
     "host": "https://www.raggedmountainresort.com",
-    "pathname": "/Slopes/"
+    "pathname": "/mountain-report-cams/"
   },
+  "trails": true,
   "tags": [
     "New Hampshire",
     "New England"
