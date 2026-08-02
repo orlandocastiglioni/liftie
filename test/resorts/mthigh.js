@@ -1,18 +1,17 @@
 import lifts from '../lifts/index.js';
 
 lifts('mthigh', 'html', {
-  'Blue Ridge Express': 'closed',
+  'Blue Ridge Express': 'scheduled',
   'Conquest': 'closed',
-  'Coyote': 'closed',
+  'Coyote': 'scheduled',
   'Exhibition': 'closed',
-  'Moving Carpet West Long': 'closed',
-  'Moving Carpet West Short': 'closed',
+  'Moving Carpet West Long': 'scheduled',
+  'Moving Carpet West Short': 'scheduled',
   'Roadrunner': 'closed',
-  'Snowflake': 'closed',
+  'Snowflake': 'scheduled',
   'Competition': 'closed',
   'Discovery': 'closed',
   'Easy Rider': 'closed',
-  'Moving Carpet East': 'closed',
   'Mountain High Express': 'closed',
-  'Sunrise Quad': 'closed'
+  'Moving Carpet East': 'closed'
 });

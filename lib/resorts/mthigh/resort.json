@@ -4,6 +4,7 @@
     "host": "http://www.mthigh.com",
     "pathname": "/site/trails-and-conditions/conditions/alpine-grooming/@@alpine-grooming"
   },
+  "trails": true,
   "tags": [
     "California"
   ],
