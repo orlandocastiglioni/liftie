@@ -3,12 +3,12 @@ import trails from '../trails/index.js';
 trails('glencoe', [
   {
     'name': 'Access Return',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Bunny Run',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
@@ -18,12 +18,12 @@ trails('glencoe', [
   },
   {
     'name': 'Happy Valley',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Etive Glades',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
@@ -33,43 +33,71 @@ trails('glencoe', [
   },
   {
     'name': 'Main Basin',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'Mugs Alley',
-    'status': 'closed',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': 'Sledging Area',
+    'status': 'open'
+  },
+  {
+    'name': 'Coire Pollach Run',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Plateau Run',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'Rannoch Glades',
-    'status': 'closed'
+    'status': 'open',
+    'level': 'black'
   },
   {
     'name': 'Spring Run',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'black'
   },
   {
     'name': 'The High Road',
-    'status': 'closed',
+    'status': 'open',
     'level': 'blue'
   },
   {
     'name': 'The Low Road',
-    'status': 'closed',
+    'status': 'open',
     'level': 'green'
   },
   {
     'name': 'The Wall',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'black'
   },
   {
     'name': 'Thrombosis',
-    'status': 'closed'
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Wall Crossover',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Beginners Run',
+    'status': 'open',
+    'level': 'green'
+  },
+  {
+    'name': 'Old Mugs Alley',
+    'status': 'open',
+    'level': 'green'
   }
 ]);
