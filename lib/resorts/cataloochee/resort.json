@@ -4,6 +4,7 @@
     "host": "https://cataloochee.com",
     "pathname": "/the-mountain/snow-report/"
   },
+  "trails": true,
   "tags": [
     "North Carolina"
   ],

@@ -1,9 +1,9 @@
 import lifts from '../lifts/index.js';
 
 lifts('cataloochee', 'html', {
+  'Beginners Luck (Conveyor)': 'open',
   'Easy Way (Triple)': 'open',
-  'Omigosh (Double)': 'open',
+  'Omigosh (Quad)': 'open',
   'Rock Island Line (Quad)': 'open',
-  'Wolf Creek ( Conveyor)': 'closed',
-  'Beginners Luck (Conveyor)': 'open'
+  'Wolf Creek ( Conveyor)': 'open'
 });
