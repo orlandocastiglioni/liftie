@@ -1,10 +1,10 @@
 import lifts from '../lifts/index.js';
 
-lifts('saddleback', 'html', {
-  'Kennebago Quad': 'closed',
-  'Rangeley Detachable Quad': 'open',
-  'South Branch Quad': 'open',
-  'Cupsuptic T-Bar': 'closed',
-  'Sandy Rope Tow': 'closed',
-  'Molly Chunkamunk': 'closed'
+lifts('saddleback', 'json', {
+  'Kennebago': 'scheduled',
+  'Rangeley': 'scheduled',
+  'South Branch': 'scheduled',
+  'Molly Chunkamunk': 'closed',
+  'Sandy': 'closed',
+  'Cupsuptic': 'closed'
 });

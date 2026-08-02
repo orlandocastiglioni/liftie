@@ -2,7 +2,16 @@
   "name": "Saddleback",
   "url": {
     "host": "https://www.saddlebackmaine.com",
-    "pathname": "/the-mountain/snow--weather/"
+    "pathname": "/mountain-report/"
+  },
+  "api": {
+    "host": "https://saddlebackapi.netlify.app",
+    "pathname": "/.netlify/functions/getAll"
+  },
+  "trails": {
+    "host": "https://saddlebackapi.netlify.app",
+    "pathname": "/.netlify/functions/getAll",
+    "json": true
   },
   "tags": [
     "Maine",
