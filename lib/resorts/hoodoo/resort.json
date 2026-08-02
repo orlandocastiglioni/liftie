@@ -4,6 +4,7 @@
     "host": "https://skihoodoo.com",
     "pathname": "/the-mountain/mountain-lift-status/"
   },
+  "trails": true,
   "tags": [
     "Oregon"
   ],
