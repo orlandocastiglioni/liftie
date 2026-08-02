@@ -2,7 +2,7 @@
   "name": "Sasquatch Mountain",
   "url": {
     "host": "https://sasquatchmountain.ca",
-    "pathname": "/lift-runs/"
+    "pathname": "/snow-report/"
   },
   "dataUrl": {
     "host": "https://skiron.intermaps.com",
@@ -11,6 +11,7 @@
       "link": "http://sdds4.intermaps.com/sdds4_db_xml/default.aspx?region_id=3990"
     }
   },
+  "trails": true,
   "tags": [
     "British Columbia"
   ],
