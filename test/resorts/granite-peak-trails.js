@@ -152,22 +152,7 @@ trails('granite-peak', [
     'level': 'green'
   },
   {
-    'name': 'Meadows',
-    'status': 'closed',
-    'level': 'green'
-  },
-  {
-    'name': 'Mystery',
-    'status': 'closed',
-    'level': 'green'
-  },
-  {
     'name': 'Snowflake',
-    'status': 'closed',
-    'level': 'green'
-  },
-  {
-    'name': 'Whitetail',
     'status': 'closed',
     'level': 'green'
   },
