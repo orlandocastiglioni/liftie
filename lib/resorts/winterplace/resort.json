@@ -1,9 +1,10 @@
 {
   "name": "Winterplace",
   "url": {
-    "host": "http://www.winterplace.com",
-    "pathname": "/snow-report"
+    "host": "https://winterplace.com",
+    "pathname": "/real-time-snow-report-mountain-conditions-winterplace"
   },
+  "trails": true,
   "tags": [
     "West Virginia"
   ],

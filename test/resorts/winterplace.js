@@ -7,9 +7,9 @@ lifts('winterplace', 'html', {
   '#4 Triple Chairlift': 'closed',
   '#5 Double Chairlift': 'closed',
   '#6 Carpet Lift': 'closed',
-  '#7 Carpet Lift': 'closed',
   '#8 Quad Chairlift': 'closed',
   '#9 Quad Chairlift': 'closed',
-  '#10 Tubing Carpet Lift': 'closed',
-  '#11 Tubing Carpet Lift': 'closed'
+  '#12 Ski-Wee Carpet': 'closed',
+  '#11 Tubing Carpet': 'closed',
+  '#10 Tubing Carpet': 'closed'
 });
