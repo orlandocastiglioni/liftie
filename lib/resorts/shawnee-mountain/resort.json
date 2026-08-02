@@ -1,12 +1,19 @@
 {
   "name": "Shawnee Mountain",
   "url": {
-    "host": "https://www.shawneemt.com",
-    "pathname": "/mountain/snow-report/"
+    "host": "https://shawneemt.com",
+    "pathname": "/snow-report/"
   },
   "api": {
     "host": "https://www.shawneemt.com",
-    "pathname": "/wp-json/shawnee-widget/v1/weather/"
+    "pathname": "/wp-json/shawnee-widget/v1/weather/",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://www.shawneemt.com",
+    "pathname": "/wp-json/shawnee-widget/v1/weather/",
+    "json": true,
+    "via": "flaresolverr"
   },
   "tags": [
     "Pennsylvania"
