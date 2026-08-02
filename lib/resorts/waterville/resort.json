@@ -8,6 +8,7 @@
     "host": "http://features.waterville.com",
     "pathname": "/propsnow/"
   },
+  "trails": true,
   "tags": [
     "New Hampshire",
     "New England"
