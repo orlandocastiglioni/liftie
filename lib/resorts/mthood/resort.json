@@ -20,5 +20,13 @@
       "include": "Lifts"
     },
     "json": true
+  },
+  "trails": {
+    "host": "https://www.skihood.com",
+    "pathname": "/api/weather/poi",
+    "query": {
+      "include": "Nordic Center,Lifts,Parking Lots,Access Gates,TERRAIN_PARKS"
+    },
+    "json": true
   }
 }
