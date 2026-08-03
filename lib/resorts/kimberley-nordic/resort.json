@@ -1,0 +1,25 @@
+{
+  "name": "Kimberley Nordic Club",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Kimberley-Nordic"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Kimberley-Nordic",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia",
+    "Nordic"
+  ],
+  "ll": [
+    -116.00781,
+    49.68278
+  ]
+}

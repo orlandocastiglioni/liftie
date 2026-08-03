@@ -1,0 +1,24 @@
+{
+  "name": "Black Jack Cross Country Ski Club",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Black-Jack-Ski-Club"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Black-Jack-Ski-Club",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -117.81361,
+    49.112922
+  ]
+}

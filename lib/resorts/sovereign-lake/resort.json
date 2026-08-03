@@ -1,0 +1,24 @@
+{
+  "name": "Sovereign Lake Nordic Club",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Sovereign-Lake-Nordic-Centre"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Sovereign-Lake-Nordic-Centre",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -119.10414,
+    50.36662
+  ]
+}

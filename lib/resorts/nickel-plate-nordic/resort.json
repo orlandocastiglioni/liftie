@@ -1,0 +1,24 @@
+{
+  "name": "Nickel Plate Nordic Centre",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Nickel-Plate-Nordic"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Nickel-Plate-Nordic",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -119.9574253,
+    49.3848243
+  ]
+}

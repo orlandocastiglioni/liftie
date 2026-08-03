@@ -1,0 +1,24 @@
+{
+  "name": "Nelson Nordic Ski Club",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Nelson-Nordic-Ski-Club"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Nelson-Nordic-Ski-Club",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -117.2133359,
+    49.409235
+  ]
+}

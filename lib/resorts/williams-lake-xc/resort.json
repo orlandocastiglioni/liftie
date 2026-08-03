@@ -1,0 +1,25 @@
+{
+  "name": "Williams Lake Cross Country Ski Club",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Williams-Lake-Cross-Country-Ski-Club"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/BC/Williams-Lake-Cross-Country-Ski-Club",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia",
+    "Canada"
+  ],
+  "ll": [
+    -122.1322846,
+    52.2415189
+  ]
+}

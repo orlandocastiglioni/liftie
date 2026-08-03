@@ -1,0 +1,25 @@
+{
+  "name": "Bethel Village Trails (Inland Woods + Trails)",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Inland-Woods-Trails"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Inland-Woods-Trails",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "USA"
+  ],
+  "ll": [
+    -70.79079885,
+    44.40251575
+  ]
+}

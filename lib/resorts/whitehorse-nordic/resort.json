@@ -1,0 +1,25 @@
+{
+  "name": "Whitehorse Nordic Centre",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/YT/Whitehorse"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/CA/YT/Whitehorse",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Yukon",
+    "Canada"
+  ],
+  "ll": [
+    -135.1006179,
+    60.731119
+  ]
+}
