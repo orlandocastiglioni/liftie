@@ -1,0 +1,34 @@
+{
+  "name": "Antelope Butte",
+  "url": {
+    "host": "https://www.skiantelopebutte.com",
+    "pathname": "/weather-reports"
+  },
+  "api": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vR7k-4mexab07MXUV05ExN4fjlSv-JGV_TspTa3Vj_AUJz-hAuW5fR04ZSJcj4r9Xs0pzt0KaYSl55o/pub",
+    "query": {
+      "gid": "0",
+      "single": "true",
+      "output": "csv"
+    },
+    "csv": true
+  },
+  "trails": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vR7k-4mexab07MXUV05ExN4fjlSv-JGV_TspTa3Vj_AUJz-hAuW5fR04ZSJcj4r9Xs0pzt0KaYSl55o/pub",
+    "query": {
+      "gid": "0",
+      "single": "true",
+      "output": "csv"
+    },
+    "csv": true
+  },
+  "tags": [
+    "Wyoming"
+  ],
+  "ll": [
+    -107.5182,
+    44.6073
+  ]
+}
