@@ -1,0 +1,15 @@
+{
+  "name": "Centre Vorlage",
+  "url": {
+    "host": "https://conditions.centrevorlage.ca",
+    "pathname": "/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -75.93821,
+    45.64455
+  ]
+}

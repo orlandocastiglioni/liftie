@@ -1,0 +1,15 @@
+{
+  "name": "Marble Mountain",
+  "url": {
+    "host": "https://skimarble.com",
+    "pathname": "/terrain-status/"
+  },
+  "trails": true,
+  "tags": [
+    "Newfoundland and Labrador"
+  ],
+  "ll": [
+    -57.82722,
+    48.93667
+  ]
+}

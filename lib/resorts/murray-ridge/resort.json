@@ -1,0 +1,15 @@
+{
+  "name": "Murray Ridge Ski Area",
+  "url": {
+    "host": "https://www.murrayridge.com",
+    "pathname": "/conditions"
+  },
+  "trails": true,
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -124.21167,
+    54.51806
+  ]
+}

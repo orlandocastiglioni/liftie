@@ -1,0 +1,15 @@
+{
+  "name": "Hudson Bay Mountain",
+  "url": {
+    "host": "https://www.hudsonbaymountain.com",
+    "pathname": "/snowreport"
+  },
+  "trails": true,
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -127.2712,
+    54.76511
+  ]
+}

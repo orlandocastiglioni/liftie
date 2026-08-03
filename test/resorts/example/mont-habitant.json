@@ -1,0 +1,287 @@
+{
+ "id": 449,
+ "date": "2022-10-12T11:17:41",
+ "date_gmt": "2022-10-12T15:17:41",
+ "guid": {
+  "rendered": "https://maneige.ski/?post_type=stations&#038;p=449"
+ },
+ "modified": "2026-04-09T18:05:21",
+ "modified_gmt": "2025-12-02T23:36:11",
+ "slug": "ski-mont-habitant",
+ "status": "publish",
+ "type": "stations",
+ "link": "https://maneige.ski/stations/ski-mont-habitant/",
+ "title": {
+  "rendered": "Ski Mont Habitant"
+ },
+ "featured_media": 0,
+ "template": "",
+ "class_list": [
+  "post-449",
+  "stations",
+  "type-stations",
+  "status-publish",
+  "hentry"
+ ],
+ "acf": {
+  "station_id": 37,
+  "meteomedia_id": 514026,
+  "skaping_id": "",
+  "station_excellence": false,
+  "latitude": 45.878597,
+  "longitude": -74.173851,
+  "station_region": [
+   23709
+  ],
+  "show_list_stations": true,
+  "station_snow24h": 0,
+  "station_snow48h": 0,
+  "station_snow7days": 0,
+  "station_snowseason": 243,
+  "station_snowbase": "hard",
+  "station_snowsurface": "hardened",
+  "station_snowcover": "complete",
+  "station_alert": "",
+  "station_alert_en": "",
+  "station_message": "",
+  "station_message_en": "",
+  "station_open": "closed_season",
+  "station_opendate": "20251129",
+  "station_daytrails": 10,
+  "station_daytrails_total": 11,
+  "station_nighttrails": 0,
+  "station_nighttrails_total": 11,
+  "station_sousbois": 0,
+  "station_sousbois_total": 2,
+  "station_parks": 1,
+  "alpine_trail_total": 1,
+  "station_parks_total": 1,
+  "alpine_trail_open": 1,
+  "tube_slides_open": 0,
+  "tube_slides_total": 0,
+  "ski-lift_open": 1,
+  "ski-lift_total": 3,
+  "night_ski-lift_open": 0,
+  "night_ski-lift_total": 3,
+  "sunday_from": "08:30:00",
+  "sunday_to": "17:00:00",
+  "sunday_closed": true,
+  "monday_from": "09:00:00",
+  "monday_to": "16:00:00",
+  "monday_closed": true,
+  "tuesday_from": "09:00:00",
+  "tuesday_to": "16:00:00",
+  "tuesday_closed": true,
+  "wednesday_from": "09:00:00",
+  "wednesday_to": "16:00:00",
+  "wednesday_closed": true,
+  "thursday_from": "09:00:00",
+  "thursday_to": "16:00:00",
+  "thursday_closed": true,
+  "friday_from": "09:00:00",
+  "friday_to": "16:00:00",
+  "friday_closed": true,
+  "saturday_from": "08:30:00",
+  "saturday_to": "17:00:00",
+  "saturday_closed": true,
+  "station_schedule_exceptions": null,
+  "station_name": "Ski Mont Habitant",
+  "station_logo": 50287,
+  "presentation_title": "Mont-Habitant",
+  "presentation_title_en": "Mont-Habitant",
+  "presentation_text": "Le Mont Habitant, c’est d’abord et avant tout une station 100% orientée sur la meilleure expérience de ski pour les familles. Avec ses pistes accessibles et sécuritaires de même qu’une équipe super accueillante, tout est réuni pour transmettre le pur plaisir de dévaler les pistes aux nouvelles générations.",
+  "presentation_text_en": "First and Foremost, Mont Habitant is a Resort that focuses 100% on the best skiing experience for families. From accessible and safe trails as well as a super welcoming team, everything is in place for you to pass onto the next generation the sheer pleasure of slithering the trails.",
+  "station_store": "https://www.monthabitant.com/fr/station-de-ski/tarifs",
+  "station_website": "https://www.monthabitant.com",
+  "station_map": "https://www.monthabitant.com/fr/station-de-ski/la-montagne",
+  "station_webcams": null,
+  "station_services": [
+   "snow_parc",
+   "off_trails",
+   "alpine_trails",
+   "locations",
+   "bar_restaurant",
+   "school_slide"
+  ],
+  "station_address": "12 chemin des Skieurs",
+  "station_city": "Saint-Sauveur",
+  "station_postalcode": "J0R 1R2",
+  "station_phone": "450 227-2637 / 1 866 887-2637",
+  "station_height": 183,
+  "trails_easy": 1,
+  "trails_hard": 6,
+  "trails_very_hard": 3,
+  "trails_extreme": 0,
+  "ski-lift_double": 1,
+  "ski-lift_triple": 0,
+  "ski-lift_quad": 2,
+  "ski-lift_six": 0,
+  "teleski": 0,
+  "": "",
+  "gondolas": 0,
+  "magic_carpets": 1,
+  "hybrid_lifts": 0,
+  "station_cover": 50309,
+  "station_thumbnail": 50311,
+  "station_gallery": [
+   50313,
+   50315,
+   50317,
+   50309
+  ],
+  "summer_name": "",
+  "show_list_summer": false,
+  "summer_activities_list": [],
+  "summer_activities_list_other": "",
+  "summer_activities_list_other_en": "",
+  "summer_description": "",
+  "summer_description_en": "",
+  "summer_activities_list_en": [],
+  "summer_alert": "",
+  "summer_alert_en": "",
+  "summer_message": "",
+  "summer_message_en": "",
+  "summer_website_url": "",
+  "summer_webcams": null,
+  "summer_station_cover": "",
+  "summer_station_thumbnail": "",
+  "summer_station_gallery": "",
+  "summer_details": null,
+  "station_hosting_title": "Hébergements et activités ",
+  "summer_details_en": null,
+  "station_hosting": [
+   {
+    "station-hosting_name": "Comfort Inn St-Jérome",
+    "station-hosting_img": 69262,
+    "station-hosting_btn-text": "Réserver",
+    "station-hosting_btn-url": "https://comfortinnstjerome.com/"
+   },
+   {
+    "station-hosting_name": "Centre de villégiature du Lac Fiddler",
+    "station-hosting_img": 69260,
+    "station-hosting_btn-text": "Réserver",
+    "station-hosting_btn-url": "https://www.fiddlerlakeresort.com/"
+   },
+   {
+    "station-hosting_name": "Hotel Le Versaille Saint-Sauveur",
+    "station-hosting_img": 69248,
+    "station-hosting_btn-text": "Réserver",
+    "station-hosting_btn-url": "https://secure.webrez.com/hotel/1869/?package_id=328289&language=fr"
+   }
+  ],
+  "summer_station_hosting_title": "",
+  "summer_station_hosting": null,
+  "station_hosting_title_en": "",
+  "station_hosting_en": [
+   {
+    "station-hosting_name": "Hôtel Manoir Saint-Sauveur",
+    "station-hosting_img": 63235,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://manoir-saint-sauveur.com/en/offre/93"
+   }
+  ],
+  "summer_station_hosting_title_en": "",
+  "summer_station_hosting_en": null,
+  "station_musts_title": "À ne pas manquer",
+  "station_musts": null,
+  "summer_station_musts_title": "À ne pas manquer",
+  "summer_station_musts": null,
+  "station_musts_title_en": "À ne pas manquer",
+  "station_musts_en": [
+   {
+    "station_must_name": "Snow Tubing Park Sommet Saint-Sauveur, versant Avila",
+    "station_must_img": 62783,
+    "station_must_description": "This activity allows everyone, young and old, to experience the joys of winter. Take to the specially designed slopes and enjoy the adrenalin, speed and thrill of the ride.",
+    "station_must_btn-text": "Learn more",
+    "station_must_btn-url": "https://www.sommets.com/en/what-to-do/snow-tubing-park/"
+   },
+   {
+    "station_must_name": "Le Crux Boisbriand - Climbing center",
+    "station_must_img": 63258,
+    "station_must_description": "<span data-sheets-root=\"1\">Le Crux Boisbriand is the ideal place to start climbing. With its auto-belay and boulder walls, you can come alone or with friends.</span>",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://www.lecrux.com/centre/boisbriand"
+   },
+   {
+    "station_must_name": "Laurentian Ski Museum",
+    "station_must_img": 63265,
+    "station_must_description": "The Laurentian Ski Museum was founded in Saint-Sauveur in 1982. Recognized as a museum institution accredited by the government of Quebec since 2019, its mission is to dedicate itself to the research, collection, conservation, interpretation, and sharing through the dissemination of the history of skiing in the Laurentians.",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://skimuseum.com/"
+   }
+  ],
+  "summer_station_musts_title_en": "À ne pas manquer",
+  "summer_station_musts_en": null
+ },
+ "aioseo_notices": [],
+ "_links": {
+  "self": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/449",
+    "targetHints": {
+     "allow": [
+      "GET"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/types/stations"
+   }
+  ],
+  "version-history": [
+   {
+    "count": 9,
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/449/revisions"
+   }
+  ],
+  "predecessor-version": [
+   {
+    "id": 69324,
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/449/revisions/69324"
+   }
+  ],
+  "acf:attachment": [
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/50309"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/50317"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/50315"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/50313"
+   }
+  ],
+  "acf:post": [
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/regions/23709"
+   }
+  ],
+  "wp:attachment": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/media?parent=449"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

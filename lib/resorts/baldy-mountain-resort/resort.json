@@ -1,0 +1,15 @@
+{
+  "name": "Baldy Mountain Resort",
+  "url": {
+    "host": "https://baldyresort.com",
+    "pathname": "/baldy-weather-cams/"
+  },
+  "trails": true,
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -119.23944,
+    49.15389
+  ]
+}

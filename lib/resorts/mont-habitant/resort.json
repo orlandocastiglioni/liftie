@@ -1,0 +1,25 @@
+{
+  "name": "Ski Mont Habitant",
+  "url": {
+    "host": "https://maneige.ski",
+    "pathname": "/stations/ski-mont-habitant/"
+  },
+  "api": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/449",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/449",
+    "json": true,
+    "via": "flaresolverr"
+  },
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -74.173851,
+    45.878597
+  ]
+}

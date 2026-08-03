@@ -1,0 +1,259 @@
+{
+ "id": 456,
+ "date": "2022-10-12T11:19:39",
+ "date_gmt": "2022-10-12T15:19:39",
+ "guid": {
+  "rendered": "https://maneige.ski/?post_type=stations&#038;p=456"
+ },
+ "modified": "2026-04-26T12:00:54",
+ "modified_gmt": "2025-12-02T23:53:11",
+ "slug": "vallee-bleue-la-station-familiale",
+ "status": "publish",
+ "type": "stations",
+ "link": "https://maneige.ski/stations/vallee-bleue-la-station-familiale/",
+ "title": {
+  "rendered": "Ski Vallée Bleue"
+ },
+ "featured_media": 0,
+ "template": "",
+ "class_list": [
+  "post-456",
+  "stations",
+  "type-stations",
+  "status-publish",
+  "hentry"
+ ],
+ "acf": {
+  "station_id": 43,
+  "meteomedia_id": 819027,
+  "skaping_id": "",
+  "station_excellence": false,
+  "latitude": 46.025871,
+  "longitude": -74.218483,
+  "station_region": [
+   23709
+  ],
+  "show_list_stations": true,
+  "station_snow24h": "",
+  "station_snow48h": "",
+  "station_snow7days": "",
+  "station_snowseason": "",
+  "station_snowbase": "not_available",
+  "station_snowsurface": "not_available",
+  "station_snowcover": "not_available",
+  "station_alert": "",
+  "station_alert_en": "",
+  "station_message": "",
+  "station_message_en": "",
+  "station_open": "closed_season",
+  "station_opendate": "20261122",
+  "station_daytrails": 0,
+  "station_daytrails_total": 25,
+  "station_nighttrails": 0,
+  "station_nighttrails_total": 0,
+  "station_sousbois": 0,
+  "station_sousbois_total": 5,
+  "station_parks": 0,
+  "alpine_trail_total": 1,
+  "station_parks_total": 2,
+  "alpine_trail_open": 0,
+  "tube_slides_open": 0,
+  "tube_slides_total": 0,
+  "ski-lift_open": 0,
+  "ski-lift_total": 3,
+  "night_ski-lift_open": 0,
+  "night_ski-lift_total": 0,
+  "sunday_from": "09:00:00",
+  "sunday_to": "16:00:00",
+  "sunday_closed": true,
+  "monday_from": "09:00:00",
+  "monday_to": "16:00:00",
+  "monday_closed": true,
+  "tuesday_from": "09:00:00",
+  "tuesday_to": "16:00:00",
+  "tuesday_closed": true,
+  "wednesday_from": "09:00:00",
+  "wednesday_to": "16:00:00",
+  "wednesday_closed": true,
+  "thursday_from": "10:00:00",
+  "thursday_to": "16:00:00",
+  "thursday_closed": true,
+  "friday_from": "09:00:00",
+  "friday_to": "16:00:00",
+  "friday_closed": true,
+  "saturday_from": "10:00:00",
+  "saturday_to": "16:00:00",
+  "saturday_closed": true,
+  "station_schedule_exceptions": [
+   {
+    "exception_date": "20261201",
+    "exception_from": "00:00:00",
+    "exception_to": "00:00:00",
+    "exception_closed": true
+   },
+   {
+    "exception_date": "20260403",
+    "exception_from": "09:00:00",
+    "exception_to": "16:00:00",
+    "exception_closed": true
+   }
+  ],
+  "station_name": "Ski Vallée Bleue",
+  "station_logo": 69450,
+  "presentation_title": "Votre station familiale ! #SKIfaitdubien",
+  "presentation_title_en": "Your family Ski resort !",
+  "presentation_text": "<p style=\"padding-left: 40px\">25 pistes dont 6 sous-bois s’offrent aux amateurs ainsi qu’aux avancés, avec un choix varié à dénivelés constants. Pour favoriser l’apprentissage, des pistes de débutants, des sous-bois thématiques pour les enfants et un parc à neige pour les fervents de nouveaux défis.</p>",
+  "presentation_text_en": "<p style=\"padding-left: 40px\">Your family station! 25 trails with 6 wood trails for beginners and more experienced skiers. A very original ski resort with all types of trails, thematic glade skiing for children and a snow park for those looking for an additional challenge!</p>",
+  "station_store": "https://www.valleebleue.com/francais/tarifs-billets-et-rabais-ski/",
+  "station_website": "http://www.valleebleue.com",
+  "station_map": "https://www.valleebleue.com/ski-et-planche-a-neige-en-famille-station-familiale-vallee-bleue/carte-pistes/",
+  "station_webcams": null,
+  "station_services": [
+   "snow_parc",
+   "alpine_trails",
+   "electric_station",
+   "locations",
+   "bar_restaurant",
+   "school_slide"
+  ],
+  "station_address": "1418 chemin Vallée Bleue",
+  "station_city": "Val-David",
+  "station_postalcode": "J0T 2N0",
+  "station_phone": "819-322-3427 / 866 322-3427",
+  "station_height": 115,
+  "trails_easy": 7,
+  "trails_hard": 10,
+  "trails_very_hard": 7,
+  "trails_extreme": 1,
+  "ski-lift_double": 0,
+  "ski-lift_triple": 1,
+  "ski-lift_quad": 1,
+  "ski-lift_six": 0,
+  "teleski": 0,
+  "": "",
+  "gondolas": 0,
+  "magic_carpets": 1,
+  "hybrid_lifts": 0,
+  "station_cover": 51178,
+  "station_thumbnail": 51180,
+  "station_gallery": [
+   51182,
+   51184,
+   51180,
+   51178
+  ],
+  "summer_name": "",
+  "show_list_summer": false,
+  "summer_activities_list": [],
+  "summer_activities_list_other": "",
+  "summer_activities_list_other_en": "",
+  "summer_description": "",
+  "summer_description_en": "",
+  "summer_activities_list_en": [],
+  "summer_alert": "",
+  "summer_alert_en": "",
+  "summer_message": "",
+  "summer_message_en": "",
+  "summer_website_url": "",
+  "summer_webcams": null,
+  "summer_station_cover": null,
+  "summer_station_thumbnail": null,
+  "summer_station_gallery": null,
+  "summer_details": null,
+  "station_hosting_title": "Hébergements ",
+  "summer_details_en": null,
+  "station_hosting": null,
+  "summer_station_hosting_title": "",
+  "summer_station_hosting": null,
+  "station_hosting_title_en": "Accomodations",
+  "station_hosting_en": [
+   {
+    "station-hosting_name": "Chalet Lac-à-la-Truite",
+    "station-hosting_img": 63224,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://chaletslacalatruite.com/en/#/chalet-en"
+   }
+  ],
+  "summer_station_hosting_title_en": "",
+  "summer_station_hosting_en": null,
+  "station_musts_title": "À ne pas manquer",
+  "station_musts": null,
+  "summer_station_musts_title": "À ne pas manquer",
+  "summer_station_musts": null,
+  "station_musts_title_en": "À ne pas manquer",
+  "station_musts_en": null,
+  "summer_station_musts_title_en": "À ne pas manquer",
+  "summer_station_musts_en": null
+ },
+ "aioseo_notices": [],
+ "_links": {
+  "self": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/456",
+    "targetHints": {
+     "allow": [
+      "GET"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/types/stations"
+   }
+  ],
+  "version-history": [
+   {
+    "count": 10,
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/456/revisions"
+   }
+  ],
+  "predecessor-version": [
+   {
+    "id": 69332,
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/456/revisions/69332"
+   }
+  ],
+  "acf:attachment": [
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/51178"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/51180"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/51184"
+   },
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/media/51182"
+   }
+  ],
+  "acf:post": [
+   {
+    "embeddable": true,
+    "href": "https://maneige.ski/wp-json/wp/v2/regions/23709"
+   }
+  ],
+  "wp:attachment": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/media?parent=456"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

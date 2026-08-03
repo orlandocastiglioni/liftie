@@ -1,0 +1,25 @@
+{
+  "name": "Val d'Irène",
+  "url": {
+    "host": "https://maneige.ski",
+    "pathname": "/stations/parc-regional-de-val-direne/"
+  },
+  "api": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/46128",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/46128",
+    "json": true,
+    "via": "flaresolverr"
+  },
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -67.571411,
+    48.471897
+  ]
+}

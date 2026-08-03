@@ -1,0 +1,351 @@
+{
+    "is_open": true,
+    "hours": {
+        "open": "10:00",
+        "close": "18:30"
+    },
+    "mode": "auto",
+    "source": "schedule",
+    "exception_note": null,
+    "message": "Smokey Sessions • August 2 Live music. Incredible views. One unforgettable evening. Get your tickets today.",
+    "trails": [
+        {
+            "id": "magic carpet",
+            "base_id": "magic carpet",
+            "name": "Magic Carpet",
+            "difficulty": "lift",
+            "is_open": false
+        },
+        {
+            "id": "1",
+            "base_id": "1",
+            "name": "Bunny Hill",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2a",
+            "base_id": "2",
+            "name": "Country Mile (2a)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2b",
+            "base_id": "2",
+            "name": "Country Mile (2b)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2c",
+            "base_id": "2",
+            "name": "Country Mile (2c)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2d",
+            "base_id": "2",
+            "name": "Country Mile (2d)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2e",
+            "base_id": "2",
+            "name": "Country Mile (2e)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2f",
+            "base_id": "2",
+            "name": "Country Mile (2f)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "2g",
+            "base_id": "2",
+            "name": "Country Mile (2g)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "8a",
+            "base_id": "8",
+            "name": "Jigs & Reels (8a)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "8b",
+            "base_id": "8",
+            "name": "Jigs & Reels (8b)",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "9",
+            "base_id": "9",
+            "name": "Sneek A Peek",
+            "difficulty": "easy",
+            "is_open": false
+        },
+        {
+            "id": "3",
+            "base_id": "3",
+            "name": "Racers Edge",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "4a",
+            "base_id": "4",
+            "name": "Hecklers Highway (4a)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "4b",
+            "base_id": "4",
+            "name": "Hecklers Highway (4b)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "5",
+            "base_id": "5",
+            "name": "Boomerang",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "6",
+            "base_id": "6",
+            "name": "Racing Pitch",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "7",
+            "base_id": "7",
+            "name": "Chicken Chute",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "7b",
+            "base_id": "7",
+            "name": "Chicken Chute (7b)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "14a",
+            "base_id": "14",
+            "name": "Far Side (14a)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "14b",
+            "base_id": "14",
+            "name": "Far Side (14b)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "14c",
+            "base_id": "14",
+            "name": "Far Side (14c)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "14d",
+            "base_id": "14",
+            "name": "Far Side (14d)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "15a",
+            "base_id": "15",
+            "name": "Snowboard Heaven (15a)",
+            "difficulty": "moderate",
+            "is_open": false
+        },
+        {
+            "id": "10",
+            "base_id": "10",
+            "name": "Pit Fall",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "11",
+            "base_id": "11",
+            "name": "Cliff Hanger",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "12a",
+            "base_id": "12",
+            "name": "Check Me Shorts (12a)",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "12b",
+            "base_id": "12",
+            "name": "Check Me Shorts (12b)",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "13a",
+            "base_id": "13",
+            "name": "Hickory Dickory & Dock (13a)",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "13b",
+            "base_id": "13",
+            "name": "Hickory Dickory & Dock (13b)",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "16",
+            "base_id": "16",
+            "name": "Choker",
+            "difficulty": "difficult",
+            "is_open": false
+        },
+        {
+            "id": "cs1",
+            "base_id": "cs1",
+            "name": "Snow Trails Route 1",
+            "difficulty": "summer",
+            "is_open": false
+        },
+        {
+            "id": "cs2",
+            "base_id": "cs2",
+            "name": "Snow Trails Route 2",
+            "difficulty": "summer",
+            "is_open": false
+        },
+        {
+            "id": "cs3",
+            "base_id": "cs3",
+            "name": "Snow Trails Route 3",
+            "difficulty": "summer",
+            "is_open": false
+        },
+        {
+            "id": "cs4",
+            "base_id": "cs4",
+            "name": "Snow Trails Route 4",
+            "difficulty": "summer",
+            "is_open": false
+        }
+    ],
+    "weather": {
+        "base": {
+            "name": "Base",
+            "elev_m": 15,
+            "temp_c": 21,
+            "feels_c": 22.5,
+            "humidity": 95,
+            "wind_kmh": 17,
+            "wind_gust_kmh": 47,
+            "wind_dir": 170,
+            "wind_dir_txt": "S",
+            "precip_mm": 0.1,
+            "snow_mm_h": 0,
+            "snow_cm_24h": 0,
+            "snow_depth_cm": 0,
+            "visibility_km": 13.8,
+            "uv_index": 0.5,
+            "weather_code": 51,
+            "condition": "Drizzle",
+            "icon": "rain",
+            "is_day": true
+        },
+        "summit": {
+            "name": "Summit",
+            "elev_m": 305,
+            "temp_c": 19.8,
+            "feels_c": 20.6,
+            "humidity": 95,
+            "wind_kmh": 17,
+            "wind_gust_kmh": 47,
+            "wind_dir": 170,
+            "wind_dir_txt": "S",
+            "precip_mm": 0.1,
+            "snow_mm_h": 0,
+            "snow_cm_24h": 0,
+            "snow_depth_cm": 0,
+            "visibility_km": 13.8,
+            "uv_index": 0.3,
+            "weather_code": 51,
+            "condition": "Drizzle",
+            "icon": "rain",
+            "is_day": true
+        },
+        "sun": {
+            "sunrise": "2026-08-02T05:43",
+            "sunset": "2026-08-02T20:32"
+        },
+        "hourly": [
+            {
+                "time": "2026-08-03T20:00",
+                "temp_c": 20.7,
+                "precip_mm": 0.2,
+                "snow_mm": 0,
+                "wind_kmh": 16,
+                "weather_code": 51,
+                "condition": "Drizzle",
+                "icon": "rain"
+            },
+            {
+                "time": "2026-08-03T21:00",
+                "temp_c": 20.3,
+                "precip_mm": 0,
+                "snow_mm": 0,
+                "wind_kmh": 15,
+                "weather_code": 3,
+                "condition": "Overcast",
+                "icon": "cloudy"
+            },
+            {
+                "time": "2026-08-03T22:00",
+                "temp_c": 20.2,
+                "precip_mm": 0,
+                "snow_mm": 0,
+                "wind_kmh": 14,
+                "weather_code": 3,
+                "condition": "Overcast",
+                "icon": "cloudy"
+            },
+            {
+                "time": "2026-08-03T23:00",
+                "temp_c": 20.2,
+                "precip_mm": 0,
+                "snow_mm": 0,
+                "wind_kmh": 15,
+                "weather_code": 3,
+                "condition": "Overcast",
+                "icon": "cloudy"
+            }
+        ],
+        "fetched_at": "2026-08-03T19:46:40-03:00"
+    },
+    "updated_at": "2026-07-31T14:42:54-03:00",
+    "server_time": "2026-08-03T19:50:19-03:00"
+}

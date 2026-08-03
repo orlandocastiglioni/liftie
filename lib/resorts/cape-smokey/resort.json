@@ -1,0 +1,30 @@
+{
+  "name": "Cape Smokey",
+  "url": {
+    "host": "https://www.capesmokey.ca",
+    "pathname": "/ski-runs"
+  },
+  "api": {
+    "host": "https://operator.capesmokey.ca",
+    "pathname": "/api/status.php",
+    "query": {
+      "token": "055046228785440d1d8574dd0d68368fdcc4a3fb7ba69c8b"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://operator.capesmokey.ca",
+    "pathname": "/api/status.php",
+    "query": {
+      "token": "055046228785440d1d8574dd0d68368fdcc4a3fb7ba69c8b"
+    },
+    "json": true
+  },
+  "tags": [
+    "Nova Scotia"
+  ],
+  "ll": [
+    -60.3812,
+    46.5939
+  ]
+}

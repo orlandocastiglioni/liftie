@@ -1,0 +1,256 @@
+{
+ "id": 46128,
+ "date": "2022-10-12T11:22:14",
+ "date_gmt": "2022-10-12T15:22:14",
+ "guid": {
+  "rendered": "https://maneige.ski/stations/parc-regional-de-val-direne/"
+ },
+ "modified": "2023-01-24T13:50:08",
+ "modified_gmt": "2023-01-24T18:50:08",
+ "slug": "parc-regional-de-val-direne",
+ "status": "publish",
+ "type": "stations",
+ "link": "https://maneige.ski/en/stations/parc-regional-de-val-direne/",
+ "title": {
+  "rendered": "Parc régional de Val d&rsquo;Irène"
+ },
+ "featured_media": 0,
+ "template": "",
+ "class_list": [
+  "post-46128",
+  "stations",
+  "type-stations",
+  "status-publish",
+  "hentry"
+ ],
+ "acf": {
+  "station_id": 26,
+  "meteomedia_id": 418005,
+  "skaping_id": "",
+  "station_excellence": false,
+  "latitude": 48.471897,
+  "longitude": -67.571411,
+  "station_region": null,
+  "show_list_stations": false,
+  "station_snow24h": 0,
+  "station_snow48h": 0,
+  "station_snow7days": 31,
+  "station_snowseason": 0,
+  "station_snowbase": "firm",
+  "station_snowsurface": "groomed_snow",
+  "station_snowcover": "complete",
+  "station_alert": "",
+  "station_alert_en": "",
+  "station_message": "",
+  "station_message_en": "",
+  "station_open": "closed_season",
+  "station_opendate": "20241214",
+  "station_daytrails": 0,
+  "station_daytrails_total": 35,
+  "station_nighttrails": 0,
+  "station_nighttrails_total": 0,
+  "station_sousbois": 0,
+  "station_sousbois_total": 14,
+  "station_parks": 0,
+  "alpine_trail_total": "",
+  "station_parks_total": 1,
+  "alpine_trail_open": 0,
+  "tube_slides_open": 0,
+  "tube_slides_total": 1,
+  "ski-lift_open": 0,
+  "ski-lift_total": 2,
+  "night_ski-lift_open": 0,
+  "night_ski-lift_total": 0,
+  "sunday_from": null,
+  "sunday_to": null,
+  "sunday_closed": false,
+  "monday_from": null,
+  "monday_to": null,
+  "monday_closed": false,
+  "tuesday_from": null,
+  "tuesday_to": null,
+  "tuesday_closed": false,
+  "wednesday_from": null,
+  "wednesday_to": null,
+  "wednesday_closed": false,
+  "thursday_from": null,
+  "thursday_to": null,
+  "thursday_closed": false,
+  "friday_from": null,
+  "friday_to": null,
+  "friday_closed": false,
+  "saturday_from": null,
+  "saturday_to": null,
+  "saturday_closed": false,
+  "station_schedule_exceptions": null,
+  "station_name": "",
+  "station_logo": null,
+  "presentation_title": "Parc régional de Val-d'Irène",
+  "presentation_title_en": "Regional Parc of Val-d'Irène",
+  "presentation_text": "Le domaine skiable de la station de Val-d'Irène est 100 % neige naturelle et adapté à tous les niveaux et à tous les types de glisse. Un télésiège quadruple avec tapis d'embarquement et un téléski double (t-bar) donnent accès à l'ensemble du domaine skiable : des pistes de niveau facile, modéré, difficile ou extrême, travaillées mécaniquement ou en neige naturelle, des sous-bois ou encore des bosses. Un tapis magique dessert la pente école. Sur place, hébergement, restauration, bar, raquette et ski de fond, glissade.",
+  "presentation_text_en": "The Val-d’Irène ski resort offers 100 % natural snow as well as slopes that are suitable for all levels and all types of skiing and snowboarding. A T-bar lift and a quad chairlift with a loading carpet provide access to the whole ski area: easy, moderate, difficult and extremely difficult slopes (some mechanically groomed), as well as glades and moguls. The beginners’ area features a magic carpet lift. The ski resort also offers lodging, a restaurant and bar, snowshoeing, cross-country skiing and snow tubing.",
+  "station_store": "",
+  "station_website": "",
+  "station_map": "",
+  "station_webcams": null,
+  "station_services": [],
+  "station_address": "",
+  "station_city": "",
+  "station_postalcode": "",
+  "station_phone": "",
+  "station_height": "",
+  "trails_easy": "",
+  "trails_hard": "",
+  "trails_very_hard": "",
+  "trails_extreme": "",
+  "ski-lift_double": "",
+  "ski-lift_triple": "",
+  "ski-lift_quad": "",
+  "ski-lift_six": "",
+  "teleski": "",
+  "": "",
+  "gondolas": "",
+  "magic_carpets": "",
+  "hybrid_lifts": "",
+  "station_cover": null,
+  "station_thumbnail": 44459,
+  "station_gallery": null,
+  "summer_name": "",
+  "show_list_summer": false,
+  "summer_activities_list": [],
+  "summer_activities_list_other": "",
+  "summer_activities_list_other_en": "",
+  "summer_description": "",
+  "summer_description_en": "",
+  "summer_activities_list_en": [],
+  "summer_alert": "",
+  "summer_alert_en": "",
+  "summer_message": "",
+  "summer_message_en": "",
+  "summer_website_url": "",
+  "summer_webcams": null,
+  "summer_station_cover": null,
+  "summer_station_thumbnail": null,
+  "summer_station_gallery": null,
+  "summer_details": null,
+  "station_hosting_title": "Accommodations",
+  "summer_details_en": null,
+  "station_hosting": [
+   {
+    "station-hosting_name": "Parc Régional de Val d'Irène",
+    "station-hosting_img": 45606,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://www.tourisme-gaspesie.com/en/visiter/parc-regional-val-d-irene/6293450H.html?utm_source=ASSQ&utm_medium=h%C3%A9bergement-ang&utm_campaign=valdirene"
+   },
+   {
+    "station-hosting_name": "Auberge Beauséjour",
+    "station-hosting_img": 45608,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://www.tourisme-gaspesie.com/en/visiter/auberge-beausejour/6295531.html?utm_source=ASSQ&utm_medium=h%C3%A9bergement-ang&utm_campaign=beausejour"
+   },
+   {
+    "station-hosting_name": "Auberge l'Ambassadeur",
+    "station-hosting_img": 47062,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://www.tourisme-gaspesie.com/en/visiter/auberge-l-ambassadeur/6296464.html?utm_source=ASSQ&utm_medium=h%C3%A9bergement-ang&utm_campaign=ambassadeur"
+   },
+   {
+    "station-hosting_name": "Sélectôtel Amqui",
+    "station-hosting_img": 47064,
+    "station-hosting_btn-text": "Reserve",
+    "station-hosting_btn-url": "https://www.tourisme-gaspesie.com/en/visiter/selectotel-amqui-pastali/6292241.html?utm_source=ASSQ&utm_medium=h%C3%A9bergement-ang&utm_campaign=selectotel"
+   }
+  ],
+  "summer_station_hosting_title": "",
+  "summer_station_hosting": null,
+  "station_hosting_title_en": "",
+  "station_hosting_en": null,
+  "summer_station_hosting_title_en": "",
+  "summer_station_hosting_en": null,
+  "station_musts_title": "Do not miss",
+  "station_musts": [
+   {
+    "station_must_name": " Aqua-Neige event",
+    "station_must_img": 46567,
+    "station_must_description": "This annual competition involves skiing a 215-metre (700-foot) hill to build up enough speed to cross Lake Picalo, which is 65 metres (215 feet) wide. For several years now, a few experienced enthusiasts have been able to make it across the whole lake ! The event also includes family activities and entertainment at the ski resort whose dates are to come.",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://valdi.ski/en/events/aqua-neige.html"
+   },
+   {
+    "station_must_name": " Snowshoeing",
+    "station_must_img": 45600,
+    "station_must_description": "",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://valdi.ski/en/mountain/other-activities.html"
+   },
+   {
+    "station_must_name": " Cross-country skiing",
+    "station_must_img": 45660,
+    "station_must_description": "",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://valdi.ski/en/mountain/other-activities.html"
+   },
+   {
+    "station_must_name": "Snow tubing",
+    "station_must_img": 45658,
+    "station_must_description": "",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://valdi.ski/en/mountain/snow-tubing.html"
+   },
+   {
+    "station_must_name": "Fatbiking",
+    "station_must_img": 45597,
+    "station_must_description": "",
+    "station_must_btn-text": "Find out more",
+    "station_must_btn-url": "https://valdi.ski/en/home.html"
+   }
+  ],
+  "summer_station_musts_title": "À ne pas manquer",
+  "summer_station_musts": null,
+  "station_musts_title_en": "À ne pas manquer",
+  "station_musts_en": null,
+  "summer_station_musts_title_en": "À ne pas manquer",
+  "summer_station_musts_en": null
+ },
+ "aioseo_notices": [],
+ "_links": {
+  "self": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/46128",
+    "targetHints": {
+     "allow": [
+      "GET"
+     ]
+    }
+   }
+  ],
+  "collection": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/stations"
+   }
+  ],
+  "about": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/types/stations"
+   }
+  ],
+  "version-history": [
+   {
+    "count": 0,
+    "href": "https://maneige.ski/wp-json/wp/v2/stations/46128/revisions"
+   }
+  ],
+  "wp:attachment": [
+   {
+    "href": "https://maneige.ski/wp-json/wp/v2/media?parent=46128"
+   }
+  ],
+  "curies": [
+   {
+    "name": "wp",
+    "href": "https://api.w.org/{rel}",
+    "templated": true
+   }
+  ]
+ }
+}

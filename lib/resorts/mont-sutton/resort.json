@@ -1,0 +1,15 @@
+{
+  "name": "Mont Sutton",
+  "url": {
+    "host": "https://montsutton.com",
+    "pathname": "/en/the-mountain/ski-conditions-2/open-skiable-domain/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -72.558,
+    45.104
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ski Vallée Bleue",
+  "url": {
+    "host": "https://maneige.ski",
+    "pathname": "/stations/vallee-bleue-la-station-familiale/"
+  },
+  "api": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/456",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/456",
+    "json": true,
+    "via": "flaresolverr"
+  },
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -74.218483,
+    46.025871
+  ]
+}

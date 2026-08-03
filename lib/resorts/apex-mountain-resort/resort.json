@@ -1,0 +1,15 @@
+{
+  "name": "Apex Mountain Resort",
+  "url": {
+    "host": "https://apexresort.com",
+    "pathname": "/weather/"
+  },
+  "trails": true,
+  "tags": [
+    "British Columbia"
+  ],
+  "ll": [
+    -119.903937,
+    49.390666
+  ]
+}
