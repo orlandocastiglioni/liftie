@@ -6,6 +6,9 @@ let server;
 let fetchVia;
 let unwrapJson;
 let solution; // what the mock flaresolverr answers with
+let active = 0; // in-flight requests the mock is currently handling
+let peak = 0; // high-water mark, to prove the gate serializes
+let delayMs = 0; // artificial handler latency for the concurrency test
 
 before(async () => {
   server = createServer((req, res) => {
@@ -17,8 +20,13 @@ before(async () => {
       const { cmd, url } = JSON.parse(body);
       assert.equal(cmd, 'request.get');
       assert.ok(url.startsWith('https://'));
-      res.setHeader('Content-Type', 'application/json');
-      res.end(JSON.stringify(solution));
+      active++;
+      peak = Math.max(peak, active);
+      setTimeout(() => {
+        active--;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(JSON.stringify(solution));
+      }, delayMs);
     });
   });
   await new Promise(resolve => server.listen(0, '127.0.0.1', resolve));
@@ -85,4 +93,15 @@ test('request bodies are rejected for flaresolverr', async () => {
 
 test('unwrapJson rejects non-json pages', () => {
   assert.throws(() => unwrapJson('<html><body>404</body></html>'), /neither JSON/);
+});
+
+test('flaresolverr requests are serialized (never two chromiums at once)', async () => {
+  // liftie fires every resort on one interval; the gate must keep the mock
+  // (a stand-in for a chromium-spawning backend) at one in-flight request.
+  solution = { status: 'ok', solution: { status: 200, response: 'ok' } };
+  peak = 0;
+  delayMs = 30;
+  await Promise.all(Array.from({ length: 6 }, () => fetchVia(url)));
+  delayMs = 0;
+  assert.equal(peak, 1, `flaresolverr concurrency peaked at ${peak}, expected 1`);
 });
