@@ -1,0 +1,24 @@
+{
+  "name": "Catamount Mountain Resort",
+  "url": {
+    "host": "https://catamountski.com",
+    "pathname": "/winter/the-mountain/mountain-conditions"
+  },
+  "dataUrl": {
+    "host": "https://catamountski.com",
+    "pathname": "/lift-status",
+    "query": {
+      "tmpl": "component"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "New York",
+    "Massachusetts",
+    "New England"
+  ],
+  "ll": [
+    -73.4805037,
+    42.1751737
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Lost Valley",
+  "url": {
+    "host": "https://www.lostvalleyski.com",
+    "pathname": "/trails-conditions/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -70.281,
+    44.136
+  ]
+}

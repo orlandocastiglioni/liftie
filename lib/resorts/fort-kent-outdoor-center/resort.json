@@ -1,0 +1,26 @@
+{
+  "name": "Fort Kent Outdoor Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Fort-Kent-Outdoor-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Fort-Kent-Outdoor-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -68.5895,
+    47.234
+  ]
+}

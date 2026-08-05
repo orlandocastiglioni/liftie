@@ -1,0 +1,16 @@
+{
+  "name": "Mohawk Mountain",
+  "url": {
+    "host": "https://www.mohawkmtn.com",
+    "pathname": "/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Connecticut",
+    "New England"
+  ],
+  "ll": [
+    -73.3119,
+    41.8403
+  ]
+}

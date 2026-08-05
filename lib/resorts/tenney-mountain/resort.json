@@ -1,0 +1,16 @@
+{
+  "name": "Tenney Mountain",
+  "url": {
+    "host": "https://skitenney.propapps.io",
+    "pathname": "/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -71.7645874,
+    43.7470855
+  ]
+}

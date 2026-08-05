@@ -1,0 +1,16 @@
+{
+  "name": "Camden Snow Bowl",
+  "url": {
+    "host": "https://camdensnowbowl.com",
+    "pathname": "/current-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -69.1314,
+    44.2177
+  ]
+}

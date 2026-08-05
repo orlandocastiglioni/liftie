@@ -1,0 +1,17 @@
+{
+  "name": "Peek'n Peak Resort",
+  "url": {
+    "host": "https://www.pknpk.com",
+    "pathname": "/conditions-report/",
+    "via": "renderd",
+    "waitSelector": ".cond-rep-list-single"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -79.73667,
+    42.0625
+  ]
+}

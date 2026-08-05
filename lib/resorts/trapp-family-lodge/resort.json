@@ -1,0 +1,26 @@
+{
+  "name": "Trapp Family Lodge",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/Trapp-Family-Lodge"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/Trapp-Family-Lodge",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Vermont",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -72.745392,
+    44.464458
+  ]
+}

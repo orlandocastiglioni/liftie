@@ -1,0 +1,16 @@
+{
+  "name": "Black Mountain NH",
+  "url": {
+    "host": "https://www.blackmt.com",
+    "pathname": "/conditions"
+  },
+  "trails": true,
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -71.1639,
+    44.1668
+  ]
+}

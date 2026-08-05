@@ -1,0 +1,16 @@
+{
+  "name": "BigRock Mountain",
+  "url": {
+    "host": "https://www.bigrockmaine.com",
+    "pathname": "/trails/"
+  },
+  "trails": true,
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -67.8214,
+    46.5241
+  ]
+}

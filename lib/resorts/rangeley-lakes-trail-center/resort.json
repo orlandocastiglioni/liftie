@@ -1,0 +1,26 @@
+{
+  "name": "Rangeley Lakes Trails Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Rangeley-Lakes-Trails-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ME/Rangeley-Lakes-Trails-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -70.56508,
+    44.9566148
+  ]
+}

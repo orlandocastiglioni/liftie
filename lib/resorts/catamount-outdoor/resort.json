@@ -1,0 +1,24 @@
+{
+  "name": "Catamount Outdoor Family Center",
+  "url": {
+    "host": "https://catamountoutdoor.org",
+    "pathname": "/maps-conditions/"
+  },
+  "trails": {
+    "host": "https://www.trailforks.com",
+    "pathname": "/region/catamount-outdoor-family-center/status/",
+    "via": "renderd",
+    "waitSelector": "table.statustable"
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Vermont",
+    "New England"
+  ],
+  "ll": [
+    -73.0428314,
+    44.4521446
+  ]
+}

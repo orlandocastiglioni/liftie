@@ -1,0 +1,16 @@
+{
+  "name": "Magic Mountain",
+  "url": {
+    "host": "https://www.magicmtn.com",
+    "pathname": "/snow-report"
+  },
+  "trails": true,
+  "tags": [
+    "Vermont",
+    "New England"
+  ],
+  "ll": [
+    -72.772644,
+    43.201719
+  ]
+}

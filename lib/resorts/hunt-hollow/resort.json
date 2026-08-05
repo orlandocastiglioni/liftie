@@ -1,0 +1,15 @@
+{
+  "name": "Hunt Hollow Ski Club",
+  "url": {
+    "host": "https://www.hunthollow.com",
+    "pathname": "/The_Mountain"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -77.470948,
+    42.64493
+  ]
+}

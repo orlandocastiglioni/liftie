@@ -1,0 +1,15 @@
+{
+  "name": "Maple Ski Ridge",
+  "url": {
+    "host": "https://www.mapleskiridge.com",
+    "pathname": "/test-slope-report"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -74.034,
+    42.8158
+  ]
+}

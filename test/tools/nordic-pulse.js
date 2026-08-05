@@ -29,6 +29,32 @@ test('nordic-pulse: extracts trails from the ng-state data-npww blob', (_t, done
   );
 });
 
+test('nordic-pulse: hidden sub-segments are dropped, not listed as trails', (_t, done) => {
+  // Trapp and Great Glen publish internal segments ("Haul Road Lower") next to
+  // the parent route ("Haul Road"); nordic-pulse's own UI hides them.
+  const state = {
+    x: {
+      url: 'https://api2.nordic-pulse.com/data-npww',
+      body: {
+        trails: [
+          { names: { en: 'Haul Road' }, open: true, 'piste:difficulty': 'intermediate' },
+          { names: { en: 'Haul Road Lower' }, open: true, 'piste:difficulty': 'intermediate', hide: true },
+          { names: { en: 'Haul Road Upper' }, open: false, 'piste:difficulty': 'intermediate', hide: true }
+        ]
+      }
+    }
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.deepEqual(list, [{ name: 'Haul Road', status: 'open', level: 'blue' }]);
+      done();
+    }
+  );
+});
+
 test('nordic-pulse: no ng-state yields an empty list, not a throw', (_t, done) => {
   parseHtml(
     '<html><body>nope</body></html>',

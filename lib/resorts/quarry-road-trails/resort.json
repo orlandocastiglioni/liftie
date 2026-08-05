@@ -1,0 +1,29 @@
+{
+  "name": "Quarry Road Trails",
+  "url": {
+    "host": "https://quarryroad.org",
+    "pathname": "/conditions"
+  },
+  "trails": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vTqZ5FRR1sODW6ln_1DArrd-C-AO6Xp2tWT5hPPkmXIr3ZucCsJ8a2GWn4oMdHZqA04MLthUhmIacAH/pubhtml",
+    "query": {
+      "rm": "minimal",
+      "widget": "false",
+      "single": "true",
+      "gid": "507615201",
+      "chrome": "false"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -69.657967,
+    44.5828597
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Black Mountain of Maine",
+  "url": {
+    "host": "https://skiblackmountain.org",
+    "pathname": "/mountain-report"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Maine",
+    "New England"
+  ],
+  "ll": [
+    -70.6134,
+    44.577
+  ]
+}

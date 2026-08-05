@@ -1,0 +1,16 @@
+{
+  "name": "Buffalo Ski Center",
+  "url": {
+    "host": "https://www.buffaloskicenter.com",
+    "pathname": "/trail-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -78.6912,
+    42.6821
+  ],
+  "twitter": "buffaloskiclub"
+}

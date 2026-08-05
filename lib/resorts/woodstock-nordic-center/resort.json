@@ -1,0 +1,26 @@
+{
+  "name": "Woodstock Nordic Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/Woodstock-Nordic-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/VT/Woodstock-Nordic-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Vermont",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -72.516,
+    43.615
+  ]
+}

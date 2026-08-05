@@ -1,0 +1,39 @@
+{
+  "name": "Middlebury Snowbowl",
+  "url": {
+    "host": "https://middleburysnowbowl.com",
+    "pathname": "/conditions/"
+  },
+  "api": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/lifts",
+    "query": {
+      "$limit": "100"
+    },
+    "headers": {
+      "X-Alpine-API-Token": "",
+      "X-Alpine-Org": "middlebury-snowbowl"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/trails",
+    "query": {
+      "$limit": "200"
+    },
+    "headers": {
+      "X-Alpine-API-Token": "",
+      "X-Alpine-Org": "middlebury-snowbowl"
+    },
+    "json": true
+  },
+  "tags": [
+    "Vermont",
+    "New England"
+  ],
+  "ll": [
+    -72.9601621,
+    43.9391922
+  ]
+}

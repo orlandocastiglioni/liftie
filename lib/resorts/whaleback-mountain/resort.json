@@ -1,0 +1,23 @@
+{
+  "name": "Whaleback Mountain",
+  "url": {
+    "host": "https://www.whaleback.com",
+    "pathname": "/trail-report"
+  },
+  "dataUrl": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vTfwVYiMuY-cJ5JnFm4pJm1Xs94I7Yfl2KJsCsBGOgTP99octXx3JxyYIur1xQCZKn4r8zOx14JXU2k/pubhtml/sheet",
+    "query": {
+      "gid": "0"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -72.180225,
+    43.6016574
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "McIntyre",
+  "url": {
+    "host": "https://www.mcintyreskiarea.com",
+    "pathname": "/mountain-report/"
+  },
+  "trails": true,
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -71.4402,
+    43.0056
+  ]
+}

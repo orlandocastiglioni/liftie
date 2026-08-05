@@ -1,0 +1,26 @@
+{
+  "name": "Franconia Village XC Ski Area",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NH/Franconia"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NH/Franconia",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New Hampshire",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -71.75407,
+    44.19777
+  ]
+}

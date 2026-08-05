@@ -1,0 +1,16 @@
+{
+  "name": "Bousquet Mountain",
+  "url": {
+    "host": "https://bousquetmountain.com",
+    "pathname": "/lift-trail-status/"
+  },
+  "trails": true,
+  "tags": [
+    "Massachusetts",
+    "New England"
+  ],
+  "ll": [
+    -73.2788,
+    42.4171
+  ]
+}
