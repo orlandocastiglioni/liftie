@@ -1,0 +1,18 @@
+{
+  "name": "Loup Loup Ski Bowl",
+  "url": {
+    "host": "https://skitheloup.org",
+    "pathname": "/mountain/conditions-weather/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Washington"
+  ],
+  "ll": [
+    -119.911,
+    48.3944
+  ]
+}

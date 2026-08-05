@@ -1,0 +1,36 @@
+{
+  "name": "Leavenworth Ski Hill",
+  "url": {
+    "host": "https://skileavenworth.com",
+    "pathname": "/conditions"
+  },
+  "api": {
+    "host": "https://skileavenworth.com",
+    "pathname": "/jsonapi/node/trail_status",
+    "query": {
+      "include": "field_trail_status.field_location",
+      "fields[node--trail_status]": "title,changed,field_trail_status",
+      "fields[paragraph--trail_sub_location_status]": "field_sub_location,field_trail_status,field_trail_condition,field_trail_groomed_for,field_next_open_date,field_location",
+      "fields[node--location]": "title"
+    }
+  },
+  "trails": {
+    "host": "https://skileavenworth.com",
+    "pathname": "/jsonapi/node/trail_status",
+    "query": {
+      "include": "field_trail_status.field_location",
+      "fields[node--trail_status]": "title,changed,field_trail_status",
+      "fields[paragraph--trail_sub_location_status]": "field_sub_location,field_trail_status,field_trail_condition,field_trail_groomed_for,field_next_open_date,field_location",
+      "fields[node--location]": "title"
+    },
+    "json": true
+  },
+  "tags": [
+    "Washington",
+    "Nordic"
+  ],
+  "ll": [
+    -120.66939,
+    47.61426
+  ]
+}

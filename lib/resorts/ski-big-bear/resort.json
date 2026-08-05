@@ -1,0 +1,30 @@
+{
+  "name": "Ski Big Bear at Masthope Mountain",
+  "url": {
+    "host": "https://www.ski-bigbear.com",
+    "pathname": "/conditions-trail-map"
+  },
+  "api": {
+    "host": "https://www.ski-bigbear.com",
+    "pathname": "/conditions-trail-map",
+    "query": {
+      "_data": "routes/_page.conditions-trail-map"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://www.ski-bigbear.com",
+    "pathname": "/conditions-trail-map",
+    "query": {
+      "_data": "routes/_page.conditions-trail-map"
+    },
+    "json": true
+  },
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -75.0250626,
+    41.5232598
+  ]
+}

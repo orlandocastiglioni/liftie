@@ -1,0 +1,15 @@
+{
+  "name": "Massanutten Resort",
+  "url": {
+    "host": "https://www.massresort.com",
+    "pathname": "/play/conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Virginia"
+  ],
+  "ll": [
+    -78.7597454,
+    38.3988308
+  ]
+}

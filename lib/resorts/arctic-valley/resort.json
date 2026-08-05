@@ -1,0 +1,14 @@
+{
+  "name": "Arctic Valley Ski Area",
+  "url": {
+    "host": "https://arcticvalley.org",
+    "pathname": "/conditions/"
+  },
+  "tags": [
+    "Alaska"
+  ],
+  "ll": [
+    -149.65056,
+    61.24667
+  ]
+}

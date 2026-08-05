@@ -1,0 +1,34 @@
+{
+  "name": "Mt. Shasta Ski Park",
+  "url": {
+    "host": "https://www.skipark.com",
+    "pathname": "/winter/conditions"
+  },
+  "api": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vQrKLijbjvUVqE7ir1kH7lIaZFsbSffLLbhx2CIuaUvWGUPMSvQGlYpWtdhl3d9csujmxSZ8HuGQzcz/pub",
+    "query": {
+      "gid": "2049094853",
+      "single": "true",
+      "output": "csv"
+    },
+    "csv": true
+  },
+  "trails": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vQ_DgA-rkxJAqDrJ1g1UhssB3cGUghGb8in84RaB8OiRd1X3ZwSCCv9a8VczC8PsTfM2RCTO0y3LOMp/pub",
+    "query": {
+      "gid": "35501842",
+      "single": "true",
+      "output": "csv"
+    },
+    "csv": true
+  },
+  "tags": [
+    "California"
+  ],
+  "ll": [
+    -122.203502,
+    41.321106
+  ]
+}

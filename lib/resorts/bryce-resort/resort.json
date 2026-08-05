@@ -1,0 +1,15 @@
+{
+  "name": "Bryce Resort",
+  "url": {
+    "host": "https://bryceresort.com",
+    "pathname": "/mountain-info/conditions"
+  },
+  "trails": true,
+  "tags": [
+    "Virginia"
+  ],
+  "ll": [
+    -78.76583,
+    38.8175
+  ]
+}

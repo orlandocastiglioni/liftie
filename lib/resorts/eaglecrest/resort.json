@@ -1,0 +1,15 @@
+{
+  "name": "Eaglecrest Ski Area",
+  "url": {
+    "host": "https://skieaglecrest.com",
+    "pathname": "/conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Alaska"
+  ],
+  "ll": [
+    -134.51528,
+    58.27611
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "High Point Cross Country Ski Center",
+  "url": {
+    "host": "https://www.xcskihighpoint.com",
+    "pathname": "/trail-report"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New Jersey"
+  ],
+  "ll": [
+    -74.6677621,
+    41.3201246
+  ]
+}

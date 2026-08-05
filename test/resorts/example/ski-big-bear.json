@@ -1,0 +1,232 @@
+{
+  "page": {
+    "slug": "conditions-trail-map",
+    "title": "Conditions & Trail Map",
+    "description": "Conditions, trail map, and weather for Ski Big Bear at Masthope Mountain in Lackawaxen, Pennsylvania.",
+    "image": {
+      "id": "3241c95c-78a5-4734-9f01-82d3ae062cc2",
+      "url": "https://data.ski-bigbear.com/assets/3241c95c-78a5-4734-9f01-82d3ae062cc2"
+    },
+    "automatic_hero": true,
+    "content": [
+      {
+        "collection": "bigbear_action_bar",
+        "item": {
+          "text": "Ski Big Bear is Opening on December 13th",
+          "action": "Hours of Operation",
+          "link": "https://www.ski-bigbear.com/hours"
+        }
+      },
+      {
+        "collection": "bigbear_lightbox",
+        "item": {
+          "image": {
+            "id": "a8f2a127-5f32-42a4-bbc3-9221ba2014ab",
+            "url": "https://data.ski-bigbear.com/assets/a8f2a127-5f32-42a4-bbc3-9221ba2014ab"
+          }
+        }
+      },
+      {
+        "collection": "placeholder",
+        "item": {
+          "key": "overview"
+        }
+      },
+      {
+        "collection": "placeholder",
+        "item": {
+          "key": "trails"
+        }
+      },
+      {
+        "collection": "bigbear_table",
+        "item": {
+          "content": "<h2>Popular Runs</h2>",
+          "entries": [
+            {
+              "key": "Where Beginners Start",
+              "value": "Snowbird > Magic Carpet"
+            },
+            {
+              "key": "When First Learning to Ride the Chairlift",
+              "value": "Snowbird > Whispering Run > Little Bear Chair"
+            },
+            {
+              "key": "Easiest Way to the Bottom",
+              "value": "Snowbird > Whispering Run > Lower Jamboree > Upper Eagles Pass > Lower Eagles Pass > Cruisin' > Thundercloud Chair"
+            },
+            {
+              "key": "Terrain Park Loops",
+              "value": "Upper Jamboree > Terrain Park > Devil's Dip or Lower Eagles Pass > Grizzly Chair"
+            },
+            {
+              "key": "Recommended Cruiser",
+              "value": "Upper Jamboree > Grizzly > Devil's Dip > Cruisin' > Thundercloud Chair"
+            },
+            {
+              "key": "For Fun",
+              "value": "Upper Jamboree > Grizzly > Upper Eagles Pass > Shortcut > Lower Thundercloud > Thundercloud Chair"
+            }
+          ],
+          "multiline_rows": true,
+          "hidden": false
+        }
+      },
+      {
+        "collection": "bigbear_wysiwyg",
+        "item": {
+          "content": "<p style=\"text-align: center;\"><iframe style=\"border: 1px solid #10658E; border-radius: 8px;\" src=\"https://api.wo-cloud.com/content/widget/?geoObjectKey=37901452&amp;language=en&amp;region=US&amp;timeFormat=HH:mm&amp;windUnit=mph&amp;systemOfMeasurement=imperial&amp;temperatureUnit=fahrenheit\" name=\"CW2\" width=\"318\" height=\"318\" frameborder=\"0\" scrolling=\"no\"></iframe></p>"
+        }
+      }
+    ]
+  },
+  "status": {
+    "message": "We will be open Saturday, December 13 & Sunday, December 14 from 9:00pm\u20134:30pm (weather permitting.) Open trails will be announced soon. During operating hours, you may still see our snow guns in action. We\u2019ll continue building a strong base to ensure the best possible conditions for the weeks ahead.",
+    "date_updated": "2025-12-11T15:25:34.099Z",
+    "conditions": [
+      {
+        "key": "Base Depth",
+        "value": "15\" - 30\""
+      },
+      {
+        "key": "Snowmaking",
+        "value": "Yes"
+      },
+      {
+        "key": "Recent Snowfall",
+        "value": "2\" on 12/10/25"
+      },
+      {
+        "key": "Snow Surface",
+        "value": "variable"
+      },
+      {
+        "key": "Forecast",
+        "value": "Snowmaking will continue as weather permits"
+      }
+    ],
+    "lifts": [
+      {
+        "name": "Thundercloud Chair 1",
+        "status": "Open on 12/13/25"
+      },
+      {
+        "name": "Thundercloud Chair 2",
+        "status": "Closed"
+      },
+      {
+        "name": "Little Bear Chair",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Grizzly",
+        "status": "Closed"
+      },
+      {
+        "name": "Magic Carpet 1",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Magic Carpet 2",
+        "status": "Closed"
+      },
+      {
+        "name": "SunKid Carpet",
+        "status": "Closed"
+      }
+    ],
+    "trails": [
+      {
+        "name": "Snowbird",
+        "difficulty": "beginner",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Whispering Run",
+        "difficulty": "beginner",
+        "status": "Open to Little Bear Chair"
+      },
+      {
+        "name": "Lower Jamboree",
+        "difficulty": "beginner",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Upper Eagle's Pass",
+        "difficulty": "beginner",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Lower Eagle's Pass",
+        "difficulty": "beginner",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Cruisin' ",
+        "difficulty": "beginner",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Upper Jamboree",
+        "difficulty": "intermediate",
+        "status": "Open 12/13/25"
+      },
+      {
+        "name": "Terrain Park",
+        "difficulty": "intermediate",
+        "status": "Open with no features on 12/13/25"
+      },
+      {
+        "name": "Grizzly",
+        "difficulty": "intermediate",
+        "status": "Open 12/13/2025"
+      },
+      {
+        "name": "Upper Polar Bear",
+        "difficulty": "intermediate",
+        "status": "Closed"
+      },
+      {
+        "name": "Sheldon's Way (Formerly Bailout)",
+        "difficulty": "intermediate",
+        "status": "Closed"
+      },
+      {
+        "name": "Shortcut",
+        "difficulty": "intermediate",
+        "status": "Open 12/13/2025"
+      },
+      {
+        "name": "Upper Thundercloud",
+        "difficulty": "advanced",
+        "status": "Closed"
+      },
+      {
+        "name": "Lower Thundercloud",
+        "difficulty": "advanced",
+        "status": "Open 12/13/2025"
+      },
+      {
+        "name": "Devil's Bowl",
+        "difficulty": "advanced",
+        "status": "Closed"
+      },
+      {
+        "name": "Devil's Dip",
+        "difficulty": "advanced",
+        "status": "Open 12/13/2025"
+      },
+      {
+        "name": "Lower Polar Bear",
+        "difficulty": "advanced",
+        "status": "Closed"
+      },
+      {
+        "name": "Screamin' Demon",
+        "difficulty": "expert",
+        "status": "Closed"
+      }
+    ],
+    "disclaimer": "Ski conditions are provided as a general service to skiers and riders. Conditions, open trails, open lifts and hours of operation are subject to change throughout the day. These changes may be based on changing temperatures, changing weather conditions, changing ski conditions, business levels and other factors. Skiers and riders should follow all posted trail signage and be aware of changing ski conditions that may not be otherwise posted."
+  }
+}

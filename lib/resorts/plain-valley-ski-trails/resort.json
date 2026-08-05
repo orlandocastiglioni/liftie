@@ -1,0 +1,25 @@
+{
+  "name": "Plain Valley Ski Trails",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WA/Plain-Valley-Ski-Trails"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WA/Plain-Valley-Ski-Trails",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Washington",
+    "Nordic"
+  ],
+  "ll": [
+    -120.6562796,
+    47.7638948
+  ]
+}

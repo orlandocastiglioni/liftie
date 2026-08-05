@@ -1,0 +1,15 @@
+{
+  "name": "Bear Creek Mountain Resort",
+  "url": {
+    "host": "https://www.bcmountainresort.com",
+    "pathname": "/activities/ski-snowboarding/ski-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -75.6257642,
+    40.476212
+  ]
+}

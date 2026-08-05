@@ -1,0 +1,25 @@
+{
+  "name": "Methow Trails",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WA/Methow-Trails"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WA/Methow-Trails",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Washington",
+    "Nordic"
+  ],
+  "ll": [
+    -120.1836,
+    48.4692
+  ]
+}

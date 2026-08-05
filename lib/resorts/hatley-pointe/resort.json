@@ -1,0 +1,19 @@
+{
+  "name": "Hatley Pointe",
+  "url": {
+    "host": "https://hatleypointe.com",
+    "pathname": "/slope-report/"
+  },
+  "dataUrl": {
+    "host": "https://hatleypointe.propapps.io",
+    "pathname": "/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "North Carolina"
+  ],
+  "ll": [
+    -82.509,
+    35.955
+  ]
+}

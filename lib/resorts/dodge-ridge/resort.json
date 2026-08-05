@@ -1,0 +1,28 @@
+{
+  "name": "Dodge Ridge",
+  "url": {
+    "host": "https://dodgeridge.com",
+    "pathname": "/lift-status/"
+  },
+  "dataUrl": {
+    "host": "https://dodgeridge.com",
+    "pathname": "/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "fetch_lift_data"
+    }
+  },
+  "trails": {
+    "host": "https://dodgeridge.com",
+    "pathname": "/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "fetch_trail_data"
+    }
+  },
+  "tags": [
+    "California"
+  ],
+  "ll": [
+    -119.9558639,
+    38.1898028
+  ]
+}

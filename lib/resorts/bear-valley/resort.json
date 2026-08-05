@@ -1,0 +1,36 @@
+{
+  "name": "Bear Valley",
+  "url": {
+    "host": "https://www.bearvalley.com",
+    "pathname": "/lift-and-trail-status"
+  },
+  "dataUrl": {
+    "host": "https://weather.te2.io",
+    "pathname": "/status",
+    "query": {
+      "configFile": "bear-valley",
+      "theme": "bear-valley",
+      "show": "lifts"
+    },
+    "via": "renderd",
+    "waitSelector": "li.venue-item"
+  },
+  "trails": {
+    "host": "https://weather.te2.io",
+    "pathname": "/status",
+    "query": {
+      "configFile": "bear-valley",
+      "theme": "bear-valley",
+      "show": "trails"
+    },
+    "via": "renderd",
+    "waitSelector": "li.venue-item"
+  },
+  "tags": [
+    "California"
+  ],
+  "ll": [
+    -120.0442661,
+    38.4926051
+  ]
+}

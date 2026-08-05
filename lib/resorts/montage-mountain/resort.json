@@ -1,0 +1,15 @@
+{
+  "name": "Montage Mountain",
+  "url": {
+    "host": "https://www.montagemountainresorts.com",
+    "pathname": "/trails/"
+  },
+  "trails": true,
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -75.6629169,
+    41.3512429
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Ober Mountain",
+  "url": {
+    "host": "https://www.obermountain.com",
+    "pathname": "/slope-report"
+  },
+  "trails": true,
+  "tags": [
+    "Tennessee"
+  ],
+  "ll": [
+    -83.55778,
+    35.70306
+  ],
+  "twitter": "obergatlinburg"
+}

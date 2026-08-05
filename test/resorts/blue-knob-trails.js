@@ -1,0 +1,41 @@
+import trails from '../trails/index.js';
+
+// wayback capture of blueknob.com/trail-map-conditions/ from 2026-01-13, an
+// in-season report with 5 trails open. Blue Knob publishes no per-lift rows,
+// so this is a trails-only resort ("no": { "lifts": true }).
+trails('blue-knob', [
+  { name: 'Upper Mambo Alley', status: 'open', level: 'green' },
+  { name: 'Lower Mambo Alley', status: 'open', level: 'green' },
+  { name: "Snow Drop - Beginner's Area", status: 'open', level: 'green' },
+  { name: 'Knee Bend', status: 'closed', level: 'green' },
+  { name: 'Run Out', status: 'closed', level: 'green' },
+  { name: 'Upper Short Way', status: 'closed', level: 'blue' },
+  { name: 'Middle Short Way', status: 'closed', level: 'blue' },
+  { name: 'Upper Route 66', status: 'open', level: 'blue' },
+  { name: 'Jack Rabbit', status: 'closed', level: 'blue' },
+  { name: 'Upper Expressway', status: 'open', level: 'blue' },
+  { name: 'Lower Expressway', status: 'closed', level: 'blue' },
+  { name: 'Upper High Hopes', status: 'closed', level: 'blue' },
+  { name: 'Burma Road', status: 'closed', level: 'blue' },
+  { name: "Ritchey's Run", status: 'closed', level: 'blue' },
+  { name: 'Deer Run', status: 'closed', level: 'blue' },
+  { name: 'Skyline Glades', status: 'closed', level: 'black' },
+  { name: 'Forever Glades', status: 'closed', level: 'black' },
+  { name: 'Laurel Glades', status: 'closed', level: 'black' },
+  { name: 'Triple Glades', status: 'closed', level: 'black' },
+  { name: 'Lower High Hopes', status: 'closed', level: 'black' },
+  { name: 'Edge Set', status: 'closed', level: 'black' },
+  { name: 'East Wall Traverse', status: 'closed', level: 'black' },
+  { name: 'Stembogan Trail', status: 'closed', level: 'black' },
+  { name: 'Stembogan Field', status: 'closed', level: 'black' },
+  { name: 'Stembogan Bowl', status: 'closed', level: 'doubleBlack' },
+  { name: 'Upper Extrovert', status: 'closed', level: 'doubleBlack' },
+  { name: 'Lower Extrovert', status: 'closed', level: 'doubleBlack' },
+  { name: 'East Wall Glades', status: 'closed', level: 'doubleBlack' },
+  { name: 'Ditch Glades', status: 'closed', level: 'doubleBlack' },
+  { name: 'D-Trail', status: 'closed', level: 'doubleBlack' },
+  { name: 'Lower Route 66', status: 'closed', level: 'doubleBlack' },
+  { name: 'Lower Short Way', status: 'closed', level: 'doubleBlack' },
+  { name: 'Short Cut', status: 'closed', level: 'doubleBlack' },
+  { name: 'Playground', status: 'closed', level: 'terrainPark' }
+]);

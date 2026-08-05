@@ -1,0 +1,25 @@
+{
+  "name": "Bear Valley Adventure Company",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CA/Bear-Valley"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CA/Bear-Valley",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "California",
+    "Nordic"
+  ],
+  "ll": [
+    -120.0422834,
+    38.461523
+  ]
+}

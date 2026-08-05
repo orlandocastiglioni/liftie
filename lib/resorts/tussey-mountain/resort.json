@@ -1,0 +1,18 @@
+{
+  "name": "Tussey Mountain",
+  "url": {
+    "host": "https://tusseymountain.com",
+    "pathname": "/mountain-stats"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -77.7538889,
+    40.7700145
+  ]
+}
