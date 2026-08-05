@@ -1,0 +1,37 @@
+{
+  "name": "Tyrol Basin",
+  "url": {
+    "host": "https://tyrolbasin.com",
+    "pathname": "/slope-report/"
+  },
+  "api": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/lifts",
+    "query": {
+      "$limit": "100"
+    },
+    "headers": {
+      "X-Alpine-API-Token": ""
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/trails",
+    "query": {
+      "$limit": "250"
+    },
+    "headers": {
+      "X-Alpine-API-Token": ""
+    },
+    "json": true
+  },
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -89.7841088,
+    43.0445285
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Snowstar",
+  "url": {
+    "host": "https://skisnowstar.com",
+    "pathname": "/weather.html"
+  },
+  "tags": [
+    "Illinois",
+    "Midwest"
+  ],
+  "ll": [
+    -90.74837,
+    41.4252
+  ]
+}

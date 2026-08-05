@@ -1,0 +1,16 @@
+{
+  "name": "Crystal Mountain",
+  "url": {
+    "host": "https://www.crystalmountain.com",
+    "pathname": "/ski/cams-conditions/mountain-report"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -85.99484,
+    44.519955
+  ]
+}

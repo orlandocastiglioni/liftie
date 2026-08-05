@@ -1,0 +1,31 @@
+{
+  "name": "Spirit Mountain",
+  "url": {
+    "host": "https://spiritmt.com",
+    "pathname": "/current-conditions/"
+  },
+  "api": {
+    "host": "https://spiritmt.com",
+    "pathname": "/wp-json/wp/v2/lift",
+    "query": {
+      "per_page": "100"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://spiritmt.com",
+    "pathname": "/wp-json/wp/v2/trail",
+    "query": {
+      "per_page": "100"
+    },
+    "json": true
+  },
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -92.2181,
+    46.7194
+  ]
+}

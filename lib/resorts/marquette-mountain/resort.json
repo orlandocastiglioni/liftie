@@ -1,0 +1,27 @@
+{
+  "name": "Marquette Mountain",
+  "url": {
+    "host": "https://www.marquettemountain.com",
+    "pathname": "/the-mountain/lift-terrain-status/"
+  },
+  "dataUrl": {
+    "host": "https://docs.google.com",
+    "pathname": "/spreadsheets/d/e/2PACX-1vTcJKCcvpVs9K063qzYzVyyWrVAypWfzaxy4rHmAerz9IbSbo5au7X2yfa9uDxY5o7aYTlsRZzLN-iU/pubhtml",
+    "query": {
+      "gid": "0",
+      "single": "true",
+      "widget": "false",
+      "headers": "false",
+      "chrome": "false"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -87.42,
+    46.5081
+  ]
+}

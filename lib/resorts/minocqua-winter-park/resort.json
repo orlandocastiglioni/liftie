@@ -1,0 +1,26 @@
+{
+  "name": "Minocqua Winter Park",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WI/Minocqua-Winter-Park"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WI/Minocqua-Winter-Park",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Wisconsin",
+    "Midwest",
+    "Nordic"
+  ],
+  "ll": [
+    -89.8934,
+    45.8305
+  ]
+}

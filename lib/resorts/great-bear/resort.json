@@ -1,0 +1,19 @@
+{
+  "name": "Great Bear Ski Valley",
+  "url": {
+    "host": "https://www.greatbearpark.com",
+    "pathname": "/trail-status/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "South Dakota",
+    "Midwest"
+  ],
+  "ll": [
+    -96.66455,
+    43.578
+  ]
+}

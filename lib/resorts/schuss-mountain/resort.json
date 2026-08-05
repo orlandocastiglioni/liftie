@@ -1,0 +1,19 @@
+{
+  "name": "Schuss Mountain at Shanty Creek",
+  "url": {
+    "host": "https://www.shantycreek.com",
+    "pathname": "/ski/conditions-cams/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -85.1333,
+    44.9403
+  ]
+}

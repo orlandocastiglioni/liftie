@@ -1,0 +1,16 @@
+{
+  "name": "Powder Ridge Mountain Park & Resort",
+  "url": {
+    "host": "https://powderridge.com",
+    "pathname": "/ski-ride/trail-map/"
+  },
+  "trails": true,
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -94.298401,
+    45.348164
+  ]
+}

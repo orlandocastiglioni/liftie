@@ -1,0 +1,16 @@
+{
+  "name": "Huff Hills Ski Area",
+  "url": {
+    "host": "https://www.huffhills.com",
+    "pathname": "/snowreport"
+  },
+  "trails": true,
+  "tags": [
+    "North Dakota",
+    "Midwest"
+  ],
+  "ll": [
+    -100.72876,
+    46.62642
+  ]
+}

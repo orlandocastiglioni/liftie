@@ -1,0 +1,31 @@
+{
+  "name": "Sunburst Ski & Snowboard Area",
+  "url": {
+    "host": "https://skisunburst.com",
+    "pathname": "/our-hills/"
+  },
+  "api": {
+    "host": "https://api.ullr.ski",
+    "pathname": "/public/v11/widget/SNOW/lifts",
+    "query": {
+      "key": "b7e69312-ee7f-48de-aa64-a274ff5e2045"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.ullr.ski",
+    "pathname": "/public/v11/widget/SNOW/trails",
+    "query": {
+      "key": "b7e69312-ee7f-48de-aa64-a274ff5e2045"
+    },
+    "json": true
+  },
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -88.224007,
+    43.493936
+  ]
+}

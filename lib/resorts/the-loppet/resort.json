@@ -1,0 +1,23 @@
+{
+  "name": "The Loppet",
+  "url": {
+    "host": "https://loppet.org",
+    "pathname": "/trailheads-trails/trails-and-conditions/"
+  },
+  "trails": {
+    "host": "https://docs.google.com",
+    "pathname": "/document/d/13gwNrKqWH-6P37vG-OxFWsbh-1E5h5FBp6fvdAADYlc/pub"
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Minnesota",
+    "Midwest",
+    "Nordic"
+  ],
+  "ll": [
+    -93.3262,
+    44.9912
+  ]
+}

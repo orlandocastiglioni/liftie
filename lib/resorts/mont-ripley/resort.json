@@ -1,0 +1,15 @@
+{
+  "name": "Mont Ripley",
+  "url": {
+    "host": "https://www.mtu.edu",
+    "pathname": "/mont-ripley/about/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan"
+  ],
+  "ll": [
+    -88.5596,
+    47.1303
+  ]
+}

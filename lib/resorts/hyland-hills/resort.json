@@ -1,0 +1,22 @@
+{
+  "name": "Hyland Hills Ski Area",
+  "url": {
+    "host": "https://www.threeriversparks.org",
+    "pathname": "/location/hyland-hills-ski-area"
+  },
+  "trails": {
+    "host": "https://www.threeriversparks.org",
+    "pathname": "/page/hyland-hills-ski-runs-terrain-park"
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -93.3651,
+    44.8435
+  ]
+}

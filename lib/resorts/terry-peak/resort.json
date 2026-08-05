@@ -1,0 +1,15 @@
+{
+  "name": "Terry Peak Ski Area",
+  "url": {
+    "host": "https://terrypeak.com",
+    "pathname": "/the-mountain/trails-lifts/"
+  },
+  "trails": true,
+  "tags": [
+    "South Dakota"
+  ],
+  "ll": [
+    -103.840383,
+    44.334573
+  ]
+}

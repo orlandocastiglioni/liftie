@@ -1,0 +1,16 @@
+{
+  "name": "Chestnut Mountain Resort",
+  "url": {
+    "host": "https://www.chestnutmtn.com",
+    "pathname": "/slope-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Illinois",
+    "Midwest"
+  ],
+  "ll": [
+    -90.393738,
+    42.318995
+  ]
+}

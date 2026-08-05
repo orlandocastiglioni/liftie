@@ -1,0 +1,16 @@
+{
+  "name": "Nub's Nob",
+  "url": {
+    "host": "https://www.nubsnob.com",
+    "pathname": "/conditions-tables/"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -84.902163,
+    45.467665
+  ]
+}

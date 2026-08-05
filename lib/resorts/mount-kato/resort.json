@@ -1,0 +1,25 @@
+{
+  "name": "Mount Kato",
+  "url": {
+    "host": "https://www.mountkato.com",
+    "pathname": "/pages/public/mountain/snow-report/index.html"
+  },
+  "api": {
+    "host": "https://mk-trail-n-lift-status-default-rtdb.firebaseio.com",
+    "pathname": "/lifts.json",
+    "json": true
+  },
+  "trails": {
+    "host": "https://mk-trail-n-lift-status-default-rtdb.firebaseio.com",
+    "pathname": "/trails.json",
+    "json": true
+  },
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -94.0358,
+    44.1313
+  ]
+}

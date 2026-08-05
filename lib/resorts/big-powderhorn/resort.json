@@ -1,0 +1,19 @@
+{
+  "name": "Big Powderhorn Mountain",
+  "url": {
+    "host": "https://bigpowderhorn.net",
+    "pathname": "/conditions-and-trail-map/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -90.0904,
+    46.5089
+  ]
+}

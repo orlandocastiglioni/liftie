@@ -1,0 +1,16 @@
+{
+  "name": "Trollhaugen",
+  "url": {
+    "host": "https://trollhaugen.com",
+    "pathname": "/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -92.6202444,
+    45.3495525
+  ]
+}

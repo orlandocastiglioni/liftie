@@ -1,0 +1,15 @@
+{
+  "name": "Treetops Resort",
+  "url": {
+    "host": "https://www.treetops.com",
+    "pathname": "/live/"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan"
+  ],
+  "ll": [
+    -84.5915,
+    45.0355
+  ]
+}

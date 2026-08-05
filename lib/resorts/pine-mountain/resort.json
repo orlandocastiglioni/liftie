@@ -1,0 +1,16 @@
+{
+  "name": "Pine Mountain",
+  "url": {
+    "host": "https://www.pinemountainresort.com",
+    "pathname": "/skiing/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -88.08876,
+    45.83919
+  ]
+}

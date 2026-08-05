@@ -1,0 +1,966 @@
+<!DOCTYPE HTML><html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Snow/Trail Report | Mont Ripley</title>
+      <meta name="Description" content="Current snow conditions at Mont Ripley.">
+      <meta name="Keywords" content="snow report, ski hill conditions, mont ripley condition, snow at mont ripley, snow conditions">
+      
+
+
+<!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/normalize.css" /> -->
+<!-- <link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" /> -->
+<link type="text/css" rel="stylesheet" href="//www.mtu.edu/mtu_resources/styles/n/base.css" />
+
+<!-- this is the headcode include -->
+<!--<link rel="stylesheet" href="/_resources/css/oustyles.css" />-->
+
+<link href="//www.mtu.edu/mtu_resources/styles/n/print.css" type="text/css" rel="stylesheet" media="print" />
+<script>/**
+ * +------------------------------------------------------------------------+
+ * | Global Settings                                                        |
+ * +------------------------------------------------------------------------+
+ */
+(function() {
+	// TODO: Fix if the user has switched their system preferences. 
+	// Only set cookie in settings page.	
+	function setFontSize(value) {
+		if (value) {
+			document.documentElement.classList.remove(window.mtuFontSize);
+			document.documentElement.classList.add(value);
+			window.mtuFontSize = value;
+		}
+	}
+
+	function setReducedMotion(value) {
+		if (value) {
+			document.documentElement.classList.add("reduce-animations");
+		} else {
+			document.documentElement.classList.remove("reduce-animations");
+		}
+	}
+
+	function setTheme(value) {
+		if (value) {
+			document.documentElement.classList.remove(window.mtuTheme);
+			document.documentElement.classList.add(value);
+			window.mtuTheme = value;
+		}
+	}
+	
+	const animQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+	const darkQuery = window.matchMedia("(prefers-color-scheme: dark)");
+
+	let mtuAnimations;
+	let mtuFontSize;
+	let mtuTheme;
+
+	try {
+		mtuAnimations = localStorage.getItem("mtuAnimations");
+		mtuFontSize = localStorage.getItem("mtuFontSize");
+		mtuTheme = localStorage.getItem("mtuTheme");
+	} catch (error) {
+		console.error(error);
+		return;
+	}
+
+	setFontSize(mtuFontSize);
+	setReducedMotion(mtuAnimations === "reduced" || animQuery.matches);
+
+	if (mtuTheme === "system") {
+		mtuTheme = darkQuery.matches ? "dark" : "light";
+	}
+
+	if (mtuTheme === "dark") {
+		const link = document.createElement("link");
+		link.href = "/mtu_resources/assets/css/app-dark.css";
+		link.rel = "stylesheet";
+		link.type = "text/css";
+
+		document.head.append(link);
+	}
+
+	setTheme(mtuTheme);
+})();
+
+/**
+ * +------------------------------------------------------------------------+
+ * | Global Header and Navigation                                           |
+ * +------------------------------------------------------------------------+
+ */
+(function() {
+	function adjustNav() {
+		let navBar = document.querySelector('.nav-bar');
+		if (navBar) {
+			let navCount = navBar.querySelectorAll('.menu_item').length;
+			let height = navBar.clientHeight;	
+
+			if (height > 50) {
+			  navBar.style.setProperty('--navCount', navCount);
+			  navBar.classList.add('nav-tall');
+			} else {
+			  navBar.style.removeProperty('--navCount');
+			  navBar.classList.remove('nav-tall');
+			}	
+		}
+	}
+	
+	// Adjust header height right away.
+	adjustNav();
+	
+	// Re-adjust header height as content loads.
+	window.addEventListener("DOMContentLoaded", adjustNav);
+	window.addEventListener("load", adjustNav);
+	
+	// Setting up some space for items after the nav to be seen.
+	function onResize() {
+		let header = document.querySelector(".nav, .mtu-nav");
+		let headerHeight;
+		
+		if (header) {
+			headerHeight = header.clientHeight + "px";
+			document.documentElement.style.setProperty("--mtu-header-height", headerHeight);
+		}
+	}
+	
+	// Create --mtu-header-height now.
+	onResize();
+	
+	// Update --mtu-header-height on load.
+	window.addEventListener("DOMContentLoaded", onResize);
+	window.addEventListener("load", onResize);
+	
+	// Update --mtu-header-height on resize.
+	let frameId;
+	window.addEventListener("resize", function() {
+		// Debounce the resize event.
+		if (frameId) {
+			window.cancelAnimationFrame(frameId);
+		}
+		
+		frameId = window.requestAnimationFrame(onResize);
+	});
+})();
+
+/**
+ * Defers execution of the given function until after jQuery is loaded.
+ */
+function defer(fn) {
+	if (window.jsSet) {
+		fn();
+		return;
+	}
+	
+	setTimeout(function() {
+		defer(fn);
+	}, 100);
+}
+</script><meta property="mtu:ou_content_type" content="generic">
+      <meta property="mtu:ou_content_id" content="57aa80f2-7c47-4c24-96d9-84cf448bfd36">
+      <meta property="og:title" content="Snow/Trail Report | Mont Ripley">
+      <meta property="og:description" content="Current snow conditions at Mont Ripley.">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://www.mtu.edu/mont-ripley/about/snow-report/">
+      <meta property="og:site_name" content="Michigan Technological University">
+      <meta property="fb:pages" content="5652694310">
+      <meta property="og:image" content="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1600.jpg">
+      <meta property="og:image:alt" content="View from the Groomer">
+      <meta property="og:image:height" content="720">
+      <meta property="og:image:width" content="1600">
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:site" content="@michigantech">
+      <meta name="twitter:creator" content="@michigantech">
+      <meta name="twitter:title" content="Snow/Trail Report | Mont Ripley">
+      <meta name="twitter:url" content="https://www.mtu.edu/mont-ripley/about/snow-report/">
+      <meta name="twitter:description" content="Current snow conditions at Mont Ripley.">
+      <meta name="twitter:image" content="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1600.jpg">
+      <meta name="twitter:image:alt" content="View from the Groomer">
+      <meta itemprop="thumbnailUrl" name="thumbnail" content="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1600.jpg">
+      <link rel="preload" as="image" imagesrcset="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner450.jpg 450w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner800.jpg 800w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1200.jpg 1200w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1600.jpg 1600w, " imagesizes="(max-width: 1199px) 100vw, 1200px">
+      <link rel="canonical" href="https://www.mtu.edu/mont-ripley/about/snow-report/"><script src="//www.mtu.edu/mtu_resources/script/news/weather-2.0.js"></script>
+																																																																																																																																								<style>
+																																																																																																																																								table.striped td.green, table td.green, table th.green{background-color:#45af3d;}
+																																																																																																																																								table.striped caption:first-of-type{background-color:#00007e;}
+																																																																																																																																								table.striped caption{color:#fff;}
+																																																																																																																																								table.striped img{max-height: 30px;}
+																																																																																																																																								
+																																																																																																																																								@media screen and (min-width: 640px) {
+																																																																																																																																								#boxed-169573{min-height:325px;}
+																																																																																																																																								.full-column-column-column #content-169565 > p > img{margin-top:20px;}
+																																																																																																																																								}
+																																																																																																																																								</style><style>
+						table.striped img{max-height: 30px;}
+						</style><script>
+window.dataLayer = window.dataLayer || [];
+if(window.devicePixelRatio > 1.5) {
+	dataLayer.push({'retina':'true'});
+} else {
+	dataLayer.push({'retina':'false'});
+}
+let theme = localStorage.getItem('mtuTheme') || 'light';
+let animations = localStorage.getItem('mtuAnimations') || 'no-preference';
+let fontSize = localStorage.getItem('mtuFontSize') || 'font-normal';
+
+dataLayer.push({'themes':theme,'animations':animations,'font_size':fontSize});
+dataLayer.push({'internalExternal' : 'external'});
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://gtm-tagging-1.mtu.edu/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K6W7S4L9');</script>
+<!-- End Google Tag Manager -->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="preload" as="style">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet" /></head>
+   <body>
+      <div aria-atomic="true" aria-live="polite" class="sr-only" id="sr-announcements" role="status"></div>
+      <div class="stick"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;" ><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB" ><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg>
+
+<section aria-label="skip links">
+    <div class="skip-links" id="skip">
+        <a href="#main">Skip to page content</a>
+        <a href="#mtu-footer">Skip to footer navigation</a>
+    </div>
+</section>
+
+<header class="mtu-nav">
+    <div class="pre-nav-wrapper background-black">
+        <div class="pre-nav">
+            <button class="mobile-menu-button hide-for-desktop"
+                    data-inactive>
+                <span class="mobile-button-text">Menu</span>
+            </button>
+
+            <div class="pre-nav-logo">
+                <a class="pre-nav-logo-link" href="https://www.mtu.edu">
+                    <img alt="Michigan Tech Logo"
+                         class="pre-nav-logo-image"
+                         src="https://www.mtu.edu/mtu_resources/images/logos/michigan-tech-logo-full-yellow.svg"
+                         width="255"
+                         height="45" />
+                </a>
+            </div>
+
+            <div class="audience-search display-audience show-for-desktop">
+                <div class="audience-wrapper show-for-desktop">
+                    <ul aria-label="Audiences"
+                        class="audience-nav">
+                        <li class="menu_item">
+                                <a class="menu_link"
+									aria-label="Request Information from Michigan Tech"
+                                   href="/request/index.html">
+                                    Request Info
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+									aria-label="Visit Michigan Tech"
+                                   href="/visit/index.html">
+                                    Visit
+                                </a>
+                            </li><li class="menu_item">
+                                <a class="menu_link"
+									aria-label="Apply to Michigan Tech"
+                                   href="/apply/index.html">
+                                    Apply
+                                </a>
+                            </li> 
+                        
+                        <li class="menu_item resources-links tech-links">
+                                        <div class="menu_link">
+                                            Resources for You
+                                        </div>
+                                        
+                                        <button aria-label="Open sub-menu"
+                                                class="submenu-button arrow"></button>
+                                        
+                                        <ul class="tech-links-menu menu_submenu">
+                                        
+                                            <li class="submenu_item">
+                                                    <a
+                                                       href="/future/index.html">
+                                                        Prospective Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/admissions/enroll/index.html">
+                                                        Admitted Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/current/index.html">
+                                                        Current Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/faculty-staff/index.html">
+                                                        Faculty and Staff
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/alumni/index.html">
+                                                        Alumni and Friends
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/admissions/connect/parents/index.html">
+                                                        Parents and Family
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a
+                                                       href="/industry/index.html">
+                                                        Industry/Partners
+                                                    </a>
+                                                </li> 
+                                            
+                                        </ul>
+                                    </li>
+                        
+                        <li class="menu_item tech-links">
+                            <div class="menu_link">
+                                Tech Links
+                            </div>
+
+                            <button aria-label="Open sub-menu"
+                                    class="submenu-button arrow"></button>
+
+                            <ul class="tech-links-menu menu_submenu">
+    <li class="submenu_item">
+        <a class="link-az" href="/a2z/index.html">
+            A to Z
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-directory" href="/directory/">
+            Campus Directory
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-canvas" href="https://mtu.instructure.com/">
+            Canvas
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-concur" href="https://sso.mtu.edu/cas/idp/profile/SAML2/Unsolicited/SSO?providerId=https%3A%2F%2Fwww.concursolutions.com">
+            Concur
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-email" href="https://mail.google.com/a/mtu.edu/">
+            Email
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-mymt" href="https://www.mtu.edu/experience/">
+            Experience
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-sds" href="https://www.mtu.edu/sds/">
+            Safety Data Sheets
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-settings" href="/site-settings/index.html">
+            Website Settings
+        </a>
+    </li>
+</ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Google Tag Manager (noscript) -->
+<noscript aria-hidden="true"><iframe src="https://gtm-tagging-1.mtu.edu/ns.html?id=GTM-K6W7S4L9"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+	<div class="desktop-search-bar search-bar show-for-desktop">
+		<form action="https://www.mtu.edu/search/" class="search-fields invisible">
+				<label for="desktop-search">
+					Search
+				</label>
+	
+			<input class="search-text"
+				id="desktop-search"
+				name="q"
+				type="search" />
+	
+			<button class="search-clear">
+				Clear Search Input
+			</button>
+	
+			<label for="search-options" hidden>
+				Search Category
+			</label>
+	
+			<select class="search-options" id="search-options">
+				<option value="mtu">
+					Michigan Tech
+				</option>
+				 
+				<option data-action="https://www.mtu.edu/mont-ripley/" data-name="s" value="site">
+					This Site
+				</option>
+								<option data-action="https://www.mtu.edu/majors/" value="programs">
+					Programs
+				</option>
+			</select>
+	
+			<button class="search-button" type="submit">
+				Go
+			</button>
+		</form>
+	
+		<button aria-expanded="false" class="search-toggle-button">
+			Open Search
+		</button>
+	</div>
+	            </div>
+        </div>
+    </div>
+
+   <nav class="nav-bar show-for-desktop">
+      <ul class="menu" aria-label="Main Navigation">
+      <li class="menu_item menu_has-submenu"><div class="menu_link">Tickets and Gear</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Tickets and Gear sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/lift-tickets/"><span>Lift Ticket Prices</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://secure.touchnet.net/C21042_ustores/web/classic/store_main.jsp?STOREID=10&amp;clearPreview=true"><span>Buy a Season Pass</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/rentals-tuning-shop/"><span>Ripley Tune and Supply</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/rental-shop/"><span>Rental</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/programs/" class="menu_link">Snow School</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Snow School sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/christmas/"><span>Holiday Camp</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/ripley-kids/"><span>Ripley Kids Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/after-school/"><span>After School Program</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/lessons/"><span>Private or Semi-Private Lessons</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/ski-ripley/"><span>Ski or Ride the Ripley</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/pe/"><span>Michigan Tech Physical Education Classes</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Groups</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Groups sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/"><span>Snow School and Lessons</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.involvement.mtu.edu/organization/alpine-ski-racing"><span>Alpine Ski Racing Team</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.involvement.mtu.edu/organization/skiandsnowboard"><span>Ski and Snowboarding Club</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.coppercountrysnowsports.org/"><span>Copper Country Snowsports Club</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://mrsp.students.mtu.edu"><span>Mont Ripley Ski Patrol</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/about/" class="menu_link">About Mont Ripley</a><button class="submenu-button arrow" aria-expanded="false" aria-label="About Mont Ripley sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/giving-opportunities/"><span>Giving Opportunities</span></a>
+</li><li class="submenu_item  active-in"><a class="submenu_link" href="/mont-ripley/about/snow-report/"><span>Snow/Trail Report</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/trail-map/"><span>Trail Map</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://trailgenius.com/trail-genius-map/mont-ripley" aria-label="Mont Ripley Virtual Tour"><span>Virtual Tour</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/tubing/"><span>Tubing Park</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/park/"><span>Terrain Park</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/weather/"><span>Weather</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://dineoncampus.com/MTU/"><span>Huski Cafe</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/contact/" class="menu_link">Contact Us</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Contact Us sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/contact/hours/"><span>Hours and Schedule</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.facebook.com/MontRipley/"><span>Mont Ripley on Facebook</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.flickr.com/photos/montripley"><span>Mont Ripley on Flickr</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.instagram.com/montripley/"><span>Mont Ripley on Instagram</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.youtube.com/channel/UCQqzFkl7KSEc4KAwSgCSE-A?view_as=subscriber"><span>Mont Ripley on YouTube</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/contact/snapcode/"><span>Mont Ripley on Snapchat</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Trip Planning</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Trip Planning sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/things-to-do/"><span>Things to Do</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/driving/"><span>Driving Times and Directions</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/lodging/"><span>Lodging</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/flying/"><span>Flying to CMX</span></a>
+</li></ul>
+</li><li class="menu_item"><a href="https://trailgenius.com/trail-genius-map/mont-ripley" class="menu_link" aria-label="Mont Ripley Virtual Tour">Virtual Tour</a>
+</li><li class="menu_item menu_item-yellow"><a href="https://secure.touchnet.net/C21042_ustores/web/classic/store_main.jsp?STOREID=10&amp;clearPreview=true" class="menu_link">Buy Online</a>
+</li>      </ul>
+   </nav>
+
+    <nav class="offscreen-nav invisible">
+      <div class="mobile-search-bar search-bar">
+	<form action="https://www.mtu.edu/search/">
+		<label for="mobile-search"
+			   hidden>
+			Search
+		</label>
+
+		<input class="search-text"
+			   id="mobile-search"
+			   name="q"
+			   placeholder="Search"
+			   type="search" />
+
+		<button class="search-clear">
+			Clear Search Input
+		</button>
+
+		<label for="mobile-search-options"
+			   hidden>
+			Search Category
+		</label>
+
+		<select class="search-options"
+				id="mobile-search-options">
+			<option value="mtu">
+				Michigan Tech
+			</option>
+
+			 
+			<option data-action="https://www.mtu.edu/mont-ripley/" data-name="s" value="site">
+				This Site
+			</option>
+			
+			<option data-action="https://www.mtu.edu/majors"
+					value="programs">
+				Programs
+			</option>
+		</select>
+
+		<button class="search-button"
+				type="submit">
+			Search
+		</button>
+	</form>
+</div>
+        
+
+        <ul class="menu"
+            aria-label="Main Navigation">
+
+           
+            <li class="menu_item menu_has-submenu"><div class="menu_link">Tickets and Gear</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Tickets and Gear sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/lift-tickets/"><span>Lift Ticket Prices</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://secure.touchnet.net/C21042_ustores/web/classic/store_main.jsp?STOREID=10&amp;clearPreview=true"><span>Buy a Season Pass</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/rentals-tuning-shop/"><span>Ripley Tune and Supply</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/tickets-passes/rental-shop/"><span>Rental</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/programs/" class="menu_link">Snow School</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Snow School sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/christmas/"><span>Holiday Camp</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/ripley-kids/"><span>Ripley Kids Programs</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/after-school/"><span>After School Program</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/lessons/"><span>Private or Semi-Private Lessons</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/ski-ripley/"><span>Ski or Ride the Ripley</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/pe/"><span>Michigan Tech Physical Education Classes</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Groups</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Groups sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/programs/"><span>Snow School and Lessons</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.involvement.mtu.edu/organization/alpine-ski-racing"><span>Alpine Ski Racing Team</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.involvement.mtu.edu/organization/skiandsnowboard"><span>Ski and Snowboarding Club</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.coppercountrysnowsports.org/"><span>Copper Country Snowsports Club</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://mrsp.students.mtu.edu"><span>Mont Ripley Ski Patrol</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/about/" class="menu_link">About Mont Ripley</a><button class="submenu-button arrow" aria-expanded="false" aria-label="About Mont Ripley sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/giving-opportunities/"><span>Giving Opportunities</span></a>
+</li><li class="submenu_item  active-in"><a class="submenu_link" href="/mont-ripley/about/snow-report/"><span>Snow/Trail Report</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/trail-map/"><span>Trail Map</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://trailgenius.com/trail-genius-map/mont-ripley" aria-label="Mont Ripley Virtual Tour"><span>Virtual Tour</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/tubing/"><span>Tubing Park</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/about/park/"><span>Terrain Park</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/weather/"><span>Weather</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://dineoncampus.com/MTU/"><span>Huski Cafe</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><a href="/mont-ripley/contact/" class="menu_link">Contact Us</a><button class="submenu-button arrow" aria-expanded="false" aria-label="Contact Us sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/contact/hours/"><span>Hours and Schedule</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.facebook.com/MontRipley/"><span>Mont Ripley on Facebook</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.flickr.com/photos/montripley"><span>Mont Ripley on Flickr</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.instagram.com/montripley/"><span>Mont Ripley on Instagram</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="https://www.youtube.com/channel/UCQqzFkl7KSEc4KAwSgCSE-A?view_as=subscriber"><span>Mont Ripley on YouTube</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/contact/snapcode/"><span>Mont Ripley on Snapchat</span></a>
+</li></ul>
+</li><li class="menu_item menu_has-submenu"><div class="menu_link">Trip Planning</div><button class="submenu-button arrow" aria-expanded="false" aria-label="Trip Planning sub-menu"></button>
+<ul class="menu_submenu"><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/things-to-do/"><span>Things to Do</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/driving/"><span>Driving Times and Directions</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/lodging/"><span>Lodging</span></a>
+</li><li class="submenu_item"><a class="submenu_link" href="/mont-ripley/trip-planning/flying/"><span>Flying to CMX</span></a>
+</li></ul>
+</li><li class="menu_item"><a href="https://trailgenius.com/trail-genius-map/mont-ripley" class="menu_link" aria-label="Mont Ripley Virtual Tour">Virtual Tour</a>
+</li><li class="menu_item menu_item-yellow"><a href="https://secure.touchnet.net/C21042_ustores/web/classic/store_main.jsp?STOREID=10&amp;clearPreview=true" class="menu_link">Buy Online</a>
+</li>    
+            <li class="menu_item menu_has-submenu menu_item-black">
+                <div class="menu_link">
+				Connect with Us                </div>
+
+                <button aria-label="Open sub-menu"
+                        class="submenu-button arrow"></button>
+
+                <ul class="tech-links-menu menu_submenu">
+                    <li class="submenu_item">
+                            <a class="submenu_link"
+							   aria-label="Request Information from Michigan Tech"
+                               href="/request/index.html">
+                                Request Info
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="submenu_link"
+							   aria-label="Visit Michigan Tech"
+                               href="/visit/index.html">
+                                Visit
+                            </a>
+                        </li><li class="submenu_item">
+                            <a class="submenu_link"
+							   aria-label="Apply to Michigan Tech"
+                               href="/apply/index.html">
+                                Apply
+                            </a>
+                        </li> 
+                </ul>
+            </li>
+            
+            <li class="menu_item menu_has-submenu menu_item-black">
+                                        <div class="menu_link">
+                                            Resources for You
+                                        </div>
+                                        
+                                        <button aria-label="Open sub-menu"
+                                                class="submenu-button arrow"></button>
+                                        
+                                        <ul class="tech-links-menu menu_submenu">
+                                        
+                                            <li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/future/index.html">
+                                                        Prospective Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/admissions/enroll/index.html">
+                                                        Admitted Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/current/index.html">
+                                                        Current Students
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/faculty-staff/index.html">
+                                                        Faculty and Staff
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/alumni/index.html">
+                                                        Alumni and Friends
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/admissions/connect/parents/index.html">
+                                                        Parents and Family
+                                                    </a>
+                                                </li><li class="submenu_item">
+                                                    <a class="submenu_link"
+                                                       href="/industry/index.html">
+                                                        Industry/Partners
+                                                    </a>
+                                                </li> 
+                                            
+                                        </ul>
+                                    </li>
+
+            <li class="menu_item menu_has-submenu menu_item-black">
+                <div class="menu_link">
+                    Tech Links
+                </div>
+
+                <button aria-label="Open sub-menu"
+                        class="submenu-button arrow"></button>
+
+                <ul class="tech-links-menu menu_submenu">
+    <li class="submenu_item">
+        <a class="link-az" href="/a2z/index.html">
+            A to Z
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-directory" href="/directory/">
+            Campus Directory
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-canvas" href="https://mtu.instructure.com/">
+            Canvas
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-concur" href="https://sso.mtu.edu/cas/idp/profile/SAML2/Unsolicited/SSO?providerId=https%3A%2F%2Fwww.concursolutions.com">
+            Concur
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-email" href="https://mail.google.com/a/mtu.edu/">
+            Email
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-mymt" href="https://www.mtu.edu/experience/">
+            Experience
+        </a>
+    </li>
+
+    <li class="submenu_item">
+        <a class="link-sds" href="https://www.mtu.edu/sds/">
+            Safety Data Sheets
+        </a>
+    </li>
+    
+    <li class="submenu_item">
+        <a class="link-settings" href="/site-settings/index.html">
+            Website Settings
+        </a>
+    </li>
+</ul>
+            </li>
+        </ul>
+    </nav>
+</header>         <section class="background-light-gray" aria-label="Site Title">
+            <div class="site-title-wrapper">
+               <div class="site-title">
+                  <div class="title"><span><a href="/mont-ripley/">Mont Ripley</a></span></div>
+                  <div id="breadcrumbs" role="navigation" aria-label="breadcrumbs" class="breadcrumbs">
+                     <ul>
+                        <li><a href="/mont-ripley/">Mont Ripley</a></li>
+                        <li><a href="/mont-ripley/about/">About Mont Ripley</a></li>
+                        <li class="active" aria-current="page">Snow/Trail Report</li>
+                     </ul>
+                  </div>
+               </div>
+               </div>
+         </section>
+         <div id="main" role="main" class="main">
+            <section id="body_section" class="body-section" aria-label="main content">
+               <div class="full-width">
+                  <div class="clearer"></div>
+                  <div id="banner_image">
+                     <div class="multi-media_wrapper multi-media_wrapper-image-only multi-media_wrapper-feature"><img src="/mont-ripley/about/snow-report/images/groomer-banner1600.jpg" alt="View from the Groomer" height="720" width="1600" srcset="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner450.jpg 450w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner800.jpg 800w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1200.jpg 1200w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomer-banner1600.jpg 1600w, " sizes="(max-width: 1199px) 100vw, 1200px" class="multi-media_img"></div>
+                  </div>
+                  <div class="left leftnav">
+                     <div id="toggle-left"><img class="more-menu left" height="16" width="20" aria-hidden="true" role="presentation" src="/_resources/images/icons/hamburger.svg" alt="Open"><button class="left not-button"> Also in this section</button></div>
+                     <nav aria-label="left side navigtion bar">
+                        <ul id="main_links">
+                           <li class="nav-title active"><a class="nav-title-heading" href="/mont-ripley/about/">About Mont Ripley</a><div class="sublinks">
+                                 <ul class="firstlevel"><li><a  href="/mont-ripley/about/giving-opportunities/">Giving Opportunities</a></li><li class="active"><a  href="/mont-ripley/about/snow-report/">Snow/Trail Report</a></li><li><a  href="/mont-ripley/about/trail-map/">Trail Map</a></li><li><a  href="https://trailgenius.com/trail-genius-map/mont-ripley" aria-label="Mont Ripley Virtual Tour">Virtual Tour</a></li><li><a  href="/mont-ripley/about/tubing/">Tubing Park</a></li><li><a  href="/mont-ripley/about/park/">Terrain Park</a></li><li><a  href="/weather/">Weather</a></li><li><a  href="https://dineoncampus.com/MTU/">Huski Cafe</a></li></ul>
+                              </div>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <h1 class="pagetitle">Snow/Trail Report</h1>
+                  <div id="content" class="content rsidebar">
+                     <article id="content_body" aria-label="content" class="main-content"><table class="striped auto middle" style="min-width: 100%;"><caption>Fast Facts</caption><tr></tr><th scope="row" style="width: 70%;">Trails Open</th><td>18/25</td><tr><th scope="row" style="width: 70%;">Lifts Open</th><td>2/3</td></tr><tr><th scope="row" style="width: 70%;">Snow Base</th><td>up to 42"</td></tr><tr><th scope="row" style="width: 70%;">New Snow</th><td>16"</td></tr><tr><th scope="row" style="width: 70%;">Total Snowfall this season</th><td>105"</td></tr><tr><th scope="row" style="width: 70%;">Percent of Terrain Open </th><td>90%</td></tr><tr><th scope="row" style="width: 70%;">Last Updated: </th><td>1/5/26</td></tr></table><br><br><br><table class="striped auto middle" style="min-width: 100%;"><caption>Lift Status</caption><tr></tr><tr><th scope="row" style="width: 70%;">Husky Chair</th><td>OPEN</td></tr><tr><th scope="row" style="width: 70%;">Copper Hoist</th><td>CLOSED</td></tr><tr><th scope="row" style="width: 70%;">T-Bar</th><td>OPEN</td></tr></table><br><br><br><table class="striped auto middle" style="min-width: 100%;"><caption>Run Status</caption><tr></tr><thead><th scope="col">Run Name</th><th scope="col">Open?</th><th scope="col">Difficulty</th></thead><tr><td>That Road</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/green.png" alt="green circle"></td></tr><tr><td>Toots Tumble</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/green.png" alt="green circle"></td></tr><tr><td>The Dail Learning Area</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/green.png" alt="green circle"></td></tr><tr><td>Bypass</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/green.png" alt="green circle"></td></tr><tr><td>Deer Track Trail</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Danny Boy</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Fred's Landing</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Center Bowl</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Racer's Ridge</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>The Ripley Triangle</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Look Out</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Powder Stash</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/blue.png" alt="blue square"></td></tr><tr><td>Rhythm Terrain Park</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/orange-oval.png" alt="orange oval"></td></tr><tr><td>Husky Bowl</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>The Chute</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Certified</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Wipeout</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Bonzai</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Copper Chute Glade</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>The Plunge</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Powder Stash Glade</td><td>CLOSED</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>*Dependent on fresh snow</td></tr><tr><td>Cannonball*</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Buddha Bowl*</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr><tr><td>Trestle*</td><td>OPEN</td><td class="center"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"><img src="https://www.mtu.edu/mtu_resources/mont-ripley/sheets/black-diamond.png" alt="black diamond"></td></tr></table><br><br><br><table class="striped auto middle" style="min-width: 100%;"><caption>Tube Park Handle Tow</caption><tr></tr><th scope="row" style="width: 70%;">Friday</th><td>CLOSED</td><tr><th scope="row" style="width: 70%;">Saturday </th><td>CLOSED</td></tr><tr><th scope="row" style="width: 70%;">Sunday</th><td>CLOSED</td></tr></table><br><br><br>
+                        
+                        <p>&nbsp;</p>
+                        <div class="clearer"></div>
+                     </article>
+                  </div>
+                  <div class="right-sidebar">
+                     <aside aria-label="sidebar content">
+                        <p>Mont Ripley Webcams</p>
+                        
+                        <p><a class="nothing" href="/webcams/ski-hill/index.html"><img style="width: 100%;" src="https://www.mtu.edu/mtu_resources/php/webcams/cache/ski-hill.jpg" alt="Ski Hill Webcam"></a></p>
+                        
+                        <p><a class="nothing" href="/webcams/ripley/index.html"><img style="width: 100%;" src="https://www.mtu.edu/mtu_resources/php/webcams/cache/mont-ripley.jpg" alt="Mont Ripley Webcam"></a></p>
+                        
+                        <p class="center"><img src="/mont-ripley/images/mont-ripley.png" alt="Mont Ripley Logo" width="250" height="267"></p>
+                     </aside>
+                     <div class="clearer"></div>
+                  </div>
+                  <div class="clearer"></div>
+               </div>
+               <div class="section-fit section-fit-background  nofilter">
+                  <div class="grid-row">
+                     
+                     <p>&nbsp;</p>
+                     </div><img src="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomed-snow-banner800.jpg" alt="Groomed SNow on Toots Tumble" height="720" width="1600" loading="lazy" srcset="https://www.mtu.edu/mont-ripley/about/snow-report/images/groomed-snow-banner450.jpg 450w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomed-snow-banner800.jpg 800w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomed-snow-banner1200.jpg 1200w, https://www.mtu.edu/mont-ripley/about/snow-report/images/groomed-snow-banner1600.jpg 1600w, " sizes="(max-width: 1599px) 100vw, 1600px"></div>
+               </section>
+         </div>
+         <div class="push"></div>
+      </div>
+      <footer xmlns:xlink="http://www.w3.org/1999/xlink" id="mtu-footer" class="mtu-footer">
+   <div class="footer__pre-nav-wrapper">
+      <ul class="no-bullet footer__pre-nav row">
+         <li class="footer-button"><a aria-label="Request Information from Michigan Tech" href="/request/index.html">Request Information</a></li>
+         <li class="footer-button"><a aria-label="Schedule a Visit at Michigan Tech" href="/visit/index.html">Schedule a Visit</a></li>
+         <li class="footer-button-give"><a aria-label="Give to Michigan Tech" href="/giving/index.html">Give</a></li>
+         <li class="footer-button-apply"><a aria-label="Apply to Michigan Tech" href="/apply/index.html">Apply</a></li>
+      </ul>
+   </div>
+   <div class="footer row">
+      <div class="footer-menu">
+         <h2 class="footer-menu__title">Admissions</h2>
+         <ul class="no-bullet">
+            <li><a href="/admissions/index.html">Undergraduate Admissions</a></li>
+            <li><a href="/gradschool/index.html">Graduate Admissions</a></li>
+            <li><a href="/globalcampus/index.html">Global Campus</a></li>
+            <li><a aria-label="Request Information from Michigan Tech" href="/request/index.html" class="footer-rfi">Request Information</a></li>
+            <li><a aria-label="Schedule a Visit to Michigan Tech" href="/visit/index.html" class="footer-visit">Schedule a Visit</a></li>
+            <li><a aria-label="Apply to Michigan Tech" href="/apply/index.html" class="footer-apply">Apply</a></li>
+            <li><a aria-label="Virtual Tours of Michigan Tech" href="/virtual-tours/index.html">Virtual Tours</a></li>
+         </ul>
+      </div>
+      <div class="footer-menu">
+         <h2 class="footer-menu__title">Study and Live</h2>
+         <ul class="no-bullet">
+            <li><a href="/academics/">Academics</a></li>
+            <li><a href="/majors/index.html">Degrees / Majors</a></li>
+            <li><a href="/library/index.html">Library</a></li>
+            <li><a href="https://www.michigantechhuskies.com/">Athletics</a></li>
+            <li><a href="/tour/index.html">Campus and Beyond</a></li>
+            <li><a href="https://events.mtu.edu/">Events Calendar</a></li>
+            <li><a href="https://michigantechrecreation.com/index.aspx">Recreation</a></li>
+         </ul>
+      </div>
+      <div class="footer-menu">
+         <h2 class="footer-menu__title">Campus Info</h2>
+         <ul class="no-bullet">
+            <li><a href="/about/index.html">About Michigan Tech</a></li>
+            <li><a href="/provost/accreditation/index.html" aria-label="University Accreditation">Accreditation</a></li>
+            <li><a href="https://map.mtu.edu/">Campus Map</a></li>
+            <li><a href="/jobs/index.html">Jobs at Michigan Tech</a></li>
+            <li><a href="/news/index.html">News</a></li>
+            <li><a href="https://www.mtu.edu/syp/">Summer Youth Programs</a></li>
+            <li><a href="/webcams/index.html">Webcams</a></li>
+         </ul>
+      </div>
+      <div class="footer-menu">
+         <h2 class="footer-menu__title">Policies and Safety</h2>
+         <ul class="no-bullet">
+            <li><a href="/title-ix/resources/campus-safety/index.html" aria-label="Campus Safety Information and Resources">Campus Safety Information</a></li>
+            <li><a href="/emergencycontacts/index.html">Emergency Contact Information</a></li>
+            <li><a href="/deanofstudents/concern/index.html">Report a Concern</a></li>
+            <li><a href="/publicsafety/index.html">Public Safety / Police Services</a></li>
+            <li><a href="/student-affairs/interests/student-disclosure/index.html">Student Disclosures</a></li>
+            <li><a href="/title-ix/index.html">Title IX</a></li>
+            <li><a href="/policy/policies/index.html">University Policies</a></li>
+         </ul>
+      </div>
+   </div>
+   <div class="row footer__contact">
+      <div class="footer__contact-info"><script type="text/javascript">
+				(function () {
+					let givingHostnames = ["www.mtu.edu", "give.mtu.edu"];
+					let givingHref = "\/mont-ripley\/about\/giving-opportunities\/index.html";
+					let givingBtn = document.querySelector(".footer-button-give a");
+					if (givingBtn === null) {
+						return;
+					}
+
+					let givingUrl = new URL(givingHref, "https://www.mtu.edu/");
+
+					if (Array.from(givingHostnames).includes(givingUrl.hostname)) {
+						givingBtn.href = givingUrl.toString();
+					}
+				})();
+			</script><style>
+				.footer__pre-nav  li:nth-of-type(1),  .footer__pre-nav  li:nth-of-type(2), .footer__pre-nav  li:nth-of-type(4) {
+					display: none;
+				}
+				.footer__pre-nav li:nth-of-type(3) {
+					display: block;
+				}
+			</style><script type="text/javascript">
+				if (document.getElementsByClassName("footer-button-give").length != 0){
+					document.querySelector(".footer-button-give").classList.add('footer-button-apply');
+				}
+			</script><h2><a class="text-gold underline-on-hover" href="/mont-ripley/">Mont Ripley</a></h2><div class="footer__contact-info-address">49051 Ski Hill Rd.<br />																																																																																																																																								Hancock, MI 49930</div><div><ul class="bar-separator no-bullet"><li class="phone"><a href="tel:9064872340">906-487-2340</a></li><li class="fax"><a href="tel:9064873314">906-487-3314</a></li><li class="email"><a href="mailto:montripley@mtu.edu">montripley@mtu.edu</a></li></ul></div><ul class="social-icons no-bullet"><li><a class="facebook" href="https://www.facebook.com/MontRipley/" target="_blank">Facebook</a></li><li><a class="instagram" href="https://www.instagram.com/montripley/" target="_blank">Instagram</a></li><li><a class="youtube" href="https://www.youtube.com/user/montripley/" target="_blank">Youtube</a></li><li><a class="flickr" href="https://www.flickr.com/photos/montripley" target="_blank">Flickr</a></li><li><a class="snapchat" href="https://www.mtu.edu/mont-ripley/contact/snapcode/" target="_blank">Snapchat</a></li></ul></div>
+      <div class="footer__contact-social">
+         <div class="mtu-logo logo"><a href="/" class="mtu-logo mtu-logo-footer"><img src="//www.mtu.edu/mtu_resources/images/logos/michigan-tech-logo-fullname-solid-old.svg" height="132" width="200" alt="Michigan Technological University" loading="lazy"></a></div>
+      </div>
+   </div>
+   <div class="footer__post-info row">
+      <div>
+         <ul class="bar-separator no-bullet aside">
+            <li><a href="/accessibility/index.html">Accessibility</a></li>
+            <li><a href="/eo-compliance/equal-opportunity-hiring/index.html">Equal Opportunity</a></li>
+            <li><a href="mailto:webmaster@mtu.edu">Email the Webmaster</a></li>
+         </ul>
+      </div>
+      <div>
+         <ul class="bar-separator no-bullet">
+            <li><a href="/tomorrowneeds/index.html"><strong>Tomorrow Needs Michigan Tech</strong></a></li>
+            <li><span id="directedit">©</span>
+               2026 <a href="https://www.mtu.edu">Michigan Technological University</a></li>
+         </ul>
+      </div>
+   </div>
+</footer>
+
+<!--[if (!IE)|(gt IE 8)]><!--> 
+	<script src="//www.mtu.edu/mtu_resources/script/n/jquery.js"></script> 
+<!--<![endif]-->
+
+<!--[if lte IE 8]>
+	<script src="//www.mtu.edu/mtu_resources/script/n/jquery-ie.js"></script>
+<![endif]-->
+
+<script src="//www.mtu.edu/mtu_resources/assets/js/app.js"></script>
+<script>
+            var OUC = OUC || {};
+            OUC.globalProps = OUC.globalProps || {};
+            OUC.props = OUC.props || {};
+            
+            
+                OUC.globalProps['path'] = "/mont-ripley/about/snow-report/index.html";
+                OUC.globalProps['domain'] = "https://www.mtu.edu";
+                OUC.globalProps['index-file'] = "index";
+                OUC.globalProps['extension'] = "html";
+            
+            var key;
+            for (key in OUC.globalProps) {
+            OUC.props[key] = OUC.globalProps[key];
+            }
+        </script>
+      <script>
+	$(function(){
+		var $domain      = OUC.globalProps['domain'];
+		var $currentPage = OUC.globalProps['path'];
+		var $extension   = OUC.globalProps['extension'];
+		var $indexFile   = OUC.globalProps['index-file'];
+		
+		$currentPage = $domain + $currentPage.replace(/index\.\w+/i, '');
+		
+		
+		$('.leftnav .sublinks ul li').each(function(index, anchorTag){
+
+			$link =  $("> a", this).attr('href');
+			$link = $domain+$link.replace(/index\.\w+/i, '');
+			var $count1 = ($link.match(/\//g) || []).length;
+			
+			// check if link matches current page
+			/*if ($currentPage.includes($link) && $count1 > 4)
+			{
+				$(this).addClass('active');
+				// break out of the loop
+				return false;
+			}*/
+		});
+
+		$('.category-nav-bar > li.main-nav-item').each(function(index, anchorTag){
+
+			$link =  $("a", this).attr('href');
+			if($link) {
+				$link = $domain+$link.replace(/index\.\w+/i, '');
+			}
+			// check if link matches current page
+			if ($currentPage.includes($link))
+			{
+				$(this).addClass('in');
+				// break out of the loop
+				return false;
+			}
+		});
+	});
+</script>
+<div id="hidden" style="display:none;"><a id="de" href="https://a.cms.omniupdate.com/11/?skin=oucampus&amp;account=MTU&amp;site=www&amp;action=de&amp;path=/mont-ripley/about/snow-report/index.pcf">©</a></div>
+   </body>
+</html>

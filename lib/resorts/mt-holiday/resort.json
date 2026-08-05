@@ -1,0 +1,20 @@
+{
+  "name": "Mt. Holiday",
+  "url": {
+    "host": "https://mt-holiday.com",
+    "pathname": "/snow-sports/"
+  },
+  "dataUrl": {
+    "host": "https://docs.google.com",
+    "pathname": "/document/d/1Dhs0BMd6MNygEszWvV6qXJa2YV4MyBMCIgCSt5s8wXs/mobilebasic"
+  },
+  "trails": true,
+  "tags": [
+    "Michigan",
+    "Midwest"
+  ],
+  "ll": [
+    -85.5145,
+    44.7435
+  ]
+}

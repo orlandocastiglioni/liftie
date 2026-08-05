@@ -1,0 +1,19 @@
+{
+  "name": "Christie Mountain",
+  "url": {
+    "host": "https://www.christiemountain.com",
+    "pathname": "/trail-map"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -91.381878,
+    45.509313
+  ]
+}
