@@ -1,0 +1,18 @@
+{
+  "name": "Hockley Valley Resort",
+  "url": {
+    "host": "https://hockley.com",
+    "pathname": "/ski-snowboarding/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Ontario"
+  ],
+  "ll": [
+    -80.0731,
+    43.9636
+  ]
+}

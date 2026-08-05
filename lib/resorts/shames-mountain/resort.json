@@ -1,0 +1,19 @@
+{
+  "name": "Shames Mountain",
+  "url": {
+    "host": "https://mymountaincoop.ca",
+    "pathname": "/shames-mountain/our-mountain/snow-report/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "British Columbia",
+    "Coast Mountains"
+  ],
+  "ll": [
+    -128.9522,
+    54.4838
+  ]
+}

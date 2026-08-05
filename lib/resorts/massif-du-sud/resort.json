@@ -1,0 +1,18 @@
+{
+  "name": "Massif du Sud",
+  "url": {
+    "host": "https://massifdusud.net",
+    "pathname": "/fr/ouvertures"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -70.4896,
+    46.6215
+  ],
+  "no": {
+    "lifts": true
+  }
+}

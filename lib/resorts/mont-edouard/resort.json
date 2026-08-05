@@ -1,0 +1,14 @@
+{
+  "name": "Mont Édouard",
+  "url": {
+    "host": "https://www.montedouard.com",
+    "pathname": "/info-remontee"
+  },
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -70.36,
+    48.11
+  ]
+}

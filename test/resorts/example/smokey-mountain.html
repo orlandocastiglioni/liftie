@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--[if lt IE 9]>
+	<script src="/templates/nld_skismokey/js/html5shiv.min.js"></script>
+	<script src="/templates/nld_skismokey/js/respond.min.js"></script>
+<![endif]-->
+
+<link href="/templates/nld_skismokey/images/icons/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<link href="/templates/nld_skismokey/images/icons/icon180x180.png" rel="apple-touch-icon" />
+<link href="/templates/nld_skismokey/images/icons/icon192x192.png" rel="icon" sizes="192x192" />
+
+<base href="http://skismokey.ca/general-information/current-conditions" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="smokey
+skiing
+labrador
+snowboard
+alpine
+lab west
+snow
+smokey mountain" />
+	<meta name="og:title" content="Smokey Mountain Ski Club" />
+	<meta name="og:type" content="website" />
+	<meta name="og:image" content="http://skismokey.ca/images/EXTRAS/FB_Smokey.png" />
+	<meta name="og:url" content="http://skismokey.ca" />
+	<meta name="og:site_name" content="Smokey Mountain Ski Club" />
+	<meta name="og:description" content="Smokey Mountain Ski Club. Labrador West's Alpine Skiing and Snowboarding experience!  Atlantic Canada's Best Kept Secret!  With 100% natural snow and the longest season in Atlantic Canada, make Smokey your choice for your next Alpine Skiing and Snowboarding Adventure!!" />
+	<meta name="author" content="Super User" />
+	<meta name="description" content="Smokey Mountain Ski &amp; Snowboard Club, Labrador West's Alpine Skiing and Snowboarding experience!  Atlantic Canada's Best Kept Secret!  With 100% natural snow and the longest season in Atlantic Canada, make Smokey your choice for your next Alpine Skiing and Snowboarding Adventure!!" />
+	<meta name="generator" content="Joomla! - Open Source Content Management" />
+	<title>Current Conditions - SkiSmokey.ca</title>
+	<link href="/templates/nld_skismokey/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+	<link href="/plugins/system/cookiesck/assets/front.css?ver=3.2.1" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lora:regular,700%7COswald:regular,700%7CMontserrat:&amp;subset=latin" rel="stylesheet" type="text/css" />
+	<link href="/templates/nld_skismokey/css/normalize.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="/templates/nld_skismokey/css/sparky-id9-190401105042.css" rel="stylesheet" type="text/css" />
+	<link href="http://skismokey.ca/modules/mod_datetime/tmpl/default.css" rel="stylesheet" type="text/css" />
+	<link href="/media/jui/css/chosen.css?b0ef1ff151c1f00ba365620b0be86330" rel="stylesheet" type="text/css" />
+	<link href="/media/com_finder/css/finder.css?b0ef1ff151c1f00ba365620b0be86330" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+#scrollToTop {
+	cursor: pointer;
+	font-size: 0.9em;
+	position: fixed;
+	text-align: center;
+	z-index: 9999;
+	-webkit-transition: background-color 0.2s ease-in-out;
+	-moz-transition: background-color 0.2s ease-in-out;
+	-ms-transition: background-color 0.2s ease-in-out;
+	-o-transition: background-color 0.2s ease-in-out;
+	transition: background-color 0.2s ease-in-out;
+
+	background: #121212;
+	color: #ffffff;
+	border-radius: 3px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	right: 20px; bottom: 20px;
+}
+
+#scrollToTop:hover {
+	background: #538492;
+	color: #ffffff;
+}
+
+#scrollToTop > img {
+	display: block;
+	margin: 0 auto;
+}
+			#cookiesck {
+				position:fixed;
+				left:0;
+				right: 0;
+				bottom: 0;
+				z-index: 1000000;
+				min-height: 30px;
+				color: #eeeeee;
+				background: rgba(0,0,0,0.5);
+				text-align: center;
+				font-size: 14px;
+				line-height: 14px;
+			}
+			#cookiesck_text {
+				padding: 10px 0;
+				display: inline-block;
+			}
+			#cookiesck_buttons {
+				float: right;
+			}
+			.cookiesck_button,
+			#cookiesck_accept,
+			#cookiesck_decline,
+			#cookiesck_settings,
+			#cookiesck_readmore {
+				float:left;
+				padding:10px;
+				margin: 5px;
+				border-radius: 3px;
+				text-decoration: none;
+				cursor: pointer;
+				transition: all 0.2s ease;
+			}
+			#cookiesck_readmore {
+				float:right;
+				color: #fff;
+				border: 2px solid transparent;
+				transition: all 0.2s ease;
+			}
+			#cookiesck_readmore:hover {
+				border: 2px solid #fff;
+			}
+			#cookiesck_accept {
+				background: #1176a6;
+				border: 2px solid #1176a6;
+				color: #f5f5f5;
+			}
+			#cookiesck_accept:hover {
+				background: transparent;
+				border: 2px solid darkturquoise;
+				color: darkturquoise;
+			}
+			#cookiesck_decline {
+				background: #000;
+				border: 2px solid #000;
+				color: #f5f5f5;
+			}
+			#cookiesck_decline:hover {
+				background: transparent;
+				border: 2px solid #fff;
+				color: #fff;
+			}
+			#cookiesck_settings {
+				background: #fff;
+				border: 2px solid #fff;
+				color: #000;
+			}
+			#cookiesck_settings:hover {
+				background: transparent;
+				border: 2px solid #fff;
+				color: #fff;
+			}
+			#cookiesck_options {
+				display: none;
+				width: 30px;
+				height: 30px;
+				border-radius: 15px;
+				box-sizing: border-box;
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				margin: 10px;
+				border: 1px solid #ccc;
+				cursor: pointer;
+				background: #fff url(/plugins/system/cookiesck/assets/cookies-icon.svg) center center no-repeat;
+				background-size: 80% auto;
+			}
+			#cookiesck_options > .inner {
+				display: none;
+				width: max-content;
+				margin-top: -40px;
+				background: rgba(0,0,0,0.7);
+				position: absolute;
+				font-size: 14px;
+				color: #fff;
+				padding: 4px 7px;
+				border-radius: 3px;
+			}
+			#cookiesck_options:hover > .inner {
+				display: block;
+			}
+			#cookiesck > div {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				flex-direction: column;
+			}
+			
+
+		#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+
+            a.flag {text-decoration:none;}
+            a.flag img {vertical-align:middle;padding:0;margin:0;border:0;display:inline;height:24px;opacity:0.8;}
+            a.flag:hover img {opacity:1;}
+            a.flag span {margin-right:5px;font-size:15px;vertical-align:middle;}
+        
+	</style>
+	<script type="application/json" class="joomla-script-options new">{"csrf.token":"1c5b91baca21dee4dcbe78329f15d516","system.paths":{"root":"","base":""}}</script>
+	<script src="/media/jui/js/jquery.min.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-noconflict.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery-migrate.min.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/media/plg_system_sl_scrolltotop/js/scrolltotop_jq.js" type="text/javascript"></script>
+	<script src="/media/system/js/caption.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/plugins/system/cookiesck/assets/front.js?ver=3.2.1" type="text/javascript"></script>
+	<script src="/media/system/js/core.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/media/jui/js/bootstrap.min.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/templates/nld_skismokey/js/sparky-id9-190401105042.js" type="text/javascript"></script>
+	<script src="/media/jui/js/chosen.jquery.min.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script src="/media/jui/js/jquery.autocomplete.min.js?b0ef1ff151c1f00ba365620b0be86330" type="text/javascript"></script>
+	<script type="text/javascript">
+
+		var j2storeURL = 'http://skismokey.ca/';
+		jQuery(document).ready(function() {
+	jQuery(document.body).SLScrollToTop({
+		'image':		'/images/Template/totop.png',
+		'text':			'',
+		'title':		'',
+		'className':	'scrollToTop',
+		'duration':		500
+	});
+});(function(d){
+					  var js, id = 'powr-js', ref = d.getElementsByTagName('script')[0];
+					  if (d.getElementById(id)) {return;}
+					  js = d.createElement('script'); js.id = id; js.async = true;
+					  js.src = 'http://skismokey.ca/plugins/content/powrshortcodes/powr_joomla.js';
+					  js.setAttribute('powr-token','nxFM0TaQT61547063606');
+					  js.setAttribute('external-type','joomla');
+					  ref.parentNode.insertBefore(js, ref);
+					}(document));jQuery(window).on('load',  function() {
+				new JCaption('img.caption');
+			});
+var COOKIESCK = {
+	ALLOWED : ["cookiesck","cookiesckiframes","c273df3f979530fe7919b2a239a6e4d8","c273df3f979530fe7919b2a239a6e4d8"]
+	, VALUE : 'yes'
+	, LIST : '{}'
+	, LIFETIME : '365'
+	, DEBUG : '0'
+	, TEXT : {
+		INFO : 'By visiting our website you agree that we are using cookies to ensure you to get the best experience.'
+		, ACCEPT_ALL : 'Accept all'
+		, ACCEPT_ALL : 'Accept all'
+		, DECLINE_ALL : 'Decline all'
+		, SETTINGS : 'Customize'
+		, OPTIONS : 'Cookies options'
+		, CONFIRM_IFRAMES : 'COOKIESCK_CONFIRM_IFRAMES'
+	}
+};
+console.log("COOKIES CK MESSAGE : The list of cookies is empty. Please check the documentation");jQuery(document).ready(function(){ckInitCookiesckIframes();});
+	jQuery(function ($) {
+		initChosen();
+		$("body").on("subform-row-add", initChosen);
+
+		function initChosen(event, container)
+		{
+			container = container || document;
+			$(container).find(".advancedSelect").chosen({"disable_search_threshold":10,"search_contains":true,"allow_single_deselect":true,"placeholder_text_multiple":"Type or select some options","placeholder_text_single":"Select an option","no_results_text":"No results match"});
+		}
+	});
+	jQuery(function($){ initTooltips(); $("body").on("subform-row-add", initTooltips); function initTooltips (event, container) { container = container || document;$(container).find(".hasTooltip").tooltip({"html": true,"container": "body"});} });
+jQuery(document).ready(function() {
+	var value, searchword = jQuery('#mod-finder-searchword186');
+
+		// Get the current value.
+		value = searchword.val();
+
+		// If the current value equals the default value, clear it.
+		searchword.on('focus', function ()
+		{
+			var el = jQuery(this);
+
+			if (el.val() === 'Search ...')
+			{
+				el.val('');
+			}
+		});
+
+		// If the current value is empty, set the previous value.
+		searchword.on('blur', function ()
+		{
+			var el = jQuery(this);
+
+			if (!el.val())
+			{
+				el.val(value);
+			}
+		});
+
+		jQuery('#mod-finder-searchform186').on('submit', function (e)
+		{
+			e.stopPropagation();
+			var advanced = jQuery('#mod-finder-advanced186');
+
+			// Disable select boxes with no value selected.
+			if (advanced.length)
+			{
+				advanced.find('select').each(function (index, el)
+				{
+					var el = jQuery(el);
+
+					if (!el.val())
+					{
+						el.attr('disabled', 'disabled');
+					}
+				});
+			}
+		});
+	var suggest = jQuery('#mod-finder-searchword186').autocomplete({
+		serviceUrl: '/component/finder/?task=suggestions.suggest&amp;format=json&amp;tmpl=component',
+		paramName: 'q',
+		minChars: 1,
+		maxHeight: 400,
+		width: 300,
+		zIndex: 9999,
+		deferRequestBy: 500
+	});});
+	</script>
+
+
+<script type="text/javascript" src="/templates/nld_skismokey/js/responsive-nav.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> 
+
+<script type="text/javascript">
+var show_popup=1;
+jQuery(document).bind("contextmenu", function(e) { if (show_popup==0) e.preventDefault(); else {e.preventDefault();jQuery('#openModal').css('opacity','1');jQuery('#openModal').css('pointer-events','auto');} });
+jQuery(document).ready(function() {
+    jQuery(document).on("click","#close",function() {
+        jQuery('#openModal').css('opacity','0');
+        jQuery('#openModal').css('pointer-events','none');
+    });
+});
+</script><style type="text/css">
+	.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 400px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #000;
+	-webkit-box-shadow: 1px 1px 3px #000;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.close:hover { background: #00d9ff; }
+</style>
+</head>
+<body class="sparky_inner current-conditions">
+<div id="blocker"></div><div id="page_transition_mask"></div><div class="sparky_wrapper">
+    <div  class="sparky_row1 sparky_full toprow">
+        <div class="sparky_container">
+        				<div class="sparky_cell mp_top1 sparkle2">
+							<div class="moduletable">
+						
+<div class="finder">
+	<form id="mod-finder-searchform186" action="/component/finder/search" method="get" class="form-search" role="search">
+		<label for="mod-finder-searchword186" class="finder">Search</label><input type="text" name="q" id="mod-finder-searchword186" class="search-query input-medium" size="25" value="" placeholder="Search ..."/>
+						<input type="hidden" name="Itemid" value="103" />	</form>
+</div>
+		</div>
+	
+				</div>
+                				<div class="sparky_cell mp_top2 sparkle2">
+							<div class="moduletable">
+						
+
+<script type="text/javascript">
+/* <![CDATA[ */
+function GTranslateGetCurrentLang() {var keyValue = document.cookie.match('(^|;) ?googtrans=([^;]*)(;|$)');return keyValue ? keyValue[2].split('/')[2] : null;}
+function GTranslateFireEvent(element,event){try{if(document.createEventObject){var evt=document.createEventObject();element.fireEvent('on'+event,evt)}else{var evt=document.createEvent('HTMLEvents');evt.initEvent(event,true,true);element.dispatchEvent(evt)}}catch(e){}}
+function doGTranslate(lang_pair){if(lang_pair.value)lang_pair=lang_pair.value;if(lang_pair=='')return;var lang=lang_pair.split('|')[1];if(GTranslateGetCurrentLang() == null && lang == lang_pair.split('|')[0])return;var teCombo;var sel=document.getElementsByTagName('select');for(var i=0;i<sel.length;i++)if(sel[i].className=='goog-te-combo')teCombo=sel[i];if(document.getElementById('google_translate_element2')==null||document.getElementById('google_translate_element2').innerHTML.length==0||teCombo.length==0||teCombo.innerHTML.length==0){setTimeout(function(){doGTranslate(lang_pair)},500)}else{teCombo.value=lang;GTranslateFireEvent(teCombo,'change');GTranslateFireEvent(teCombo,'change')}}
+/* ]]> */
+</script>
+<div id="google_translate_element2"></div>
+<script type="text/javascript">function googleTranslateElementInit2() {new google.translate.TranslateElement({pageLanguage: 'en', autoDisplay: false}, 'google_translate_element2');}</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+<a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/en-ca.png" height="24" width="24" alt="en" /></a><a href="#" onclick="doGTranslate('en|tl');return false;" title="Filipino" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/tl.png" height="24" width="24" alt="tl" /></a><a href="#" onclick="doGTranslate('en|fr');return false;" title="French" class="flag nturl notranslate"><img src="/modules/mod_gtranslate/tmpl/lang/24/fr-qc.png" height="24" width="24" alt="fr" /></a>		</div>
+	
+				</div>
+                <div class="sparky_cell mp_fontresize sparkle2">
+    <div id="font_resize" class="sparky_feature">
+        <a class="decreaseFont" href="#" title="Font Decrease">A-</a> <a class="resetFont" href="#" title="Font Reset">Reset</a> <a class="increaseFont" href="#" title="Font Increase">A+</a>
+    </div>
+</div>				<div class="sparky_cell mp_top5 sparkle2">
+							<div class="moduletable">
+						
+
+<div class="custom"  >
+	<!-- START: Modules Anywhere -->
+
+<div class="custom"  >
+	<p>Open Friday night, Saturday and Sunday until further notice!</p></div>
+<!-- END: Modules Anywhere --></div>
+		</div>
+	
+				</div>
+                				<div class="sparky_cell mp_top3 sparkle2">
+							<div class="moduletable">
+						
+
+<div class="custom"  >
+	<p style="text-align: left;"><a href="/contact">Contact Us</a></p></div>
+		</div>
+	
+				</div>
+                				<div class="sparky_cell mp_top4 sparkle2">
+							<div class="moduletable">
+						
+    <span class="mod_datetime"><time datetime="2022-04-01T07:17:51-03:00">Friday, 01/04/2022 07:17</time></span>
+		</div>
+	
+				</div>
+                        </div>
+    </div>
+    <div  class="sparky_row2 sparky_full logorow">
+        <div class="sparky_container">
+        <div class="sparky_cell mp_mainmenuleft sparkle5">
+	<div class="sparky_menu">
+	
+<nav class="container_mainmenuleft">
+
+	
+	<ul class="menu navv mnu_mainmenuleft">
+<li class="item-101"><a href="/" >Home</a></li><li class="item-102"><a href="/about" >About</a></li><li class="item-153 active deeper parent"><a href="/general-information" >Information</a><ul><li class="item-107 current active"><a href="/general-information/current-conditions" >Current Conditions</a></li><li class="item-108"><a href="/general-information/operating-hours" >Operating Hours</a></li><li class="item-109"><a href="/general-information/hill-safety" >Hill Safety</a></li><li class="item-110"><a href="/general-information/skiers-code" >Skier's Code</a></li><li class="item-111"><a href="/general-information/amenities" >Amenities</a></li><li class="item-112"><a href="/general-information/getting-here" >Getting Here</a></li><li class="item-196"><a href="/general-information/special-events" >Special Events</a></li></ul></li><li class="item-113 deeper parent"><a href="#" >Our People</a><ul><li class="item-114"><a href="/our-people/smokey-staff" >Smokey Staff</a></li><li class="item-115"><a href="#" >Smokey Ski Patrol</a></li><li class="item-116"><a href="/our-people/sponsors" >Our Sponsors and Partners</a></li></ul></li>	</ul>
+
+	</nav>
+	</div>
+</div><div class="sparky_cell mp_logo sparkle2">
+	<div class="sparky_feature">
+		<a href="/" class="sparky_logo_link">
+					    <div class="sparky_logo">SKI SMOKEY</div>
+		    <div class="sparky_slogan"></div>
+		    	    </a>
+	</div>
+</div><div class="sparky_cell mp_mainmenuright sparkle5">
+	<div class="sparky_menu">
+	
+<nav class="container_mainmenuright">
+
+	
+	<ul class="menu navv mnu_mainmenuright">
+<li class="item-104 deeper parent"><a href="#" >Pro Shop</a><ul><li class="item-150"><a href="/blog/rates-and-rentals" >Rates and Rentals</a></li><li class="item-151"><a href="/blog/pro-shop-store" >Pro Shop Store</a></li></ul></li><li class="item-120"><a href="/visitors-comments" >Visitor Comments</a></li><li class="item-152 deeper parent"><a href="#" >Galleries</a><ul><li class="item-184"><a href="/visitor-comments/general-photos" >General Photos</a></li><li class="item-183"><a href="/visitor-comments/oldies" >Oldies</a></li><li class="item-185"><a href="/visitor-comments/slide-show-photos" >Slide Show Photos</a></li><li class="item-187"><a href="/visitor-comments/smokey-mountain-videos" >Smokey Mountain Videos</a></li><li class="item-189 deeper parent"><a href="#" >Submit Video/Photos</a><ul><li class="item-190"><a href="/visitor-comments/submit-video-photos/submit-photo-s" >Submit Photo(s)</a></li><li class="item-191"><a href="/visitor-comments/submit-video-photos/submit-videos" >Submit Videos</a></li></ul></li></ul></li>	</ul>
+
+	</nav>
+	</div>
+</div>        </div>
+    </div>
+    <div  class="sparky_row10 sparky_full contentrow">
+        <div class="sparky_container">
+                        <main class="sparky_cell content_sparky sparkle8">
+                    <div id="system-message-container">
+	</div>
+
+                                        <div class="item-page" itemscope itemtype="https://schema.org/Article">
+	<meta itemprop="inLanguage" content="en-GB" />
+	
+				<div class="pull-none item-image"> <img
+		 src="/images/blog/local_cond_inner.jpg" alt="Current Local Conditions" itemprop="image"/> </div>
+
+			
+			<ul class="tags inline">
+																	<li class="tag-2 tag-list0" itemprop="keywords">
+					<a href="/component/tags/tag/smokey-info" class="label label-info">
+						Smokey Information					</a>
+				</li>
+						</ul>
+	
+		
+			<div class="page-header">
+					<h1 itemprop="headline">
+				Current Local Conditions			</h1>
+									</div>
+					
+		
+	
+		
+						<div itemprop="articleBody">
+		<!-- START: Modules Anywhere --><p style="text-align: left;">Smokey Mountain Ski Club Ski Report.  Smokey is 
+
+</p><div class="custom">
+	<!-- START: Modules Anywhere -->
+
+<div class="custom"  >
+	<p>Open Friday night, Saturday and Sunday until further notice!</p></div>
+<!-- END: Modules Anywhere --><p></p></div>
+Check here for up to date lift status, weather, runs, etc.
+<!-- END: Modules Anywhere -->
+ 
+<p>&nbsp;</p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>CURRENT SEASON INFORMATION<br /></strong></span></p>
+<!-- START: Modules Anywhere --><p style="text-align: center;"> 
+
+</p><div class="custom">
+<p>Smokey Mountain Ski Club is open for downhill fun annually from mid-December to April*<br>*pending snow level and extreme cold warnings</p>
+<p> </p>
+<p>Lifts, canteen, and Pro Shop are open:</p>
+<p>Fridays 6-9<br>Saturdays 10-5<br>Sundays 10-5</p>
+<p> </p>
+<p>Toby's Place (bar) opens:<br>Friday at 6pm<br>Saturday and Sunday at 11am</p>
+<p> </p>
+<p>Please refer to Smokey social media for announcements on closures due to weather (extreme cold, etc). You can also <a href="/general-information/current-conditions?id=39:nancy-obrien-manager">Contact Us</a> before heading to our hill!</p>
+<p>For up to date information on lifts, please refer to Smokey social media each open day.</p>
+<p> </p></div>
+<!-- END: Modules Anywhere -->
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>LIFTS STATUS<br /></strong></span></p>
+<!-- START: Modules Anywhere --><p style="text-align: center;"> 
+
+</p><div class="custom">
+	<p style="text-align: center;">Magic Carpet (small hill) - Open </p>
+<p style="text-align: center;">Coach's Poma (med hill) - Open</p>
+<p style="text-align: center;">Red Lift (med hill) - Open</p>
+<p style="text-align: center;">Skytrac Quad Chair Lift - Open</p></div>
+<!-- END: Modules Anywhere -->
+<p><br style="text-align: center;" /></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>RUNS, LIFTS, RATINGS</strong></span></p>
+<figure class="pull-center" style="text-align: center;"><img onmouseover="this.src='/images/EXTRAS/Runs_Map.jpg';" onmouseout="this.src='/images/EXTRAS/Runs_Map.jpg';" src="/images/EXTRAS/Runs_Map.jpg" alt="Runs Map" width="786" height="1215" />&nbsp;</figure>
+<p style="text-align: center;"><strong>To download a printable version of this map, <a href="/images/EXTRAS/Smokey_Runs.pdf" target="_blank" rel="alternate">Click Here</a>.</strong></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><span style="text-decoration: underline;"><strong>CURRENT WEATHER<br /></strong></span></p>
+<p style="text-align: center;">&nbsp;</p>
+<!-- START: Modules Anywhere -->
+
+<div class="custom"  >
+	<p>&nbsp;</p>
+<p style="text-align: center;"> 
+<a class="weatherwidget-io" href="https://forecast7.com/en/52d94n66d91/labrador-city/" data-label_1="LABRADOR CITY" data-label_2="WEATHER" data-theme="pure" >LABRADOR CITY WEATHER</a> 
+<script> 
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js'); 
+</script> 
+</p></div>
+<!-- END: Modules Anywhere -->	</div>
+
+	
+							</div>
+                                    </main>
+            				<div class="sparky_cell mp_right sparkle4">
+							<div class="moduletable">
+						<ul class="category-module mod-list">
+					<li>
+			<div class="mod-articles-category-group">Smokey Information</div>
+			<ul>
+									<li>
+													<a class="mod-articles-category-title " href="/about">
+								About Smokey							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/amenities">
+								Amenities							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title active" href="/general-information/current-conditions">
+								Current Local Conditions							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/16-event-bookings">
+								Event Bookings							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/getting-here">
+								Getting Here							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/15-group-bookings">
+								Group Bookings							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/hill-safety">
+								Hill Safety							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/17-lifts-slope-map">
+								Lifts and Slope Map							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/operating-hours">
+								Operating Hours							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/blog/pro-shop-store">
+								Pro Shop							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/blog/rates-and-rentals">
+								Rates and Rentals							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/skiers-code">
+								Skier's Code							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/our-people/smokey-staff">
+								Smokey Staff							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+									<li>
+													<a class="mod-articles-category-title " href="/general-information/special-events">
+								Special Events							</a>
+						
+						
+						
+						
+						
+						
+						
+											</li>
+							</ul>
+		</li>
+			</ul>
+		</div>
+	
+				</div>
+                        </div>
+    </div>
+    <div  class="sparky_row14 sparky_full bottomrow">
+        <div class="sparky_container">
+        				<div class="sparky_cell mp_bottom1 sparkle8">
+							<div class="moduletable">
+							<h3>Reach Us Easily</h3>
+						
+
+<div class="custom"  >
+	<div class="contact_section">
+<h4>Address</h4>
+<img src="/images/icons/map.png" alt="" width="40" height="40" />
+<p>PO Box 9<br />Labrador City, NL A2V2K3</p>
+</div>
+<div class="contact_section">
+<h4>E-mail</h4>
+<img src="/images/icons/mail.png" alt="" width="40" height="40" />
+<p><a href="/contact">Contact Us</a></p>
+</div>
+<div class="contact_section">
+<h4>Phone</h4>
+<img src="/images/icons/phone.png" alt="" width="40" height="40" />
+<p>(709) 944-2129<br />(709) 944-3505 fax</p>
+</div>
+<p></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+		</div>
+			<div class="moduletable">
+						
+
+<div class="custom"  >
+	<p>&nbsp;</p>
+<p class="copyright" style="text-align: center;">&nbsp;<strong>Copyright © 2022 - Smokey Mountain Ski Club ® -&nbsp; Website by <span style="color: #538492;"><a style="color: #538492;" href="mailto:northernlightsdesignltd@gmail.com?subject=SkiSmokey%20Website" target="_blank">Northern Lights Design®</a></span></strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+		</div>
+	
+				</div>
+                				<div class="sparky_cell mp_bottom2 sparkle4">
+							<div class="moduletable">
+						
+
+<div class="custom"  >
+	<h4 style="text-align: left;">About Us</h4>
+<p style="text-align: left;">With over 30 hectares (80+ acres) of ski-able terrain, Smokey Mountain is a dream come true for all skiers and snowboarders.<a class="btn" href="/about" rel="noopener noreferrer">Learn More</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+		</div>
+			<div class="moduletable">
+							<h3>Connect On Social Media</h3>
+						
+
+<div class="custom"  >
+	<p style="text-align: center;"><a href="https://www.facebook.com/smokeymountainskiandsnowboardclub/" target="_blank" rel="noopener"><i class="fa fa-facebook" aria-hidden="true"></i></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.instagram.com/skismokeylab/" target="_blank" rel="noopener"><i class="fa fa-instagram" aria-hidden="true"> </i></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></div>
+		</div>
+	
+				</div>
+                        </div>
+    </div>
+</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-131353503-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script><script type="text/javascript" src="/templates/nld_skismokey/js/sparky-footer-id9-190401105042.js"></script>
+<div id="cookiesck_interface"></div><div id="openModal" class="modalDialog">
+	<div>
+		<a href="#close" title="Close" id="close" class="close">X</a>
+		<h2>Copyright Protection</h2>
+		<p>©2018 Smokey Mountain Ski Club.  All material property of Smokey Mountain Ski Club and its contributors!</p>
+	</div>
+</div>
+<script async type="text/javascript" src="/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=836774812"></script>
+</body>
+</html>
