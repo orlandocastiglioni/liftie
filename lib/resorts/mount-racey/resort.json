@@ -1,0 +1,19 @@
+{
+  "name": "Mount Racey",
+  "url": {
+    "host": "https://yubari-resort.co.jp",
+    "pathname": "/weather_traffic/"
+  },
+  "dataUrl": {
+    "host": "https://suntec.yubari-mountracey.com",
+    "pathname": "/weather_traffic_test/"
+  },
+  "tags": [
+    "Japan",
+    "Hokkaido"
+  ],
+  "ll": [
+    141.98,
+    43.05
+  ]
+}

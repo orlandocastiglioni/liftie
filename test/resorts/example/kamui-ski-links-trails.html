@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0'>
+		<title>本日の営業内容 | カムイスキーリンクス</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+
+		<link rel="pingback" href="https://www.kamui-skilinks.com/wp/xmlrpc.php" />
+
+						<link rel="stylesheet" id="wp-forecast-css" href="https://www.kamui-skilinks.com/wp/wp-content/plugins/wp-forecast/wp-forecast-default.css" type="text/css" media="screen" />
+<link rel='dns-prefetch' href='//s.w.org' />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v7.16 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-2105K64GNZ"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '7.16';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+				
+								var disableStrs = [
+										'ga-disable-G-2105K64GNZ',
+															'ga-disable-UA-171418403-1',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+														parameters.send_to = exactmetrics_frontend.ua;
+							__gtagDataLayer(type, name, parameters);
+													} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+										__gtagTracker('config', 'G-2105K64GNZ', {"forceSSL":"true","link_attribution":"true"} );
+															__gtagTracker('config', 'UA-171418403-1', {"forceSSL":"true","link_attribution":"true"} );
+										window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+				<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.kamui-skilinks.com\/wp\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.26"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.5' type='text/css' media='all' />
+<link rel='stylesheet' id='bodhi-svgs-attachment-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/svg-support/css/svgs-attachment.css?ver=4.9.26' type='text/css' media='all' />
+<link rel='stylesheet' id='cff-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/custom-facebook-feed-pro/assets/css/cff-style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='normalize-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/normalize.css' type='text/css' media='all' />
+<link rel='stylesheet' id='prettyPhoto-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/prettyPhoto.css' type='text/css' media='all' />
+<link rel='stylesheet' id='grid-system-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/grid-system.css' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/main.css' type='text/css' media='all' />
+<link rel='stylesheet' id='shortcodes-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/shortcodes.css' type='text/css' media='all' />
+<link rel='stylesheet' id='widgets-kamui-skilinks-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/widgets.css' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/font-awesome.css' type='text/css' media='all' />
+<link rel='stylesheet' id='icomoon-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/icomoon.css' type='text/css' media='all' />
+<link rel='stylesheet' id='responsiveness-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/css/media.css' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/style.css?ver=4.9.26' type='text/css' media='all' />
+<link rel='stylesheet' id='style2-css'  href='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/style2.css?ver=4.9.26' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-responsive-tables-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/tablepress-responsive-tables/css/responsive.dataTables.min.css?ver=1.5' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/tablepress/css/default.min.css?ver=1.9.1' type='text/css' media='all' />
+<!--n2css--><!--[if !IE]><!-->
+<link rel='stylesheet' id='tablepress-responsive-tables-flip-css'  href='https://www.kamui-skilinks.com/wp/wp-content/plugins/tablepress-responsive-tables/css/tablepress-responsive-flip.min.css?ver=1.5' type='text/css' media='all' />
+<!--<![endif]-->
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=7.16'></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"doc,pdf,ppt,zip,xls,docx,pptx,xlsx","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/www.kamui-skilinks.com","hash_tracking":"false","ua":"UA-171418403-1","v4_id":"G-2105K64GNZ"};/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='https://www.kamui-skilinks.com/wp-json/' />
+<link rel="canonical" href="https://www.kamui-skilinks.com/today/" />
+<link rel='shortlink' href='https://www.kamui-skilinks.com/?p=768' />
+<link rel="alternate" type="application/json+oembed" href="https://www.kamui-skilinks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kamui-skilinks.com%2Ftoday%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.kamui-skilinks.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.kamui-skilinks.com%2Ftoday%2F&#038;format=xml" />
+<!-- Custom Facebook Feed JS vars -->
+<script type="text/javascript">
+var cffsiteurl = "https://www.kamui-skilinks.com/wp/wp-content/plugins";
+var cffajaxurl = "https://www.kamui-skilinks.com/wp/wp-admin/admin-ajax.php";
+
+
+var cfflinkhashtags = "true";
+</script>
+<!--[if lt IE 9]><script src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/html5.js"></script><![endif]--><!--[if lt IE 7]><script src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/icomoon.js"></script><![endif]-->	<script type="text/javascript">
+		var ajaxurl = 'https://www.kamui-skilinks.com/wp/wp-admin/admin-ajax.php';
+	</script>
+				<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,800,300,700" rel="stylesheet" type="text/css">
+			<style type="text/css">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		#logo {
+											}
+		
+		
+				.headline h1, 
+				.page-path span,
+				.page-path a {
+					color: #ffffff !important;
+				}
+						</style>
+	<style type="text/css" id="dynamic-styles">
+				
+			
+	
+	
+			
+			
+			
+			/* headers_text_color */
+			h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.post>header h2,
+	.post h1,
+	.widget_recent_posts_2 .item header h1,
+	.widget_recent_posts_2 .item header h1 a,
+	.sc-divider-style-2 .sc-divider-text,
+	.number-of-comments,
+	.number-of-comments span
+			{
+			color: #333333;
+		}
+			
+		
+			
+		
+	
+			/* preheader_text_color */
+			.preheader .phone.contact
+			{
+			color: #595656 !important;
+		}
+			
+	
+	
+	
+	
+	
+			/* copyrights_bar_text_color */
+			footer .copyright-bar,
+	footer .copyright-bar span.copyright
+			{
+			color: #666666;
+		}
+	
+	
+		</style>
+			
+<!-- Googleフォント読み込み -->		
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+	</head>
+	<body class="page-template page-template-template-today_v2_2020 page-template-template-today_v2_2020-php page page-id-768 w1170 sticky-menu-on no-sidebar">
+        
+        <!-- 20220121 追従バナー追加 -->
+        <div class="webticket-wrap">
+            <a class="webticket-pc" href="https://kamuiski.axess.shop/" target="_blank"><img src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/img/web1-2.png" width="210"></a>
+            <a class="webticket-sp" href="https://kamuiski.axess.shop/" target="_blank"><img src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/img/web2.svg"></a>
+        </div>
+        <script>
+            if (window.ontouchstart === null) {
+                jQuery(".webticket-wrap").addClass("touch");
+            }
+        </script>
+        <!-- 追従バナーここまで -->
+        
+				<header class='page-header'>
+<div class='wrapper wrapper-bg'>
+	<div class='container'>
+		<div class='grid_12'>
+			<div class='logo'>
+																	<a href='https://www.kamui-skilinks.com/' title="カムイスキーリンクス" rel="home"><img src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/images/logo.png" alt="カムイスキーリンクス" width="210" height="61"></a>
+			</div>
+			
+<div class="hd_right_area">
+
+	<div class="hd_FB"><a href='https://www.facebook.com/pages/%E3%82%AB%E3%83%A0%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9/224747744367476' class="FB_link" target="_blank"><!--公式Facebook--></a></div>
+
+	<div id="fb-root" ></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=163503257184849";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+	<div class="fb-like clr" data-href="https://www.facebook.com/pages/%E3%82%AB%E3%83%A0%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9/224747744367476" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+
+
+
+
+	<div class="language clr">
+	<span class="lang_sp1"></span>&nbsp;<a href='https://www.kamui-skilinks.com/' class="lang_JP">JP</a>
+	<span class="lang_sp2"></span>&nbsp;<a href='https://www.kamui-skilinks.com/en/' class="lang_EN">EN</a>
+	<span class="lang_sp3"></span>&nbsp;<a href='https://www.kamui-skilinks.com/ch_zh/' class="lang_CN">简体中文</a>
+	<span class="lang_sp3-2"></span>&nbsp;<a href='https://www.kamui-skilinks.com/ch/' class="lang_CN">繁体中文</a>
+	<span class="lang_sp4"></span>&nbsp;<a href='https://www.kamui-skilinks.com/kr/' class="lang_KR">KR</a>
+	</div>
+
+</div>
+
+<!-- FN99 -->
+
+			<ul class='socials'>
+									<li>
+						<span class="tran02slinear"></span>
+						<a class='facebook tran02slinear' href='' title="Facebook" target="_blank"></a>
+					</li>
+																																							</ul>
+
+		</div>
+	</div>
+</div>
+<div class='absolute'>
+	<div class='wrapper menu-bg custom-menu-bg border-bottom-black-tr'>
+		<div class='container'>
+			<div class='mini_logo'>
+																	<a href='https://www.kamui-skilinks.com/' title="カムイスキーリンクス" rel="home"><img src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/images/logo.png" alt="カムイスキーリンクス" width="123" height="36"></a>
+			</div>
+
+
+
+				<a id="menu-btn" href="#"></a>
+
+					<nav class="menu-%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-container"><ul id="menu-%e3%83%a1%e3%82%a4%e3%83%b3%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-771" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-771"><a href="https://www.kamui-skilinks.com/">HOME</a></li>
+<li id="menu-item-772" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-768 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-772"><a href="https://www.kamui-skilinks.com/today/">本日の営業内容</a>
+<ul class="sub-menu">
+	<li id="menu-item-773" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-768 current_page_item menu-item-773"><a href="https://www.kamui-skilinks.com/today/">本日の営業内容</a>	<li id="menu-item-576" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-576"><a href="https://www.kamui-skilinks.com/today/#coursemap">コースMAP</a></ul>
+</li>
+<li id="menu-item-1243" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1243"><a href="https://www.kamui-skilinks.com/international-school/">スクール</a></li>
+<li id="menu-item-1251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1251"><a href="https://www.kamui-skilinks.com/activity/">アクティビティ</a></li>
+<li id="menu-item-92" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-92"><a href="https://www.kamui-skilinks.com/guide/">リフト券/レンタル/レストラン</a></li>
+<li id="menu-item-89" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-89"><a href="https://www.kamui-skilinks.com/accsess/">アクセス</a></li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-87"><a href="https://www.kamui-skilinks.com/fb_news/">新着情報 / イベント</a></li>
+<li id="menu-item-1099" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1099"><a href="https://www.kamui-skilinks.com/recruit-info/">求人情報</a></li>
+<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-88"><a href="https://www.kamui-skilinks.com/contact/">お問い合せ</a>
+<ul class="sub-menu">
+	<li id="menu-item-722" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-722"><a href="https://www.kamui-skilinks.com/contact/#faq">よくあるご質問</a>	<li id="menu-item-721" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-721"><a href="https://www.kamui-skilinks.com/contact/#form_contact">お問い合せ</a></ul>
+</li>
+</ul></nav>
+
+
+
+	<div class="language clr mobile_lang">
+	<span class="lang_sp1"></span>&nbsp;<a href='https://www.kamui-skilinks.com/' class="lang_JP">JP</a>
+	<span class="lang_sp2"></span>&nbsp;<a href='https://www.kamui-skilinks.com/en/' class="lang_EN">EN</a>
+	<span class="lang_sp3"></span>&nbsp;<a href='https://www.kamui-skilinks.com/ch_zh/' class="lang_CN">简体中文</a>
+	<span class="lang_sp3-2"></span>&nbsp;<a href='https://www.kamui-skilinks.com/ch/' class="lang_CN">繁体中文</a>
+	<span class="lang_sp4"></span>&nbsp;<a href='https://www.kamui-skilinks.com/kr/' class="lang_KR">KR</a>
+	</div>
+
+
+
+
+
+				<ul class='socials mobile-socials'>
+									<li>
+						<span class="tran02slinear"></span>
+						<a class='facebook tran02slinear' href='' title="Facebook" target="_blank"></a>
+					</li>
+																																							</ul>
+		</div>
+	</div>
+		<div class='wrapper headline  '>
+		<div class='container'>
+			<div class='grid_12'>
+									<h1>本日の営業内容</h1>
+											</div>
+		</div>
+	</div>
+</div>
+</header>
+	<div class='wrapper header-image ' style="background: url('https://www.kamui-skilinks.com/wp/wp-content/uploads/2018/11/head-wintertree.jpg')"></div>
+
+
+
+			<div class='wrapper '>
+	<div class='container main'>
+
+
+<div id="weather">
+<script type="text/javascript" src="kamui/lib/index.js"></script>
+ 
+
+
+<!-------------------------->
+
+
+<div class="container">
+<!--------本日の天候 -------------->
+
+<div class="one-third-del theme-one-fourth">
+<div class="capt_title Tsp30">本日の天候<span class="F14i inline-block">(午前8時現在計測)</span></div>
+<div class="capt_sep"></div>
+
+
+<!----------WP-forecast--------------------------------------->
+<div class="today-w today-w1">
+<div class='TdayLT'>項　　目</div><div class='TdayRT'>天　　候</div>
+<div class="TdayL">天候</div>
+<div class="TdayR TdayR_nopad">
+
+<!-- Widget Shortcode --><div id="wp-forecast-2" class="widget wp_forecast_widget widget-shortcode area-arbitrary "><h2 class="widgettitle">天候</h2>
+<div class="wp-forecast-curr">
+Failure notice from provider:<br />Connection Error:http_request_failed</div></div><!-- /Widget Shortcode -->
+</div>
+<!----------WP-forecast-E-------------------------------------->
+
+
+ <div class='TdayL'>気温</div><div class='TdayR '>山頂-10℃　山麓-4℃
+</div>
+
+<div class='TdayL'>降雪量</div><div class='TdayR '>山頂5cm 山麓5cm
+</div>
+<div class='TdayL'>積雪量</div><div class='TdayR '>山頂180cm 山麓95cm
+</div>
+	
+	
+		
+
+</div>
+</div>
+<!--------本日の天候 E-------------->
+
+<!--------本日の営業状況-------------->
+
+<div class="one-third-del theme-one-fourth">
+<div class="capt_title Tsp30">本日の営業状況</div>
+<div class="capt_sep"></div>
+
+<div class="today-w  today-w2">
+<div class='TdayLT'>項　　目</div><div class='TdayRT'>営業状況</div>
+
+<div class='TdayL'>スキー場</div><div class='TdayR'>OPEN
+</div>
+<div class='TdayL'>カムイゴンドラ</div><div class='TdayR'>9:00-15:00
+</div>
+<div class='TdayL'>第1リフト</div><div class='TdayR'>9:00-15:30
+</div>
+<div class='TdayL'>第2リフト</div><div class='TdayR'>9:00-15:15
+</div>
+<div class='TdayL'>第3リフト</div><div class='TdayR'>9:15-15:00
+</div>
+<div class='TdayL'>第4リフト</div><div class='TdayR'>9:00-16:00
+</div>
+<div class='TdayL'>第5リフト</div><div class='TdayR'>9:15-14:30
+</div>
+
+    <div class="Tday-notice">ゴンドラ・リフトの運行は天候、その他の事情により一部あるいは全てを運休する場合があります。<br>
+    その場合においてリフト券の払戻しはいたしません。<br>
+    Gondola lifts may be partially or entirely suspended due to weather conditions or other circumstances. In such cases, refunds for lift tickets will not be provided.</div>
+
+</div>
+</div>
+<!--------本日の営業状況--E------------>
+
+
+<!--------現在閉鎖中のコース 1 -------------->
+<div class="one-third-del theme-one-fourth">
+<div class="capt_title Tsp30">現在閉鎖中のコース</div>
+<div class="capt_sep"></div>
+<div class="today-w today-w3">
+<div class='TdayLT'>コース<br />番　号</div><div class='TdayRT'>閉　鎖　理　由</div>
+<div class='gcourse gc1 TdayL' ><!-- 1 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc2 TdayL' ><!-- 2 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc3 TdayL' ><!-- 3 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc4 TdayL' ><!-- 4 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc5 TdayL' ><!-- 5 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc6 TdayL' ><!-- 6 --></div><div class='TdayR'>CLOSE
+ <!--fsize 6 B--><br /></div><div class='gcourse gc7 TdayL' ><!-- 7 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc8 TdayL' ><!-- 8 --></div><div class='TdayR'>CLOSE
+ <!--fsize 6 B--><br /></div><div class='gcourse gc9 TdayL' ><!-- 9 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc10 TdayL' ><!-- 10 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc11 TdayL' ><!-- 11 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc12 TdayL' ><!-- 12 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc13 TdayL' ><!-- 13 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div></div></div>
+
+<!--------現在閉鎖中のコース E-------------->
+
+
+<!--------現在閉鎖中のコース 2 -------------->
+<div class="one-third-del theme-one-fourth theme-column-last">
+<div class="capt_title Tsp30">現在閉鎖中のコース</div>
+<div class="capt_sep"></div>
+<div class="today-w today-w3">
+<div class='TdayLT'>コース<br />番　号</div><div class='TdayRT'>閉　鎖　理　由</div>
+<div class='gcourse gc14 TdayL' ><!-- 14 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc15 TdayL' ><!-- 15 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc16 TdayL' ><!-- 16 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc17 TdayL' ><!-- 17 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc18 TdayL' ><!-- 18 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc19 TdayL' ><!-- 19 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc20 TdayL' ><!-- 20 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc21 TdayL' ><!-- 21 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc22 TdayL' ><!-- 22 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc23 TdayL' ><!-- 23 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc24 TdayL' ><!-- 24 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc25 TdayL' ><!-- 25 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div><div class='gcourse gc26 TdayL' ><!-- 26 --></div><div class='TdayR'>OPEN
+ <!--fsize 5 B--><br /></div></div></div>
+
+<!--------現在閉鎖中のコース E-------------->
+</div>
+
+										<div class='post-area content-page2'>
+			<div>
+													<p><!--本日の天候などcontent-page2_2020.php--></p>
+<div id="coursemap"></div>
+<h2 class="capt_title Tsp30 ">コース情報</h2>
+<div class="capt_sep"></div>
+<div class="Tsp30"><img class="alignnone " src="https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/images/course-image2024.webp" alt="コース地図 COURSE MAP" /></div>
+<div class="Rf opa70"><a class="course_pdf iblock" title="courseのダウンロード" href="../pdf_data/coursemap2024.pdf" target="_blank" rel="noopener">PDFコースマップ</a><a class="adobe spbr" title="Adobe Reader のダウンロード" href="http://get.adobe.com/jp/reader/" target="_blank" rel="noopener"><u>※ご覧になれない方はAcrobat Readerのプラグインをダウンロードしてご覧ください。</u></a></div>
+<div id="course_calc" class="mw900 clr course_calc">
+<h3 class="Tsp50 F16">[各コース説明]</h3>
+<div class="course_t clr">
+<div class="course_t1">コース<br />
+番　号</div>
+<div class="course_t2 gyo1">コース名</div>
+<div class="course_t3 gyo1">難易度</div>
+<div class="course_t4">圧雪<br />
+状態</div>
+<div class="course_t5 gyo1">全長</div>
+<div class="course_t6 ">最大<br />
+斜度</div>
+<div class="course_t7 gyo1">コース紹介</div>
+</div>
+<div class="clr course_num course_num1">
+<div class="course_c1 gc1"></div>
+<div class="course_c2"><span class="tds">ちびっこ<br />
+Kids Garden</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">100m</span></div>
+<div class="course_c6"><span class="tds">8°</span></div>
+<div class="course_c7"><span class="col_lightblue">小さなお子様や初心者専用の斜面です。</span><span class="col_red course_docs">楽しくスキーやソリをすべってネ(*^_^*)。。</span></div>
+</div>
+<div class="clr course_num course_num2">
+<div class="course_c1 gc2"></div>
+<div class="course_c2"><span class="tds">レッスン<br />
+First Timer</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">900m</span></div>
+<div class="course_c6"><span class="tds">15°</span></div>
+<div class="course_c7"><span class="col_lightblue">山麓にある幅広の初心者用コースです。</span><span class="course_docs">第4ペアリフト（オレンジリフト）を左側に降りて右上手にゴンドラを感じながらセンターハウスまで進むゆったりしたコースです。緩やかな斜度から少し急な斜度まで、スキーやスノーボードの練習にはもってこいのコースです。</span></div>
+</div>
+<div class="clr course_num course_num3">
+<div class="course_c1 gc3"></div>
+<div class="course_c2"><span class="tds">センター<br />
+Center</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">18°</span></div>
+<div class="course_c7"><span class="col_lightblue">山麓にある幅広の初心者用コースです。</span><span class="course_docs">第4ペアリフト（オレンジリフト）を右側に降りて最初に広がる幅広の林間コースです。「レッスン」より少し急な斜面もありますが、初心者からのステップアップには最適なコースです。</span></div>
+</div>
+<div class="clr course_num course_num4">
+<div class="course_c1 gc4"></div>
+<div class="course_c2"><span class="tds">ファミリー<br />
+Family</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">900m</span></div>
+<div class="course_c6"><span class="tds">18°</span></div>
+<div class="course_c7"><span class="col_lightblue">山麓にある幅広の初心者用コースです。</span><span class="course_docs">第4ペアリフト（オレンジリフト）を右側に降りて少し進むとセンターハウスまで幅広なコースが続きます。広いコース幅を活かして安全に滑ることができるので、スキー・スノーボードの上達も早くなります。</span></div>
+</div>
+<div class="clr course_num course_num5">
+<div class="course_c1 gc5"></div>
+<div class="course_c2"><span class="tds">初心者コース<br />
+Next Step</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">4,000m</span></div>
+<div class="course_c6"><span class="tds">18°</span></div>
+<div class="course_c7"><span class="col_lightblue">全長4,000mの山頂から山麓まで続く初心者用コースです。</span><span class="course_docs">山頂付近の綺麗な樹氷を眺めながら、ゆったりと林間コースを進むと途中ゴンドラの下を通って2箇所の中斜面があります。コースの下部にはウェーブが作られます。山頂から山麓までの長いコースを目一杯楽しんでください。</span></div>
+</div>
+<div class="clr course_num course_num6">
+<div class="course_c1 gc6"></div>
+<div class="course_c2"><span class="tds">Jr.チャレンジ大岩<br />
+The Rock</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">300m</span></div>
+<div class="course_c6"><span class="tds">15°</span></div>
+<div class="course_c7"><span class="col_lightblue">「レッスン」や「初心者コース」から行くことができます。</span><span class="course_docs">カムイで一番の大岩や小川にかかる鶴井橋をめぐるコースです。<br />
+コースが狭いのでバランスに気をつけてすべってネ(*^_^*)。</span></div>
+</div>
+<div class="clr course_num course_num7">
+<div class="course_c1 gc7"></div>
+<div class="course_c2"><span class="tds">白樺１<br />
+Shirakaba 1</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">20°</span></div>
+<div class="course_c7"><span class="col_lightblue">競技用にデザインされた「FIS」･「SAJ」公認コースです。</span><span class="course_docs">中腹部分の「白樺２」から続く山麓部分コースです。<br />
+競技会やポール練習にも使用されるコースで、心地よいスピード感を味わえます。</span></div>
+</div>
+<div class="clr course_num course_num8">
+<div class="course_c1 gc8"></div>
+<div class="course_c2"><span class="tds">バンク<br />
+Roller Coaster</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">700m</span></div>
+<div class="course_c6"><span class="tds">18°</span></div>
+<div class="course_c7"><span class="col_lightblue">子供達に一番人気のバンクコースです。</span><span class="course_docs">スリル満点のバンクが続くコースで、夏はマウンテンバイク用のコースにもなっています。<br />
+スピードを出し過ぎるとコース外に出てしまったり、前で滑っている人に追いついてぶつかることもあるので注意して滑ってね。</span></div>
+</div>
+<div class="clr course_num course_num9">
+<div class="course_c1 gc9"></div>
+<div class="course_c2"><span class="tds">ゴールド１<br />
+Gold 1</span></div>
+<div class="course_c3"><span class="tds">初級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">900m</span></div>
+<div class="course_c6"><span class="tds">18°</span></div>
+<div class="course_c7"><span class="col_lightblue">最大幅150mのカムイのメインコース「ゴールド」の山麓部分です。</span><span class="course_docs"><br />
+第１ペアリフト（レッドリフト）を左側に降りると林間コースが広がっています。<br />
+子供達が多く滑るコースですので、大人や中上級者の方は周りを気にしながら滑ってあげてください。</span></div>
+</div>
+<div class="clr course_num course_num10">
+<div class="course_c1 gc10"></div>
+<div class="course_c2"><span class="tds">ゴールド３<br />
+Gold 3</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">900m</span></div>
+<div class="course_c6"><span class="tds">22°</span></div>
+<div class="course_c7"><span class="col_lightblue">最大幅150mのカムイのメインコース「ゴールド」の山頂部分で綺麗な樹氷や雄大な景色が楽しめます。</span><span class="course_docs"><br />
+気温が低く引き締まった雪面はエッジの効いた滑りを楽しめます。<br />
+コース終盤は左側からの「初心者コース」と合流しますので注意してください。</span></div>
+</div>
+<div class="clr course_num course_num11">
+<div class="course_c1 gc11"></div>
+<div class="course_c2"><span class="tds">Jr.チャレンジ森道<br />
+Challenge Forest</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">400m</span></div>
+<div class="course_c6"><span class="tds">20°</span></div>
+<div class="course_c7"><span class="col_lightblue">上達した子供達がはじめて体験できるカムイのパウダーコースです。</span><span class="course_docs">「初心者コース」から少し右に入って行くと、キレイな森の中を滑り抜けることが出来ます。深雪やボコボコしたジャンプにチャレンジしてカムイのパウダーを体験してみよう。</span></div>
+</div>
+<div class="clr course_num course_num12">
+<div class="course_c1 gc12"></div>
+<div class="course_c2"><span class="tds">ゴールド２<br />
+Gold 2</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">1,200m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">最大幅150mのカムイのメインコース「ゴールド」の中腹部分です。</span><span class="course_docs"><br />
+最大斜度30度の急斜面と最大幅150mの豪快なコースをダイナミックなカービングターンで気持よく楽しめる人気のコースです。<br />
+スピードの出し過ぎに注意してください。</span></div>
+</div>
+<div class="clr course_num course_num13">
+<div class="course_c1 gc13"></div>
+<div class="course_c2"><span class="tds">白樺２<br />
+Shirakaba 2</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">1,000</span></div>
+<div class="course_c6"><span class="tds">28°</span></div>
+<div class="course_c7"><span class="col_lightblue">競技用にデザインされた「FIS」･「SAJ」公認コースです。</span><span class="course_docs">山麓部分の「白樺１」へと続く中腹部分コースです。<br />
+急斜面が続くコースは競技会やポール練習にも使用されています。スピード感を味わうには絶好のコースですが、スピードを出し過ぎると途中で大きくジャンプしてしまうのでスピードコントロールには気をつけましょう。</span></div>
+</div>
+<div class="clr course_num course_num14">
+<div class="course_c1 gc14"></div>
+<div class="course_c2"><span class="tds">ロイヤル中級<br />
+Royal Intermediate</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">700m</span></div>
+<div class="course_c6"><span class="tds">28°</span></div>
+<div class="course_c7"><span class="col_lightblue">山頂付近の未圧雪コースを贅沢に滑れるコースです。</span><span class="course_docs">急斜面に積もる深雪を豪快に飛ばしながら滑る快感は格別です。パウダー好きの方にたまらないコースですが、コース終盤は初心者コースと合流するので、スピードコントロールに注意してください。</span></div>
+</div>
+<div class="clr course_num course_num15">
+<div class="course_c1 gc15"></div>
+<div class="course_c2"><span class="tds">連絡<br />
+Link</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">1,100m</span></div>
+<div class="course_c6"><span class="tds">26°</span></div>
+<div class="course_c7"><span class="col_lightblue">山頂から第5ペアリフト（ネイビーブルーリフト）方面へ行くためと、第5ペアリフト方面からゴンドラ方面に戻るためのコースです。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。<br />
+※第5ペアリフト乗り場からゴンドラ方面へ戻ることはできません</span></div>
+</div>
+<div class="clr course_num course_num16">
+<div class="course_c1 gc16"></div>
+<div class="course_c2"><span class="tds">スラロームバーン<br />
+Slalom</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">1,100m</span></div>
+<div class="course_c6"><span class="tds">28°</span></div>
+<div class="course_c7"><span class="col_lightblue">カムイで一番北にある圧雪斜面で、とても雪質の良いコースです。</span><span class="course_docs">第5ペアリフト（ネイビーブルーリフト）の山頂に向かって左側の斜面です。細い中斜面を風を切りながら滑るのはレース気分に浸れます。途中「ディープパウダー」と合流する箇所がありますので注意してください。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。</span></div>
+</div>
+<div class="clr course_num course_num17">
+<div class="course_c1 gc17"></div>
+<div class="course_c2"><span class="tds">林道<br />
+Logging Road</span></div>
+<div class="course_c3"><span class="tds">中級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">1,300m</span></div>
+<div class="course_c6"><span class="tds">26°</span></div>
+<div class="course_c7"><span class="col_lightblue">雪質が良い北向き斜面の林道をそのままコースにしました。</span><span class="course_docs">第5ペアリフト（ネイビーブルーリフト）の山頂に向かって右に伸びる細長いコースです。「フレッシュパウダー」、「ツリーラン」、「バンプス」などの上級者限定コースへの連絡路としても使われています。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。</span></div>
+</div>
+<div class="clr course_num course_num18">
+<div class="course_c1 gc18"></div>
+<div class="course_c2"><span class="tds">ロイヤル上級<br />
+Royal Advanced</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">28°</span></div>
+<div class="course_c7"><span class="col_lightblue">山頂付近の未圧雪コースを贅沢に滑れるコースです。</span><span class="course_docs">急斜面に積もる深雪を豪快に飛ばしながら滑る快感は格別です。パウダー好きの方にたまらないコースですが、コース終盤は初心者コースと合流するので、スピードコントロールに注意してください。</span></div>
+</div>
+<div class="clr course_num course_num19">
+<div class="course_c1 gc19"></div>
+<div class="course_c2"><span class="tds">シルキー<br />
+Silky</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">山頂付近にある未圧雪のコブコースです。</span><span class="course_docs">モーグル志向には嬉しい難易度の高いコースです。ご自分の技術にあった滑りで、怪我をしないように注意してください。</span></div>
+</div>
+<div class="clr course_num course_num20">
+<div class="course_c1 gc20"></div>
+<div class="course_c2"><span class="tds">ダイナミック<br />
+Dynamic</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">圧雪</span></div>
+<div class="course_c5"><span class="tds">1,100m</span></div>
+<div class="course_c6"><span class="tds">35°</span></div>
+<div class="course_c7"><span class="col_lightblue">国体や全日本選手権も行われたカムイ発祥のコースです。</span><span class="course_docs">カムイで一番の急斜面は雪質の良い北向き斜面となっていて、固く引き締まった雪は豪快なターンを後押ししてくれます。<br />
+一瞬、足がすくむ程の急斜面をお楽しみください。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。</span></div>
+</div>
+<div class="clr course_num course_num21">
+<div class="course_c1 gc21"></div>
+<div class="course_c2"><span class="tds">ディープパウダー<br />
+Deep Powder</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">32°</span></div>
+<div class="course_c7"><span class="col_lightblue">第5ペアリフト（ネイビーブルー）横のゲートから入ることができる期間限定の林間深雪スポットです。</span><span class="course_docs">ここでしか味わえないカムイの良さがあります。<br />
+素晴らしい「極上パウダースノー」をお楽しみください。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。</span></div>
+</div>
+<div class="clr course_num course_num22">
+<div class="course_c1 gc22"></div>
+<div class="course_c2"><span class="tds">フレッシュパウダー<br />
+Fresh Powder</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">600m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">「林道」から入ることができる期間限定の林間深雪スポットです。</span><span class="course_docs">カムイ名物の「パウダースノー」を気軽に楽しめるコースです。</span><span class="course_info">※第5ペアリフトの終了時間（15:00）にご注意ください。</span></div>
+</div>
+<div class="clr course_num course_num23">
+<div class="course_c1 gc23"></div>
+<div class="course_c2"><span class="tds">ツリーラン<br />
+Treerun</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">1,200m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">「林道」脇のゲートから入り、ゴンドラ山麓方向に下りる未圧雪コースです。</span><span class="course_docs">コースの中には立木や倒木、大きな段差や凹凸などがありますので、深雪でのスピードコントロール技術が必要です。余裕をもって安全に滑ってください。</span></div>
+</div>
+<div class="clr course_num course_num24">
+<div class="course_c1 gc24"></div>
+<div class="course_c2"><span class="tds">バンプス<br />
+Bumps</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">1,100m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">「林道」脇のゲートから入り、ゴンドラ山麓方向に下りる未圧雪コースです。</span><span class="course_docs">コースの中には立木や倒木、大きな段差や凹凸などがありますので、深雪でのスピードコントロール技術が必要です。余裕をもって安全に滑ってください。</span></div>
+</div>
+<div class="clr course_num course_num25">
+<div class="course_c1 gc25"></div>
+<div class="course_c2"><span class="tds">トド松<br />
+Todomatsu</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">800m</span></div>
+<div class="course_c6"><span class="tds">30°</span></div>
+<div class="course_c7"><span class="col_lightblue">「連絡」脇のゲートから入り、ゴンドラ山麓方向に下りる未圧雪コースです。</span><span class="course_docs">コースの中には立木や倒木、大きな段差や凹凸などがありますので、深雪でのスピードコントロール技術が必要です。余裕をもって安全に滑ってください。</span></div>
+</div>
+<div class="clr course_num course_num26">
+<div class="course_c1 gc26"></div>
+<div class="course_c2"><span class="tds">ロイヤルパウダー<br />
+Royalpowder</span></div>
+<div class="course_c3"><span class="tds">上級</span></div>
+<div class="course_c4"><span class="tds">未圧雪</span></div>
+<div class="course_c5"><span class="tds">400m</span></div>
+<div class="course_c6"><span class="tds">35°</span></div>
+<div class="course_c7"><span class="col_lightblue">ゴンドラと並走できる展望の良いツリーランコースです。</span><span class="course_docs">スキー場40周年を記念して作られたコースです。コースの中には立木や倒木、大きな段差や凸凹などがありますので、深雪でのスピードコントロール技術が必要です。余裕をもって安全に滑ってください。</span></div>
+</div>
+</div>
+<p><!-- mw900e- --></p>
+<div class="clr Tsp50"></div>
+<div class="container clr">
+<div class="box-attention">
+<h2 class="capt_title Tsp30"><span class="F20">コース内・外滑走についての注意・説明</span></h2>
+<div class="capt_sep"></div>
+<div class="Tsp20">●コース内滑走（そり等付随するものに関して）は”<strong><a href="https://www.kamui-skilinks.com/wp/wp-content/uploads/2013/10/各種橇等禁止（流れ止め禁止事項）-1.pdf" target="_blank" rel="noopener">こちら</a></strong>”の注意をご確認ください。</div>
+<div class="Tsp20">●コース外(スキー場管理区域外)は<span class="red">滑走禁止</span>となります。<br />
+●スキー場内での事故の際はパトロール迄、電話にてお知らせ下さい。</div>
+<div class="red Tsp10">パトロール直通 　<span class="F32 red spbr">0166-72-2311</span></div>
+</div>
+</div>
+												</div>
+		</div>
+
+					</div>
+</div>	
+
+
+
+					<footer>
+			<div class='wrapper grey footer_area'>
+				<div class='container'>
+					<div class='grid_3'>
+	<section id="text-4" class="widget widget_text">			<div class="textwidget"><div class="kamui_ft_img"></div></div>
+		</section></div>
+<div class='grid_3'>
+	<section id="text-3" class="widget widget_text"><h2>MANAGEMENT COMPANY</h2>			<div class="textwidget"><div class="Ft_nb2 F_mountain">
+[カムイスキーリンクス]<br />
+〒074-1181 北海道旭川市神居町西丘112<br />
+営業予定期間 2023/12/20〜2024/3/31<br />
+営業時間 全日：9:00～17:00<br />
+駐車場 2,000台：無料</div>
+<div class="Ft_nb2 F_tel"><a href="tel:0166722311">0166-72-2311</a></div>
+<div class="Ft_nb2 F_inc">[管理会社]<br />
+一般社団法人大雪カムイミンタラDMO<br />
+旭川市宮下通10丁目3‐2 マルウンホール3階
+</div>
+<div class="Ft_nb2 F_tel"><a href="tel:0166736968">0166-73-6968</a></div>
+</div>
+		</section></div>
+<div class='grid_3'>
+	<section id="nav_menu-2" class="widget widget_nav_menu"><h2>INFORMATION</h2><div class="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-container"><ul id="menu-%e3%83%95%e3%83%83%e3%82%bf%e3%83%bc%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-723" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-723"><a href="https://www.kamui-skilinks.com/contact/#faq">よくあるご質問</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="https://www.kamui-skilinks.com/contact/">お問い合せ</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78"><a href="https://www.kamui-skilinks.com/wp/contact/#privacy_policy">プライバシーポリシー</a></li>
+<li id="menu-item-582" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-582"><a target="_blank" href="https://www.kamui-skilinks.com/wp/wp-content/uploads/2013/10/tokutei.pdf">特定商取引法に基づく表記</a></li>
+<li id="menu-item-47" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://www.kamui-skilinks.com/safty-report/">安全報告書/索道事業運送約款</a></li>
+<li id="menu-item-335" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-335"><a href="https://www.kamui-skilinks.com/%e3%82%b9%e3%82%ad%e3%83%bc%e5%a0%b4%e3%81%ab%e5%86%85%e5%9c%a8%e3%81%99%e3%82%8b%e5%8d%b1%e9%99%ba%e3%81%bb%e3%81%8b/">スキー場に内在する危険ほか</a></li>
+<li id="menu-item-46" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46"><a href="https://www.kamui-skilinks.com/responsibility/">スキー場滑走者責任</a></li>
+<li id="menu-item-79" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-79"><a href="https://www.kamui-skilinks.com/wp/contact/#link_policy">リンク掲載について</a></li>
+<li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-583"><a href="https://www.kamui-skilinks.com/dl-members/">合宿・ショップ関係者の皆様へ</a></li>
+<li id="menu-item-688" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-688"><a href="https://www.kamui-skilinks.com/dl-partners/">提携先の皆様へ</a></li>
+</ul></div></section></div>
+<div class='grid_3'>
+	<section id="text-2" class="widget widget_text"><h2>SOCIAL</h2>			<div class="textwidget"><div id="FT_social">
+<div class="fb_txt">カムイスキーリンクス</div>
+<div class="ft_FB"><a href='https://www.facebook.com/pages/%E3%82%AB%E3%83%A0%E3%82%A4%E3%82%B9%E3%82%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%AF%E3%82%B9/224747744367476' class="FB_link" target=_blank"><!--公式Facebook--></a></div>
+<div class="fb-like" data-href="https://www.facebook.com/kamuiskilinks.1984" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="true" data-send="false"></div>
+</div>
+</div>
+		</section></div>
+<div class='grid_13'><span class="F12">当ホームページの推薦閲覧環境はIE9以上を推奨いたします。IE9以下の環境でご覧の際も動的な動きは御座いませんが正常に閲覧して頂けます。又、当ホームページはモバイル端末でもご覧頂けます。</span></div>				</div>
+			</div>
+			<div class='wrapper dark-grey copyright-bar'>
+				<div class='container'>
+					<div class='grid_12'>
+					<span class='copyright'>Copyright(c)2015 Kamui Ski Links Co.,Ltd. All Rights Reserved.<script type="text/javascript">  
+document.write("<img src='../cgi/acc/acclog.cgi?");
+document.write("referrer="+document.referrer+"&");
+document.write("width="+screen.width+"&");
+document.write("height="+screen.height+"&");
+document.write("color="+screen.colorDepth+"'>");
+</script>
+
+</span>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<a id="back_to_top" href="#"></a>
+				<script type='text/javascript'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"https:\/\/www.kamui-skilinks.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"\u3042\u306a\u305f\u304c\u30ed\u30dc\u30c3\u30c8\u3067\u306f\u306a\u3044\u3053\u3068\u3092\u8a3c\u660e\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.0.5'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var cffOptions = {"placeholder":"https:\/\/www.kamui-skilinks.com\/wp\/wp-content\/plugins\/custom-facebook-feed-pro\/assets\/img\/placeholder.png","resized_url":"https:\/\/www.kamui-skilinks.com\/wp\/wp-content\/uploads\/sb-facebook-feed-images\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/plugins/custom-facebook-feed-pro/assets/js/cff-scripts.js?ver=4.1.1'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/main.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/jquery.nicescroll.min.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/jquery.flexslider-min.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/zozo.tabs.min.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/jquery.isotope.min.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/themes/Circles/js/jquery.iosslider.min.js'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-content/plugins/wp-gallery-custom-links/wp-gallery-custom-links.js?ver=1.1'></script>
+<script type='text/javascript' src='https://www.kamui-skilinks.com/wp/wp-includes/js/wp-embed.min.js?ver=4.9.26'></script>
+		<div class="media_for_js"></div>
+	</body>
+</html>

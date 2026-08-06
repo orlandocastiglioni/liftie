@@ -1,0 +1,16 @@
+{
+  "name": "Maiko Snow Resort",
+  "url": {
+    "host": "https://www.maiko-resort.com",
+    "pathname": "/winter/"
+  },
+  "tags": [
+    "Japan",
+    "Niigata"
+  ],
+  "ll": [
+    138.8258,
+    36.9826
+  ],
+  "twitter": "maiko_snow"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Tazawako Ski Resort",
+  "url": {
+    "host": "https://www.tazawako-ski.com",
+    "pathname": "/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Akita"
+  ],
+  "ll": [
+    140.770713,
+    39.762334
+  ]
+}

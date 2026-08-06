@@ -1,0 +1,15 @@
+{
+  "name": "Muica Snow Resort",
+  "url": {
+    "host": "https://www.muikamachi.com",
+    "pathname": "/ski/"
+  },
+  "tags": [
+    "Japan",
+    "Niigata"
+  ],
+  "ll": [
+    138.8447925,
+    37.0707812
+  ]
+}

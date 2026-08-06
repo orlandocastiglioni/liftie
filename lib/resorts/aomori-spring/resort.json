@@ -1,0 +1,16 @@
+{
+  "name": "Aomori Spring Ski Resort",
+  "url": {
+    "host": "https://aomorispring.com",
+    "pathname": "/ski/lift-course-status"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Aomori"
+  ],
+  "ll": [
+    140.27827,
+    40.697675
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Kiroro Snow World",
+  "url": {
+    "host": "https://www.kiroro.co.jp",
+    "pathname": "/dashboard/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Hokkaido"
+  ],
+  "ll": [
+    140.98,
+    43.0678
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Yuzawa Nakazato Snow Resort",
+  "url": {
+    "host": "https://www.yuzawa-nakazato.com",
+    "pathname": "/winter/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Niigata"
+  ],
+  "ll": [
+    138.849,
+    36.9098
+  ]
+}

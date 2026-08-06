@@ -1,0 +1,16 @@
+{
+  "name": "Tangram Ski Circus",
+  "url": {
+    "host": "https://www.tangram.jp",
+    "pathname": "/ski/ski/lift.php"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Nagano"
+  ],
+  "ll": [
+    138.2642,
+    36.8504
+  ]
+}

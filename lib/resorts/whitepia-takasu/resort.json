@@ -1,0 +1,15 @@
+{
+  "name": "Whitepia Takasu",
+  "url": {
+    "host": "https://whitepia.jp",
+    "pathname": "/operation/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan"
+  ],
+  "ll": [
+    136.9405,
+    35.9515
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Canmore Ski Village",
+  "url": {
+    "host": "https://www.canmore-ski.jp",
+    "pathname": "/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Japan",
+    "Hokkaido"
+  ],
+  "ll": [
+    142.5348,
+    43.7287
+  ]
+}

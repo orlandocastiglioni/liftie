@@ -1,0 +1,16 @@
+{
+  "name": "Hodaigi Mountain Resort",
+  "url": {
+    "host": "https://hodaigi.jp",
+    "pathname": "/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Gunma"
+  ],
+  "ll": [
+    139.0748,
+    36.8416
+  ]
+}

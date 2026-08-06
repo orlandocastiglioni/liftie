@@ -1,0 +1,19 @@
+{
+  "name": "Ninox Snow Park",
+  "url": {
+    "host": "https://www.ninox.co.jp",
+    "pathname": "/"
+  },
+  "trails": true,
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Japan",
+    "Niigata"
+  ],
+  "ll": [
+    139.4657139,
+    37.9268164
+  ]
+}

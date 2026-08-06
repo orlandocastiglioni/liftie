@@ -1,0 +1,16 @@
+{
+  "name": "Amihari Onsen Ski Resort",
+  "url": {
+    "host": "https://qkamura.or.jp",
+    "pathname": "/iwate/ski/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Iwate"
+  ],
+  "ll": [
+    140.9363,
+    39.8213
+  ]
+}

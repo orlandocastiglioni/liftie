@@ -1,0 +1,16 @@
+{
+  "name": "Kamui Ski Links",
+  "url": {
+    "host": "https://www.kamui-skilinks.com",
+    "pathname": "/today/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Hokkaido"
+  ],
+  "ll": [
+    142.189522,
+    43.739352
+  ]
+}

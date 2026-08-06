@@ -1,0 +1,16 @@
+{
+  "name": "Geto Kogen",
+  "url": {
+    "host": "https://www.getokogen.com",
+    "pathname": "/winter/01trail/operation.cgi"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Iwate"
+  ],
+  "ll": [
+    140.8963,
+    39.2378
+  ]
+}
