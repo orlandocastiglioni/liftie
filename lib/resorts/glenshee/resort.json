@@ -1,0 +1,14 @@
+{
+  "name": "Glenshee Ski Centre",
+  "url": {
+    "host": "https://www.ski-glenshee.co.uk",
+    "pathname": "/Glenshee-Lift-Status"
+  },
+  "tags": [
+    "Scotland"
+  ],
+  "ll": [
+    -3.4152,
+    56.8867
+  ]
+}

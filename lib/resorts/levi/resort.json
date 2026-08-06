@@ -1,0 +1,31 @@
+{
+  "name": "Levi",
+  "url": {
+    "host": "https://www.levi.fi",
+    "pathname": "/laskettelu-ja-hiihto/rinteet-ja-hissit/"
+  },
+  "api": {
+    "host": "https://levi-CloudProd-agent.frendsapp.com",
+    "pathname": "/api/amenities/v1/lifts",
+    "headers": {
+      "Authorization": "ApiKey 1932b9cf-4a1a-4f0a-a7d9-a4f68ed14b82"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://levi-CloudProd-agent.frendsapp.com",
+    "pathname": "/api/activities/v1/slopes",
+    "headers": {
+      "Authorization": "ApiKey 1932b9cf-4a1a-4f0a-a7d9-a4f68ed14b82"
+    },
+    "json": true
+  },
+  "tags": [
+    "Finland",
+    "Lapland"
+  ],
+  "ll": [
+    24.811626,
+    67.803925
+  ]
+}

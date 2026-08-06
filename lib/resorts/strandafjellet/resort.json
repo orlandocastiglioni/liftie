@@ -1,0 +1,25 @@
+{
+  "name": "Strandafjellet",
+  "url": {
+    "host": "https://www.strandafjellet.no",
+    "pathname": "/no/node/386"
+  },
+  "api": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/21",
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/21",
+    "json": true
+  },
+  "tags": [
+    "Norway",
+    "Møre og Romsdal"
+  ],
+  "ll": [
+    6.844085,
+    62.290735
+  ]
+}

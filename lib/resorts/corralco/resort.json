@@ -1,0 +1,24 @@
+{
+  "name": "Corralco Mountain Resort",
+  "url": {
+    "host": "https://corralco.com",
+    "pathname": ""
+  },
+  "dataUrl": {
+    "host": "https://usa.lumiplan.pro",
+    "pathname": "/content/report/production/report.php",
+    "query": {
+      "resort": "corralco",
+      "lang": "en"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Chile",
+    "Andes"
+  ],
+  "ll": [
+    -71.545313,
+    -38.410833
+  ]
+}

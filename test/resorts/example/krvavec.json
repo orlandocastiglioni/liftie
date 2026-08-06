@@ -1,0 +1,212 @@
+[
+    {
+        "selector": ".live-item",
+        "values": [
+            "<h4><i class=\"bi bi-brightness-high\"><\/i><\/h4><p>JASNO, BREZ MEGLE<\/p>",
+            "<h4>4\u00b0<\/h4><p>TRENUTNA TEMPERATURA<\/p>",
+            "<h4>30 cm<\/h4><p>SNE\u017dNA ODEJA<\/p>",
+            "<h4>0 cm<\/h4><p>NOVOZAPADLI SNEG<\/p>",
+            "<h4><\/h4><p><\/p>"
+        ]
+    },
+    {
+        "selector": ".live-header-note>.notice",
+        "values": [
+            "<img src=\"assets\/img\/information.png\"> Vabljeni!"
+        ]
+    },
+    {
+        "selector": ".conditions-summary-live-number.align-baseline",
+        "values": [
+            5,
+            7,
+            2,
+            0,
+            0,
+            0,
+            3
+        ]
+    },
+    {
+        "selector": ".small-number.align-baseline",
+        "values": [
+            "\/13",
+            "\/27",
+            "\/7",
+            "\/0",
+            "\/0",
+            "\/0",
+            "\/3"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(1) .list-offer .list-offer-first",
+        "values": [
+            "<span class=\"white-circle\"><p>A<\/p><\/span> Kro\u017ena kabinska \u017ei\u010dnica",
+            "<span class=\"white-circle\"><p>C<\/p><\/span> \u0160tirisede\u017enica Tiha dolina",
+            "<span class=\"white-circle\"><p>E<\/p><\/span> \u0160estsede\u017enica Vrh Krvavca",
+            "<span class=\"white-circle\"><p>F1<\/p><\/span> Dvosede\u017enica Njivice 1",
+            "<span class=\"white-circle\"><p>F2<\/p><\/span> Dvosede\u017enica Njivice 2",
+            "<span class=\"white-circle\"><p>H<\/p><\/span> \u0160estsede\u017enica Zvoh",
+            "<span class=\"white-circle\"><p>I<\/p><\/span> Dvosede\u017enica Kri\u0161ka Planina",
+            "<span class=\"white-circle\"><p>B<\/p><\/span> Enosede\u017enica Gospinca",
+            "<span class=\"white-circle\"><p>D<\/p><\/span> Vle\u010dnica Lu\u017ea",
+            "<span class=\"white-circle\"><p>J1<\/p><\/span> Vle\u010dnica Kr\u017ei\u0161\u010de 1",
+            "<span class=\"white-circle\"><p>J2<\/p><\/span> Vle\u010dnica Kr\u017ei\u0161\u010de 2",
+            "<span class=\"white-circle\"><p>K<\/p><\/span> Otro\u0161ki trak Gospinca",
+            "<span class=\"white-circle\"><p>L<\/p><\/span> Otro\u0161ki trak Kri\u0161ka Planina"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(1) .list-offer .list-offer-third:not(.th-right)",
+        "values": [
+            "08:00-17:00 <img src=\"assets\/img\/open.png\">",
+            "08:00-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "- <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "10:00-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "08:30-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(2) .list-offer .list-offer-first",
+        "values": [
+            "<span class=\"red-circle\"><p>1<\/p><\/span> Ror",
+            "<span class=\"blue-circle\"><p>2<\/p><\/span> Lu\u017ea za za\u010detnike",
+            "<span class=\"red-circle\"><p>3<\/p><\/span> Hanek",
+            "<span class=\"black-circle\"><p>4<\/p><\/span> Dom - Gospinca (freeride)",
+            "<span class=\"red-circle\"><p>5<\/p><\/span> Dom - Tiha dolina",
+            "<span class=\"red-circle\"><p>6<\/p><\/span> Neteptana Gospinca (freeride)",
+            "<span class=\"red-circle\"><p>6b<\/p><\/span> Neteptana Gospinca (freeride)",
+            "<span class=\"blue-circle\"><p>7<\/p><\/span> Otro\u0161ka",
+            "<span class=\"blue-circle\"><p>8<\/p><\/span> Loacker park",
+            "<span class=\"blue-circle\"><p>9<\/p><\/span> Dom - Kri\u0161ka planina",
+            "<span class=\"blue-circle\"><p>10<\/p><\/span> Vrh Krvavca - Gradi\u0161\u010de - Tiha dolina",
+            "<span class=\"red-circle\"><p>11<\/p><\/span> Njivice - Gradi\u0161\u010de",
+            "<span class=\"blue-circle\"><p>12<\/p><\/span> Spomladanska proga",
+            "<span class=\"red-circle\"><p>13<\/p><\/span> Zvoh",
+            "<span class=\"black-circle\"><p>14<\/p><\/span> Smu\u010darska proga",
+            "<span class=\"red-circle\"><p>15<\/p><\/span> Gradi\u0161\u010de - Tiha dolina",
+            "<span class=\"red-circle\"><p>15a<\/p><\/span> Gradi\u0161\u010de - Tiha dolina (odcep)",
+            "<span class=\"black-circle\"><p>16<\/p><\/span> Njivice 1",
+            "<span class=\"red-circle\"><p>17<\/p><\/span> Poligon Triglav: FIS race course (1)",
+            "<span class=\"red-circle\"><p>17a<\/p><\/span> Proga Jureta Ko\u0161irja",
+            "<span class=\"red-circle\"><p>17b<\/p><\/span> Poligon Triglav: FIS race course (2)",
+            "<span class=\"red-circle\"><p>18<\/p><\/span> Vrh Krvavca - plato - Tiha dolina",
+            "<span class=\"red-circle\"><p>a<\/p><\/span> INTERSPORT proga",
+            "<span class=\"black-circle\"><p>19<\/p><\/span> Njivice 2",
+            "<span class=\"blue-circle\"><p>21<\/p><\/span> Kr\u017ei\u0161\u010de 1",
+            "<span class=\"red-circle\"><p>22<\/p><\/span> Kr\u017ei\u0161\u010de 2",
+            "<span class=\"red-circle\"><p>b<\/p><\/span> Sne\u017eni park"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(2) .list-offer .list-offer-third:not(.th-right)",
+        "values": [
+            "08:15-16:00 <img src=\"assets\/img\/open.png\">",
+            "08:30-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "08:15-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "09:30-16:00 <img src=\"assets\/img\/open.png\">",
+            "08:15-16:00 <img src=\"assets\/img\/open.png\">",
+            "09:30-16:00 <img src=\"assets\/img\/open.png\">",
+            "09:30-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(3) .list-offer .list-offer-first",
+        "values": [
+            "No\u010dno sankanje",
+            "No\u010dno turno smu\u010danje",
+            "Izposoja in servis smu\u010darske opreme",
+            "\u0160ola smu\u010danja",
+            "Smu\u010darski vrtec",
+            "Intersport veleslalomska proga",
+            "Sne\u017eni park \/ Snowpark"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(3) .list-offer .list-offer-third:not(.th-right)",
+        "values": [
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "08:00-16:00 <img src=\"assets\/img\/open.png\">",
+            "08:00-16:00 <img src=\"assets\/img\/open.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">",
+            "Zaprto <img src=\"assets\/img\/close.png\">"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(4) .list-offer .list-offer-first",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(4) .list-offer .list-offer-third:not(.th-right)",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(5) .list-offer .list-offer-first",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(5) .list-offer .list-offer-third:not(.th-right)",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(6) .list-offer .list-offer-first",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(6) .list-offer .list-offer-third:not(.th-right)",
+        "values": []
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(7) .list-offer .list-offer-first",
+        "values": [
+            "Pla\u017ea Krvavec - Apr\u00e9s ski",
+            "Hotel Krvavec",
+            "Info to\u010dka - Zg. postaja KK\u017d"
+        ]
+    },
+    {
+        "selector": "#progeinnaprave .faq-container .faq-item:nth-of-type(7) .list-offer .list-offer-third:not(.th-right)",
+        "values": [
+            "- <img src=\"assets\/img\/open.png\">",
+            "- <img src=\"assets\/img\/open.png\">",
+            "08:00-14:00 <img src=\"assets\/img\/open.png\">"
+        ]
+    },
+    {
+        "selector": ".live-header-note i span",
+        "values": [
+            "30. nov 2025, 12:01"
+        ]
+    }
+]

@@ -1,0 +1,24 @@
+{
+  "name": "Norefjell Ski & Spa",
+  "url": {
+    "host": "https://www.norefjell.com",
+    "pathname": "/skibakker"
+  },
+  "api": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/6",
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/6",
+    "json": true
+  },
+  "tags": [
+    "Norway"
+  ],
+  "ll": [
+    9.5994,
+    60.2206
+  ]
+}

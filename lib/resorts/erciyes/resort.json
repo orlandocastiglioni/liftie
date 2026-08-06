@@ -1,0 +1,15 @@
+{
+  "name": "Erciyes",
+  "url": {
+    "host": "https://www.kayserierciyes.com.tr",
+    "pathname": "/pist-ve-teleferik-bilgisi"
+  },
+  "trails": true,
+  "tags": [
+    "Turkey"
+  ],
+  "ll": [
+    35.4778,
+    38.5587
+  ]
+}

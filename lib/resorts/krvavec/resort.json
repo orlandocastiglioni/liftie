@@ -1,0 +1,25 @@
+{
+  "name": "Krvavec",
+  "url": {
+    "host": "https://www.rtc-krvavec.si",
+    "pathname": "/krvavec-live-en"
+  },
+  "api": {
+    "host": "https://www.rtc-krvavec.si",
+    "pathname": "/krvavec-data.json",
+    "json": true
+  },
+  "trails": {
+    "host": "https://www.rtc-krvavec.si",
+    "pathname": "/krvavec-data.json",
+    "json": true
+  },
+  "tags": [
+    "Slovenia",
+    "Alps"
+  ],
+  "ll": [
+    14.4959366,
+    46.2849476
+  ]
+}

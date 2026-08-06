@@ -1,0 +1,31 @@
+{
+  "name": "Riksgränsen",
+  "url": {
+    "host": "https://riksgransen.se",
+    "pathname": "/fjallstatus-snorapport/"
+  },
+  "api": {
+    "host": "https://riksgransen.se",
+    "pathname": "/wp/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "track_data"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://riksgransen.se",
+    "pathname": "/wp/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "track_data"
+    },
+    "json": true
+  },
+  "tags": [
+    "Sweden",
+    "Lapland"
+  ],
+  "ll": [
+    18.1222,
+    68.4278
+  ]
+}

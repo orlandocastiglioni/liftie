@@ -1,0 +1,16 @@
+{
+  "name": "Malá Úpa",
+  "url": {
+    "host": "https://www.skimu.cz",
+    "pathname": "/zima/vleky-a-sjezdovky"
+  },
+  "trails": true,
+  "tags": [
+    "Czech Republic",
+    "Krkonoše"
+  ],
+  "ll": [
+    15.819956,
+    50.74583
+  ]
+}

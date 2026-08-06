@@ -1,0 +1,25 @@
+{
+  "name": "Stöten i Sälen",
+  "url": {
+    "host": "https://www.stoten.se",
+    "pathname": "/backar-vader/"
+  },
+  "api": {
+    "host": "https://www.stoten.se",
+    "pathname": "/wp-json/wp/v3/slopesinfo",
+    "json": true
+  },
+  "trails": {
+    "host": "https://www.stoten.se",
+    "pathname": "/wp-json/wp/v3/slopesinfo",
+    "json": true
+  },
+  "tags": [
+    "Sweden",
+    "Dalarna"
+  ],
+  "ll": [
+    12.8886274,
+    61.2662712
+  ]
+}

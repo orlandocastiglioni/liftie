@@ -1,0 +1,31 @@
+{
+  "name": "Björkliden",
+  "url": {
+    "host": "https://bjorkliden.com",
+    "pathname": "/snorapport-fjallstatus/"
+  },
+  "api": {
+    "host": "https://bjorkliden.com",
+    "pathname": "/wp/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "track_data"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://bjorkliden.com",
+    "pathname": "/wp/wp-admin/admin-ajax.php",
+    "query": {
+      "action": "track_data"
+    },
+    "json": true
+  },
+  "tags": [
+    "Sweden",
+    "Lapland"
+  ],
+  "ll": [
+    18.6792269,
+    68.4034924
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Ejder 3200 Palandöken",
+  "url": {
+    "host": "https://www.ejder3200.com",
+    "pathname": "/liftler"
+  },
+  "api": {
+    "host": "https://www.ejder3200.com",
+    "pathname": "/api/lifts",
+    "query": {
+      "centerSlug": "palandoken"
+    },
+    "json": true,
+    "via": "flaresolverr",
+    "maxTimeout": 150000
+  },
+  "trails": {
+    "host": "https://www.ejder3200.com",
+    "pathname": "/api/pistes",
+    "query": {
+      "centerSlug": "palandoken"
+    },
+    "json": true,
+    "via": "flaresolverr",
+    "maxTimeout": 150000
+  },
+  "tags": [
+    "Turkey",
+    "Erzurum"
+  ],
+  "ll": [
+    41.27333,
+    39.86972
+  ]
+}
