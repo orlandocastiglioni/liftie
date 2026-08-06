@@ -1,0 +1,14 @@
+{
+  "name": "Lost Trail Powder Mountain",
+  "url": {
+    "host": "https://losttrail.com",
+    "pathname": "/snow-report/"
+  },
+  "tags": [
+    "Montana"
+  ],
+  "ll": [
+    -113.952,
+    45.692
+  ]
+}

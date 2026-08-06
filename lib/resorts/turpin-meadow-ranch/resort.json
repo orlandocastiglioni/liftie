@@ -1,0 +1,25 @@
+{
+  "name": "Turpin Meadow Ranch",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WY/Turpin-Meadow"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/WY/Turpin-Meadow",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Wyoming",
+    "Nordic"
+  ],
+  "ll": [
+    -110.270219,
+    43.85476
+  ]
+}

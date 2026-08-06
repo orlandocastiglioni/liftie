@@ -1,0 +1,25 @@
+{
+  "name": "Crosscut Mountain Sports Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Crosscut-Mountain-Sports-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Crosscut-Mountain-Sports-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Montana",
+    "Nordic"
+  ],
+  "ll": [
+    -110.884298,
+    45.827839
+  ]
+}

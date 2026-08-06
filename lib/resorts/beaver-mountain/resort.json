@@ -1,0 +1,15 @@
+{
+  "name": "Beaver Mountain",
+  "url": {
+    "host": "https://www.skithebeav.com",
+    "pathname": "/mountain/conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Utah"
+  ],
+  "ll": [
+    -111.544144,
+    41.968075
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Silver Mountain Resort",
+  "url": {
+    "host": "https://www.silvermt.com",
+    "pathname": "/mountain-info/trail-status"
+  },
+  "trails": true,
+  "tags": [
+    "Idaho"
+  ],
+  "ll": [
+    -116.1262,
+    47.5209
+  ]
+}

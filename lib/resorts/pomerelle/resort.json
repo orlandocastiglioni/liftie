@@ -1,0 +1,15 @@
+{
+  "name": "Pomerelle Mountain Resort",
+  "url": {
+    "host": "https://www.pomerelle.com",
+    "pathname": "/trail-map"
+  },
+  "trails": true,
+  "tags": [
+    "Idaho"
+  ],
+  "ll": [
+    -113.6077523,
+    42.3179871
+  ]
+}

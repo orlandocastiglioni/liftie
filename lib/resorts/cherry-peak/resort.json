@@ -1,0 +1,15 @@
+{
+  "name": "Cherry Peak Resort",
+  "url": {
+    "host": "https://www.skicpr.com",
+    "pathname": "/ski-report"
+  },
+  "trails": true,
+  "tags": [
+    "Utah"
+  ],
+  "ll": [
+    -111.7563533,
+    41.9263368
+  ]
+}

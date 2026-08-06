@@ -1,0 +1,25 @@
+{
+  "name": "Steamboat Ski Touring Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Steamboat-Ski-Touring-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Steamboat-Ski-Touring-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Colorado",
+    "Nordic"
+  ],
+  "ll": [
+    -106.802554,
+    40.469845
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Granby Ranch",
+  "url": {
+    "host": "https://granbyranch.com",
+    "pathname": "/mountain-info/"
+  },
+  "trails": true,
+  "tags": [
+    "Colorado"
+  ],
+  "ll": [
+    -105.9064,
+    40.0447
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Snow King Mountain",
+  "url": {
+    "host": "https://snowkingmountain.com",
+    "pathname": "/mountain/conditions/"
+  },
+  "dataUrl": {
+    "host": "https://snowkingmountain.com",
+    "pathname": "/mtn-xml/"
+  },
+  "trails": true,
+  "tags": [
+    "Wyoming"
+  ],
+  "ll": [
+    -110.7624,
+    43.4799
+  ]
+}

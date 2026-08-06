@@ -1,0 +1,25 @@
+{
+  "name": "Haymaker Nordic Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Haymaker-Nordic-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Haymaker-Nordic-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Colorado",
+    "Nordic"
+  ],
+  "ll": [
+    -106.810956,
+    40.425827
+  ]
+}

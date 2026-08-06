@@ -1,0 +1,646 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Trail Report</title>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  :root{ --table-header: #2d5c88; }
+  body { background:#fff; }
+  header { background:var(--table-header); padding:15px 0; text-align:center; }
+  header img { height:60px; }
+
+  .hero {
+    background: url('./assets/bg_image.jpg') center/cover no-repeat;
+    height: 250px; display:flex; align-items:center; justify-content:center;
+    flex-direction: column; color:#fff; text-shadow:0 2px 5px rgba(0,0,0,.6);
+    border-bottom-left-radius: 25px; border-bottom-right-radius: 25px;
+  }
+  .hero h1 { font-size:3rem; font-weight:800; letter-spacing:2px; margin:0; }
+  .updated { text-align:center; margin:24px 0; font-weight:500; font-size:1.25rem; text-transform: uppercase }
+
+  .section-title { color:#0d6efd; font-weight:700; font-size:1.3rem; margin-top:28px; margin-bottom:12px; text-transform:uppercase; }
+
+  .table thead th { background:var(--table-header); color:#fff; font-weight:600; padding:10px; }
+  .table td, .table th { vertical-align:middle; padding:6px; }
+
+  .icon { display:inline-block; margin-right:10px; vertical-align:middle; }
+  .green-circle { width:14px; height:14px; border-radius:50%; background:#28c76f; }
+  .blue-square { width:14px; height:14px; background:#2ba0ff; }
+  .black-diamond { width:12px; height:12px; background:#111; transform:rotate(45deg); display:inline-block; }
+  .double-diamond { display:inline-flex; gap:6px; vertical-align:middle; }
+  .double-diamond .black-diamond { width:11px; height:11px; }
+
+  .location-header { display:flex; align-items:center; justify-content:space-between; gap:10px; }
+  .location-name { font-weight:700; font-size:1.1rem; text-transform:uppercase; }
+  .mb-18 { margin-bottom:18px; }
+
+  @media (max-width: 600px) {
+    .hero { height:150px; }
+    .hero h1 { font-size:2rem; }
+    .updated { font-size: 1em; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <img src="./assets/logo.gif" alt="Logo">
+</header>
+
+<div class="hero">
+  <h1>TRAIL REPORT</h1>
+  <h4 class="updated">
+    UPDATED:
+    January 31, 2026 at 8:48 am  </h4>
+</div>
+
+<div class="container my-4">
+
+  <!-- LIFTS: Name + Status/Hours (Closed shows "Closed") -->
+  <div class="section-title">Lifts</div>
+      <div class="table-responsive mb-4">
+      <table class="table table-sm table-bordered">
+        <thead>
+          <tr>
+            <th style="width:38%;">Lift</th>
+            <th>Status / Hours</th>
+          </tr>
+        </thead>
+        <tbody>
+                                  <tr>
+              <td>GRIZZLY Double Chair</td>
+              <td>
+                <span class="ms-2">9:30 AM  to 4:00 PM</span>
+              </td>
+            </tr>
+                                  <tr>
+              <td>LaVALLE Double Chair</td>
+              <td>
+                <span class="ms-2">9:30 AM to 3:30 PM</span>
+              </td>
+            </tr>
+                                  <tr>
+              <td>SNOW PARK Double Chair</td>
+              <td>
+                <span class="ms-2">9:30 AM to 3:15 PM</span>
+              </td>
+            </tr>
+                                  <tr>
+              <td>THE TRANSPORTER Triple Chair</td>
+              <td>
+                <span class="ms-2">9:30 AM to 3:15 PM</span>
+              </td>
+            </tr>
+                                  <tr>
+              <td>SUNRISE T-BAR</td>
+              <td>
+                <span class="ms-2">Closed</span>
+              </td>
+            </tr>
+                                  <tr>
+              <td>ROPE TOW</td>
+              <td>
+                <span class="ms-2">10 AM to 3:30 PM</span>
+              </td>
+            </tr>
+                  </tbody>
+      </table>
+    </div>
+  
+  <!-- TRAILS grouped by LOCATION: two locations per row -->
+  <div class="section-title">Trails by Location</div>
+            <div class="row g-4 mb-2">
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">GRIZZLY</div>
+            <!-- <div>
+                <span class="badge bg-success">Open</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Upper Grizzly                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Grizzly Chute                        </td>
+                        <td>Closed</td>
+                        <td>-</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Il Cesso&quot;Outhouse&quot;                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Pressure Drop                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Upper Spartan                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Spartan Headwall                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Bada Bing Bada Boom                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Yada Yada Yada                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Second Thought                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Lower Second Thought                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Huckleberry                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>&quot;Go Big&quot;                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>I Dun No                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Mogul Alley                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Levitation                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">THE BOWLS</div>
+            <!-- <div>
+                <span class="badge bg-secondary">Closed</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>North Dakota Downhill                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Upper Paradise                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Lower Paradise                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Longhorn                        </td>
+                        <td>Closed</td>
+                        <td>-</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Il Cornino                        </td>
+                        <td>Closed</td>
+                        <td>-</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Bowl Out-run                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>West Ridge                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>West Bowls                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>East Bowls                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Far East                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Chicken Chute                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Angel Face                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Purgatory                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+              </div>
+          <div class="row g-4 mb-2">
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">LaVALLE</div>
+            <!-- <div>
+                <span class="badge bg-secondary">Closed</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Hot Fudge                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Grandstand                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>High Park                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>High Roller                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Mission Magic                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Time Out                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>C Nutcraker/Whitebark P                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Midnute                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Far Nut                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Big Sky                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Whipped Cream                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">SNOW PARK</div>
+            <!-- <div>
+                <span class="badge bg-success">Open</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>100 Acre Wood                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Cheers                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Come On Down                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon black-diamond"></span>Twilight Zone                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Sock It To Me!                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Sunset Strip                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Two Thumbs Up                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Evergreen Terrace                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Yabba Dabba Doo                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Happy Trails                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>Laugh Track                        </td>
+                        <td>Open</td>
+                        <td>Groomed recently</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+              </div>
+          <div class="row g-4 mb-2">
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">TV MOUNTAIN</div>
+            <!-- <div>
+                <span class="badge bg-secondary">Closed</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon double-diamond"><span class="black-diamond"></span><span class="black-diamond"></span></span>Double Jeopardy                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon double-diamond"><span class="black-diamond"></span><span class="black-diamond"></span></span>Hazard County                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon double-diamond"><span class="black-diamond"></span><span class="black-diamond"></span></span>Bam                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Hells Kitchen                        </td>
+                        <td>Open</td>
+                        <td>Packed powder</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+                  <div class="col-12 col-md-6">
+            <div class="location-header mb-2">
+              <div class="location-name">BASE</div>
+            <!-- <div>
+                <span class="badge bg-success">Open</span>              </div> -->
+            </div>
+
+                                      <div class="table-responsive mb-18">
+                <table class="table table-sm table-bordered">
+                  <thead>
+                    <tr>
+                      <th>Run</th>
+                      <th style="width:90px;">Status</th>
+                      <th>Condition</th>
+                      <th>Comments</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                                          <tr>
+                        <td>
+                          <span class="icon blue-square"></span>Sunrise Bowl                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                          <tr>
+                        <td>
+                          <span class="icon green-circle"></span>First Run                        </td>
+                        <td>Open</td>
+                        <td>Groomed</td>
+                        <td>--</td>
+                      </tr>
+                                      </tbody>
+                </table>
+              </div>
+                      </div>
+              </div>
+      
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "Montana Snowbowl",
+  "url": {
+    "host": "https://www.montanasnowbowl.com",
+    "pathname": "/trails-report/index.php"
+  },
+  "trails": true,
+  "tags": [
+    "Montana"
+  ],
+  "ll": [
+    -113.999977,
+    47.014673
+  ]
+}

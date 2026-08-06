@@ -1,0 +1,25 @@
+{
+  "name": "Dog Creek Lodge & Nordic Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Dog-Creek-Lodge"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Dog-Creek-Lodge",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Montana",
+    "Nordic"
+  ],
+  "ll": [
+    -114.606373,
+    48.588856
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sunlight Mountain Resort",
+  "url": {
+    "host": "https://sunlightmtn.com",
+    "pathname": "/explore/mountain-status/"
+  },
+  "trails": true,
+  "tags": [
+    "Colorado"
+  ],
+  "ll": [
+    -107.3389,
+    39.3994
+  ]
+}

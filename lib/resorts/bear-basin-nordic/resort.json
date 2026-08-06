@@ -1,0 +1,24 @@
+{
+  "name": "Bear Basin Nordic Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ID/Bear-Basin-Nordic-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/ID/Bear-Basin-Nordic-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Idaho"
+  ],
+  "ll": [
+    -116.1529393,
+    44.9348513
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Brundage Mountain Resort",
+  "url": {
+    "host": "https://brundage.com",
+    "pathname": "/grooming-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Idaho"
+  ],
+  "ll": [
+    -116.1544,
+    45.0053
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Pebble Creek Ski Area",
+  "url": {
+    "host": "https://pebblecreekskiarea.com",
+    "pathname": "/"
+  },
+  "trails": {
+    "host": "https://pebblecreekskiarea.com",
+    "pathname": "/the-mountain/trails-grooming/",
+    "via": "renderd",
+    "waitSelector": "#mid-trails .trail"
+  },
+  "tags": [
+    "Idaho"
+  ],
+  "ll": [
+    -112.16,
+    42.7788
+  ]
+}

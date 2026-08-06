@@ -1,0 +1,24 @@
+{
+  "name": "Howelsen Hill",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Howelsen-Hill-Nordic-Center"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Howelsen-Hill-Nordic-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Colorado"
+  ],
+  "ll": [
+    -106.8384,
+    40.483
+  ]
+}

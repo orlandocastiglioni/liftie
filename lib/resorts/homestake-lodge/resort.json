@@ -1,0 +1,25 @@
+{
+  "name": "Homestake Lodge",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Homestake-Lodge"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Homestake-Lodge",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Montana",
+    "Nordic"
+  ],
+  "ll": [
+    -112.381286,
+    45.905314
+  ]
+}

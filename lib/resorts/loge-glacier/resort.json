@@ -1,0 +1,25 @@
+{
+  "name": "LOGE Glacier Nordic Center",
+  "url": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Loge-Glacier"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/MT/Loge-Glacier",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Montana",
+    "Nordic"
+  ],
+  "ll": [
+    -113.611852,
+    48.27901
+  ]
+}

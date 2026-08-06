@@ -1,0 +1,46 @@
+{
+  "name": "White Pine Touring Nordic",
+  "url": {
+    "host": "https://whitepinetouring.com",
+    "pathname": "/cross-country-track-conditions-park-city.php"
+  },
+  "trails": {
+    "host": "https://firestore.googleapis.com",
+    "pathname": "/v1/projects/trail-hub/databases/(default)/documents:runQuery",
+    "query": {
+      "key": "AIzaSyD-xbs3FCBxG5WNtggzEYX0jG0UIPZjq24"
+    },
+    "body": {
+      "structuredQuery": {
+        "from": [
+          {
+            "collectionId": "trails"
+          }
+        ],
+        "where": {
+          "fieldFilter": {
+            "field": {
+              "fieldPath": "trailSystemId"
+            },
+            "op": "EQUAL",
+            "value": {
+              "stringValue": "RvQi14VbCTv36ilhWhhw"
+            }
+          }
+        }
+      }
+    },
+    "json": true
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Utah",
+    "Nordic"
+  ],
+  "ll": [
+    -111.5141068,
+    40.6620903
+  ]
+}
