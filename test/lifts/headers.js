@@ -97,3 +97,35 @@ test('a resort header may override a default', async () => {
   }
   assert.equal(init.headers.Accept, 'application/json');
 });
+
+test('request issues a POST when the resort declares a body', async () => {
+  let init;
+  const restore = captureFetch((_url, i) => {
+    init = i;
+  });
+  try {
+    await request({
+      host: 'https://example.com',
+      pathname: '/q',
+      body: { structuredQuery: { from: [{ collectionId: 'trails' }] } }
+    });
+  } finally {
+    restore();
+  }
+  assert.equal(init.method, 'POST');
+  assert.deepEqual(JSON.parse(init.body), { structuredQuery: { from: [{ collectionId: 'trails' }] } });
+});
+
+test('request stays a GET when there is no body', async () => {
+  let init;
+  const restore = captureFetch((_url, i) => {
+    init = i;
+  });
+  try {
+    await request({ host: 'https://example.com', pathname: '/q' });
+  } finally {
+    restore();
+  }
+  assert.equal(init.method, undefined);
+  assert.equal(init.body, undefined);
+});
