@@ -19,6 +19,10 @@ function lifts(fixture, today) {
       constructor(...args) {
         super(...(args.length ? args : [today]));
       }
+      // must override too: lib/tools/stale.js measures age with Date.now()
+      static now() {
+        return RealDate.parse(today);
+      }
     };
     createReadStream(filename).pipe(
       parser(parse, (err, status) => {

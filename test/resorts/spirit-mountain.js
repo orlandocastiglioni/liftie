@@ -75,7 +75,10 @@ test('spirit-mountain reports nothing once the feed goes stale', () => {
   });
 });
 
-test('spirit-mountain reports nothing when the feed carries no timestamps', () => {
-  assert.deepEqual(parse([{ title: { rendered: 'X' }, class_list: ['current-status-open'] }]), {});
+// Fail open: if WordPress ever stops emitting modified_gmt we would rather
+// republish a possibly-stale report than blank the mountain mid-season. See the
+// rationale in lib/tools/stale.js.
+test('spirit-mountain still publishes when the feed carries no timestamps', () => {
+  assert.deepEqual(parse([{ title: { rendered: 'X' }, class_list: ['current-status-open'] }]), { X: 'open' });
   assert.deepEqual(parse([]), {});
 });
