@@ -66,3 +66,52 @@ test('nordic-pulse: no ng-state yields an empty list, not a throw', (_t, done) =
     }
   );
 });
+
+test('nordic-pulse: dates the report from the area grooming record', (_t, done) => {
+  // clubs set `open` by hand and many never clear it at season end, so the flag
+  // alone cannot date the report. Grooming is the activity signal, taken at AREA
+  // level and published only as a date - never folded into a trail's status.
+  const state = {
+    x: {
+      url: 'https://api2.nordic-pulse.com/data-npww',
+      body: {
+        trails: [
+          { names: { en: 'A' }, open: true, lastGroomed: '2026-03-01T09:00:00.000Z' },
+          { names: { en: 'B' }, open: true, lastGroomedTrackSet: '2026-03-09T07:30:00.000Z' },
+          { names: { en: 'C' }, open: false, lastGroomed: '2026-01-11T06:00:00.000Z' }
+        ]
+      }
+    }
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.equal(list.reportedAt, '2026-03-09T07:30:00.000Z', 'newest grooming anywhere in the area');
+      assert.equal(list.length, 3, 'grooming must not change which trails are listed');
+      assert.deepEqual(
+        list.map(t => t.status),
+        ['open', 'open', 'closed'],
+        'grooming must never override a trail status'
+      );
+      done();
+    }
+  );
+});
+
+test('nordic-pulse: an area with no grooming record carries no date', (_t, done) => {
+  const state = {
+    x: { url: 'https://api2.nordic-pulse.com/data-npww', body: { trails: [{ names: { en: 'A' }, open: true }] } }
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.equal(list.reportedAt, undefined);
+      assert.equal(list.length, 1, 'no date must not suppress the rows');
+      done();
+    }
+  );
+});
