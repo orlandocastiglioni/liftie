@@ -1,0 +1,16 @@
+{
+  "name": "Axamer Lizum (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/axamer-lizum/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.3038,
+    47.1697
+  ]
+}

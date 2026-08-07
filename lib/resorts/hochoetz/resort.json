@@ -1,0 +1,20 @@
+{
+  "name": "Hochoetz (SKI plus CITY)",
+  "url": {
+    "host": "https://sdds4.intermaps.com",
+    "pathname": "/skigebietsmanager_template/Default.aspx",
+    "query": {
+      "region_id": "593",
+      "lang": "en"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    10.8969,
+    47.2064
+  ]
+}

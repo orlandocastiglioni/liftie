@@ -1,0 +1,16 @@
+{
+  "name": "Torgon (Portes du Soleil)",
+  "url": {
+    "host": "https://www.portesdusoleil.com",
+    "pathname": "/en-hiver/pistes-et-remontees-mecaniques/torgon/"
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    6.8236,
+    46.2872
+  ]
+}

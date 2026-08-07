@@ -1,0 +1,16 @@
+{
+  "name": "Nordkette (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/innsbrucker-nordkettenbahnen/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.3792,
+    47.3006
+  ]
+}

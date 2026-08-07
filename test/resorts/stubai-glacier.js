@@ -1,0 +1,30 @@
+import lifts from '../lifts/index.js';
+
+lifts('stubai-glacier', 'html', {
+  '3S Eisgrat I': 'open',
+  '3S Eisgrat II': 'open',
+  'Gamsgarten I': 'open',
+  'Gamsgarten II': 'open',
+  'Schaufeljoch': 'open',
+  'Rotadl': 'open',
+  'Eisjoch': 'open',
+  'Fernau': 'open',
+  'Murmele': 'open',
+  'Daunjoch': 'closed',
+  'Pfaffengrat': 'closed',
+  'Wildspitz': 'open',
+  'Eisjoch SL': 'closed',
+  'Fernau SL': 'closed',
+  'Gaiskarferner': 'open',
+  'Windachferner': 'closed',
+  'Daunferner I': 'open',
+  'Daunferner II': 'closed',
+  'Daunscharte': 'open',
+  'Übungslift Gamsgarten': 'closed',
+  'Zoo-Shuttle': 'closed',
+  'Kitzlift': 'open',
+  'Zauberteppich 1': 'open',
+  'Zauberteppich 2': 'closed',
+  'Schneekarussell': 'closed',
+  'Zauberteppich 2, 3, 4': 'closed'
+});

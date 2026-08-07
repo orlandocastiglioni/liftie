@@ -1,0 +1,16 @@
+{
+  "name": "Kuehtai (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/kuehtai/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.0161,
+    47.2131
+  ]
+}

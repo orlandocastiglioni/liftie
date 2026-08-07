@@ -1,0 +1,16 @@
+{
+  "name": "La Chapelle d'Abondance (Portes du Soleil)",
+  "url": {
+    "host": "https://www.portesdusoleil.com",
+    "pathname": "/en-hiver/pistes-et-remontees-mecaniques/la-chapelle-dabondance/"
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    6.7906,
+    46.2861
+  ]
+}

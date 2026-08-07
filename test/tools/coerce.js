@@ -32,3 +32,16 @@ test('coerce should slice if needed', () => {
   assert.equal(coerce('/path/Open.png', 6, '.png'), 'open');
   assert.equal(coerce('/path/Open.png', '/', -4), 'open');
 });
+
+test('coerce knows the Portes du Soleil preparation vocabulary', () => {
+  // all five already resolved to 'scheduled' via the unknown-token fallback, so
+  // these assertions pin an existing behaviour rather than changing one - the
+  // point is that the most common midwinter status is now recognised, not guessed
+  for (const t of ['En preparation', 'En préparation', 'en préparation', 'prepare', 'préparation']) {
+    assert.equal(coerce(t), 'scheduled', t);
+  }
+  // and the French open/closed words the same pages use still read correctly
+  assert.equal(coerce('Ouverte'), 'open');
+  assert.equal(coerce('Fermée'), 'closed');
+  assert.equal(coerce('Fermee'), 'closed');
+});

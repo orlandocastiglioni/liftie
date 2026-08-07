@@ -1,0 +1,24 @@
+{
+  "name": "Rangger Koepfl (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/oberperfuss-rangger-koepfl/"
+  },
+  "dataUrl": {
+    "host": "https://sdds4.intermaps.com",
+    "pathname": "/skigebietsmanager_template/Default.aspx",
+    "query": {
+      "region_id": "1000",
+      "lang": "en"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.1583,
+    47.2428
+  ]
+}

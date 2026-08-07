@@ -1,0 +1,16 @@
+{
+  "name": "Morgins (Portes du Soleil)",
+  "url": {
+    "host": "https://www.portesdusoleil.com",
+    "pathname": "/en-hiver/pistes-et-remontees-mecaniques/morgins/"
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    6.8567,
+    46.2378
+  ]
+}

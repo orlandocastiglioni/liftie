@@ -1,0 +1,31 @@
+{
+  "name": "Glungezer (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/glungezer/"
+  },
+  "api": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/glungezer/data",
+    "query": {
+      "lang": "en"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/glungezer/data",
+    "query": {
+      "lang": "en"
+    },
+    "json": true
+  },
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.5417,
+    47.2867
+  ]
+}

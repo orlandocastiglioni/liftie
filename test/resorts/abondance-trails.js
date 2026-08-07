@@ -1,0 +1,32 @@
+import trails from '../trails/index.js';
+
+trails('abondance', [
+  { name: 'Brion', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Offaz', status: 'closed', level: 'green', grade: 'verte' },
+  { name: 'Petit covagny', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Petit fremoux', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Corne bleue', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'Grand fremoux', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: "L'ecuelle", status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'La chaux', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'La variante', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'Le lac', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'Les follys', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'Retour village b', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'Corne rouge', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'Corne noire', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: "Friend's zone", status: 'closed' },
+  { name: 'Boardercross', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'La relais', status: 'closed', level: 'green', grade: 'verte' },
+  { name: "L'ecuelle", status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'La fauvette', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: 'La relais', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'Boucle des plagnes', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Boucle du village', status: 'closed', level: 'green', grade: 'verte' },
+  { name: 'Chalets de brion', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Piste de luge', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Ludoffaz', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'Circuit glace', status: 'open' },
+  { name: 'Patinoire', status: 'open' },
+  { name: 'Caisse village (esf)', status: 'open' }
+]);

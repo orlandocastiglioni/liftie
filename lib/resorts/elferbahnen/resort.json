@@ -1,0 +1,16 @@
+{
+  "name": "Elferbahnen Neustift (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/elferbahnen/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.3106,
+    47.1156
+  ]
+}

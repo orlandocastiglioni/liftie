@@ -1,0 +1,17 @@
+{
+  "name": "Nebelhorn (Oberstdorf Kleinwalsertal)",
+  "url": {
+    "host": "https://www.ok-bergbahnen.com",
+    "pathname": "/skigebiete/status-anlagen-pisten-wege/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Germany",
+    "Bavaria"
+  ],
+  "ll": [
+    10.34,
+    47.4211
+  ]
+}

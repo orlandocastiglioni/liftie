@@ -1,0 +1,16 @@
+{
+  "name": "Les Gets (Portes du Soleil)",
+  "url": {
+    "host": "https://www.portesdusoleil.com",
+    "pathname": "/en-hiver/pistes-et-remontees-mecaniques/les-gets/"
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    6.6672,
+    46.158
+  ]
+}

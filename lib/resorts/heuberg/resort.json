@@ -1,0 +1,17 @@
+{
+  "name": "Heuberg (Oberstdorf Kleinwalsertal)",
+  "url": {
+    "host": "https://www.ok-bergbahnen.com",
+    "pathname": "/skigebiete/status-anlagen-pisten-wege/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria",
+    "Vorarlberg"
+  ],
+  "ll": [
+    10.174,
+    47.342
+  ]
+}

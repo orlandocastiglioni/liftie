@@ -1,0 +1,16 @@
+{
+  "name": "Patscherkofel (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/patscherkofelbahn/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.4056,
+    47.2206
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Avoriaz (Portes du Soleil)",
+  "url": {
+    "host": "https://www.portesdusoleil.com",
+    "pathname": "/en-hiver/pistes-et-remontees-mecaniques/avoriaz1800/"
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    6.7739,
+    46.1922
+  ]
+}

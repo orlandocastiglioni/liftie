@@ -1,0 +1,16 @@
+{
+  "name": "Serlesbahnen Mieders (SKI plus CITY)",
+  "url": {
+    "host": "https://www.ski-plus-city.com",
+    "pathname": "/en/ski-plus-city-pass/skiing-resorts/serlesbahnen/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria"
+  ],
+  "ll": [
+    11.3839,
+    47.1094
+  ]
+}

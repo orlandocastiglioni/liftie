@@ -1,0 +1,19 @@
+{
+  "name": "Fellhorn / Kanzelwand (Oberstdorf Kleinwalsertal)",
+  "url": {
+    "host": "https://www.ok-bergbahnen.com",
+    "pathname": "/skigebiete/status-anlagen-pisten-wege/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Germany",
+    "Austria",
+    "Bavaria",
+    "Vorarlberg"
+  ],
+  "ll": [
+    10.199,
+    47.332
+  ]
+}

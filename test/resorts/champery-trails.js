@@ -1,0 +1,30 @@
+import trails from '../trails/index.js';
+
+trails('champery', [
+  { name: '1 la chapelle', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '10 ripaille', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '14 grand conche bleue', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '17 pauvre conche', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '2 le hameau', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '25 mossettes grand conche', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '27 cubore', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '5 planachaux bleue', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '6 les crosets', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '7 marcheuson bleue', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '8 lechereuse', status: 'closed', level: 'blue', grade: 'bleue' },
+  { name: '11 ripaille - grand paradis', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '16 grand conche rouge', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '21 les mossettes', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '26 les cases', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '3 les crosets rouge', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '4 marcheuson rouge', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '9 planachaux', status: 'closed', level: 'black', grade: 'rouge' },
+  { name: '15 grand conche noire', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: '18 pauvre conche', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: '22 le loquet', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: '23 conchette', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: 'Superpark des crosets', status: 'closed' },
+  { name: 'Atc avalanche training center', status: 'open' },
+  { name: 'Fun slope des crosets', status: 'closed' },
+  { name: 'Ski nocturne champery-crosets', status: 'closed' }
+]);
