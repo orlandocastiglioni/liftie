@@ -1,0 +1,27 @@
+{
+  "name": "Les 7 Laux",
+  "url": {
+    "host": "https://www.les7laux.com",
+    "pathname": "/hiver/"
+  },
+  "dataUrl": {
+    "host": "https://bulletin.lumiplan.pro",
+    "pathname": "/displayAll.php",
+    "query": {
+      "pays": "france",
+      "region": "alpes",
+      "station": "sept-laux",
+      "lang": "fr",
+      "displayDomaine": "0-1-2-3-4-5-6-7-8"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    5.9945,
+    45.2566
+  ]
+}

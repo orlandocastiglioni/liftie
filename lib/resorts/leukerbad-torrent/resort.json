@@ -1,0 +1,27 @@
+{
+  "name": "Leukerbad Torrent",
+  "url": {
+    "host": "https://leukerbad.ch",
+    "pathname": ""
+  },
+  "dataUrl": {
+    "host": "https://infosnow.ch",
+    "pathname": "/portal/",
+    "query": {
+      "type": "ajax-raw",
+      "tab": "map-1/dlg-sys",
+      "lang": "de",
+      "e": "135",
+      "saison": "1"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    7.629,
+    46.374
+  ]
+}

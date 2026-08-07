@@ -1,0 +1,17 @@
+{
+  "name": "Kaunertaler Gletscher",
+  "url": {
+    "host": "https://www.kaunertaler-gletscher.at",
+    "pathname": "/kaunertaler-gletscher/nowbox.html"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria",
+    "Tirol"
+  ],
+  "ll": [
+    10.707048,
+    46.868437
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Rauriser Hochalmbahnen",
+  "url": {
+    "host": "https://www.hochalmbahnen.at",
+    "pathname": "/de/winter/skigebiet/anlagen-pisten"
+  },
+  "api": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/rauris/data",
+    "query": {
+      "lang": "de",
+      "channel": "false"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/rauris/data",
+    "query": {
+      "lang": "de",
+      "channel": "false"
+    },
+    "json": true
+  },
+  "tags": [
+    "Alps",
+    "Austria",
+    "Salzburg"
+  ],
+  "ll": [
+    12.991169,
+    47.223864
+  ]
+}

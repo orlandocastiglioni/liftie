@@ -1,0 +1,16 @@
+{
+  "name": "Pila",
+  "url": {
+    "host": "https://pila.it",
+    "pathname": "/tempo-reale/apertura-piste-impianti/"
+  },
+  "trails": true,
+  "tags": [
+    "Italy",
+    "Alps"
+  ],
+  "ll": [
+    7.2863,
+    45.7178
+  ]
+}

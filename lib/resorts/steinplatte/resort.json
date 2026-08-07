@@ -1,0 +1,35 @@
+{
+  "name": "Steinplatte",
+  "url": {
+    "host": "https://www.steinplatte.tirol",
+    "pathname": "/de/liftstatus.html"
+  },
+  "api": {
+    "host": "https://www.steinplatte.tirol",
+    "pathname": "/webapi/micadoweb",
+    "query": {
+      "api": "Micado.Ski.Web/Micado.Ski.Web.IO.Api.FacilityApi/List.api",
+      "region": "steinplatte",
+      "typeIDs": 1
+    }
+  },
+  "tags": [
+    "Alps",
+    "Austria",
+    "Tirol"
+  ],
+  "ll": [
+    12.580133,
+    47.604186
+  ],
+  "trails": {
+    "host": "https://www.steinplatte.tirol",
+    "pathname": "/webapi/micadoweb",
+    "query": {
+      "api": "Micado.Ski.Web/Micado.Ski.Web.IO.Api.FacilityApi/List.api",
+      "region": "steinplatte",
+      "typeIDs": 2
+    },
+    "json": true
+  }
+}

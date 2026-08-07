@@ -1,0 +1,27 @@
+{
+  "name": "Hohsaas",
+  "url": {
+    "host": "https://www.hohsaas.ch",
+    "pathname": ""
+  },
+  "dataUrl": {
+    "host": "https://infosnow.ch",
+    "pathname": "/portal/",
+    "query": {
+      "type": "ajax-raw",
+      "tab": "map-1/dlg-sys",
+      "lang": "de",
+      "e": "206",
+      "saison": "1"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    7.93867,
+    46.1282
+  ]
+}
