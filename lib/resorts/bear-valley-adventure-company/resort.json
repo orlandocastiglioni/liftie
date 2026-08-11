@@ -1,8 +1,8 @@
 {
   "name": "Bear Valley Adventure Company",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/US/CA/Bear-Valley"
+    "host": "https://www.bvadventures.com",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

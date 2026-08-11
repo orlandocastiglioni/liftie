@@ -1,8 +1,8 @@
 {
   "name": "Jackson XC",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/US/NH/Jackson-Ski-Touring-Foundation"
+    "host": "https://www.jacksonxc.org",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

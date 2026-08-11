@@ -1,8 +1,8 @@
 {
   "name": "Nickel Plate Nordic Centre",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/BC/Nickel-Plate-Nordic"
+    "host": "https://nickelplatenordic.org",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

@@ -1,8 +1,8 @@
 {
   "name": "Manning Park Nordic",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/BC/Manning-Park-Resort"
+    "host": "https://www.manningpark.com",
+    "pathname": "/weather-webcams-and-trail-status/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

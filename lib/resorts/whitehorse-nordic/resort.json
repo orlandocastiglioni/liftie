@@ -1,8 +1,8 @@
 {
   "name": "Whitehorse Nordic Centre",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/YT/Whitehorse"
+    "host": "https://www.whitehorsenordiccentre.ca",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

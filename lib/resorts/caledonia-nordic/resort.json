@@ -1,8 +1,8 @@
 {
   "name": "Caledonia Nordic Ski Club",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/centres/CA/BC/Caledonia-Nordic"
+    "host": "https://caledonianordic.com",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

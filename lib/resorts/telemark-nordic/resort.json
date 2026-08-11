@@ -1,8 +1,8 @@
 {
   "name": "Telemark Nordic Centre",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/BC/Telemark-Nordic"
+    "host": "https://telemarknordic.com",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

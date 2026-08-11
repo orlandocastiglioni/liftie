@@ -1,8 +1,8 @@
 {
   "name": "Mt. Washington Alpine Resort XC",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/BC/Mount-Washington"
+    "host": "https://www.mountwashington.ca",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

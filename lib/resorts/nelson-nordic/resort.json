@@ -1,8 +1,8 @@
 {
   "name": "Nelson Nordic Ski Club",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/CA/BC/Nelson-Nordic-Ski-Club"
+    "host": "https://nelsonnordicski.ca",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

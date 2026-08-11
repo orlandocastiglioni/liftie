@@ -1,8 +1,8 @@
 {
   "name": "Minocqua Winter Park",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/US/WI/Minocqua-Winter-Park"
+    "host": "https://minocquawinterpark.org",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",

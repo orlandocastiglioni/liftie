@@ -1,8 +1,8 @@
 {
   "name": "Homestake Lodge",
   "url": {
-    "host": "https://nordic-pulse.com",
-    "pathname": "/ski-areas/US/MT/Homestake-Lodge"
+    "host": "https://www.homestakelodge.com",
+    "pathname": "/"
   },
   "trails": {
     "host": "https://nordic-pulse.com",
