@@ -4,10 +4,7 @@
     "host": "https://mountwashington.ca",
     "pathname": "/the-mountain/conditions-terrain/alpine-conditions.html"
   },
-  "trails": {
-    "host": "https://mountwashington.ca",
-    "pathname": "/the-mountain/conditions-terrain/alpine-grooming.html"
-  },
+  "trails": true,
   "tags": [
     "British Columbia"
   ],
