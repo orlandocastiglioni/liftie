@@ -1,22 +1,43 @@
+import assert from 'node:assert/strict';
+import test from 'node:test';
+import { parseHtml } from '../../lib/lifts/parser.js';
+import parse from '../../lib/resorts/mt-washington-bc/index.js';
 import lifts from '../lifts/index.js';
 
-// Winter wayback fixture (2026-02-01). Every slope-grid-rows row is a lift;
-// status comes from the cell-1 FontAwesome icon (check-square-o/window-close).
-// The night-lift "Whiskey Jack" collapses onto the day chair of the same name.
+/*
+ * Fixture: live capture 2026-08-11, after the resort replatformed from Joomla
+ * to WordPress. The old parser keyed on div.slope-grid-container and published
+ * nothing for months while the mountain was running - this is summer bike-park
+ * operation, which is real live data, not a stale winter board.
+ */
 lifts('mt-washington-bc', 'html', {
-  'Upper Carpet (C4)': 'open',
-  'Middle Carpet (C3)': 'open',
-  'Lower Carpet (C2)': 'closed',
-  'Teaching Carpet (C1)': 'open',
   'Eagle Quad': 'open',
-  'Hawk 6 Pack': 'closed',
-  'Sunrise Quad': 'closed',
-  'Whiskey Jack': 'closed',
-  'Boomerang Quad': 'closed',
-  'Tubing and Night Skiing Carpet (C5)': 'closed',
-  'Upper Easy Acres Carpet (C4)': 'closed',
-  'Middle Easy Acres Carpet (C3)': 'closed',
-  'Lower Easy Acres Carpet (C2)': 'closed',
-  'Training Carpet (C1)': 'closed',
-  'Snow Tube Park': 'open'
+  'Hawk 6 Pack': 'open'
+});
+
+// The pill for a closed row renders as an em dash, not the word "Closed", so a
+// parser reading the pill TEXT hands coerce "—" and silently gets 'scheduled'.
+// Status must come from the modifier class. This is the trap that would make a
+// closed lift read as about to open.
+test('mt-washington-bc reads status from the modifier class, not the pill text', (_t, done) => {
+  const row = (name, mod, text) =>
+    `<div class="pgri-clist__row"><span class="pgri-clist__name"> ${name} </span>` +
+    `<span class="pgri-clist__pill pgri-clist__pill--${mod}">${text}</span></div>`;
+  const html =
+    '<div class="pgri-clist pgri-clist--lifts">' +
+    row('Open Chair', 'open', 'Open') +
+    row('Shut Chair', 'closed', '&mdash;') +
+    row('Held Chair', 'hold', 'Hold') +
+    row('Groomed Chair', 'groomed', 'Groomed') +
+    '</div>';
+  parseHtml(html, parse, (err, status) => {
+    assert.ifError(err);
+    assert.deepEqual(status, {
+      'Open Chair': 'open',
+      'Shut Chair': 'closed',
+      'Held Chair': 'hold',
+      'Groomed Chair': 'open'
+    });
+    done();
+  });
 });
