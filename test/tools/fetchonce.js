@@ -74,19 +74,40 @@ test('keyFor separates anything that changes the response', () => {
   assert.equal(base, keyFor(u, {}), 'stable for identical input');
 });
 
-test('json() survives the shim, including fetchvia unwrapping', async () => {
+test("a via shim keeps fetchvia's JSON-viewer unwrapping", async () => {
   _reset();
-  const viaShim = {
-    status: 200,
-    text: async () => '<pre>{"a":1}</pre>',
-    json: async () => ({ a: 1 }) // fetchvia unwraps the Chrome JSON viewer
-  };
-  const r = await fetchOnce('k', () => Promise.resolve(viaShim));
-  assert.deepEqual(await r.json(), { a: 1 }, 'the source json() is preserved');
+  // fetchvia hands back the Chrome JSON-viewer page; the unwrap fn is passed in
+  // explicitly rather than borrowed off the response, whose body is consumed
+  const unwrap = body => JSON.parse(body.replace(/<\/?pre>/g, ''));
+  const r = await fetchOnce('k', () => Promise.resolve(ok('<pre>{"a":1}</pre>')), unwrap);
+  assert.deepEqual(await r.json(), { a: 1 });
 });
 
 test('plain json bodies parse without a source json()', async () => {
   _reset();
   const r = await fetchOnce('k', () => Promise.resolve(ok('{"b":2}')));
   assert.deepEqual(await r.json(), { b: 2 });
+});
+
+/*
+ * Regression: the first version captured the body with text() and then handed
+ * back the ORIGINAL Response's json(). Against a real Response that throws
+ * "Body is unusable" - every json-api resort silently published nothing. The
+ * fake shims above could not catch it because their text() is not consuming, so
+ * this test uses a genuine Response.
+ */
+test('json() works on a real Response whose body text() already consumed', async () => {
+  _reset();
+  const real = () => Promise.resolve(new Response('{"lifts":[1,2]}', { status: 200 }));
+  const r = await fetchOnce('real', real);
+  assert.equal(await r.text(), '{"lifts":[1,2]}');
+  assert.deepEqual(await r.json(), { lifts: [1, 2] }, 'must parse the captured text, not the used body');
+});
+
+test('a via response keeps its own unwrapping', async () => {
+  _reset();
+  const viaBody = '<html><pre>{"a":1}</pre></html>';
+  const unwrap = body => JSON.parse(body.match(/<pre>([\s\S]*?)<\/pre>/)[1]);
+  const r = await fetchOnce('via', () => Promise.resolve(new Response(viaBody, { status: 200 })), unwrap);
+  assert.deepEqual(await r.json(), { a: 1 });
 });
