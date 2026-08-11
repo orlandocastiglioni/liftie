@@ -1,8 +1,8 @@
 {
   "name": "Mt. Washington Alpine Resort",
   "url": {
-    "host": "https://mountwashington.ca",
-    "pathname": "/the-mountain/conditions-terrain/alpine-conditions.html"
+    "host": "https://www.mountwashington.ca",
+    "pathname": "/the-mountain/snow-report/"
   },
   "trails": true,
   "tags": [
