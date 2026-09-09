@@ -4,6 +4,15 @@
     "host": "https://www.smuggs.com",
     "pathname": "/conditions/winter-report/"
   },
+  "api": {
+    "host": "https://www.smuggs.com",
+    "pathname": "/wp-json/custom/v1/lifts"
+  },
+  "trails": {
+    "host": "https://www.smuggs.com",
+    "pathname": "/wp-json/custom/v1/trails",
+    "json": true
+  },
   "tags": [
     "New England",
     "Vermont"

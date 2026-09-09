@@ -1,0 +1,137 @@
+[
+  {
+    "id": 13913,
+    "modified": "2026-04-05T09:53:05-04:00",
+    "facility_location": "Morse Mountain",
+    "title": {
+      "rendered": "Curley&#8217;s Cutback"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Easy",
+      "notes": ""
+    }
+  },
+  {
+    "id": 29677,
+    "modified": "2026-03-12T16:20:21-04:00",
+    "facility_location": "Morse Mountain",
+    "title": {
+      "rendered": "Burton Riglet Park"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Terrain Park",
+      "notes": ""
+    }
+  },
+  {
+    "id": 29787,
+    "modified": "2026-04-12T16:19:25-04:00",
+    "facility_location": "Sterling Mountain",
+    "title": {
+      "rendered": "Hangman’s"
+    },
+    "acf": {
+      "open_status": true,
+      "groomed_status": true,
+      "snowmaking_status": false,
+      "difficulty": "Intermediate",
+      "notes": ""
+    }
+  },
+  {
+    "id": 29812,
+    "modified": "2026-04-11T10:43:33-04:00",
+    "facility_location": "Sterling Mountain",
+    "title": {
+      "rendered": "Black Bear"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Advanced",
+      "notes": ""
+    }
+  },
+  {
+    "id": 29771,
+    "modified": "2026-03-31T16:36:19-04:00",
+    "facility_location": "Madonna Mountain",
+    "title": {
+      "rendered": "Freefall"
+    },
+    "acf": {
+      "open_status": true,
+      "groomed_status": false,
+      "snowmaking_status": true,
+      "difficulty": "Expert",
+      "notes": "Natural snow only"
+    }
+  },
+  {
+    "id": 29773,
+    "modified": "2026-03-31T16:36:21-04:00",
+    "facility_location": "Madonna Mountain",
+    "title": {
+      "rendered": "Black Hole"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Extreme Expert",
+      "notes": ""
+    }
+  },
+  {
+    "id": 29727,
+    "modified": "2026-04-12T16:20:22-04:00",
+    "facility_location": "Madonna Mountain",
+    "title": {
+      "rendered": "Lower Chilcoot"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Intermediate",
+      "notes": ""
+    }
+  },
+  {
+    "id": 33265,
+    "modified": "2026-03-27T08:12:16-04:00",
+    "facility_location": "Nordic Adventure Center",
+    "title": {
+      "rendered": "Aspens"
+    },
+    "acf": {
+      "open_status": true,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Intermediate",
+      "notes": ""
+    }
+  },
+  {
+    "id": 33233,
+    "modified": "2026-03-27T08:12:18-04:00",
+    "facility_location": "Nordic Adventure Center",
+    "title": {
+      "rendered": "Bill’s Run"
+    },
+    "acf": {
+      "open_status": false,
+      "groomed_status": false,
+      "snowmaking_status": false,
+      "difficulty": "Easy",
+      "notes": ""
+    }
+  }
+]
