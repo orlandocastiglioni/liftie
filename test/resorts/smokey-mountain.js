@@ -12,3 +12,19 @@ lifts('smokey-mountain', 'html', {
   'Red Lift': 'open',
   'Skytrac Quad Chair Lift': 'open'
 });
+
+// The WordPress/Elementor page the site moved to in 2026, captured live
+// 2026-10-27 and trimmed to the LIFTS STATUS widgets plus one unrelated
+// text-editor block ahead of them (the anchor must skip it). Heading is an
+// <h3>, lines are separated by an en dash, and the apostrophe is now typographic.
+lifts(
+  'smokey-mountain',
+  'html',
+  {
+    'Magic Carpet': 'closed',
+    'Coach’s Poma': 'closed',
+    'Red Lift': 'closed',
+    'Skytrac Quad Chair Lift': 'closed'
+  },
+  { example: 'smokey-mountain-2026' }
+);

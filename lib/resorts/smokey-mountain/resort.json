@@ -2,8 +2,7 @@
   "name": "Smokey Mountain Ski Club",
   "url": {
     "host": "http://skismokey.ca",
-    "pathname": "/general-information/current-conditions",
-    "via": "flaresolverr"
+    "pathname": "/general-information/current-local-conditions/"
   },
   "tags": [
     "Newfoundland and Labrador"
