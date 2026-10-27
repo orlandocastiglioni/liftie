@@ -29,6 +29,49 @@ test('nordic-pulse: extracts trails from the ng-state data-npww blob', (_t, done
   );
 });
 
+test('nordic-pulse: reads the compact TransferState shape served since 2026-09-25', (_t, done) => {
+  // Angular's compact keys (u/b/s/st/h/rt) and the /data-npw path. The area
+  // metadata entry sits beside it and carries no trails; it must not be picked
+  // even though its URL shares the /v3/ski-areas/<id> prefix.
+  const state = {
+    1: {
+      b: { _id: 'x', seasonSwitch: null, season: 'winter' },
+      h: {},
+      s: 200,
+      st: 'OK',
+      u: 'https://api.nordic-pulse.com/v3/ski-areas/US-VT-Test?project=npw',
+      rt: 'json'
+    },
+    2: {
+      b: {
+        trails: [
+          { names: { en: 'Holland' }, open: false, 'piste:difficulty': 'easy' },
+          { names: { en: 'Tormondsen' }, open: true, hazard: false, hide: false, 'piste:difficulty': 'intermediate' },
+          { names: { en: 'Tormondsen Spur' }, open: true, hide: true }
+        ],
+        markers: []
+      },
+      h: {},
+      s: 200,
+      st: 'OK',
+      u: 'https://api.nordic-pulse.com/v3/ski-areas/US-VT-Test/data-npw',
+      rt: 'json'
+    }
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.deepEqual(list, [
+        { name: 'Holland', status: 'closed', level: 'green' },
+        { name: 'Tormondsen', status: 'open', level: 'blue' }
+      ]);
+      done();
+    }
+  );
+});
+
 test('nordic-pulse: hidden sub-segments are dropped, not listed as trails', (_t, done) => {
   // Trapp and Great Glen publish internal segments ("Haul Road Lower") next to
   // the parent route ("Haul Road"); nordic-pulse's own UI hides them.
