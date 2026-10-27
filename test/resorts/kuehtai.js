@@ -1,35 +1,39 @@
 import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import test from 'node:test';
-import status from '../../lib/resorts/kuehtai/status.js';
-import coerce from '../../lib/tools/coerce.js';
+import { parseHtml } from '../../lib/lifts/parser.js';
+import parse from '../../lib/resorts/kuehtai/index.js';
 import lifts from '../lifts/index.js';
 
-// Fixture is the wayback capture of 18 February 2026 (20260218125615), midwinter
-// with the board mixed - 11 of 12 lifts running, HoheMutBahn on fa-times. The
-// live summer page has the identical markup and roster with every row on
-// fa-times, so it would assert nothing about the open branch.
+// Intermaps Skigebietsmanager region_id=860, captured live 2026-10-27. The
+// SKI plus CITY network page this area used to be read from dropped its
+// #pisten_anlagen tables on 2026-09-22; see lib/resorts/kuehtai/index.js.
 lifts('kuehtai', 'html', {
-  Alpenrosenlift: 'open',
-  KühTeppich: 'open',
-  DreiSeenBahn: 'open',
-  GaisKogelBahn: 'open',
-  HochAlterBahn: 'open',
-  HoheMutBahn: 'closed',
-  KaiserBahn: 'open',
-  Schwarzmooslift: 'open',
-  Sonnenlift: 'open',
-  StartBahn: 'open',
-  Wiesbergbahn: 'open',
-  Wunderteppich: 'open'
+  'Alpenrosenlift': 'closed',
+  'DreiSeenBahn': 'closed',
+  'GaisKogelBahn': 'closed',
+  'HochAlterBahn': 'closed',
+  'HoheMutBahn': 'closed',
+  'KaiserBahn': 'closed',
+  'KühTeppich': 'closed',
+  'Schwarzmooslift': 'closed',
+  'Sonnenlift': 'closed',
+  'StartBahn': 'closed',
+  'Wiesbergbahn': 'closed',
+  'Wunderteppich': 'closed'
 });
 
-// fa-times is the whole reason this resort needs a status.js: coerce knows
-// 'check' but its closed aliases are 'cross' and 'x', so an untranslated
-// fa-times would publish every closed lift on the mountain as 'scheduled'.
-test('kuehtai should map the widget icon vocabulary', () => {
-  const mapped = Object.fromEntries(['fa fa-check', 'fa fa-times'].map(icon => [icon, coerce(status(icon))]));
-  assert.deepEqual(mapped, {
-    'fa fa-check': 'open',
-    'fa fa-times': 'closed'
-  });
+test('kuehtai reportedAt', (_t, done) => {
+  const html = readFileSync(resolve(import.meta.dirname, 'example/kuehtai.html'), 'utf8');
+  parseHtml(
+    html,
+    dom => parse(dom),
+    (err, ls) => {
+      assert.ifError(err);
+      assert.equal(ls.reportedAt, '2026-09-24T10:54:33.000Z');
+      assert.equal(Object.keys(ls).length, 12, 'the stamp must not count as a lift');
+      done();
+    }
+  );
 });

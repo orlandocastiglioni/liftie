@@ -4,6 +4,14 @@
     "host": "https://www.ski-plus-city.com",
     "pathname": "/en/ski-plus-city-pass/skiing-resorts/patscherkofelbahn/"
   },
+  "dataUrl": {
+    "host": "https://sdds4.intermaps.com",
+    "pathname": "/skigebietsmanager_template/Default.aspx",
+    "query": {
+      "region_id": "831",
+      "lang": "en"
+    }
+  },
   "trails": true,
   "tags": [
     "Alps",

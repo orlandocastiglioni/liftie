@@ -2,7 +2,7 @@
   "name": "Burke Mountain",
   "url": {
     "host": "https://www.skiburke.com",
-    "pathname": "/ski-ride/weather-conditions"
+    "pathname": "/the-mountain/weather-conditions"
   },
   "tags": [
     "Vermont",
