@@ -1,0 +1,26 @@
+{
+  "name": "Eastman Cross Country",
+  "url": {
+    "host": "https://www.eastmannh.org",
+    "pathname": "/"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NH/Eastman-Cross-Country",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New Hampshire",
+    "New England",
+    "Nordic"
+  ],
+  "ll": [
+    -72.112769,
+    43.50651
+  ]
+}
