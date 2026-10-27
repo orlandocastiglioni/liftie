@@ -1,0 +1,25 @@
+{
+  "name": "Powder Ridge Mountain Park",
+  "url": {
+    "host": "https://powderridgepark.com",
+    "pathname": "/trail-report/"
+  },
+  "api": {
+    "host": "https://powderridgepark.com",
+    "pathname": "/wp-json/sc/v1/trail-report",
+    "json": true
+  },
+  "trails": {
+    "host": "https://powderridgepark.com",
+    "pathname": "/wp-json/sc/v1/trail-report",
+    "json": true
+  },
+  "tags": [
+    "Connecticut",
+    "New England"
+  ],
+  "ll": [
+    -72.738495,
+    41.502481
+  ]
+}
