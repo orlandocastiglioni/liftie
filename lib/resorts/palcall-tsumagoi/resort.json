@@ -1,14 +1,12 @@
 {
   "name": "Palcall Tsumagoi",
   "url": {
-    "host": "https://tsumagoiskiresort.life",
+    "host": "https://palcallresort.com",
     "pathname": "/"
   },
   "dataUrl": {
-    "host": "https://tsumagoiskiresort.life",
-    "pathname": "/",
-    "via": "flaresolverr",
-    "maxTimeout": 90000
+    "host": "https://palcallresort.com",
+    "pathname": "/"
   },
   "trails": true,
   "tags": [
