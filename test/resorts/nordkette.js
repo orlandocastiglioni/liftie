@@ -1,28 +1,33 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import test from 'node:test';
+import { parseHtml } from '../../lib/lifts/parser.js';
+import parse from '../../lib/resorts/nordkette/index.js';
 import lifts from '../lifts/index.js';
 
-// 2025-02-19 wayback capture: midwinter, the whole Nordkette turning
+// Intermaps Skigebietsmanager region_id=864, captured live 2026-10-27. The
+// SKI plus CITY network page this area used to be read from dropped its
+// #pisten_anlagen tables on 2026-09-22; see lib/resorts/nordkette/index.js.
 lifts('nordkette', 'html', {
-  'A Sektion I Hungerburg': 'open',
-  'B Sektion II Seegrube': 'open',
-  'C Sektion III Hafelekar': 'open',
-  'D Seegrube': 'open',
-  'E Frau - Hitt - Warte': 'open',
-  Zauberteppich: 'open'
+  'A Sektion I Hungerburg': 'closed',
+  'B Sektion II Seegrube': 'closed',
+  'C Sektion III Hafelekar': 'closed',
+  'D Seegrube': 'closed',
+  'E Frau - Hitt - Warte': 'closed',
+  'Zauberteppich': 'closed'
 });
 
-// live 2026-08-07 capture: the three sightseeing sections run year round, the
-// two ski lifts and the carpet do not - the only capture of this page that
-// mixes both status glyphs, so it is what pins fa-times to closed
-lifts(
-  'nordkette',
-  'html',
-  {
-    'A Sektion I Hungerburg': 'open',
-    'B Sektion II Seegrube': 'open',
-    'C Sektion III Hafelekar': 'open',
-    'D Seegrube': 'closed',
-    'E Frau - Hitt - Warte': 'closed',
-    Zauberteppich: 'closed'
-  },
-  { example: 'nordkette-summer' }
-);
+test('nordkette reportedAt', (_t, done) => {
+  const html = readFileSync(resolve(import.meta.dirname, 'example/nordkette.html'), 'utf8');
+  parseHtml(
+    html,
+    dom => parse(dom),
+    (err, ls) => {
+      assert.ifError(err);
+      assert.equal(ls.reportedAt, '2026-10-27T18:18:14.000Z');
+      assert.equal(Object.keys(ls).length, 6, 'the stamp must not count as a lift');
+      done();
+    }
+  );
+});

@@ -4,7 +4,22 @@
     "host": "https://www.ski-plus-city.com",
     "pathname": "/en/ski-plus-city-pass/skiing-resorts/stubai-glacier/"
   },
-  "trails": true,
+  "api": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/stubaier_gletscher/data",
+    "query": {
+      "lang": "en"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://winter.intermaps.com",
+    "pathname": "/stubaier_gletscher/data",
+    "query": {
+      "lang": "en"
+    },
+    "json": true
+  },
   "tags": [
     "Alps",
     "Austria"

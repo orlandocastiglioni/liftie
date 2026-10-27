@@ -1,0 +1,789 @@
+{
+ "lifts": [
+  {
+   "popup": {
+    "title": "Gamsgarten I",
+    "status": "open",
+    "subtitle": "Mono-cable gondola",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Mono-cable gondola",
+   "type": 23,
+   "id": "L_40034"
+  },
+  {
+   "popup": {
+    "title": "Gamsgarten II",
+    "status": "open",
+    "subtitle": "Mono-cable gondola",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Mono-cable gondola",
+   "type": 23,
+   "id": "L_40035"
+  },
+  {
+   "popup": {
+    "title": "Schaufeljoch",
+    "status": "open",
+    "subtitle": "Mono-cable gondola",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Mono-cable gondola",
+   "type": 23,
+   "id": "L_40036"
+  },
+  {
+   "popup": {
+    "title": "Eisjoch",
+    "status": "open",
+    "subtitle": "6-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "6-person chairlift",
+   "type": 30,
+   "id": "L_40037"
+  },
+  {
+   "popup": {
+    "title": "Fernau",
+    "status": "closed",
+    "subtitle": "6-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "6-person chairlift",
+   "type": 30,
+   "id": "L_40038"
+  },
+  {
+   "popup": {
+    "title": "Murmele",
+    "status": "closed",
+    "subtitle": "6-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "6-person chairlift",
+   "type": 30,
+   "id": "L_40039"
+  },
+  {
+   "popup": {
+    "title": "Pfaffengrat",
+    "status": "closed",
+    "subtitle": "2-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "2-person chairlift",
+   "type": 13,
+   "id": "L_40040"
+  },
+  {
+   "popup": {
+    "title": "Wildspitz",
+    "status": "closed",
+    "subtitle": "2-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "2-person chairlift",
+   "type": 13,
+   "id": "L_40041"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Fernau",
+    "status": "closed",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40043"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Gaiskarferner",
+    "status": "open",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40044"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Windachferner",
+    "status": "closed",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40045"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Daunferner I",
+    "status": "open",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40046"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Daunferner II",
+    "status": "open",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40047"
+  },
+  {
+   "popup": {
+    "title": "Schlepplift Daunscharte",
+    "status": "closed",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40048"
+  },
+  {
+   "popup": {
+    "title": "Übungslift Gamsgarten",
+    "status": "closed",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40049"
+  },
+  {
+   "popup": {
+    "title": "Tellerlift Kitzlift",
+    "status": "closed",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40050"
+  },
+  {
+   "popup": {
+    "title": "Zauberteppich 1",
+    "status": "closed",
+    "subtitle": "Magic carpet",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Magic carpet",
+   "type": 21,
+   "id": "L_40051"
+  },
+  {
+   "popup": {
+    "title": "Schneekarussell",
+    "status": "closed",
+    "subtitle": "T-bar lift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "T-bar lift",
+   "type": 9,
+   "id": "L_40053"
+  },
+  {
+   "popup": {
+    "title": "Rotadl",
+    "status": "open",
+    "subtitle": "8-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "8-person chairlift",
+   "type": 1,
+   "id": "L_40090"
+  },
+  {
+   "popup": {
+    "title": "Daunjoch",
+    "status": "closed",
+    "subtitle": "4-person chairlift",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "4-person chairlift",
+   "type": 25,
+   "id": "L_40092"
+  },
+  {
+   "popup": {
+    "title": "Snowpark-Lift",
+    "status": "open",
+    "subtitle": "Ski lift",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Ski lift",
+   "type": 31,
+   "id": "L_40095"
+  },
+  {
+   "popup": {
+    "title": "3S Eisgratbahn I",
+    "status": "open",
+    "subtitle": "Mono-cable gondola",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Mono-cable gondola",
+   "type": 23,
+   "id": "L_40099"
+  },
+  {
+   "popup": {
+    "title": "3S Eisgratbahn II",
+    "status": "open",
+    "subtitle": "Mono-cable gondola",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Mono-cable gondola",
+   "type": 23,
+   "id": "L_40100"
+  },
+  {
+   "popup": {
+    "title": "Zauberteppich 3, 4",
+    "status": "closed",
+    "subtitle": "Magic carpet",
+    "lynx-type": "lift"
+   },
+   "status": "closed",
+   "subtitle": "Magic carpet",
+   "type": 21,
+   "id": "L_40107"
+  },
+  {
+   "popup": {
+    "title": "Zauberteppich Eisgrat",
+    "status": "open",
+    "subtitle": "Magic carpet",
+    "lynx-type": "lift"
+   },
+   "status": "open",
+   "subtitle": "Magic carpet",
+   "type": 21,
+   "id": "L_113843"
+  }
+ ],
+ "slopes": [
+  {
+   "popup": {
+    "title": "5 Eisjoch",
+    "status": "open",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40054"
+  },
+  {
+   "popup": {
+    "title": "4 Schaufelschuss",
+    "status": "open",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40055"
+  },
+  {
+   "popup": {
+    "title": "2 Steilhang",
+    "status": "open",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40056"
+  },
+  {
+   "popup": {
+    "title": "19 Obere Silberschneid",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40057"
+  },
+  {
+   "popup": {
+    "title": "22 Gamsgarten",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40058"
+  },
+  {
+   "popup": {
+    "title": "17 Zufahrt Fernau",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40059"
+  },
+  {
+   "popup": {
+    "title": "21 Falwesuna",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40060"
+  },
+  {
+   "popup": {
+    "title": "12 Gaiskarferner",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40061"
+  },
+  {
+   "popup": {
+    "title": "13 Sonnenhang",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40062"
+  },
+  {
+   "popup": {
+    "title": "10 Windachferner Nord",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40063"
+  },
+  {
+   "popup": {
+    "title": "7 Daunferner",
+    "status": "open",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40064"
+  },
+  {
+   "popup": {
+    "title": "6 Skiweg Eisgrat",
+    "status": "open",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40065"
+  },
+  {
+   "popup": {
+    "title": "14 Fernauferner",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40067"
+  },
+  {
+   "popup": {
+    "title": "16 Pfaffenschneid",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40068"
+  },
+  {
+   "popup": {
+    "title": "23 Big Family Schuss",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40069"
+  },
+  {
+   "popup": {
+    "title": "26 Daunfernerschuss",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40070"
+  },
+  {
+   "popup": {
+    "title": "9 Kogelferner",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40071"
+  },
+  {
+   "popup": {
+    "title": "40 Fernau Mauer",
+    "status": "closed",
+    "subtitle": "Ski routes",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes",
+   "type": 2617,
+   "id": "R_40072"
+  },
+  {
+   "popup": {
+    "title": "35 Wilde Grube",
+    "status": "closed",
+    "subtitle": "Ski routes, Valley run",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes, Valley run",
+   "type": 2617,
+   "id": "R_40073"
+  },
+  {
+   "popup": {
+    "title": "37 Steile Zunge",
+    "status": "closed",
+    "subtitle": "Ski routes",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes",
+   "type": 2617,
+   "id": "R_40074"
+  },
+  {
+   "popup": {
+    "title": "39 Kanonenrohr",
+    "status": "closed",
+    "subtitle": "Ski routes",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes",
+   "type": 2617,
+   "id": "R_40075"
+  },
+  {
+   "popup": {
+    "title": "27 Daunhill",
+    "status": "closed",
+    "subtitle": "Slopes, Difficult",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Difficult",
+   "type": "2616-difficult",
+   "id": "R_40091"
+  },
+  {
+   "popup": {
+    "title": "24 Skiweg Murmele",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40098"
+  },
+  {
+   "popup": {
+    "title": "28 Skiweg Mutterberg",
+    "status": "closed",
+    "subtitle": "Slopes, Easy, Valley run",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy, Valley run",
+   "type": "2614-easy",
+   "id": "R_40101"
+  },
+  {
+   "popup": {
+    "title": "34 Fernau",
+    "status": "closed",
+    "subtitle": "Ski routes, Difficult, Valley run",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes, Difficult, Valley run",
+   "type": "2631-difficult",
+   "id": "R_40103"
+  },
+  {
+   "popup": {
+    "title": "15 Fernauschuss",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40108"
+  },
+  {
+   "popup": {
+    "title": "36 Schartenschuss",
+    "status": "closed",
+    "subtitle": "Ski routes",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes",
+   "type": 2617,
+   "id": "R_40109"
+  },
+  {
+   "popup": {
+    "title": "3 Seeschuss",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40111"
+  },
+  {
+   "popup": {
+    "title": "38 Bildstöckljoch",
+    "status": "closed",
+    "subtitle": "Ski routes",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Ski routes",
+   "type": 2617,
+   "id": "R_40113"
+  },
+  {
+   "popup": {
+    "title": "1 Seeblick",
+    "status": "open",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40195"
+  },
+  {
+   "popup": {
+    "title": "11 Windachferner Süd",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40196"
+  },
+  {
+   "popup": {
+    "title": "18 Bödele Schuss",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40198"
+  },
+  {
+   "popup": {
+    "title": "20 Untere Silberschneid",
+    "status": "closed",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_40199"
+  },
+  {
+   "popup": {
+    "title": "25 Süd-Ost Tangente",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40201"
+  },
+  {
+   "popup": {
+    "title": "8 Daunenhang",
+    "status": "closed",
+    "subtitle": "Slopes, Easy",
+    "lynx-type": "slope"
+   },
+   "status": "closed",
+   "subtitle": "Slopes, Easy",
+   "type": "2614-easy",
+   "id": "R_40204"
+  },
+  {
+   "popup": {
+    "title": "29 Rotadl",
+    "status": "open",
+    "subtitle": "Slopes, Intermediate",
+    "lynx-type": "slope"
+   },
+   "status": "open",
+   "subtitle": "Slopes, Intermediate",
+   "type": "2615-medium",
+   "id": "R_41973"
+  }
+ ],
+ "routes": [
+  {
+   "popup": {
+    "title": "Winterwanderweg",
+    "status": "closed",
+    "subtitle": "Winter hiking",
+    "lynx-type": "route"
+   },
+   "status": "closed",
+   "subtitle": "Winter hiking",
+   "type": 400,
+   "id": "400_40084"
+  },
+  {
+   "popup": {
+    "title": "Geschwindigkeitsmessstrecke",
+    "status": "closed",
+    "subtitle": "Race track",
+    "lynx-type": "route"
+   },
+   "status": "closed",
+   "subtitle": "Race track",
+   "type": 385,
+   "id": "385_40096"
+  },
+  {
+   "popup": {
+    "title": "Langlaufloipe",
+    "status": "closed",
+    "subtitle": "Ski trails, Classic, Skating",
+    "lynx-type": "route"
+   },
+   "status": "closed",
+   "subtitle": "Ski trails, Classic, Skating",
+   "type": 373,
+   "id": "373_40105"
+  },
+  {
+   "popup": {
+    "title": "Rennstrecke Eisjoch",
+    "status": "closed",
+    "subtitle": "Race track",
+    "lynx-type": "route"
+   },
+   "status": "closed",
+   "subtitle": "Race track",
+   "type": 385,
+   "id": "385_40151"
+  }
+ ],
+ "lastUpdate": "2026-10-27T16:31:19"
+}
