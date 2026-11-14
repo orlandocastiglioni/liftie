@@ -1,8 +1,9 @@
 {
   "name": "Whiteface",
   "url": {
-    "host": "https://www.whiteface.com",
-    "pathname": "/mountain/conditions"
+    "host": "https://whiteface.com",
+    "pathname": "/mountain/conditions/",
+    "via": "flaresolverr"
   },
   "tags": [
     "New York"
@@ -13,5 +14,6 @@
     44.356506
   ],
   "twitter": "SkiWhiteface",
-  "noaa": "BTV/68,47"
+  "noaa": "BTV/68,47",
+  "trails": true
 }

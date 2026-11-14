@@ -2,7 +2,8 @@
   "name": "Gore Mountain",
   "url": {
     "host": "https://goremountain.com",
-    "pathname": "/the-mountain/conditions/"
+    "pathname": "/the-mountain/conditions/",
+    "via": "flaresolverr"
   },
   "tags": [
     "New York"
@@ -12,5 +13,6 @@
     43.672653
   ],
   "twitter": "GoreMountain",
-  "noaa": "ALY/56,108"
+  "noaa": "ALY/56,108",
+  "trails": true
 }

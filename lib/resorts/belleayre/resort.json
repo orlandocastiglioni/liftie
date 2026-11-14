@@ -1,0 +1,16 @@
+{
+  "name": "Belleayre",
+  "url": {
+    "host": "https://www.belleayre.com",
+    "pathname": "/mountain/conditions/",
+    "via": "flaresolverr"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -74.506,
+    42.12994
+  ]
+}
