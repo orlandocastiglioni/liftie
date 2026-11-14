@@ -1,0 +1,24 @@
+{
+  "name": "Beitostølen (Beito)",
+  "url": {
+    "host": "https://beito.com",
+    "pathname": "/en/weather-trails/"
+  },
+  "api": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/15",
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/15",
+    "json": true
+  },
+  "tags": [
+    "Norway"
+  ],
+  "ll": [
+    8.90226,
+    61.2491
+  ]
+}

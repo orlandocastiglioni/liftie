@@ -1,0 +1,24 @@
+{
+  "name": "Hafjell",
+  "url": {
+    "host": "https://www.alpinco.com",
+    "pathname": "/en/hafjell/snow-report"
+  },
+  "api": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/12",
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/12",
+    "json": true
+  },
+  "tags": [
+    "Norway"
+  ],
+  "ll": [
+    10.44915,
+    61.23418
+  ]
+}
