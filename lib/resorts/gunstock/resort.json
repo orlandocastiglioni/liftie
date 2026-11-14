@@ -1,8 +1,11 @@
 {
   "name": "Gunstock",
   "url": {
-    "host": "http://www.gunstock.com",
-    "pathname": "/on-snow/snow-report/"
+    "host": "https://www.gunstock.com",
+    "pathname": "/winter/snow-report/",
+    "headers": {
+      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
+    }
   },
   "tags": [
     "New Hampshire",
@@ -14,5 +17,6 @@
   ],
   "twitter": "Gunstockmtn",
   "opening": "2017-12-01",
-  "noaa": "GYX/37,46"
+  "noaa": "GYX/37,46",
+  "trails": true
 }
