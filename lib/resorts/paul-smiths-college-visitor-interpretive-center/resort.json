@@ -1,0 +1,25 @@
+{
+  "name": "Paul Smith's College VIC",
+  "url": {
+    "host": "https://www.paulsmiths.edu",
+    "pathname": "/"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NY/Paul-Smiths-VIC",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New York",
+    "Nordic"
+  ],
+  "ll": [
+    -74.25952,
+    44.44838
+  ]
+}

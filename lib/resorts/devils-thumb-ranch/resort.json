@@ -1,0 +1,25 @@
+{
+  "name": "Devil's Thumb Ranch",
+  "url": {
+    "host": "https://www.devilsthumbranch.com",
+    "pathname": "/"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/CO/Devils-Thumb-Ranch",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Colorado",
+    "Nordic"
+  ],
+  "ll": [
+    -105.78314,
+    39.96784
+  ]
+}
