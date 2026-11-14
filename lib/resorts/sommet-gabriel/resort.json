@@ -1,0 +1,15 @@
+{
+  "name": "Sommet Gabriel",
+  "url": {
+    "host": "https://www.sommets.com",
+    "pathname": "/en/what-to-do/skiing-snowboarding/trail-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -74.14893,
+    45.9222
+  ]
+}
