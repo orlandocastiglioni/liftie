@@ -1,0 +1,15 @@
+{
+  "name": "Purgatory",
+  "url": {
+    "host": "https://www.purgatory.ski",
+    "pathname": "/mountain/weather-conditions-webcams/"
+  },
+  "trails": true,
+  "tags": [
+    "Colorado"
+  ],
+  "ll": [
+    -107.81384,
+    37.62954
+  ]
+}

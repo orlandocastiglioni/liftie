@@ -1,0 +1,15 @@
+{
+  "name": "Willamette Pass Resort",
+  "url": {
+    "host": "https://www.willamettepass.ski",
+    "pathname": "/weather-conditions-webcams/lifts-trails/"
+  },
+  "trails": true,
+  "tags": [
+    "Oregon"
+  ],
+  "ll": [
+    -122.03541,
+    43.60048
+  ]
+}

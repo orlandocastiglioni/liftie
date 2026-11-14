@@ -1,0 +1,15 @@
+{
+  "name": "Arizona Snowbowl",
+  "url": {
+    "host": "https://www.snowbowl.ski",
+    "pathname": "/the-mountain/weather-conditions-webcams/"
+  },
+  "trails": true,
+  "tags": [
+    "Arizona"
+  ],
+  "ll": [
+    -111.71113,
+    35.33172
+  ]
+}
