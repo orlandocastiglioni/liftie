@@ -1,8 +1,8 @@
 {
   "name": "Timberline Lodge",
   "url": {
-    "host": "https://www.timberlinelodge.com",
-    "pathname": "/conditions"
+    "host": "https://timberlinelodge.com",
+    "pathname": "/conditions/"
   },
   "tags": [
     "Oregon"
