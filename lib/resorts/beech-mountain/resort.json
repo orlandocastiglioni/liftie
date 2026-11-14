@@ -1,0 +1,15 @@
+{
+  "name": "Beech Mountain",
+  "url": {
+    "host": "https://www.beechmountainresort.com",
+    "pathname": "/mountain/winter-trail-map/"
+  },
+  "trails": true,
+  "tags": [
+    "North Carolina"
+  ],
+  "ll": [
+    -81.87797,
+    36.19357
+  ]
+}

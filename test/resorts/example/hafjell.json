@@ -1,0 +1,1103 @@
+{
+ "_index": "fnugg_resort",
+ "_type": "resort",
+ "_id": "12",
+ "_version": 1,
+ "found": true,
+ "_source": {
+  "id": 12,
+  "name": "Hafjell",
+  "description": "Drøye to timer fra Oslo ligger Hafjell, ett av Norges største alpinanlegg: 835 høydemeter, 67 løyper, terrengpark og tre familieområder, med skikjøring fra topp til bunn.",
+  "contact": {
+   "address": "Hundervegen 122",
+   "zip_code": "2636",
+   "city": "ØYER",
+   "phone_servicecenter": "61249000",
+   "phone_skipatrol": "40401500",
+   "call_number": "61249000",
+   "email": ""
+  },
+  "opening_hours": {
+   "monday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "tuesday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "wednesday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "thursday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "friday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "saturday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "sunday": {
+    "from": "09:00",
+    "to": "16:30",
+    "closed": true
+   },
+   "exception_days": [
+    {
+     "to": "14:00",
+     "date": "2025-12-24T00:00:00.000000Z",
+     "from": "09:00",
+     "closed": true
+    }
+   ]
+  },
+  "resort_open": false,
+  "resort_open_override": false,
+  "resort_opening_date": "2026-11-27T00:00:00Z",
+  "resort_closing_date": "2026-04-12T00:00:00Z",
+  "default_weather_zones": "top",
+  "lift_ticket_prices": [
+   {
+    "card_name": "1 dag*",
+    "price_adult": 599,
+    "price_child": null,
+    "price_youth": 489,
+    "price_senior": null
+   },
+   {
+    "card_name": "2 dager*",
+    "price_adult": 1149,
+    "price_child": null,
+    "price_youth": 939,
+    "price_senior": null
+   },
+   {
+    "card_name": "3 dager*",
+    "price_adult": 1679,
+    "price_child": null,
+    "price_youth": 1359,
+    "price_senior": null
+   },
+   {
+    "card_name": "4 dager*",
+    "price_adult": 2159,
+    "price_child": null,
+    "price_youth": 1749,
+    "price_senior": null
+   },
+   {
+    "card_name": "5 dager*",
+    "price_adult": 2489,
+    "price_child": null,
+    "price_youth": 2019,
+    "price_senior": null
+   },
+   {
+    "card_name": "6-8 dager*",
+    "price_adult": 2939,
+    "price_child": null,
+    "price_youth": 2389,
+    "price_senior": null
+   },
+   {
+    "card_name": "Ekstra per dag utover 8 dager",
+    "price_adult": 270,
+    "price_child": null,
+    "price_youth": 220,
+    "price_senior": null
+   },
+   {
+    "card_name": "Sesongkort",
+    "price_adult": 8399,
+    "price_child": null,
+    "price_youth": 6799,
+    "price_senior": null
+   },
+   {
+    "card_name": "3 timer",
+    "price_adult": null,
+    "price_child": null,
+    "price_youth": null,
+    "price_senior": null
+   },
+   {
+    "card_name": "Kveldskjøring (tirs-tors)",
+    "price_adult": 219,
+    "price_child": null,
+    "price_youth": 179,
+    "price_senior": null
+   },
+   {
+    "card_name": "Axess WTP-kort (obligatorisk unntatt enkelttur Gondol)",
+    "price_adult": 75,
+    "price_child": null,
+    "price_youth": 75,
+    "price_senior": null
+   },
+   {
+    "card_name": "*Kveldskort inkludert i alle dags- og flerdagerskort.",
+    "price_adult": null,
+    "price_child": null,
+    "price_youth": null,
+    "price_senior": null
+   },
+   {
+    "card_name": "Sesongkort kveldssesong, Hafjell og Kvitfjell",
+    "price_adult": 1399,
+    "price_child": null,
+    "price_youth": 1099,
+    "price_senior": null
+   }
+  ],
+  "lifts": {
+   "list": [
+    {
+     "name": "A. Knerten",
+     "status": "1",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "B. Familieheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "C. Hafjellheis 1",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "D. Kjusheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "E. Hafjellheis 2",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "F. Skogheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "G. Fjellheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "H. Vidsynexpressen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "I. Gaiaheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "K. Lunnstadheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "L. Gondolen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "M. Moseterheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "N. Backyardheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "O. Hafjell 360",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "P. Crossheisen",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "X. Båndheis Frontyard A (Favn)",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "Z. Båndheis Frontyard B (Cross)",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    },
+    {
+     "name": "Y. Båndheis Skiskole",
+     "status": "0",
+     "slope_difficulty": "uknown"
+    }
+   ],
+   "open": 0,
+   "count": 18,
+   "closed": 18
+  },
+  "slopes": {
+   "list": [
+    {
+     "name": "1. Nyseterløypa",
+     "status": "1",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "2. Fjelløypa",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "3. Seterløypa",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "4. Buåsløypa",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "5a. Døldatraversen",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "5b. Døldatraversen",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "6. Frontyard",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "7. Backyard",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "8. Gaialøypa",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "9. KIDS Gaia",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "10. Lunnstaden",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "11. Familiebakken",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "12. Knerten",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "13a.Minicross",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "13b. Minicross",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "14. Isas Hytteløype",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "20. Snarvegen",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "22. Bøygen",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "23a. Lett nedfart",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "23b. Lett nedfart",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "23c. Lett nedfart",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "24a. Kringelåsløypa",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "24b. Kringelåsløypa",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "24c. Kringelåsløypa",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "25. Skicross",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "26. AUDI Ski Run",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "41a. Hafjelløypa",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "41b. Hafjelløypa",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "41c. Hafjelløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "41d. Hafjelløypa (Fra Vidsynexpressen)",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "41e. Hafjelløypa (Ned til Skitorget)",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "41f. Hafjelløypa (Råbølhenget)",
+     "status": "0",
+     "slope_difficulty": "black"
+    },
+    {
+     "name": "41g. Hafjelløypa (Fra Hafjellheis 1 topp)",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "41h. Hafjelløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "41i. Hafjelløypa (Hafjellhoppene)",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "42a. Bukkespranget",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "42b. Bukkespranget",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "43. Svegårdsløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "44. Kjusløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "45a. Lystraversen",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "45b. Lystraversen",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "46. Treningsløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "47a. Opheimsløypa",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "47b. Opheimsløypa",
+     "status": "0",
+     "slope_difficulty": "black"
+    },
+    {
+     "name": "48. Hafjell Main Park",
+     "status": "0",
+     "slope_difficulty": "red"
+    },
+    {
+     "name": "60a. Olympialøypa øvre del",
+     "status": "0",
+     "slope_difficulty": "black"
+    },
+    {
+     "name": "60b. Olympialøypa nedre del",
+     "status": "0",
+     "slope_difficulty": "black"
+    },
+    {
+     "name": "70. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "71. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "72. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "73. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "74. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "75. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "76. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "77. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "80. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "81. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "82. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "83. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "84. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "90. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "91. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "92. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "93. Skivei",
+     "status": "0",
+     "slope_difficulty": "blue"
+    },
+    {
+     "name": "94. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "95. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    },
+    {
+     "name": "96. Skivei",
+     "status": "0",
+     "slope_difficulty": "green"
+    }
+   ],
+   "open": 0,
+   "count": 67,
+   "closed": 67
+  },
+  "slope_map": {
+   "image_full": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_.jpg",
+   "image_1_1_l": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-700x700.jpg",
+   "image_1_1_s": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-400x400.jpg",
+   "image_16_9_m": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-600x338.jpg",
+   "image_16_9_s": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-400x225.jpg",
+   "last_updated": "2025-12-10T21:58:10",
+   "photo_credit": null,
+   "image_16_9_xl": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-1680x945.jpg",
+   "image_16_9_xl_nc": "https://fnugg.no/content/uploads/sites/12/2025/12/Hafjell_piste_symbol_right_1.8.7_print.web_-1680x899.jpg"
+  },
+  "images": {
+   "mobile": {
+    "scale1": {
+     "cover": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-320x190.jpg",
+     "big_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-280x280.jpg",
+     "small_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-140x140.jpg"
+    },
+    "scale2": {
+     "cover": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-640x380.jpg",
+     "big_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-560x560.jpg",
+     "small_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-280x280.jpg"
+    },
+    "scale3": {
+     "cover": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-960x570.jpg",
+     "big_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-840x840.jpg",
+     "small_thumbnail": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-560x560.jpg"
+    }
+   },
+   "image_full": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95.jpg",
+   "image_1_1_l": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-700x700.jpg",
+   "image_1_1_s": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-400x400.jpg",
+   "image_16_9_m": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-600x338.jpg",
+   "image_16_9_s": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-400x225.jpg",
+   "last_updated": "2023-10-30T13:24:01",
+   "photo_credit": null,
+   "image_16_9_xl": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-1680x945.jpg",
+   "image_16_9_xl_nc": "https://fnugg.no/content/uploads/sites/12/2023/10/AlpincoHafjell51of95-1418x945.jpg"
+  },
+  "social_media": {
+   "twitter": "Hafjell",
+   "instagram": "hafjell"
+  },
+  "booking": [
+   {
+    "url": "https://www.hafjell.no/webkamera",
+    "text": "Se webkamera her"
+   },
+   {
+    "url": "https://www.hafjell.no/stays?gc-0-adults=1",
+    "text": "Book overnatting her"
+   },
+   {
+    "url": "https://www.hafjell.no/bestill/heiskort",
+    "text": "Kjøp heiskort her"
+   },
+   {
+    "url": "https://www.youtube.com/playlist?list=PL8rVhy5Vz9LFWD2e5U9ioYiikH5Osnfu7",
+    "text": "Norway Live Ski TV"
+   }
+  ],
+  "urls": {
+   "yr": "https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/1-540133/Norge/Innlandet/%C3%98yer/Hafjell%20alpinsenter",
+   "homepage": "https://www.alpinco.com/no/hafjell",
+   "opening_hours": "https://www.alpinco.com/no/hafjell/apningstider-vinter",
+   "lift_ticket_prices": "https://www.alpinco.com/no/hafjell/skipass"
+  },
+  "park_description": "I Hafjell er det parktilbud med god plass, og utfordringer på alle nivåer. Prøv hopp for første gang i Frontyard for Kids, eller lek deg i blåparken ”Backyard” med mellomstore hopp, bokser og railer. For de aller tøffeste er terrengparken ”Mainpark” den perfekte lekeplass. Skicrossen er en leken løype med utfordringer for alle!\r\n\r\nFor alle nivåer:\r\n- KIDS Favn\r\n- Backyard\r\n- Skicross\r\n- Mainpark (blå-, rød-, og svart linje) \r\n\r\nSe webkamera fra Hafjell: \r\nhttps://www.youtube.com/watch?v=lFolIqYuXcQ&amp;feature=emb_title\r\n\r\n\r\n",
+  "resort_type": [],
+  "region": [
+   "Østlandet"
+  ],
+  "location": {
+   "lat": 61.23511318,
+   "lon": 10.44817728
+  },
+  "weather_zones": {
+   "top": {
+    "lat": 61.22906699999999,
+    "lon": 10.5174521
+   },
+   "type": "separate",
+   "bottom": {
+    "lat": 61.23475991107849,
+    "lon": 10.446365338623082
+   }
+  },
+  "conditions": {
+   "yr_url": "https://www.yr.no/nb/v%C3%A6rvarsel/daglig-tabell/1-540133/Norge/Innlandet/%C3%98yer/Hafjell%20alpinsenter",
+   "combined": {
+    "top": {
+     "id": null,
+     "snow": {
+      "unit": "cm",
+      "week": null,
+      "today": null,
+      "season": null,
+      "depth_slope": 0,
+      "depth_terrain": 0
+     },
+     "wind": {
+      "mps": 5,
+      "name": "N",
+      "speed": "Lett bris",
+      "degree": 353,
+      "reporter": "yr.no",
+      "direction": "dd"
+     },
+     "zone": "top",
+     "period": {
+      "to": "2026-11-13T17:00:00.000000Z",
+      "from": "2026-11-13T17:00:00.000000Z",
+      "day_of_week": 5
+     },
+     "symbol": {
+      "to": "2026-11-13T23:00:00.000000Z",
+      "from": "2026-11-13T17:00:00.000000Z",
+      "name": "Sun",
+      "yr_id": 1,
+      "fnugg_id": 1,
+      "reporter": "yr.no"
+     },
+     "pressure": 1000.6,
+     "reporter": "yr.no",
+     "condition": null,
+     "temperature": {
+      "unit": "celsius",
+      "value": -6,
+      "reporter": "yr.no",
+      "maxTemperature": -7,
+      "minTemperature": -8
+     },
+     "last_updated": "2026-11-13T16:31:52Z",
+     "powder_alarm": false,
+     "precipitation": 0,
+     "condition_description": "Deilig vårsnø"
+    },
+    "bottom": {
+     "id": null,
+     "snow": {
+      "unit": "cm",
+      "week": null,
+      "today": null,
+      "season": null,
+      "depth_slope": 40,
+      "depth_terrain": 35
+     },
+     "wind": {
+      "mps": 1,
+      "name": "NE",
+      "speed": "Flau vind",
+      "degree": 23,
+      "reporter": "yr.no",
+      "direction": "dd"
+     },
+     "zone": "bottom",
+     "period": {
+      "to": "2026-11-13T17:00:00.000000Z",
+      "from": "2026-11-13T17:00:00.000000Z",
+      "day_of_week": 5
+     },
+     "symbol": {
+      "to": "2026-11-13T23:00:00.000000Z",
+      "from": "2026-11-13T17:00:00.000000Z",
+      "name": "Sun",
+      "yr_id": 1,
+      "fnugg_id": 1,
+      "reporter": "yr.no"
+     },
+     "pressure": 1000.4,
+     "reporter": "yr.no",
+     "condition": null,
+     "temperature": {
+      "unit": "celsius",
+      "value": 0,
+      "reporter": "yr.no",
+      "maxTemperature": -1,
+      "minTemperature": -3
+     },
+     "last_updated": "2026-11-13T16:31:51Z",
+     "powder_alarm": false,
+     "precipitation": 0,
+     "condition_description": "Deilig vårsnø"
+    }
+   },
+   "forecast": {
+    "today": {
+     "top": {
+      "id": 8167,
+      "snow": {
+       "unit": "cm",
+       "week": null,
+       "today": null,
+       "season": null,
+       "depth_slope": 0,
+       "depth_terrain": 0
+      },
+      "wind": {
+       "mps": 5,
+       "name": "N",
+       "speed": "Lett bris",
+       "degree": 353,
+       "reporter": "yr.no",
+       "direction": "dd"
+      },
+      "zone": "top",
+      "period": {
+       "to": "2026-11-13T17:00:00.000000Z",
+       "from": "2026-11-13T17:00:00.000000Z",
+       "day_of_week": 5
+      },
+      "symbol": {
+       "to": "2026-11-13T23:00:00.000000Z",
+       "from": "2026-11-13T17:00:00.000000Z",
+       "name": "Sun",
+       "yr_id": 1,
+       "fnugg_id": 1,
+       "reporter": "yr.no"
+      },
+      "pressure": 1000.6,
+      "reporter": "yr.no",
+      "condition": null,
+      "temperature": {
+       "unit": "celsius",
+       "value": -6,
+       "reporter": "yr.no",
+       "maxTemperature": -7,
+       "minTemperature": -8
+      },
+      "last_updated": "2026-11-13T16:31:52Z",
+      "powder_alarm": false,
+      "precipitation": 0,
+      "condition_description": "Deilig vårsnø"
+     },
+     "bottom": {
+      "id": 8168,
+      "snow": {
+       "unit": "cm",
+       "week": null,
+       "today": null,
+       "season": null,
+       "depth_slope": 40,
+       "depth_terrain": 35
+      },
+      "wind": {
+       "mps": 1,
+       "name": "NE",
+       "speed": "Flau vind",
+       "degree": 23,
+       "reporter": "yr.no",
+       "direction": "dd"
+      },
+      "zone": "bottom",
+      "period": {
+       "to": "2026-11-13T17:00:00.000000Z",
+       "from": "2026-11-13T17:00:00.000000Z",
+       "day_of_week": 5
+      },
+      "symbol": {
+       "to": "2026-11-13T23:00:00.000000Z",
+       "from": "2026-11-13T17:00:00.000000Z",
+       "name": "Sun",
+       "yr_id": 1,
+       "fnugg_id": 1,
+       "reporter": "yr.no"
+      },
+      "pressure": 1000.4,
+      "reporter": "yr.no",
+      "condition": null,
+      "temperature": {
+       "unit": "celsius",
+       "value": 0,
+       "reporter": "yr.no",
+       "maxTemperature": -1,
+       "minTemperature": -3
+      },
+      "last_updated": "2026-11-13T16:31:51Z",
+      "powder_alarm": false,
+      "precipitation": 0,
+      "condition_description": "Deilig vårsnø"
+     }
+    },
+    "weekend": {
+     "wind": {
+      "mps": 4,
+      "name": "SE",
+      "speed": "Lett bris",
+      "degree": 154,
+      "reporter": "yr.no",
+      "direction": "dd"
+     },
+     "period": {
+      "to": "2026-11-14T15:00:00.000000Z",
+      "from": "2026-11-14T15:00:00.000000Z",
+      "day_of_week": 6
+     },
+     "symbol": {
+      "to": "2026-11-14T21:00:00.000000Z",
+      "from": "2026-11-14T15:00:00.000000Z",
+      "name": "Cloud",
+      "yr_id": 4,
+      "fnugg_id": 3,
+      "reporter": "yr.no"
+     },
+     "pressure": 1001.5,
+     "reporter": "yr.no",
+     "temperature": {
+      "unit": "celsius",
+      "value": -3,
+      "reporter": "yr.no",
+      "maxTemperature": -3,
+      "minTemperature": -3
+     },
+     "last_updated": "2026-11-13T16:31:52Z",
+     "precipitation": 0
+    },
+    "long_term": [
+     {
+      "wind": {
+       "mps": 4,
+       "name": "SE",
+       "speed": "Lett bris",
+       "degree": 154,
+       "reporter": "yr.no",
+       "direction": "dd"
+      },
+      "period": {
+       "to": "2026-11-14T15:00:00.000000Z",
+       "from": "2026-11-14T15:00:00.000000Z",
+       "day_of_week": 6
+      },
+      "symbol": {
+       "to": "2026-11-14T21:00:00.000000Z",
+       "from": "2026-11-14T15:00:00.000000Z",
+       "name": "Cloud",
+       "yr_id": 4,
+       "fnugg_id": 3,
+       "reporter": "yr.no"
+      },
+      "pressure": 1001.5,
+      "reporter": "yr.no",
+      "temperature": {
+       "unit": "celsius",
+       "value": -3,
+       "reporter": "yr.no",
+       "maxTemperature": -3,
+       "minTemperature": -3
+      },
+      "last_updated": "2026-11-13T16:31:52Z",
+      "precipitation": 0
+     },
+     {
+      "wind": {
+       "mps": 9,
+       "name": "S",
+       "speed": "Frisk bris",
+       "degree": 167,
+       "reporter": "yr.no",
+       "direction": "dd"
+      },
+      "period": {
+       "to": "2026-11-15T15:00:00.000000Z",
+       "from": "2026-11-15T15:00:00.000000Z",
+       "day_of_week": 7
+      },
+      "symbol": {
+       "to": "2026-11-15T21:00:00.000000Z",
+       "from": "2026-11-15T15:00:00.000000Z",
+       "name": "Fog",
+       "yr_id": 15,
+       "fnugg_id": 3,
+       "reporter": "yr.no"
+      },
+      "pressure": 994.8,
+      "reporter": "yr.no",
+      "temperature": {
+       "unit": "celsius",
+       "value": -1,
+       "reporter": "yr.no",
+       "maxTemperature": -1,
+       "minTemperature": -2
+      },
+      "last_updated": "2026-11-13T16:31:52Z",
+      "precipitation": 0
+     }
+    ],
+    "last_updated": "2026-11-13T16:31:52Z"
+   },
+   "current_report": {
+    "top": {
+     "id": 5438,
+     "snow": {
+      "unit": "cm",
+      "today": 0,
+      "depth_slope": 0,
+      "depth_terrain": 0
+     },
+     "wind": {
+      "mps": 13,
+      "name": "",
+      "speed": "",
+      "degree": null,
+      "direction": ""
+     },
+     "zone": "top",
+     "symbol": {
+      "name": "",
+      "fnugg_id": 3
+     },
+     "site_id": 12,
+     "reporter": "Gjestesenter",
+     "condition": null,
+     "temperature": {
+      "unit": "celsius",
+      "value": -5
+     },
+     "last_updated": "2026-11-03T10:38:38Z",
+     "powder_alarm": false,
+     "condition_description": "Deilig vårsnø"
+    },
+    "bottom": {
+     "id": 5439,
+     "snow": {
+      "unit": "cm",
+      "today": 0,
+      "depth_slope": 40,
+      "depth_terrain": 35
+     },
+     "wind": {
+      "mps": 3,
+      "name": "",
+      "speed": "",
+      "degree": null,
+      "direction": ""
+     },
+     "zone": "bottom",
+     "symbol": {
+      "name": "",
+      "fnugg_id": 3
+     },
+     "site_id": 12,
+     "reporter": "Gjestesenter",
+     "condition": null,
+     "temperature": {
+      "unit": "celsius",
+      "value": 2
+     },
+     "last_updated": "2026-04-12T06:26:22Z",
+     "powder_alarm": false,
+     "condition_description": "Deilig vårsnø"
+    }
+   }
+  },
+  "last_updated": "2026-11-14T03:00:05Z",
+  "nearest_resorts": [
+   {
+    "distance": 29607,
+    "name": "Skeikampen Alpinsenter",
+    "site_path": "/skeikampen/",
+    "id": 32,
+    "sort": "0"
+   },
+   {
+    "distance": 36306,
+    "name": "Sjusjøen Skisenter",
+    "site_path": "/sjusjoen/",
+    "id": 59,
+    "sort": "1"
+   },
+   {
+    "distance": 45420,
+    "name": "Kvitfjell",
+    "site_path": "/kvitfjell/",
+    "id": 13,
+    "sort": "2"
+   },
+   {
+    "distance": 70709,
+    "name": "Gålå Alpin og Aktiv Skisenter",
+    "site_path": "/gala/",
+    "id": 43,
+    "sort": "3"
+   },
+   {
+    "distance": 137565,
+    "name": "Birkenåsen Rena Alpin og Skisenter",
+    "site_path": "/rena/",
+    "id": 134,
+    "sort": "4"
+   },
+   {
+    "distance": 144704,
+    "name": "Tekna Park Koppang",
+    "site_path": "/teknapark/",
+    "id": 174,
+    "sort": "5"
+   }
+  ],
+  "apen_bakke_tickets": 0,
+  "site_path": "/hafjell/"
+ }
+}

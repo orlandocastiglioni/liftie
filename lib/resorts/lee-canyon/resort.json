@@ -1,0 +1,15 @@
+{
+  "name": "Lee Canyon",
+  "url": {
+    "host": "https://www.leecanyonlv.com",
+    "pathname": "/lifts-and-trails/"
+  },
+  "trails": true,
+  "tags": [
+    "Nevada"
+  ],
+  "ll": [
+    -115.67789,
+    36.30415
+  ]
+}

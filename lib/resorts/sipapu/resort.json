@@ -1,0 +1,15 @@
+{
+  "name": "Sipapu Ski and Summer Resort",
+  "url": {
+    "host": "https://www.sipapu.ski",
+    "pathname": "/snow-report/"
+  },
+  "trails": true,
+  "tags": [
+    "New Mexico"
+  ],
+  "ll": [
+    -105.54941,
+    36.1542
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Oppdal",
+  "url": {
+    "host": "https://www.alpinco.com",
+    "pathname": "/en/oppdal/snow-report"
+  },
+  "api": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/78",
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.fnugg.no",
+    "pathname": "/get/resort/78",
+    "json": true
+  },
+  "tags": [
+    "Norway"
+  ],
+  "ll": [
+    9.64958,
+    62.6116
+  ]
+}

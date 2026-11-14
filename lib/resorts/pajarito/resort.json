@@ -1,0 +1,15 @@
+{
+  "name": "Pajarito Mountain",
+  "url": {
+    "host": "https://www.pajarito.ski",
+    "pathname": "/weather-conditions-webcams/lifts-and-trails/"
+  },
+  "trails": true,
+  "tags": [
+    "New Mexico"
+  ],
+  "ll": [
+    -106.39022,
+    35.89443
+  ]
+}

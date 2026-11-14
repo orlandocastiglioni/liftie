@@ -1,0 +1,15 @@
+{
+  "name": "Mount Southington",
+  "url": {
+    "host": "https://mountsouthington.com",
+    "pathname": "/trails-and-conditions"
+  },
+  "trails": true,
+  "tags": [
+    "Connecticut"
+  ],
+  "ll": [
+    -72.9256,
+    41.58219
+  ]
+}

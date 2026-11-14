@@ -1,0 +1,15 @@
+{
+  "name": "Sommet Edelweiss",
+  "url": {
+    "host": "https://www.sommets.com",
+    "pathname": "/en/what-to-do/skiing-snowboarding/trail-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -75.85133,
+    45.64595
+  ]
+}

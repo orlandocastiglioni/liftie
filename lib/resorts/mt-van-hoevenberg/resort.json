@@ -1,0 +1,25 @@
+{
+  "name": "Mt Van Hoevenberg",
+  "url": {
+    "host": "https://mtvanhoevenberg.com",
+    "pathname": "/"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NY/Mt-Van-Hoevenberg",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New York",
+    "Nordic"
+  ],
+  "ll": [
+    -73.92215,
+    44.21842
+  ]
+}

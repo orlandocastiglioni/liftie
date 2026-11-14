@@ -1,0 +1,15 @@
+{
+  "name": "Nordic Valley Ski Resort",
+  "url": {
+    "host": "https://www.nordicvalley.ski",
+    "pathname": "/nordic-valley-weather-conditions-webcams/"
+  },
+  "trails": true,
+  "tags": [
+    "Utah"
+  ],
+  "ll": [
+    -111.86449,
+    41.31087
+  ]
+}

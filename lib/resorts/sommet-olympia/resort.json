@@ -1,0 +1,15 @@
+{
+  "name": "Sommet Olympia",
+  "url": {
+    "host": "https://www.sommets.com",
+    "pathname": "/en/what-to-do/skiing-snowboarding/trail-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -74.12307,
+    45.91467
+  ]
+}
