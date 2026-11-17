@@ -1,0 +1,36 @@
+{
+  "id": 492,
+  "slug": "centre-plein-air-mont-kanasuta",
+  "type": "stations",
+  "link": "https://maneige.ski/stations/centre-plein-air-mont-kanasuta/",
+  "title": {
+    "rendered": "Centre plein air Mont Kanasuta"
+  },
+  "acf": {
+    "station_name": "Centre plein air Mont Kanasuta",
+    "station_open": "open",
+    "station_snow24h": "10",
+    "station_snow48h": "10",
+    "station_snow7days": "10",
+    "station_snowseason": "88",
+    "station_daytrails": 5,
+    "station_daytrails_total": 11,
+    "station_nighttrails": 0,
+    "station_nighttrails_total": 4,
+    "station_sousbois": 0,
+    "station_sousbois_total": 8,
+    "station_parks": 1,
+    "station_parks_total": 2,
+    "alpine_trail_open": 0,
+    "alpine_trail_total": 0,
+    "tube_slides_open": 1,
+    "tube_slides_total": 1,
+    "ski-lift_open": 2,
+    "ski-lift_total": 3,
+    "night_ski-lift_open": 0,
+    "night_ski-lift_total": 1,
+    "latitude": 48.17901,
+    "longitude": -79.403089,
+    "station_website": "https://kanasuta.com"
+  }
+}
