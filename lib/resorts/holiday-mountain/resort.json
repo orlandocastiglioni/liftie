@@ -1,0 +1,15 @@
+{
+  "name": "Holiday Mountain",
+  "url": {
+    "host": "https://skiholidaymtn.com",
+    "pathname": "/trail-conditions-map/"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -74.61218,
+    41.62672
+  ]
+}
