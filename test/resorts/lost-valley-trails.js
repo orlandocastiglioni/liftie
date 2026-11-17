@@ -30,3 +30,21 @@ trails('lost-valley', [
 // ..."), which carries no trail names - the parser must emit nothing rather
 // than a bogus trail called "All Trails"
 trails('lost-valley', [], { example: 'lost-valley-all-trails' });
+
+// 2026/27 card layout, live capture from 17 Nov 2026: every column "None Open".
+trails('lost-valley', [], { example: 'lost-valley-2026-11' });
+
+// The same capture with each "None Open" replaced by <br>-separated names.
+// SYNTHETIC - the in-season list has not been published in this layout yet.
+trails(
+  'lost-valley',
+  [
+    { name: 'Bunny Slope', status: 'open', level: 'green' },
+    { name: 'Squirrel Run', status: 'open', level: 'green' },
+    { name: 'Wolverine', status: 'open', level: 'blue' },
+    { name: 'Otterslide', status: 'open', level: 'blue' },
+    { name: 'Coyote', status: 'open', level: 'black' },
+    { name: 'Bear Park', status: 'open', level: 'terrainPark' }
+  ],
+  { example: 'lost-valley-2026-11-open' }
+);

@@ -6,7 +6,10 @@
   },
   "dataUrl": {
     "host": "https://digital.jaypeakresort.com",
-    "pathname": "/conditions/snow-report/snow-report/"
+    "pathname": "/conditions/snow-report/snow-report/",
+    "headers": {
+      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
+    }
   },
   "trails": true,
   "tags": [
