@@ -1,0 +1,40 @@
+{
+  "name": "St. Johann in Tirol",
+  "url": {
+    "host": "https://www.bergbahnen-stjohann.at",
+    "pathname": "/de/lifte-und-pisten.html"
+  },
+  "api": {
+    "host": "https://www.bergbahnen-stjohann.at",
+    "pathname": "/SkigebieteManager/Micado.SkigebieteManager.Plugin.FacilityApi/ListFacilities.api",
+    "query": {
+      "lang": "en",
+      "region": "stjohann",
+      "location": "stjohann",
+      "client": "https://sgm.bergbahnen-stjohann.at",
+      "type": "lift"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://www.bergbahnen-stjohann.at",
+    "pathname": "/SkigebieteManager/Micado.SkigebieteManager.Plugin.FacilityApi/ListFacilities.api",
+    "query": {
+      "lang": "en",
+      "region": "stjohann",
+      "location": "stjohann",
+      "client": "https://sgm.bergbahnen-stjohann.at",
+      "type": "piste"
+    },
+    "json": true
+  },
+  "tags": [
+    "Alps",
+    "Austria",
+    "Tirol"
+  ],
+  "ll": [
+    12.4268241,
+    47.5167833
+  ]
+}
