@@ -2,7 +2,8 @@
   "name": "Apex Mountain Resort",
   "url": {
     "host": "https://apexresort.com",
-    "pathname": "/weather/"
+    "pathname": "/weather/",
+    "via": "flaresolverr"
   },
   "trails": true,
   "tags": [
