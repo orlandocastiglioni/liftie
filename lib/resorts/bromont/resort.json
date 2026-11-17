@@ -1,0 +1,15 @@
+{
+  "name": "Bromont, montagne d'expériences",
+  "url": {
+    "host": "https://www.bromontmontagne.com",
+    "pathname": "/en/detailed-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -72.63664,
+    45.30189
+  ]
+}
