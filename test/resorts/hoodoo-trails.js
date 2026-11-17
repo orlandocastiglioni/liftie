@@ -214,5 +214,10 @@ trails(
       level: 'green'
     }
   ],
-  { example: 'hoodoo-2026' }
+  { example: 'hoodoo-2026-11-undated' }
 );
+
+// Closing-week captures (Ski Schedule 3/12-3/17, 30 of 42 trails OPEN) are
+// stale, so fresh.js publishes no trails.
+trails('hoodoo', [], { example: 'hoodoo-2026' });
+trails('hoodoo', [], { example: 'hoodoo-2026-11' });
