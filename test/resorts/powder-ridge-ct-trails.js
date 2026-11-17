@@ -1,5 +1,17 @@
 import trails from '../trails/index.js';
 
+// The board is gated on its own last_updated through stale.js, so the clock is
+// pinned to the capture day (the 2026-09-18 stamp was 39 days old then).
+const RealDate = Date;
+globalThis.Date = class extends RealDate {
+  constructor(...args) {
+    super(...(args.length ? args : ['2026-10-27T16:00:00Z']));
+  }
+  static now() {
+    return RealDate.parse('2026-10-27T16:00:00Z');
+  }
+};
+
 // Same 2026-10-27 capture as powder-ridge-ct.js: all 19 rows, in feed order.
 // No difficulty is published, so no level is claimed.
 trails(

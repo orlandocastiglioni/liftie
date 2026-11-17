@@ -5,6 +5,18 @@ import test from 'node:test';
 import parse from '../../lib/resorts/powder-ridge-ct/index.js';
 import lifts from '../lifts/index.js';
 
+// The board is gated on its own last_updated through stale.js, so the clock is
+// pinned to the capture day (the 2026-09-18 stamp was 39 days old then).
+const RealDate = Date;
+globalThis.Date = class extends RealDate {
+  constructor(...args) {
+    super(...(args.length ? args : ['2026-10-27T16:00:00Z']));
+  }
+  static now() {
+    return RealDate.parse('2026-10-27T16:00:00Z');
+  }
+};
+
 // /wp-json/sc/v1/trail-report captured live 2026-10-27. The Festival double is
 // still flagged open from the summer bike park, stamped 2026-09-18 - which is
 // exactly why the stamp travels with the report.
