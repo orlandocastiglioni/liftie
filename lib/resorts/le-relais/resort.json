@@ -1,0 +1,15 @@
+{
+  "name": "Le Relais",
+  "url": {
+    "host": "https://www.skirelais.com",
+    "pathname": "/en/winter/trails-snow-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -71.29895,
+    46.94137
+  ]
+}
