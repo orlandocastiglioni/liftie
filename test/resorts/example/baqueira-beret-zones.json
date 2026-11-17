@@ -1,0 +1,1865 @@
+[
+ {
+  "zone": {
+   "id": 3,
+   "name": "Baqueira"
+  },
+  "groups": {
+   "pistas": {
+    "open": 3,
+    "total": 42,
+    "items": [
+     {
+      "id": 2200,
+      "name": "2200",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1018,
+      "name": "Antigua Solei",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 958,
+      "name": "Baqueira",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1380,
+      "name": "Blanqueta",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2105,
+      "name": "Bosque",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1027,
+      "name": "Cara Nord",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 255,
+      "name": "Cargòlh",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 256,
+      "name": "Chicòia",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 955,
+      "name": "Dera Cascada",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 899,
+      "name": "Deth Lac de Baciver",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 967,
+      "name": "Era Cabana",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 966,
+      "name": "Era Coma",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 900,
+      "name": "Escornacrabes",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 960,
+      "name": "Esquirós",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 257,
+      "name": "Glacièr",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 998,
+      "name": "Guineu",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1026,
+      "name": "Horat deth Bo",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1028,
+      "name": "Lebre",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1003,
+      "name": "Luis Arias",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 997,
+      "name": "Mirador",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1020,
+      "name": "Os",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1022,
+      "name": "Pales der Arias",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2525,
+      "name": "Parpalhòla",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5008,
+      "name": "Parpalhòla",
+      "status": "open",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 20112,
+      "name": "Parpalhòla",
+      "status": "open",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 20113,
+      "name": "Parpalhòla",
+      "status": "open",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1024,
+      "name": "Pasarells",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1374,
+      "name": "Pastors",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1000,
+      "name": "Perdiu Blanca",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 963,
+      "name": "Pinarrets",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1019,
+      "name": "Pla de Baqueira 1",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 941,
+      "name": "Pla de Baqueira 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 972,
+      "name": "Rabada",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1001,
+      "name": "Salida Cara Nord",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1009,
+      "name": "Stadium",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 993,
+      "name": "Ta Argulls 1",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 994,
+      "name": "Ta Argulls 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 999,
+      "name": "Tamarro",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 969,
+      "name": "Ta Orri",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 962,
+      "name": "Tortuga",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 992,
+      "name": "Tubo Nere",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 990,
+      "name": "Vista Ruda",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     }
+    ]
+   },
+   "remontes": {
+    "open": 1,
+    "total": 13,
+    "items": [
+     {
+      "id": 1229,
+      "name": "CT Bosque",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1230,
+      "name": "CT Carreretes",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1231,
+      "name": "CT Parc Infantil",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1227,
+      "name": "CT Pastors",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1228,
+      "name": "CT Rabadà",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1226,
+      "name": "TC Baqueira",
+      "status": "close",
+      "subtype": "gondola",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1209,
+      "name": "TSD Bosque",
+      "status": "open",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1223,
+      "name": "TSD Bosque",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1214,
+      "name": "TSD Era Cabana",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1221,
+      "name": "TSD Jorge Jordana",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1216,
+      "name": "TSD Mirador",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1217,
+      "name": "TSD Pla de Baqueira",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1222,
+      "name": "TS Esquirós",
+      "status": "close",
+      "subtype": "chair_lift_2",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "accesos": {
+    "open": 1,
+    "total": 1,
+    "items": [
+     {
+      "id": 350,
+      "name": "Baqueira desde Val d'Aran",
+      "status": "open",
+      "subtype": "access",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "parkings": {
+    "open": 2,
+    "total": 3,
+    "items": [
+     {
+      "id": 104,
+      "name": "Parking 1500",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     },
+     {
+      "id": 141,
+      "name": "Parking Tanau",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     },
+     {
+      "id": 137,
+      "name": "Parking Telecabina",
+      "status": "close",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   }
+  }
+ },
+ {
+  "zone": {
+   "id": 1,
+   "name": "Beret"
+  },
+  "groups": {
+   "pistas": {
+    "open": 0,
+    "total": 51,
+    "items": [
+     {
+      "id": 2600,
+      "name": "Arrianglo",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1387,
+      "name": "Arriu dera Serra",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 943,
+      "name": "Audi Ski Kronos",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 890,
+      "name": "Audèth",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1045,
+      "name": "Barlongueta",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 888,
+      "name": "Blanhiblar",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1384,
+      "name": "Boardercross",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1035,
+      "name": "Clot der Os",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 893,
+      "name": "Colhet de Marimanha",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1383,
+      "name": "Comalada",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 886,
+      "name": "Costarjas",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 934,
+      "name": "Dera Reina 1",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 936,
+      "name": "Dera Reina 2",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 898,
+      "name": "Dossau",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 896,
+      "name": "Egua 1",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 895,
+      "name": "Egua 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1388,
+      "name": "Esmeligàs",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 17,
+      "name": "Funpark",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1013,
+      "name": "Gargolha",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2626,
+      "name": "Gireta",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5002,
+      "name": "Gireta",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 891,
+      "name": "Lacs deth Clòt der Os",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1382,
+      "name": "Marmòtes",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1036,
+      "name": "Molins",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1940,
+      "name": "Montgarri",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1049,
+      "name": "Pales deth Miei",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1047,
+      "name": "Parros",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1941,
+      "name": "Passada d'Auba",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1750,
+      "name": "Pins",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1034,
+      "name": "Pla de Beret",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 259,
+      "name": "Poric",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1385,
+      "name": "Pèira Arroja",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1386,
+      "name": "Ròques d'en Macià",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 258,
+      "name": "Sautarèth",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 894,
+      "name": "Shivau",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1043,
+      "name": "Stadium 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1042,
+      "name": "Stadium Fdez. Ochoa",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1012,
+      "name": "Ta Baqueira 1",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2104,
+      "name": "Ta Baqueira 2",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1039,
+      "name": "Ta Beret 1",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1038,
+      "name": "Ta Beret 2",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2603,
+      "name": "Ta Costarjas",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 20111,
+      "name": "Ta Debutants",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2601,
+      "name": "Ta Dossau",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 897,
+      "name": "Ticolet",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1040,
+      "name": "Torn de Baciver",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 209,
+      "name": "Torn de Baciver 2",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5001,
+      "name": "Torn de Baciver 2",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1014,
+      "name": "Triton",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1048,
+      "name": "Tuc deth Miei",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1010,
+      "name": "Vista Beret",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     }
+    ]
+   },
+   "remontes": {
+    "open": 0,
+    "total": 13,
+    "items": [
+     {
+      "id": 1233,
+      "name": "CT Era Escaleta 1",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 2323,
+      "name": "CT Era Escaleta 2",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1234,
+      "name": "CT Parc Infantil",
+      "status": "close",
+      "subtype": "carpet",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1232,
+      "name": "TCD Dossau",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1211,
+      "name": "TQ Costarjàs",
+      "status": "close",
+      "subtype": "cable_car_2",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1237,
+      "name": "TQ Fernández Ochoa",
+      "status": "close",
+      "subtype": "cable_car_2",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1218,
+      "name": "TQ Pla de Beret",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1208,
+      "name": "TSD Blanhiblar",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 2400,
+      "name": "TSD Clot der Os",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1210,
+      "name": "TSD Clot der Os",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1212,
+      "name": "TSD Dera Reina",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1213,
+      "name": "TSD Dossau",
+      "status": "close",
+      "subtype": "6-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1220,
+      "name": "TSD Jesús Serra",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "accesos": {
+    "open": 1,
+    "total": 1,
+    "items": [
+     {
+      "id": 349,
+      "name": "Orri / Beret desde Tanau",
+      "status": "open",
+      "subtype": "access",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "parkings": {
+    "open": 2,
+    "total": 2,
+    "items": [
+     {
+      "id": 107,
+      "name": "Parking Beret",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     },
+     {
+      "id": 140,
+      "name": "Parking Orri",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     }
+    ]
+   }
+  }
+ },
+ {
+  "zone": {
+   "id": 2,
+   "name": "Baciver"
+  },
+  "groups": {
+   "pistas": {
+    "open": 0,
+    "total": 17,
+    "items": [
+     {
+      "id": 945,
+      "name": "Baciver",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 906,
+      "name": "Craba",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1375,
+      "name": "Estanholets",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1378,
+      "name": "Eth Coret",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 910,
+      "name": "Garia",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 2214,
+      "name": "Orqueta",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5005,
+      "name": "Orqueta",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2215,
+      "name": "Orqueta 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5006,
+      "name": "Orqueta 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 904,
+      "name": "Orri de Tredós",
+      "status": "close",
+      "subtype": "Itinerario",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 928,
+      "name": "Paum",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 944,
+      "name": "Roca Blanca",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 905,
+      "name": "Sanglièr",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 907,
+      "name": "Saumet",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1377,
+      "name": "Ta Baciver",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2324,
+      "name": "Ta Baciver 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5007,
+      "name": "Ta Baciver 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     }
+    ]
+   },
+   "remontes": {
+    "open": 0,
+    "total": 2,
+    "items": [
+     {
+      "id": 1238,
+      "name": "TQ Baciver",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1236,
+      "name": "TQ Saumet",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "accesos": {
+    "open": 0,
+    "total": 0,
+    "items": []
+   },
+   "parkings": {
+    "open": 0,
+    "total": 0,
+    "items": []
+   }
+  }
+ },
+ {
+  "zone": {
+   "id": 4,
+   "name": "Bonaigua"
+  },
+  "groups": {
+   "pistas": {
+    "open": 0,
+    "total": 33,
+    "items": [
+     {
+      "id": 987,
+      "name": "Argulls",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2106,
+      "name": "Barqueta 1",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1111,
+      "name": "Barqueta 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5000,
+      "name": "Barqueta 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 924,
+      "name": "Barranc der Aire",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1006,
+      "name": "Bonaigua",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 980,
+      "name": "Bosc de Peülla 1",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1325,
+      "name": "Bosc de Peülla 2",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 5004,
+      "name": "Bosc de Peülla 2",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1007,
+      "name": "Cabirol",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 977,
+      "name": "Cap a Baqueira",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1016,
+      "name": "Cigalera",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 989,
+      "name": "Costes de Ruda",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1005,
+      "name": "Cresta de Bonaigua",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 974,
+      "name": "Debutants",
+      "status": "close",
+      "subtype": "Pista verde",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 956,
+      "name": "Del Riu",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 954,
+      "name": "Gerber",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 988,
+      "name": "La Llança",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 983,
+      "name": "La Pala Gran",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 976,
+      "name": "La Perdiu",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 978,
+      "name": "La Peülla",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 982,
+      "name": "Les Paletes",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1030,
+      "name": "Lhastres dera Mina",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 996,
+      "name": "Manaud",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1015,
+      "name": "Muguet",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1004,
+      "name": "Muntanyó 1",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 2103,
+      "name": "Muntanyó 2",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1008,
+      "name": "Obaga",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 1017,
+      "name": "Pala del Teso",
+      "status": "close",
+      "subtype": "Pista negra",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 975,
+      "name": "Pleta del Duc",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 981,
+      "name": "Pletiu d'Arnaldo",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 995,
+      "name": "Solei",
+      "status": "close",
+      "subtype": "Pista roja",
+      "tread": "not-groomed",
+      "chains": false,
+      "free": false
+     },
+     {
+      "id": 961,
+      "name": "Teso dera Mina",
+      "status": "close",
+      "subtype": "Pista azul",
+      "tread": "groomed",
+      "chains": false,
+      "free": false
+     }
+    ]
+   },
+   "remontes": {
+    "open": 0,
+    "total": 10,
+    "items": [
+     {
+      "id": 1272,
+      "name": "TCD Saboredo",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1206,
+      "name": "TQ Tuc de la Llança 1",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1235,
+      "name": "TQ Tuc de la Llança 2",
+      "status": "close",
+      "subtype": "cable_car",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1207,
+      "name": "TS Argulls",
+      "status": "close",
+      "subtype": "chair_lift",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1224,
+      "name": "TS Cap del Port",
+      "status": "close",
+      "subtype": "chair_lift_2",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1204,
+      "name": "TSD Bonaigua",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1225,
+      "name": "TSD La Peülla",
+      "status": "close",
+      "subtype": "4-person",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1215,
+      "name": "TS Manaud",
+      "status": "close",
+      "subtype": "chair_lift",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1219,
+      "name": "TS Solei",
+      "status": "close",
+      "subtype": "chair_lift",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 1205,
+      "name": "TS Teso dera Mina",
+      "status": "close",
+      "subtype": "chair_lift",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "accesos": {
+    "open": 3,
+    "total": 3,
+    "items": [
+     {
+      "id": 348,
+      "name": "Bonaigua desde Baqueira",
+      "status": "open",
+      "subtype": "access",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 352,
+      "name": "Bonaigua desde Peülla",
+      "status": "open",
+      "subtype": "access",
+      "tread": "",
+      "chains": false,
+      "free": null
+     },
+     {
+      "id": 353,
+      "name": "Peülla desde Valls d'Àneu",
+      "status": "open",
+      "subtype": "access",
+      "tread": "",
+      "chains": false,
+      "free": null
+     }
+    ]
+   },
+   "parkings": {
+    "open": 2,
+    "total": 2,
+    "items": [
+     {
+      "id": 106,
+      "name": "Parking Bonaigua",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     },
+     {
+      "id": 142,
+      "name": "Parking Peülla",
+      "status": "open",
+      "subtype": "parking",
+      "tread": "",
+      "chains": false,
+      "free": true
+     }
+    ]
+   }
+  }
+ }
+]

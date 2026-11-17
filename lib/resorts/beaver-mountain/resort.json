@@ -2,7 +2,8 @@
   "name": "Beaver Mountain",
   "url": {
     "host": "https://www.skithebeav.com",
-    "pathname": "/mountain/conditions/"
+    "pathname": "/mountain/conditions/",
+    "via": "flaresolverr"
   },
   "trails": true,
   "tags": [

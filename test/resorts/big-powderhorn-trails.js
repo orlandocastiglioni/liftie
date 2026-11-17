@@ -237,3 +237,248 @@ trails('big-powderhorn', [
     'level': 'terrainPark'
   }
 ]);
+
+// 2026-11 redesign: /conditions-and-trail-map/ now 301s to /mountain-report/,
+// whose trail report is one section.bph-tr__card per difficulty (pre-season
+// capture, 47 runs all CLOSED, matching the page's own '0/47 Open Trails').
+trails(
+  'big-powderhorn',
+  [
+    {
+      'name': 'Alpen',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Back Bowl West',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Big Bird',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Buckshot',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Flintlock',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Learning Area',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Oxbow',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Passenthrü',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Reindeer',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Shotgun',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Sly Fox',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Trigger',
+      'status': 'closed',
+      'level': 'green'
+    },
+    {
+      'name': 'Blunder',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Bullet',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Cannonball',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Crosshair Chute',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': "Don't Chute",
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Double Barrel East',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Double Barrel West',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Full Choke Chute',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': "Glen's Trail",
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Half Choke Chute',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': "Katie's Catwalk",
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': "Louie's Chute",
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Thunder',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Upper Smoke',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Vertical Drop',
+      'status': 'closed',
+      'level': 'black'
+    },
+    {
+      'name': 'Back Bowl East',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Bovidae',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Bovidae West',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Caribou',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Crazy Trail',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Dynamite',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Firecracker',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Little Horn',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Lower Smoke',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Lower Tamarou',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Musket',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Powderkeg',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Ramrod',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Ricochet',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Sling Shot',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Tamarou East',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Tamarou West',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Upper Double Barrel',
+      'status': 'closed',
+      'level': 'blue'
+    },
+    {
+      'name': 'Powderkeg Park',
+      'status': 'closed',
+      'level': 'terrainPark'
+    },
+    {
+      'name': 'Recoil Park',
+      'status': 'closed',
+      'level': 'terrainPark'
+    }
+  ],
+  { example: 'big-powderhorn-2026' }
+);

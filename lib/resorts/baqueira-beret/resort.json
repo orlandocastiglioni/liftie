@@ -2,12 +2,23 @@
   "name": "Baqueira Beret",
   "url": {
     "host": "https://www.baqueira.es",
-    "pathname": "/estado-estacion",
+    "pathname": "/es/estado-de-la-estacion"
+  },
+  "api": {
+    "host": "https://www.baqueira.es",
+    "pathname": "/bb-content/headless/spotlio/summary",
     "headers": {
-      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+      "Accept": "application/json"
     }
   },
-  "trails": true,
+  "trails": {
+    "host": "https://www.baqueira.es",
+    "pathname": "/bb-content/headless/spotlio/summary",
+    "headers": {
+      "Accept": "application/json"
+    },
+    "json": true
+  },
   "tags": [
     "Spain",
     "Pyrenees"

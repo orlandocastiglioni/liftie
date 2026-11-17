@@ -1,3 +1,10 @@
+import assert from 'node:assert/strict';
+import { createReadStream } from 'node:fs';
+import { resolve } from 'node:path';
+import test from 'node:test';
+import parser from '../../lib/lifts/parser.js';
+import descriptor from '../../lib/resorts/dog-creek-lodge-nordic-center/trails.js';
+import collect from '../../lib/trails/parse.js';
 import trails from '../trails/index.js';
 
 // Wayback capture of the Nordic Pulse area page from 22 Jan 2026 (mid-season):
@@ -137,3 +144,38 @@ trails('dog-creek-lodge-nordic-center', [
     'level': 'green'
   }
 ]);
+
+// The parser drops a report older than 45 days (lib/tools/stale.js), so the
+// clock is pinned to just after the fixture's own stamp (newest grooming 2026-01-22). `node --test`
+// gives each file its own process, so the override stays here.
+const RealDate = Date;
+const pin = iso =>
+  class extends RealDate {
+    constructor(...args) {
+      super(...(args.length ? args : [iso]));
+    }
+    static now() {
+      return RealDate.parse(iso);
+    }
+  };
+const Pinned = pin('2026-01-23T12:00:00Z');
+globalThis.Date = Pinned;
+
+// Dog Creek never clears its open flags: on 2026-11-17 all 25 trails still read
+// open, last groomed 2026-03-16. Once grooming is that old it must publish nothing.
+test('dog-creek-lodge-nordic-center reports no trails once the report goes stale', async () => {
+  globalThis.Date = pin('2026-11-17T12:00:00Z');
+  try {
+    const stale = await new Promise((res, rej) => {
+      createReadStream(resolve(import.meta.dirname, 'example/dog-creek-lodge-nordic-center.html')).pipe(
+        parser(
+          dom => collect(dom, descriptor),
+          (e, v) => (e ? rej(e) : res(v))
+        )
+      );
+    });
+    assert.deepEqual(stale, []);
+  } finally {
+    globalThis.Date = Pinned;
+  }
+});

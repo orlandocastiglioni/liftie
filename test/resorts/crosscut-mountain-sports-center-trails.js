@@ -1,3 +1,10 @@
+import assert from 'node:assert/strict';
+import { createReadStream } from 'node:fs';
+import { resolve } from 'node:path';
+import test from 'node:test';
+import parser from '../../lib/lifts/parser.js';
+import descriptor from '../../lib/resorts/crosscut-mountain-sports-center/trails.js';
+import collect from '../../lib/trails/parse.js';
 import trails from '../trails/index.js';
 
 // Nordic Pulse embed page, 2026-03-06 capture. 75 rows in the feed, 30 of them
@@ -230,3 +237,38 @@ trails('crosscut-mountain-sports-center', [
     'level': 'green'
   }
 ]);
+
+// The parser drops a report older than 45 days (lib/tools/stale.js), so the
+// clock is pinned to just after the fixture's own stamp (newest grooming 2026-03-06). `node --test`
+// gives each file its own process, so the override stays here.
+const RealDate = Date;
+const pin = iso =>
+  class extends RealDate {
+    constructor(...args) {
+      super(...(args.length ? args : [iso]));
+    }
+    static now() {
+      return RealDate.parse(iso);
+    }
+  };
+const Pinned = pin('2026-03-07T12:00:00Z');
+globalThis.Date = Pinned;
+
+// Crosscut leaves stray open flags up off-season (Pumphouse on 2026-11-17,
+// last groomed 2026-04-03); once grooming is that old it must publish nothing.
+test('crosscut-mountain-sports-center reports no trails once the report goes stale', async () => {
+  globalThis.Date = pin('2026-11-17T12:00:00Z');
+  try {
+    const stale = await new Promise((res, rej) => {
+      createReadStream(resolve(import.meta.dirname, 'example/crosscut-mountain-sports-center.html')).pipe(
+        parser(
+          dom => collect(dom, descriptor),
+          (e, v) => (e ? rej(e) : res(v))
+        )
+      );
+    });
+    assert.deepEqual(stale, []);
+  } finally {
+    globalThis.Date = Pinned;
+  }
+});

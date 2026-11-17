@@ -1,67 +1,59 @@
-import lifts from '../lifts/index.js';
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import test from 'node:test';
+import { liftStatus } from '../../lib/resorts/baqueira-beret/index.js';
 
-// Wayback capture from 2026-01-09, midwinter: 12 of 13 remontes open. That
-// season the site served the per-sector tabbed layout, so /estado-pistas held
-// the Baqueira sector alone.
-lifts('baqueira-beret', 'html', {
-  'CT Baqueira': 'open',
-  'CT Bosque': 'open',
-  'CT Carreretes 1': 'open',
-  'CT Carreretes 2': 'open',
-  'CT Parc Infantil': 'open',
-  'TC Baqueira': 'open',
-  'TQ Rabada': 'open',
-  'TS Esquirós': 'open',
-  'TSD Bosque': 'open',
-  'TSD Era Cabana': 'open',
-  'TSD Jorge Jordana': 'open',
-  'TSD Mirador': 'closed',
-  'TSD Pla de Baqueira': 'open'
-});
+// The four sector documents from www.baqueira.es/bb-content/headless/spotlio/<zone>
+// (Baqueira, Beret, Baciver, Bonaigua) fetched 2026-11-17, pre-season: 1 of 38
+// remontes and 1 piste (3 segments) open, matching the summary feed's own
+// remontes 1/38 and the 143 pistas it totals.
+const zones = JSON.parse(readFileSync(resolve(import.meta.dirname, 'example/baqueira-beret-zones.json'), 'utf8'));
 
-// The layout the site serves today: all four sectors in one document, 36 lifts.
-// Locks in the repeated-#remontes-section selector and the sector qualifier on
-// 'CT Parc Infantil', which names a magic carpet in both Baqueira and Beret.
-lifts(
-  'baqueira-beret',
-  'html',
-  {
-    'CT Baqueira': 'closed',
+test('baqueira-beret lifts from the sector feeds', () => {
+  assert.deepEqual(liftStatus(zones), {
     'CT Bosque': 'closed',
-    'CT Carreretes 1': 'closed',
-    'CT Carreretes 2': 'closed',
+    'CT Carreretes': 'closed',
     'CT Parc Infantil (Baqueira)': 'closed',
+    'CT Pastors': 'closed',
+    'CT Rabadà': 'closed',
     'TC Baqueira': 'closed',
-    'TQ Rabada': 'closed',
-    'TS Esquirós': 'closed',
-    'TSD Bosque': 'open',
+    'TSD Bosque (Baqueira)': 'open',
+    'TSD Bosque (Baqueira) 2': 'closed',
     'TSD Era Cabana': 'closed',
     'TSD Jorge Jordana': 'closed',
     'TSD Mirador': 'closed',
     'TSD Pla de Baqueira': 'closed',
-    'CT Beret': 'closed',
+    'TS Esquirós': 'closed',
+    'CT Era Escaleta 1': 'closed',
+    'CT Era Escaleta 2': 'closed',
     'CT Parc Infantil (Beret)': 'closed',
     'TCD Dossau': 'closed',
     'TQ Costarjàs': 'closed',
     'TQ Fernández Ochoa': 'closed',
     'TQ Pla de Beret': 'closed',
     'TSD Blanhiblar': 'closed',
-    'TSD Clot der Os': 'open',
+    'TSD Clot der Os (Beret)': 'closed',
+    'TSD Clot der Os (Beret) 2': 'closed',
     'TSD Dera Reina': 'closed',
     'TSD Dossau': 'closed',
     'TSD Jesús Serra': 'closed',
-    'TCD Cap del Port': 'closed',
+    'TQ Baciver': 'closed',
+    'TQ Saumet': 'closed',
+    'TCD Saboredo': 'closed',
     'TQ Tuc de la Llança 1': 'closed',
     'TQ Tuc de la Llança 2': 'closed',
     'TS Argulls': 'closed',
     'TS Cap del Port': 'closed',
-    'TS Manaud': 'closed',
-    'TS Solei': 'closed',
-    'TS Teso dera Mina': 'closed',
     'TSD Bonaigua': 'closed',
     'TSD La Peülla': 'closed',
-    'TQ Baciver': 'closed',
-    'TQ Saumet': 'closed'
-  },
-  { example: 'baqueira-beret-all-sectors' }
-);
+    'TS Manaud': 'closed',
+    'TS Solei': 'closed',
+    'TS Teso dera Mina': 'closed'
+  });
+});
+
+test('baqueira-beret lift parser is async (fetches the sector feeds)', async () => {
+  const { default: lifts } = await import('../../lib/resorts/baqueira-beret/index.js');
+  assert.equal(lifts.length, 2);
+});
