@@ -87,6 +87,13 @@ const HTML_CASES = [
     reportedAt: '2026-02-05T18:33:00Z',
     lifts: 11,
     trails: 125
+  },
+  {
+    id: 'snow-resort-the-cupid-of-romance',
+    fixture: 'snow-resort-the-cupid-of-romance',
+    reportedAt: '2026-03-28T22:04:00Z',
+    lifts: 6,
+    trails: 12
   }
 ];
 
