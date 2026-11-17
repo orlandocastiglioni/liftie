@@ -1,10 +1,11 @@
 import trails from '../trails/index.js';
 
 // fixture: web.archive.org capture of the Nordic Pulse area page from
-// 2026-03-06, late winter - 83 open, 25 hold, 7 closed across 115 trails.
+// 2026-03-06, late winter - 83 open, 17 hold, 15 closed across 115 trails.
 // The shared tool in lib/tools/nordic-pulse.js reads the data-npww payload out
 // of the Angular TransferState blob in script#ng-state and maps
-// hazard -> hold, open -> open, otherwise closed.
+// open + hazard -> hold, open -> open, otherwise closed (8 closed rows carry
+// hazard:true and used to be published as 'hold').
 //
 // The five trails with no level (Lower/Upper Sunnyside, Beaver Pond, Beaver
 // Loop, Aspen Loop) are published as piste:difficulty "novice", which the
@@ -84,7 +85,7 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Yellow Jacket',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -129,7 +130,7 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Upper Fox',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
@@ -154,7 +155,7 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Lower Inside Passage',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'black'
   },
   {
@@ -224,17 +225,17 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Rattlesnake Cutoff',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Aqua Loop',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Lower Fawn Creek',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'black'
   },
   {
@@ -499,7 +500,7 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Doe Canyon',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -514,7 +515,7 @@ trails('methow-trails-xc', [
   },
   {
     'name': 'Brown’s Farm loop',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {

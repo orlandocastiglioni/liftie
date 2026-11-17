@@ -2,7 +2,8 @@ import trails from '../trails/index.js';
 
 // Nordic Pulse embed page, 2026-03-06 capture. 75 rows in the feed, 30 of them
 // hide:true internal sub-segments the shared parser drops, leaving the 45
-// trails Nordic Pulse itself publishes. hazard:true rows map to 'hold'.
+// trails Nordic Pulse itself publishes. Open hazard:true rows map to 'hold'; a
+// closed row stays 'closed' whatever its hazard flag (six rows here).
 trails('crosscut-mountain-sports-center', [
   {
     'name': 'Lighted Loop',
@@ -26,7 +27,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'Flyway',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
@@ -36,7 +37,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'Bridger Creek Trail',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -126,7 +127,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'South Bangtail',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -151,7 +152,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'Biathlon Range',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -161,7 +162,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'Crosscut Loop',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
@@ -171,7 +172,7 @@ trails('crosscut-mountain-sports-center', [
   },
   {
     'name': 'Five Rings',
-    'status': 'hold',
+    'status': 'closed',
     'level': 'green'
   },
   {
