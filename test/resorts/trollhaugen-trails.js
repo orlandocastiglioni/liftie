@@ -43,3 +43,43 @@ trails('trollhaugen', [
   { name: 'Valgrind', status: 'closed', level: 'terrainPark' },
   { name: 'Guttenhaugen', status: 'closed', level: 'terrainPark' }
 ]);
+
+// 2026-11-17 capture through FlareSolverr (see trollhaugen.js): 27 runs + 4
+// parks, only the Tomtebakken park open
+trails(
+  'trollhaugen',
+  [
+    { name: "Jim's Run", status: 'closed', level: 'blue' },
+    { name: 'Jötunn', status: 'closed', level: 'blue' },
+    { name: 'Julebakken', status: 'closed', level: 'blue' },
+    { name: "Lee's Run", status: 'closed', level: 'blue' },
+    { name: 'Lillebakken', status: 'closed', level: 'blue' },
+    { name: "Logan's Run", status: 'closed', level: 'blue' },
+    { name: 'Nissebakken', status: 'closed', level: 'blue' },
+    { name: 'Ragnarök', status: 'closed', level: 'blue' },
+    { name: 'Skadi', status: 'closed', level: 'blue' },
+    { name: 'Vesterdahl', status: 'closed', level: 'blue' },
+    { name: 'Bjorkedahl', status: 'closed', level: 'green' },
+    { name: 'Güttenhaugen', status: 'closed', level: 'green' },
+    { name: 'Half Rabbit', status: 'closed', level: 'green' },
+    { name: 'Kålbakken', status: 'closed', level: 'green' },
+    { name: 'Mickebakken', status: 'closed', level: 'green' },
+    { name: 'Minibakken', status: 'closed', level: 'green' },
+    { name: 'Galende', status: 'closed', level: 'black' },
+    { name: 'Helgen Rose', status: 'closed', level: 'black' },
+    { name: 'Jumpin Judy', status: 'closed', level: 'black' },
+    { name: 'Oppogopp', status: 'closed', level: 'black' },
+    { name: 'Storebakken', status: 'closed', level: 'black' },
+    { name: 'Søppelhaug', status: 'closed', level: 'black' },
+    { name: 'The Chute', status: 'closed', level: 'black' },
+    { name: 'The Glade', status: 'closed', level: 'black' },
+    { name: 'The Summit', status: 'closed', level: 'black' },
+    { name: "Troll's End", status: 'closed', level: 'black' },
+    { name: 'Fall Line', status: 'closed', level: 'doubleBlack' },
+    { name: 'Tomtebakken', status: 'open', level: 'terrainPark' },
+    { name: 'Valhalla', status: 'closed', level: 'terrainPark' },
+    { name: 'Valgrind', status: 'closed', level: 'terrainPark' },
+    { name: 'Guttenhaugen', status: 'closed', level: 'terrainPark' }
+  ],
+  { example: 'trollhaugen-2026-11' }
+);

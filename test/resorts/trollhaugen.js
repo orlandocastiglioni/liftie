@@ -19,3 +19,22 @@ lifts('trollhaugen', 'html', {
   'Tomtebakken Rope': 'closed',
   'Valhalla Rope': 'closed'
 });
+
+// 2026-11-17 capture through FlareSolverr (the site now drops plain non-browser
+// requests, hence "via": "flaresolverr"), scripts/styles stripped: early-season
+// snowmaking, the Tomtebakken rope tow is the first lift spinning.
+lifts(
+  'trollhaugen',
+  'html',
+  {
+    'Chair 1': 'closed',
+    'Chair 2': 'closed',
+    'Chair 3': 'closed',
+    'Chair 4': 'closed',
+    'Mickebakken Rope': 'closed',
+    'Minibakken Rope': 'closed',
+    'Tomtebakken Rope': 'open',
+    'Valhalla Rope': 'closed'
+  },
+  { example: 'trollhaugen-2026-11' }
+);
