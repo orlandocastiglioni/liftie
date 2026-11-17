@@ -1,0 +1,25 @@
+{
+  "name": "Oak Hill Outdoor Center",
+  "url": {
+    "host": "https://www.oakhilloutdoorcenter.org",
+    "pathname": "/trail-conditions"
+  },
+  "trails": {
+    "host": "https://nordic-pulse.com",
+    "pathname": "/ski-areas/US/NH/Oak-Hill-Outdoor-Center",
+    "query": {
+      "embed": "true"
+    }
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "New Hampshire",
+    "Nordic"
+  ],
+  "ll": [
+    -72.262072,
+    43.723679
+  ]
+}

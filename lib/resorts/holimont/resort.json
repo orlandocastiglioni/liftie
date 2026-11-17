@@ -1,0 +1,15 @@
+{
+  "name": "HoliMont",
+  "url": {
+    "host": "https://holimont.com",
+    "pathname": "/slope-report/"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -78.68778,
+    42.27308
+  ]
+}
