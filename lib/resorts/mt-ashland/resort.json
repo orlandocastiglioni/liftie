@@ -1,0 +1,15 @@
+{
+  "name": "Mt. Ashland",
+  "url": {
+    "host": "https://www.mtashland.com",
+    "pathname": "/mountain-report/"
+  },
+  "trails": true,
+  "tags": [
+    "Oregon"
+  ],
+  "ll": [
+    -122.70876,
+    42.08527
+  ]
+}
