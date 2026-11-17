@@ -2,7 +2,8 @@
   "name": "Trollhaugen",
   "url": {
     "host": "https://trollhaugen.com",
-    "pathname": "/snow-report/"
+    "pathname": "/snow-report/",
+    "via": "flaresolverr"
   },
   "trails": true,
   "tags": [

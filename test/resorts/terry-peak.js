@@ -12,3 +12,33 @@ lifts('terry-peak', 'html', {
   'Kussy Express': 'open',
   'Coeur Wharf Express': 'open'
 });
+
+// 2026-11-17 live capture of the rebuilt site (/trails-lifts, DOR status
+// widget), pre-season: every lift closed
+lifts(
+  'terry-peak',
+  'html',
+  {
+    'Stewart Lift': 'closed',
+    'Snow Carpet': 'closed',
+    'Surprise Express': 'closed',
+    'Kussy Express': 'closed',
+    'Coeur Wharf Express': 'closed'
+  },
+  { example: 'terry-peak-2026-11' }
+);
+
+// the same capture with Stewart Lift's badge edited to --open and Kussy
+// Express's to --wind-hold: status follows the badge modifier class
+lifts(
+  'terry-peak',
+  'html',
+  {
+    'Stewart Lift': 'open',
+    'Snow Carpet': 'closed',
+    'Surprise Express': 'closed',
+    'Kussy Express': 'hold',
+    'Coeur Wharf Express': 'closed'
+  },
+  { example: 'terry-peak-2026-11-open' }
+);

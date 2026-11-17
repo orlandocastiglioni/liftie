@@ -1,4 +1,9 @@
+import { mock } from 'node:test';
 import trails from '../trails/index.js';
+
+// the dated 'Open 12/13/25' rows read open from that day on: pin the clock to
+// opening day, 2025-12-13 (see ski-big-bear-scheduled.js for the day before)
+mock.timers.enable({ apis: ['Date'], now: new Date('2025-12-13T15:00:00Z') });
 
 trails(
   'ski-big-bear',
