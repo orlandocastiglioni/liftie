@@ -5,8 +5,8 @@ import test from 'node:test';
 import { running, trailRows } from '../../lib/tools/alpinemedia.js';
 import collect from '../../lib/trails/parse.js';
 
-// 2026-08-04 capture of the alpinemedia trails and lifts services (season over, every
-// lift closed; 2 trail rows still flagged open). Read raw, then through the lift gate.
+// Captured 2026-11-17 from the alpinemedia trails and lifts services, before the
+// season. Read raw, then through the lift gate.
 const read = name => JSON.parse(readFileSync(resolve(import.meta.dirname, `example/${name}.json`), 'utf8'));
 const trails = read('middlebury-snowbowl-trails');
 const lifts = read('middlebury-snowbowl');
@@ -27,9 +27,9 @@ test('middlebury-snowbowl trails, raw', () => {
       { 'name': 'Fletcher', 'status': 'closed', 'level': 'black' },
       { 'name': 'Game Trail', 'status': 'closed', 'level': 'blue' },
       { 'name': 'Hadley', 'status': 'closed', 'level': 'blue' },
-      { 'name': 'Kelton', 'status': 'open', 'level': 'black' },
+      { 'name': 'Kelton', 'status': 'closed', 'level': 'black' },
       { 'name': 'Laforce', 'status': 'closed', 'level': 'black' },
-      { 'name': 'Lang', 'status': 'open', 'level': 'green' },
+      { 'name': 'Lang', 'status': 'closed', 'level': 'green' },
       { 'name': 'Lower Kelton', 'status': 'closed', 'level': 'blue' },
       { 'name': 'Meredith', 'status': 'closed', 'level': 'green' },
       { 'name': 'Panther', 'status': 'closed', 'level': 'black' },
