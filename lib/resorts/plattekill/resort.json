@@ -1,0 +1,15 @@
+{
+  "name": "Plattekill Mountain",
+  "url": {
+    "host": "https://plattekill.com",
+    "pathname": "/on-the-trail/"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -74.65397,
+    42.28992
+  ]
+}
