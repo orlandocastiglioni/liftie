@@ -2,7 +2,7 @@
   "name": "Hunt Hollow Ski Club",
   "url": {
     "host": "https://www.hunthollow.com",
-    "pathname": "/The_Mountain"
+    "pathname": "/conditions"
   },
   "trails": true,
   "tags": [
