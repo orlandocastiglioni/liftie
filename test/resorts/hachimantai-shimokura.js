@@ -24,3 +24,18 @@ lifts(
   },
   { example: 'hachimantai-shimokura-preseason' }
 );
+
+// 2026-11-17, after the site redesign: the Shimokura page now carries its own
+// table with only Shimokura's three chairs and no 下倉スキー場 section row, so
+// the section filter must not discard everything. Pre-season, every row is an
+// ASCII '-'.
+lifts(
+  'hachimantai-shimokura',
+  'html',
+  {
+    第1トリプルリフト: 'closed',
+    第2ペアリフト: 'closed',
+    第3ペアリフト: 'closed'
+  },
+  { example: 'hachimantai-shimokura-2026-11' }
+);
