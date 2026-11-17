@@ -1,0 +1,27 @@
+{
+  "name": "Pizol",
+  "url": {
+    "host": "https://pizol.com",
+    "pathname": "/en/winter/winter-sports-report/"
+  },
+  "dataUrl": {
+    "host": "https://infosnow.ch",
+    "pathname": "/portal/",
+    "query": {
+      "type": "ajax-raw",
+      "tab": "map-1/dlg-sys",
+      "lang": "de",
+      "e": "47",
+      "saison": "1"
+    }
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    9.4734660286697,
+    47.017833560236
+  ]
+}
