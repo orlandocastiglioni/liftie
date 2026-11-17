@@ -11,10 +11,12 @@
       "$limit": "100"
     },
     "headers": {
-      "X-Alpine-API-Token": "",
       "X-Alpine-Org": "middlebury-snowbowl"
     },
-    "json": true
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_MIDDLEBURY_SNOWBOWL"
+    }
   },
   "trails": {
     "host": "https://api.alpinemedia.com",
@@ -23,10 +25,12 @@
       "$limit": "200"
     },
     "headers": {
-      "X-Alpine-API-Token": "",
       "X-Alpine-Org": "middlebury-snowbowl"
     },
-    "json": true
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_MIDDLEBURY_SNOWBOWL"
+    }
   },
   "tags": [
     "Vermont",
@@ -35,5 +39,9 @@
   "ll": [
     -72.9601621,
     43.9391922
-  ]
+  ],
+  "alpinemedia": {
+    "tokenSource": "the token is NOT in the repository: set ALPINEMEDIA_TOKEN_MIDDLEBURY_SNOWBOWL in liftie's environment (liftie.service Environment=). Its value is the public client key (expo config extra.apiKey) in https://ski-middlebury.app.alpinemedia.com/static/js/775.0d9fd686.js, loaded by https://ski-middlebury.app.alpinemedia.com/embed/lifts-trails/conditions; read 2026-11-17. The org header must be middlebury-snowbowl (ski-middlebury answers an empty board).",
+    "rotates": "may change with any app release: a 401, an empty board or an unset variable is an error; re-read the key from the current bundle and update the variable"
+  }
 }

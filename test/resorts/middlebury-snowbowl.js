@@ -1,8 +1,6 @@
 import lifts from '../lifts/index.js';
 
-// 2026-08-04 capture of the alpinemedia lifts service - the season ended in
-// April, so every lift reads closed; 'hold' is the only other token the feed
-// emits and coerce already knows it
+// Captured 2026-11-17 from the alpinemedia lifts service, before the season.
 lifts('middlebury-snowbowl', 'json', {
   'Bailey Falls Lift': 'closed',
   'Disco Carpet': 'closed',

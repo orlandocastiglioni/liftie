@@ -1,0 +1,47 @@
+{
+  "name": "Dartmouth Skiway",
+  "url": {
+    "host": "https://dartmouthskiway.com",
+    "pathname": "/mountain-2/"
+  },
+  "api": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/lifts",
+    "query": {
+      "$limit": "100"
+    },
+    "headers": {
+      "X-Alpine-Org": "dartmouth-skiway"
+    },
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_DARTMOUTH_SKIWAY"
+    }
+  },
+  "trails": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/trails",
+    "query": {
+      "$limit": "250"
+    },
+    "headers": {
+      "X-Alpine-Org": "dartmouth-skiway"
+    },
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_DARTMOUTH_SKIWAY"
+    }
+  },
+  "alpinemedia": {
+    "tokenSource": "the token is NOT in the repository: set ALPINEMEDIA_TOKEN_DARTMOUTH_SKIWAY in liftie's environment (liftie.service Environment=). Its value is the public client key (expo config extra.apiKey) in the JavaScript bundle loaded by https://dartmouth-skiway.app.alpinemedia.com/embed/lifts-trails/conditions; read 2026-11-17.",
+    "rotates": "may change with any app release: a 401, an empty board or an unset variable is an error; re-read the key from the current bundle and update the variable"
+  },
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -72.094992,
+    43.77788
+  ]
+}

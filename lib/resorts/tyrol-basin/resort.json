@@ -11,9 +11,12 @@
       "$limit": "100"
     },
     "headers": {
-      "X-Alpine-API-Token": ""
+      "X-Alpine-Org": "tyrol-basin"
     },
-    "json": true
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_TYROL_BASIN"
+    }
   },
   "trails": {
     "host": "https://api.alpinemedia.com",
@@ -22,9 +25,12 @@
       "$limit": "250"
     },
     "headers": {
-      "X-Alpine-API-Token": ""
+      "X-Alpine-Org": "tyrol-basin"
     },
-    "json": true
+    "json": true,
+    "envHeaders": {
+      "X-Alpine-API-Token": "ALPINEMEDIA_TOKEN_TYROL_BASIN"
+    }
   },
   "tags": [
     "Wisconsin",
@@ -33,5 +39,9 @@
   "ll": [
     -89.7841088,
     43.0445285
-  ]
+  ],
+  "alpinemedia": {
+    "tokenSource": "the token is NOT in the repository: set ALPINEMEDIA_TOKEN_TYROL_BASIN in liftie's environment (liftie.service Environment=). Its value is the public client key (expo config extra.apiKey) in https://tyrol-basin.app.alpinemedia.com/static/js/775.18b6ca43.js, loaded by https://tyrol-basin.app.alpinemedia.com/embed/lifts-trails/conditions?resort=tyrol-basin; read 2026-11-17.",
+    "rotates": "may change with any app release: a 401, an empty board or an unset variable is an error; re-read the key from the current bundle and update the variable"
+  }
 }
