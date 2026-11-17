@@ -2,10 +2,7 @@
   "name": "Gunstock",
   "url": {
     "host": "https://www.gunstock.com",
-    "pathname": "/winter/snow-report/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/winter/snow-report/"
   },
   "tags": [
     "New Hampshire",

@@ -6,10 +6,7 @@
   },
   "dataUrl": {
     "host": "https://features.waterville.com",
-    "pathname": "/propsnow/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/propsnow/"
   },
   "trails": true,
   "tags": [

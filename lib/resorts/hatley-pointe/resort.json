@@ -6,10 +6,7 @@
   },
   "dataUrl": {
     "host": "https://hatleypointe.propapps.io",
-    "pathname": "/snow-report/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/snow-report/"
   },
   "trails": true,
   "tags": [

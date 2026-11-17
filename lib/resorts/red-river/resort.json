@@ -2,10 +2,7 @@
   "name": "Red River",
   "url": {
     "host": "https://www.redriverskiarea.com",
-    "pathname": "/winter/winter-mountain/snow-report/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/winter/winter-mountain/snow-report/"
   },
   "trails": true,
   "tags": [

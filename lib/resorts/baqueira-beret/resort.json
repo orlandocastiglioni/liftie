@@ -8,14 +8,16 @@
     "host": "https://www.baqueira.es",
     "pathname": "/bb-content/headless/spotlio/summary",
     "headers": {
-      "Accept": "application/json"
+      "Accept": "application/json",
+      "User-Agent": "Mozilla/5.0 (compatible; IndiePeaks-lift-status/1.0; +https://orlandocc.me/indiepeaks)"
     }
   },
   "trails": {
     "host": "https://www.baqueira.es",
     "pathname": "/bb-content/headless/spotlio/summary",
     "headers": {
-      "Accept": "application/json"
+      "Accept": "application/json",
+      "User-Agent": "Mozilla/5.0 (compatible; IndiePeaks-lift-status/1.0; +https://orlandocc.me/indiepeaks)"
     },
     "json": true
   },

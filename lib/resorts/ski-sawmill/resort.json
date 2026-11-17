@@ -2,10 +2,7 @@
   "name": "Ski Sawmill",
   "url": {
     "host": "https://skisawmill.com",
-    "pathname": "/ski-report/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/ski-report/"
   },
   "trails": true,
   "tags": [
