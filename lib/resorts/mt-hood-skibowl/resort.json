@@ -1,0 +1,14 @@
+{
+  "name": "Mt. Hood Skibowl",
+  "url": {
+    "host": "https://skibowl.com",
+    "pathname": "/winter-condition-and-lift-status/"
+  },
+  "tags": [
+    "Oregon"
+  ],
+  "ll": [
+    -121.75965,
+    45.29686
+  ]
+}

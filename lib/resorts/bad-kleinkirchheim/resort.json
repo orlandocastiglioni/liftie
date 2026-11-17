@@ -1,0 +1,17 @@
+{
+  "name": "Bad Kleinkirchheim",
+  "url": {
+    "host": "https://www.badkleinkirchheim.com",
+    "pathname": "/en/skiing-area/slopes-lifts/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria",
+    "Carinthia"
+  ],
+  "ll": [
+    13.79887,
+    46.8123
+  ]
+}

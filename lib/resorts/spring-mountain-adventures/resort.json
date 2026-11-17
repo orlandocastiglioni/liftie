@@ -1,0 +1,16 @@
+{
+  "name": "Spring Mountain Adventures",
+  "url": {
+    "host": "https://springmountainadventures.com",
+    "pathname": "/conditions/"
+  },
+  "trails": true,
+  "opening": "2026-12-12",
+  "tags": [
+    "Pennsylvania"
+  ],
+  "ll": [
+    -75.4526832,
+    40.2725545
+  ]
+}
