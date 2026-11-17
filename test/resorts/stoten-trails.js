@@ -113,6 +113,8 @@ test('stoten levels are the Swedish 4-tier scale, one grade down', () => {
   assert.equal(level('Halkospåret'), 'blue');
   assert.equal(level('Tomten'), 'black');
   assert.equal(level('Varulven'), 'doubleBlack');
+  // added to the roster for 2026/27
+  assert.equal(level('Björnpasset'), 'blue');
   // a parent row the site does not grade, and a name the join does not know:
   // no level rather than a guess
   assert.equal(level('Mormors Störtlopp'), undefined);

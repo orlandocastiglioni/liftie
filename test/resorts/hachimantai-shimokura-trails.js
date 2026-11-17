@@ -25,3 +25,26 @@ trails(
   ],
   { example: 'hachimantai-shimokura-trails' }
 );
+
+// 2026-11-17, after the redesign: a Shimokura-only table with no section rows,
+// 13 courses (the tree-run areas renamed without 「」 and FUN＋ / CASCADE added),
+// all '-' pre-season.
+trails(
+  'hachimantai-shimokura',
+  [
+    'シルキーコース',
+    'シルキーパウダーコース',
+    'ホワイトコース',
+    'ダイヤモンドコース',
+    'グリーンAコース',
+    'グリーンBコース',
+    'グリーンCコース',
+    'ツリーランエリア FUN',
+    'ツリーランエリア FUN＋',
+    'ツリーランエリア CRUISE',
+    'ツリーランエリア CASCADE',
+    'ツリーランエリア EDGE',
+    'ツリーランエリア DROP'
+  ].map(name => ({ name, status: 'closed' })),
+  { example: 'hachimantai-shimokura-trails-2026-11' }
+);

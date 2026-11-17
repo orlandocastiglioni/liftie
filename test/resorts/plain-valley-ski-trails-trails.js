@@ -45,12 +45,12 @@ trails('plain-valley-ski-trails', [
   },
   {
     name: 'Mill Hill',
-    status: 'hold',
+    status: 'closed',
     level: 'black'
   },
   {
     name: 'Rowdy Coyote',
-    status: 'hold',
+    status: 'closed',
     level: 'black'
   },
   {
@@ -100,7 +100,7 @@ trails('plain-valley-ski-trails', [
   },
   {
     name: 'Rowdy Coyote Cutoff',
-    status: 'hold',
+    status: 'closed',
     level: 'blue'
   },
   {

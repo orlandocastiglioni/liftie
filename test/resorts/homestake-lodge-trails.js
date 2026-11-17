@@ -63,12 +63,12 @@ trails('homestake-lodge', [
   },
   {
     name: 'Double Bubble',
-    status: 'hold',
+    status: 'closed',
     level: 'black'
   },
   {
     name: 'High Road',
-    status: 'hold',
+    status: 'closed',
     level: 'green'
   },
   {
@@ -133,7 +133,7 @@ trails('homestake-lodge', [
   },
   {
     name: 'New Trail',
-    status: 'hold',
+    status: 'closed',
     level: 'blue'
   },
   {

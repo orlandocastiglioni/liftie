@@ -13,17 +13,17 @@ trails('howelsen-hill', [
   },
   {
     name: 'Connector 9',
-    status: 'hold',
+    status: 'closed',
     level: 'blue'
   },
   {
     name: 'Bluffs Loop',
-    status: 'hold',
+    status: 'closed',
     level: 'blue'
   },
   {
     name: 'Connector 7',
-    status: 'hold',
+    status: 'closed',
     level: 'blue'
   },
   {

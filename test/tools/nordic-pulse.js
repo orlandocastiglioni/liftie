@@ -158,3 +158,61 @@ test('nordic-pulse: an area with no grooming record carries no date', (_t, done)
     }
   );
 });
+
+test('nordic-pulse: hazard marks an open trail, it never reopens a closed one', (_t, done) => {
+  // Nordic Pulse: "Trail is open but hazards exist". Sovereign Lake sets the
+  // flag on every trail early season, closed ones included.
+  const state = {
+    x: {
+      u: 'https://api.nordic-pulse.com/v3/ski-areas/BC-Test/data-npw',
+      b: {
+        trails: [
+          { names: { en: 'Early Season Loop' }, open: true, hazard: true },
+          { names: { en: 'World Cup' }, open: false, hazard: true },
+          { names: { en: 'Meadow' }, open: false, hazard: false }
+        ]
+      }
+    }
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.deepEqual(
+        list.map(t => t.status),
+        ['hold', 'closed', 'closed']
+      );
+      done();
+    }
+  );
+});
+
+test('nordic-pulse: the area record dates the report when no trail carries a date', (_t, done) => {
+  // Trapp, Woodstock and Telemark log grooming against waypoints: every trail
+  // holds only the 2021-01-08 placeholder, the area record the real date. The
+  // sibling /ski-areas/status and /ski-areas/static lists share the URL prefix
+  // and must not be read as this area.
+  const meta = (u, b) => ({ u, b, h: {}, s: 200, st: 'OK', rt: 'json' });
+  const state = {
+    1: meta('https://api.nordic-pulse.com/v3/ski-areas/status?project=npw', [
+      { clubId: 'XX-Other', lastGroomed: '2026-11-16T00:00:00.000Z' }
+    ]),
+    2: meta('https://api.nordic-pulse.com/v3/ski-areas/US-VT-Test?project=npw', {
+      _id: 'US-VT-Test',
+      lastGroomed: '2026-03-30T13:34:06.000Z'
+    }),
+    3: meta('https://api.nordic-pulse.com/v3/ski-areas/US-VT-Test/data-npw', {
+      trails: [{ names: { en: 'A' }, open: false, lastGroomedTrackSet: '2021-01-08T15:36:05.000Z' }]
+    })
+  };
+  parseHtml(
+    `<html><body><script id="ng-state" type="application/json">${JSON.stringify(state)}</script></body></html>`,
+    dom => collect(dom, parse),
+    (err, list) => {
+      assert.ifError(err);
+      assert.equal(list.reportedAt, '2026-03-30T13:34:06.000Z');
+      done();
+    }
+  );
+});

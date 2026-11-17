@@ -1,0 +1,35 @@
+import trails from '../trails/index.js';
+
+// MCP theme, captured 2026-11-17 before opening (scripts/styles stripped): 6 lifts, 30 runs, all closed
+trails('willamette-pass', [
+  { 'name': 'Chaser', 'status': 'closed', 'level': 'green' },
+  { 'name': 'Peakaboo', 'status': 'closed', 'level': 'green' },
+  { 'name': 'Sally’s Way', 'status': 'closed', 'level': 'green' },
+  { 'name': 'Duck Soup', 'status': 'closed', 'level': 'green' },
+  { 'name': 'By George', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Kris Kross', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Upper Rosary Run', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Rosary Run', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Kaleidoscope', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Perserverance', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Amber’s Way', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Swoosh', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'West Rough Cut', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Rough Cut', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Timburr Glades', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Eagle’s Flight', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Good Time Charlie', 'status': 'closed', 'level': 'black' },
+  { 'name': 'High Lead', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Timburr', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Success', 'status': 'closed', 'level': 'black' },
+  { 'name': 'RTS', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Southbound', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Where’s Waldo', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'Boundary Pass', 'status': 'closed', 'level': 'blue' },
+  { 'name': 'June’s Run', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Down Under', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Northern Exposure', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Escalator', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Destiny', 'status': 'closed', 'level': 'black' },
+  { 'name': 'Sleepy Hollow', 'status': 'closed', 'level': 'green' }
+]);
