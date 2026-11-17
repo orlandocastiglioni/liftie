@@ -76,3 +76,46 @@ trails(
   ],
   { example: 'terry-peak-summer' }
 );
+
+// 2026-11-17 live capture of the rebuilt site (/trails-lifts, DOR status
+// widget), pre-season: 29 runs, all closed, level from the column heading.
+// 'Homestake (upper closed)' / 'Ben Hur (upper closed)' are still annotated.
+const dor = [
+  { name: 'Stewart Slope', status: 'closed', level: 'green' },
+  { name: 'Upper Stewart', status: 'closed', level: 'green' },
+  { name: 'Little Phil', status: 'closed', level: 'green' },
+  { name: 'Snowstorm', status: 'closed', level: 'green' },
+  { name: 'Millsite', status: 'closed', level: 'green' },
+  { name: 'Gold Run', status: 'closed', level: 'green' },
+  { name: 'Welcome', status: 'closed', level: 'blue' },
+  { name: 'Surprise', status: 'closed', level: 'blue' },
+  { name: 'Black Moon', status: 'closed', level: 'blue' },
+  { name: 'Mini Moon', status: 'closed', level: 'blue' },
+  { name: 'Missing Link', status: 'closed', level: 'blue' },
+  { name: 'Kussy', status: 'closed', level: 'blue' },
+  { name: "Ricky's Run", status: 'closed', level: 'blue' },
+  { name: 'Homestake', status: 'closed', level: 'blue' },
+  { name: 'Hobo Queen', status: 'closed', level: 'blue' },
+  { name: 'Terry Cut-across', status: 'closed', level: 'blue' },
+  { name: 'Empress', status: 'closed', level: 'blue' },
+  { name: 'The Falls', status: 'closed', level: 'black' },
+  { name: 'Old Falls', status: 'closed', level: 'black' },
+  { name: 'Avalanche', status: 'closed', level: 'black' },
+  { name: 'Blizzard', status: 'closed', level: 'black' },
+  { name: 'Avalanche Glades', status: 'closed', level: 'black' },
+  { name: 'Ben Hur Glades', status: 'closed', level: 'black' },
+  { name: 'North Slide Glades', status: 'closed', level: 'black' },
+  { name: 'Maringo', status: 'closed', level: 'black' },
+  { name: 'Holy Terror', status: 'closed', level: 'black' },
+  { name: 'Ben Hur', status: 'closed', level: 'black' },
+  { name: 'Inferno', status: 'closed', level: 'black' },
+  { name: 'Little Hope', status: 'closed', level: 'black' }
+];
+trails('terry-peak', dor, { example: 'terry-peak-2026-11' });
+
+// the same capture with Stewart Slope's badge edited to --open
+trails(
+  'terry-peak',
+  dor.map(t => (t.name === 'Stewart Slope' ? { ...t, status: 'open' } : t)),
+  { example: 'terry-peak-2026-11-open' }
+);

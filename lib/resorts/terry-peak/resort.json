@@ -2,7 +2,7 @@
   "name": "Terry Peak Ski Area",
   "url": {
     "host": "https://terrypeak.com",
-    "pathname": "/the-mountain/trails-lifts/"
+    "pathname": "/trails-lifts"
   },
   "trails": true,
   "tags": [
