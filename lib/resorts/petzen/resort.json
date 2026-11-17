@@ -1,0 +1,17 @@
+{
+  "name": "Petzen",
+  "url": {
+    "host": "https://www.petzen.net",
+    "pathname": "/"
+  },
+  "trails": true,
+  "tags": [
+    "Alps",
+    "Austria",
+    "Carinthia"
+  ],
+  "ll": [
+    14.7715212,
+    46.5405314
+  ]
+}
