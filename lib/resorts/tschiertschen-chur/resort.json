@@ -1,0 +1,23 @@
+{
+  "name": "Tschiertschen - Chur",
+  "url": {
+    "host": "https://www.siscontrol.ch",
+    "pathname": "/report/tschiertschen",
+    "query": {
+      "header": "falls",
+      "footer": "true",
+      "legend": "true"
+    },
+    "via": "renderd",
+    "waitSelector": "sis-sismedia-item ion-icon.sis-statusicon"
+  },
+  "trails": true,
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    9.6047696,
+    46.8153212
+  ]
+}
