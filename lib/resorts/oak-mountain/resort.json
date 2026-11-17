@@ -1,0 +1,15 @@
+{
+  "name": "Oak Mountain",
+  "url": {
+    "host": "https://oakmountainski.com",
+    "pathname": "/the-mountain/snowreport"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -74.36133,
+    43.51443
+  ]
+}
