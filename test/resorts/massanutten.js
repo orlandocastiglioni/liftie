@@ -1,14 +1,32 @@
 import lifts from '../lifts/index.js';
 
-// fixture: web.archive.org capture of the sibling printable report
-// (2023-12-09, early season) - a mixed open/closed day, and it carries the
-// legend section whose decoy article.SnowReport-Lift must not be counted
+// fixture: www.massresort.com/play/conditions/ as rendered by renderd
+// (2026-11-17, pre-season: everything closed), trimmed to the lift and trail
+// sections. The 26/27 Astro rebuild writes the status onto each row's
+// data-state only after its getLiftTrailStatus call returns.
 lifts('massanutten', 'html', {
-  'Creekside - Quad Chair': 'open',
-  'Easy Rider - Quad Chair': 'closed',
-  'Flying Carpet - Conveyor': 'closed',
-  'Magic Carpet - Conveyor': 'closed',
-  'Peak Quad - Quad Chair': 'closed',
-  'Ridge Triple - Triple Chair': 'open',
-  'Sunkid - Conveyor': 'open'
+  Creekside: 'closed',
+  'Easy Rider': 'closed',
+  'Peak Express': 'closed',
+  'Ridge Triple': 'closed',
+  'Flying Carpet': 'closed',
+  'Magic Carpet': 'closed',
+  Sunkid: 'closed'
 });
+
+// same capture with data-state edited to every state the page script knows,
+// plus 'unavailable' (status call failed), which must drop the row rather
+// than publish it as scheduled
+lifts(
+  'massanutten',
+  'html',
+  {
+    Creekside: 'open',
+    'Easy Rider': 'closed',
+    'Peak Express': 'closed',
+    'Ridge Triple': 'hold',
+    'Flying Carpet': 'closed',
+    Sunkid: 'scheduled'
+  },
+  { example: 'massanutten-mixed' }
+);
