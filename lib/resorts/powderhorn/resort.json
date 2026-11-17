@@ -2,8 +2,9 @@
   "name": "Powderhorn",
   "url": {
     "host": "https://www.powderhorn.com",
-    "pathname": "/explore/conditions/mountain-report.html"
+    "pathname": "/conditions/"
   },
+  "trails": true,
   "tags": [
     "Colorado"
   ],

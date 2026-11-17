@@ -47,3 +47,54 @@ trails('massif-du-sud', [
   { name: "Sentier d'ascension D", status: 'closed', level: 'black' },
   { name: 'La 5e dimension', status: 'closed', level: 'black' }
 ]);
+
+// pre-season capture (2026-11-17): the flight data now carries a summer
+// "details" entry (the bike park, 25 trails all open) ahead of the winter
+// one. Only the 41 winter runs are published, all closed - as on the page.
+trails(
+  'massif-du-sud',
+  [
+    { name: 'La Familiale (1)', status: 'closed', level: 'green' },
+    { name: 'La Villageoise (9)', status: 'closed', level: 'black' },
+    { name: 'La Volte-face (9A)', status: 'closed', level: 'black' },
+    { name: 'La mistrale (10)', status: 'closed', level: 'black' },
+    { name: 'La nouvelle (10A)', status: 'closed', level: 'black' },
+    { name: 'Freeride Parc (11)', status: 'closed', level: 'black' },
+    { name: 'La transit (11A)', status: 'closed', level: 'black' },
+    { name: 'La passe (11B)', status: 'closed', level: 'black' },
+    { name: "L'\u00e9coli\u00e8re (12)", status: 'closed', level: 'green' },
+    { name: 'La junior (12A)', status: 'closed', level: 'green' },
+    { name: 'La planche (12B)', status: 'closed', level: 'black' },
+    { name: 'La grande allée (13)', status: 'closed', level: 'black' },
+    { name: 'Le défi (13A)', status: 'closed', level: 'black' },
+    { name: "L'olympique (14)", status: 'closed', level: 'black' },
+    { name: 'La buissonnière (14A)', status: 'closed', level: 'black' },
+    { name: 'La panoramique (15)', status: 'closed', level: 'black' },
+    { name: 'La promenade (16)', status: 'closed', level: 'black' },
+    { name: 'La cloche (16A)', status: 'closed', level: 'black' },
+    { name: 'Le boisé (16B)', status: 'closed', level: 'black' },
+    { name: 'La Réserve (8A)', status: 'closed', level: 'black' },
+    { name: 'La bipolaire (9B)', status: 'closed', level: 'black' },
+    { name: 'La timide (9C)', status: 'closed', level: 'black' },
+    { name: 'La polaire (10B)', status: 'closed', level: 'black' },
+    { name: 'La Super Naturel (11C)', status: 'closed', level: 'doubleBlack' },
+    { name: 'Forêt du Sasquatch (12C)', status: 'closed', level: 'black' },
+    { name: 'La criminelle (13B)', status: 'closed', level: 'black' },
+    { name: 'La légale (14B)', status: 'closed', level: 'black' },
+    { name: 'Pow Pow (16C)', status: 'closed', level: 'black' },
+    { name: 'La skinusite (17)', status: 'closed', level: 'black' },
+    { name: 'Loin-Loin (2)', status: 'closed', level: 'doubleBlack' },
+    { name: 'Cachetier (3)', status: 'closed', level: 'doubleBlack' },
+    { name: 'La merveille (4)', status: 'closed', level: 'doubleBlack' },
+    { name: 'La surprenante (5)', status: 'closed', level: 'doubleBlack' },
+    { name: 'La délinquante (6)', status: 'closed', level: 'doubleBlack' },
+    { name: 'La septième ciel (7)', status: 'closed', level: 'doubleBlack' },
+    { name: 'La cathédrale (8)', status: 'closed', level: 'doubleBlack' },
+    { name: "Sentier d'ascension A", status: 'closed', level: 'green' },
+    { name: "Sentier d'ascension B", status: 'closed', level: 'black' },
+    { name: "Sentier d'ascension C", status: 'closed', level: 'black' },
+    { name: "Sentier d'ascension D", status: 'closed', level: 'black' },
+    { name: 'La 5e dimension', status: 'closed', level: 'black' }
+  ],
+  { example: 'massif-du-sud-2026-11' }
+);

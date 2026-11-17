@@ -2,7 +2,9 @@
   "name": "Massanutten Resort",
   "url": {
     "host": "https://www.massresort.com",
-    "pathname": "/play/conditions/"
+    "pathname": "/snow-sports/conditions-webcams/",
+    "via": "renderd",
+    "waitSelector": "li[data-status-lift][data-state]"
   },
   "trails": true,
   "tags": [

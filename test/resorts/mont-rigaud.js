@@ -1,9 +1,26 @@
 import lifts from '../lifts/index.js';
 
-// Fixture: live ski.montrigaud.com/home (no winter Wayback capture exists).
-// Two published lifts in #barre_conditions; both carry `remontees_out`
-// (closed) in the off-season "Closed for the season" state.
+// Fixture: live montrigaud.com/conditions/ (2026-11-17), trimmed to its
+// Elementor loop items - the four lifts (activite-remontee) plus one piste
+// (activite-piste) that must not be counted. Pre-season, every column Fermée.
 lifts('mont-rigaud', 'html', {
-  'QUAD CHAIR': 'closed',
-  'MAGIC CARP.': 'closed'
+  'Poma Express': 'closed',
+  Doppelmayr: 'closed',
+  'Tapis Emmegi': 'closed',
+  'Tapis Sunkid': 'closed'
 });
+
+// Same capture with two statuses edited to Ouverte: Poma Express only in the
+// night (Soir) column, Tapis Sunkid only in the day (Jour) column. A lift
+// running under the lights is running.
+lifts(
+  'mont-rigaud',
+  'html',
+  {
+    'Poma Express': 'open',
+    Doppelmayr: 'closed',
+    'Tapis Emmegi': 'closed',
+    'Tapis Sunkid': 'open'
+  },
+  { example: 'mont-rigaud-open' }
+);

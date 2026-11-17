@@ -1,8 +1,8 @@
 {
   "name": "Ski Mont Rigaud",
   "url": {
-    "host": "https://ski.montrigaud.com",
-    "pathname": "/home"
+    "host": "https://montrigaud.com",
+    "pathname": "/conditions/"
   },
   "tags": [
     "Quebec"
