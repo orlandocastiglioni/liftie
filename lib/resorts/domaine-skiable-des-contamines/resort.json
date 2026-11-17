@@ -1,0 +1,16 @@
+{
+  "name": "Domaine Skiable des Contamines",
+  "url": {
+    "host": "https://www.lescontamines.net",
+    "pathname": "/ouverture.html"
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    6.7232087,
+    45.8115586
+  ]
+}
