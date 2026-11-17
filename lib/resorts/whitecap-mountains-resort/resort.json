@@ -1,0 +1,16 @@
+{
+  "name": "Whitecap Mountains",
+  "url": {
+    "host": "https://whitecapresort.com",
+    "pathname": "/winter/snow-report"
+  },
+  "trails": true,
+  "tags": [
+    "Wisconsin",
+    "Midwest"
+  ],
+  "ll": [
+    -90.3969777,
+    46.4069352
+  ]
+}
