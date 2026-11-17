@@ -27,3 +27,20 @@ lifts(
   },
   { example: 'granby-ranch-summer' }
 );
+
+// Trimmed live capture from 17 Nov 2026, after the redesign: lift rows are
+// div.gbr-trail-row--lift with the status in the gbr-trail-row--<status>
+// modifier. Lifts are not gated on the stale snow-report stamp.
+lifts(
+  'granby-ranch',
+  'html',
+  {
+    Conquest: 'closed',
+    'Kicking Horse': 'closed',
+    'Pony Carpet (Ski School Only)': 'closed',
+    Milestone: 'closed',
+    'Quick Draw Express': 'closed',
+    'Stagecoach Carpet': 'closed'
+  },
+  { example: 'granby-ranch-2026-11' }
+);
