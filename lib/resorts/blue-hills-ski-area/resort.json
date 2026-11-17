@@ -1,0 +1,16 @@
+{
+  "name": "Blue Hills Ski Area",
+  "url": {
+    "host": "https://bluehillsboston.com",
+    "pathname": "/conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Massachusetts",
+    "New England"
+  ],
+  "ll": [
+    -71.11851,
+    42.2164
+  ]
+}

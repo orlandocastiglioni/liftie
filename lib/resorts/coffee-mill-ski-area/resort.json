@@ -1,0 +1,16 @@
+{
+  "name": "Coffee Mill Ski Area",
+  "url": {
+    "host": "https://coffeemillskiarea.com",
+    "pathname": "/pages/mountain-report-lift-status"
+  },
+  "trails": true,
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -92.043366,
+    44.363734
+  ]
+}
