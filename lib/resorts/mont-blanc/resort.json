@@ -1,0 +1,19 @@
+{
+  "name": "Ski Mont Blanc",
+  "url": {
+    "host": "https://skimontblanc.com",
+    "pathname": "/en/infos-et-conditions-montagne/"
+  },
+  "dataUrl": {
+    "host": "https://app.gettrail.info",
+    "pathname": "/embed/3e435d5b-aa7a-4105-b3d2-8b20cfcc7531/tabletrails"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -74.48412,
+    46.1091
+  ]
+}
