@@ -1,0 +1,43 @@
+{
+  "name": "Dartmouth Skiway",
+  "url": {
+    "host": "https://dartmouthskiway.com",
+    "pathname": "/mountain-2/"
+  },
+  "api": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/lifts",
+    "query": {
+      "$limit": "100"
+    },
+    "headers": {
+      "X-Alpine-API-Token": "3S10tU4MCNfZ8rRwf4Q_EcCo_IL8zm",
+      "X-Alpine-Org": "dartmouth-skiway"
+    },
+    "json": true
+  },
+  "trails": {
+    "host": "https://api.alpinemedia.com",
+    "pathname": "/api/v1/trails",
+    "query": {
+      "$limit": "250"
+    },
+    "headers": {
+      "X-Alpine-API-Token": "3S10tU4MCNfZ8rRwf4Q_EcCo_IL8zm",
+      "X-Alpine-Org": "dartmouth-skiway"
+    },
+    "json": true
+  },
+  "alpinemedia": {
+    "tokenSource": "public client key (expo config extra.apiKey) in the JavaScript bundle loaded by https://dartmouth-skiway.app.alpinemedia.com/embed/lifts-trails/conditions; read 2026-11-17",
+    "rotates": "may change with any app release: a 401 or an empty board is an error, re-read the key from the current bundle"
+  },
+  "tags": [
+    "New Hampshire",
+    "New England"
+  ],
+  "ll": [
+    -72.094992,
+    43.77788
+  ]
+}
