@@ -1,0 +1,15 @@
+{
+  "name": "Ski Saint-Bruno",
+  "url": {
+    "host": "https://skisaintbruno.ca",
+    "pathname": "/en/sliding-conditions/"
+  },
+  "trails": true,
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -73.331693,
+    45.555781
+  ]
+}
