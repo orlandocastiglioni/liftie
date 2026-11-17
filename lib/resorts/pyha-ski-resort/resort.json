@@ -1,0 +1,34 @@
+{
+  "name": "Pyhä Ski Resort",
+  "url": {
+    "host": "https://www.pyha.fi",
+    "pathname": "/en/skiresort/slopes"
+  },
+  "api": {
+    "host": "https://www.pyha.fi",
+    "pathname": "/en/api/slopes_and_lifts",
+    "query": {
+      "routes": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+      "lifts": "1,2,3,4,5,6,7,8,9",
+      "season": "winter"
+    }
+  },
+  "trails": {
+    "host": "https://www.pyha.fi",
+    "pathname": "/en/api/slopes_and_lifts",
+    "query": {
+      "routes": "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18",
+      "lifts": "1,2,3,4,5,6,7,8,9",
+      "season": "winter"
+    },
+    "json": true
+  },
+  "tags": [
+    "Finland",
+    "Lapland"
+  ],
+  "ll": [
+    27.233148,
+    67.02698
+  ]
+}
