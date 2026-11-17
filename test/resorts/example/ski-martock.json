@@ -1,0 +1,687 @@
+{
+ "generated": "2026-11-17T18:15:38-04:00",
+ "date": "2026-11-17",
+ "time": "18:15",
+ "timezone": "America/Halifax",
+ "updated": "2026-10-01T13:38:30-03:00",
+ "updated_by": "pagero",
+ "mountain": {
+  "status": "closed",
+  "label": "Closed",
+  "headline": "Closed today",
+  "tone": "closed",
+  "open_now": false,
+  "hours": "",
+  "intervals": [],
+  "message": "The mountain is closed for the season — the office is still here.",
+  "reason": "",
+  "source": "season",
+  "season": "Off Season"
+ },
+ "hours": {
+  "week": {
+   "mon": {
+    "label": "Monday",
+    "date": "2026-11-23",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "tue": {
+    "label": "Tuesday",
+    "date": "2026-11-17",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "wed": {
+    "label": "Wednesday",
+    "date": "2026-11-18",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "thu": {
+    "label": "Thursday",
+    "date": "2026-11-19",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "fri": {
+    "label": "Friday",
+    "date": "2026-11-20",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "sat": {
+    "label": "Saturday",
+    "date": "2026-11-21",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   },
+   "sun": {
+    "label": "Sunday",
+    "date": "2026-11-22",
+    "status": "closed",
+    "hours": "",
+    "source": "season"
+   }
+  },
+  "exceptions": []
+ },
+ "trails": {
+  "open": 0,
+  "total": 13,
+  "groomed": 0,
+  "items": [
+   {
+    "slug": "buttermilk",
+    "name": "Buttermilk",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "6",
+    "tm": "id6",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "ski-bunny-hill",
+    "name": "Ski Bunny Hill",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "7",
+    "tm": "id7",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "snowboard-bunny-hill",
+    "name": "Snowboard Bunny Hill",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "8",
+    "tm": "id8",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "riglet-park",
+    "name": "Riglet Park",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "9",
+    "tm": "id9",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "head-start",
+    "name": "Head / Start",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "10",
+    "tm": "id10",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "the-bump",
+    "name": "The Bump",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "easiest",
+    "badge": "11",
+    "tm": "id11",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "shanes-solution",
+    "name": "Shane’s Solution",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "1",
+    "tm": "id1",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "strawberry-jinx",
+    "name": "Strawberry Jinx",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "2",
+    "tm": "id2",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "sundance",
+    "name": "Sundance",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "3",
+    "tm": "id3",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "expressway",
+    "name": "Expressway",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "4",
+    "tm": "id4",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "upper-glades",
+    "name": "Upper Glades",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "5",
+    "tm": "id5",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "lower-glades",
+    "name": "Lower Glades",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "intermediate",
+    "badge": "6",
+    "tm": "id6I",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   },
+   {
+    "slug": "terrain-park",
+    "name": "Terrain Park",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "group": "freestyle",
+    "badge": "P",
+    "tm": "id12",
+    "grooming": "ungroomed",
+    "grooming_label": "Ungroomed",
+    "snowmaking": false,
+    "night": true
+   }
+  ]
+ },
+ "lifts": {
+  "open": 0,
+  "total": 4,
+  "groomed": 0,
+  "items": [
+   {
+    "slug": "quad-chair",
+    "name": "Quad Chair",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "tm": "gondola",
+    "hours": "9 AM – 9 PM"
+   },
+   {
+    "slug": "t-bar",
+    "name": "T-Bar",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "tm": "gondola",
+    "hours": "4:30 PM – 9 PM"
+   },
+   {
+    "slug": "t-bar-half-way-unload",
+    "name": "T-Bar ½ Way Unload",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "tm": "gondola",
+    "hours": ""
+   },
+   {
+    "slug": "magic-carpet",
+    "name": "Magic Carpet",
+    "status": "closed",
+    "label": "Closed",
+    "open": false,
+    "note": "",
+    "tm": "magic_carpet",
+    "hours": "9 AM – 4:30 PM"
+   }
+  ]
+ },
+ "tubing": {
+  "status": "closed",
+  "tm": "idt",
+  "label": "Closed",
+  "hours": "",
+  "note": "",
+  "url": "/mountain/tubing/"
+ },
+ "snow": {
+  "overnight": 0,
+  "h24": 0,
+  "h48": 0,
+  "base": 0,
+  "season": 0,
+  "surface": "variable",
+  "surface_label": "Variable",
+  "manual_weather": false
+ },
+ "snowmaking": {
+  "status": "off",
+  "label": "Off"
+ },
+ "grooming": {
+  "status": "none",
+  "label": "No grooming",
+  "groomed": 0,
+  "total": 13
+ },
+ "roads": {
+  "status": "clear",
+  "label": "Clear",
+  "message": ""
+ },
+ "report": {
+  "date": "",
+  "headline": "",
+  "message": "Winter is just around the corner! We're getting ready for another exciting season on the mountain. Stay tuned and follow us on social media for the latest updates and opening announcements!\n\nOur office is open Monday to Friday, 9 AM – 4 PM, for any questions or inquiries.",
+  "recommended": [],
+  "updated": "2026-11-13T15:50:00-04:00",
+  "by": "admin"
+ },
+ "news": {
+  "active": false,
+  "type": "promotion",
+  "message": "Season Pass prices are going up on 1 November 2026. Get yours at the current price before the increase. Keep your card — reload it year after year.",
+  "cta_label": "",
+  "cta_url": "",
+  "where": "everywhere",
+  "items": []
+ },
+ "facilities": [
+  {
+   "slug": "lodge",
+   "name": "Lodge",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "rentals",
+   "name": "Rental Shop",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "repair",
+   "name": "Repair Shop",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "snow-school",
+   "name": "Snow School",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "food",
+   "name": "Food & Beverage",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "guest-services",
+   "name": "Guest Services",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  },
+  {
+   "slug": "office",
+   "name": "Office",
+   "status": "closed",
+   "hours": "",
+   "message": ""
+  }
+ ],
+ "prices": {
+  "windows": [
+   {
+    "id": "w1",
+    "label": "Mar 1–31",
+    "from": "03-01",
+    "to": "03-31",
+    "start": 301
+   },
+   {
+    "id": "w2",
+    "label": "Apr 1–Jun 30",
+    "from": "04-01",
+    "to": "06-30",
+    "start": 401
+   },
+   {
+    "id": "w3",
+    "label": "Jul 1–Oct 31",
+    "from": "07-01",
+    "to": "10-31",
+    "start": 701
+   },
+   {
+    "id": "w4",
+    "label": "Nov 1–Dec 24",
+    "from": "11-01",
+    "to": "12-24",
+    "start": 1101
+   },
+   {
+    "id": "w5",
+    "label": "Dec 25 On",
+    "from": "12-25",
+    "to": "02-28",
+    "start": 1225
+   }
+  ],
+  "products": [
+   {
+    "id": "martock-pass",
+    "label": "Martock Pass",
+    "prices": {
+     "w1": 199.95,
+     "w2": 249.95,
+     "w3": 299.95,
+     "w4": 349.95,
+     "w5": 399.95
+    },
+    "display": {
+     "w1": "$199.95",
+     "w2": "$249.95",
+     "w3": "$299.95",
+     "w4": "$349.95",
+     "w5": "$399.95"
+    },
+    "current": 349.95,
+    "current_display": "$349.95"
+   },
+   {
+    "id": "east-peak-pass",
+    "label": "East Peak Pass",
+    "prices": {
+     "w1": 299.95,
+     "w2": 349.95,
+     "w3": 399.95,
+     "w4": 449.95,
+     "w5": 499.95
+    },
+    "display": {
+     "w1": "$299.95",
+     "w2": "$349.95",
+     "w3": "$399.95",
+     "w4": "$449.95",
+     "w5": "$499.95"
+    },
+    "current": 449.95,
+    "current_display": "$449.95"
+   },
+   {
+    "id": "child-pass",
+    "label": "Child Pass (5 & Under)",
+    "prices": {
+     "w1": 119.95,
+     "w2": 119.95,
+     "w3": 119.95,
+     "w4": 119.95,
+     "w5": 119.95
+    },
+    "display": {
+     "w1": "$119.95",
+     "w2": "$119.95",
+     "w3": "$119.95",
+     "w4": "$119.95",
+     "w5": "$119.95"
+    },
+    "current": 119.95,
+    "current_display": "$119.95"
+   }
+  ],
+  "current_window": "w4",
+  "note": "All prices are subject to HST.",
+  "buy_url": "https://martock.snowcloud.shop/shop/list",
+  "day": {
+   "columns": [
+    {
+     "id": "full",
+     "label": "Full Day",
+     "time": "All Day"
+    },
+    {
+     "id": "pm",
+     "label": "Afternoon",
+     "time": "1PM-5PM"
+    },
+    {
+     "id": "night",
+     "label": "Night",
+     "time": "5PM-9PM"
+    },
+    {
+     "id": "last",
+     "label": "Last Chance",
+     "time": "7PM-9PM"
+    }
+   ],
+   "rows": [
+    {
+     "id": "adult",
+     "label": "Adult Price",
+     "prices": {
+      "full": 60,
+      "pm": 53,
+      "night": 53,
+      "last": 39
+     },
+     "display": {
+      "full": "$60",
+      "pm": "$53",
+      "night": "$53",
+      "last": "$39"
+     }
+    },
+    {
+     "id": "junior",
+     "label": "Junior Price (15 & Under)",
+     "prices": {
+      "full": 48,
+      "pm": 40,
+      "night": 40,
+      "last": 39
+     },
+     "display": {
+      "full": "$48",
+      "pm": "$40",
+      "night": "$40",
+      "last": "$39"
+     }
+    }
+   ],
+   "note": "All prices are subject to HST."
+  }
+ },
+ "alert": {
+  "enabled": true,
+  "active": false,
+  "starts_on": "2026-12-25",
+  "window": "Dec 25 On",
+  "ends_at": "2026-12-25T00:00:00-04:00",
+  "days_left": 38,
+  "hours_left": 893,
+  "frequency": "session",
+  "warnings": [
+   {
+    "id": "p1-4weeks",
+    "enabled": true,
+    "hours": 840,
+    "countdown": "days",
+    "title": "HEADS UP, MARTOCK.",
+    "text": "Season Pass prices are going up on 25 December 2026. Get yours at the current price before the increase.",
+    "show_prices": true,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   },
+   {
+    "id": "p2-2weeks",
+    "enabled": true,
+    "hours": 336,
+    "countdown": "weeks",
+    "title": "JUST A HEADS UP.",
+    "text": "Season Pass prices go up in 6 weeks. Get yours at the current price while you can.",
+    "show_prices": true,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   },
+   {
+    "id": "p3-1week",
+    "enabled": true,
+    "hours": 168,
+    "countdown": "days",
+    "title": "ONE WEEK TO GO.",
+    "text": "Season Pass prices go up in 38 days. Get yours at the current price before the increase.",
+    "show_prices": true,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   },
+   {
+    "id": "p4-3days",
+    "enabled": true,
+    "hours": 72,
+    "countdown": "dhm",
+    "title": "CURRENT PRICING ENDS SOON.",
+    "text": "Season Pass prices go up 25 December 2026. Get your pass at the current price while you can.",
+    "show_prices": false,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   },
+   {
+    "id": "p5-24hours",
+    "enabled": true,
+    "hours": 24,
+    "countdown": "hms",
+    "title": "PRICES GO UP TOMORROW.",
+    "text": "Last chance to get your Season Pass at the current price.",
+    "show_prices": false,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   },
+   {
+    "id": "p6-finalday",
+    "enabled": true,
+    "hours": 12,
+    "countdown": "hms",
+    "title": "LAST DAY AT THE CURRENT PRICE.",
+    "text": "Season Pass prices go up tomorrow.",
+    "show_prices": false,
+    "button_label": "Get your season pass",
+    "button_url": "https://martock.snowcloud.shop/shop/list"
+   }
+  ],
+  "warning": null,
+  "countdown": "none",
+  "title": "",
+  "text": "",
+  "changes": [
+   {
+    "label": "Martock Pass",
+    "from": "$349.95",
+    "to": "$399.95"
+   },
+   {
+    "label": "East Peak Pass",
+    "from": "$449.95",
+    "to": "$499.95"
+   }
+  ],
+  "button": {
+   "label": "",
+   "url": ""
+  },
+  "key": "2026-12-25"
+ }
+}

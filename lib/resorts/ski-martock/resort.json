@@ -1,0 +1,24 @@
+{
+  "name": "Ski Martock",
+  "url": {
+    "host": "https://www.martock.com",
+    "pathname": "/mountain/conditions/"
+  },
+  "api": {
+    "host": "https://www.martock.com",
+    "pathname": "/api/operations.php"
+  },
+  "trails": {
+    "host": "https://www.martock.com",
+    "pathname": "/api/operations.php",
+    "json": true
+  },
+  "robotsNote": "martock.com/robots.txt disallows /api/; the owner chose on 2026-11-17 to read /api/operations.php anyway (honest User-Agent, normal 15-minute cadence). The page itself only carries placeholder values that the site's JavaScript overwrites from this endpoint.",
+  "tags": [
+    "Nova Scotia"
+  ],
+  "ll": [
+    -64.17086,
+    44.93539
+  ]
+}
