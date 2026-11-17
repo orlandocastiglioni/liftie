@@ -1,0 +1,15 @@
+{
+  "name": "Kissing Bridge",
+  "url": {
+    "host": "https://www.kissingbridge.com",
+    "pathname": "/on-the-slopes/slope-conditions"
+  },
+  "trails": true,
+  "tags": [
+    "New York"
+  ],
+  "ll": [
+    -78.6555,
+    42.60739
+  ]
+}
