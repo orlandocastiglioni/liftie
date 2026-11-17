@@ -2,7 +2,7 @@
   "name": "Nordic Mountain",
   "url": {
     "host": "https://www.nordicmountain.com",
-    "pathname": "/mountain-info/snow-report-nordic"
+    "pathname": "/mountain-info/snow-report-0"
   },
   "trails": true,
   "tags": [
