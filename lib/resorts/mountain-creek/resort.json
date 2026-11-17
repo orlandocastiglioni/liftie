@@ -1,0 +1,15 @@
+{
+  "name": "Mountain Creek",
+  "url": {
+    "host": "https://mountaincreek.com",
+    "pathname": "/skiing-riding/mountain-report/snow-overview/"
+  },
+  "trails": true,
+  "tags": [
+    "New Jersey"
+  ],
+  "ll": [
+    -74.5072,
+    41.19119
+  ]
+}
