@@ -35,5 +35,9 @@
   "ll": [
     -72.9601621,
     43.9391922
-  ]
+  ],
+  "alpinemedia": {
+    "tokenSource": "not filled in: the key would be the expo config extra.apiKey of the embed bundle (ski-middlebury.app.alpinemedia.com/static/js/*.js); keep this resort out of LIFTIE_RESORTS until it is",
+    "rotates": "may change with any app release"
+  }
 }
