@@ -11,7 +11,8 @@ trails('plain-valley-ski-trails', [
   {
     name: 'Grizzly Mountain',
     status: 'hold',
-    level: 'black'
+    level: 'black',
+    hazard: true
   },
   {
     name: 'Sprint Loop',
@@ -21,7 +22,8 @@ trails('plain-valley-ski-trails', [
   {
     name: 'Stonewater Loop South',
     status: 'hold',
-    level: 'blue'
+    level: 'blue',
+    hazard: true
   },
   {
     name: 'Meadow Loop',
@@ -71,12 +73,14 @@ trails('plain-valley-ski-trails', [
   {
     name: 'BCT Middle',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'BCT North',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'Grizzly Mountain North',
@@ -96,7 +100,8 @@ trails('plain-valley-ski-trails', [
   {
     name: 'Walk In Trailhead',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'Rowdy Coyote Cutoff',
@@ -111,7 +116,8 @@ trails('plain-valley-ski-trails', [
   {
     name: 'BCT Middle North',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'Stonewater Loop North',

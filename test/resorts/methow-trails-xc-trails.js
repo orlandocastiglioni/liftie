@@ -26,7 +26,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Cedar Creek Loop (black)',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Homestead',
@@ -66,7 +67,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Blue Jay',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Gunn Ranch',
@@ -76,7 +78,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Winthrop Trail (Lower)',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Patterson Lake',
@@ -91,12 +94,14 @@ trails('methow-trails-xc', [
   {
     'name': 'Founders Trail',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Lower Meadowlark',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Little Cub Creek',
@@ -151,7 +156,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Lower River Run',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Lower Inside Passage',
@@ -271,7 +277,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Base Camp',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Methow Valley Community Trail- Mazama to Freestone Inn',
@@ -286,7 +293,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Cassal Hut',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Cougar Mountain Loop',
@@ -296,12 +304,14 @@ trails('methow-trails-xc', [
   {
     'name': 'Winthrop Trail (Upper)',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Criss Cross',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Flagg Mountain Loop',
@@ -336,7 +346,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Bitterbrush',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Fish Hatchery',
@@ -346,12 +357,14 @@ trails('methow-trails-xc', [
   {
     'name': 'Grizzly Hut',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Cassal Creek Loop (black)',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Lunachik',
@@ -456,7 +469,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Goat Creek',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Early Winters',
@@ -481,7 +495,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Methow Valley Community Trail- Wolf Ridge to Browns Farm',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Aspen Loop',
@@ -491,7 +506,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Barnsley Lake',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Sick Joke Hill',
@@ -556,7 +572,8 @@ trails('methow-trails-xc', [
   {
     'name': 'Methow Community Trail- Wolf Ridge to Browns Farm',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Methow Community Trail- Browns Farm to Suspension Bridge Trailhead',

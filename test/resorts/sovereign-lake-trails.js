@@ -91,7 +91,8 @@ trails(
     {
       'name': 'Lars Taylor Way',
       'status': 'hold',
-      'level': 'black'
+      'level': 'black',
+      'hazard': true
     },
     {
       'name': 'Black Prince',
@@ -246,17 +247,20 @@ trails(
     {
       'name': 'VSA Ganzaveld Early Season',
       'status': 'hold',
-      'level': 'black'
+      'level': 'black',
+      'hazard': true
     },
     {
       'name': 'VSA Meadow',
       'status': 'hold',
-      'level': 'black'
+      'level': 'black',
+      'hazard': true
     },
     {
       'name': 'VSA Repeater Road',
       'status': 'hold',
-      'level': 'blue'
+      'level': 'blue',
+      'hazard': true
     },
     {
       'name': 'Alder Trail',
@@ -306,7 +310,8 @@ trails(
     {
       'name': 'Aberdeen Early Season',
       'status': 'hold',
-      'level': 'black'
+      'level': 'black',
+      'hazard': true
     },
     {
       'name': 'Wild Goose',

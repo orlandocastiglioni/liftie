@@ -14,17 +14,20 @@ trails('loge-glacier', [
   {
     name: 'Upper Dickey',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'Lower Dickey',
     status: 'hold',
-    level: 'green'
+    level: 'green',
+    hazard: true
   },
   {
     name: 'Spring Hill Loop',
     status: 'hold',
-    level: 'black'
+    level: 'black',
+    hazard: true
   },
   {
     name: 'Starlight Trail',
@@ -64,7 +67,8 @@ trails('loge-glacier', [
   {
     name: 'Dickey Connector',
     status: 'hold',
-    level: 'blue'
+    level: 'blue',
+    hazard: true
   },
   {
     name: 'Upper Essex Creek South',
