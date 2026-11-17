@@ -56,3 +56,7 @@ trails('murray-ridge', [
     'status': 'open'
   }
 ]);
+
+// pre-season capture: the newest post is not a conditions report, so nothing
+// is published (it used to republish the 2026-03-21 groomed list as open)
+trails('murray-ridge', [], { example: 'murray-ridge-offseason' });
