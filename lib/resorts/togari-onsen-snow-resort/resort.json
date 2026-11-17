@@ -1,0 +1,16 @@
+{
+  "name": "Togari Onsen Snow Resort",
+  "url": {
+    "host": "https://togari.jp",
+    "pathname": "/winter/en/course_map/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Nagano"
+  ],
+  "ll": [
+    138.38047,
+    36.940032
+  ]
+}

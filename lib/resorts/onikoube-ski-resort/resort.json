@@ -1,0 +1,19 @@
+{
+  "name": "Onikoube Ski Resort",
+  "url": {
+    "host": "https://www.onikoube.com",
+    "pathname": "/snow/lift/"
+  },
+  "trails": {
+    "host": "https://www.onikoube.com",
+    "pathname": "/snow/ski-slope/"
+  },
+  "tags": [
+    "Japan",
+    "Miyagi"
+  ],
+  "ll": [
+    140.63959801906,
+    38.787074284168
+  ]
+}

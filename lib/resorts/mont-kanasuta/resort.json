@@ -1,0 +1,25 @@
+{
+  "name": "Mont Kanasuta",
+  "url": {
+    "host": "https://maneige.ski",
+    "pathname": "/stations/centre-plein-air-mont-kanasuta/"
+  },
+  "api": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/492",
+    "via": "flaresolverr"
+  },
+  "trails": {
+    "host": "https://maneige.ski",
+    "pathname": "/wp-json/wp/v2/stations/492",
+    "json": true,
+    "via": "flaresolverr"
+  },
+  "tags": [
+    "Quebec"
+  ],
+  "ll": [
+    -79.403089,
+    48.17901
+  ]
+}

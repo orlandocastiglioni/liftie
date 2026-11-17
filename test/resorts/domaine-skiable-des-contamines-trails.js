@@ -1,0 +1,58 @@
+import trails from '../trails/index.js';
+
+// Wayback capture of 2025-02-21: the sector lists below the live map, 25 lifts
+// and 49 runs. TELEBABY, TK du Veleray and the Feux rope tow are closed
+// ("ENNEIGEMENT INSUFFISANT"); Les Pres reads P, a forecast opening, so
+// scheduled.
+
+trails('domaine-skiable-des-contamines', [
+  { name: 'DAHU', status: 'closed', level: 'green', grade: 'verte' },
+  { name: 'LES MORGIERS', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'VERDASSES', status: 'closed', level: 'green', grade: 'verte' },
+  { name: 'ECUREUILS', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'LES FOYERES', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'JONCTION', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LA MONTJOIE', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LA VARIANTE', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'VILLAGE', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'CHON GORGE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'CHON LAY', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LA JOUX', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: 'SIGNAL', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'BOULEVARD', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LA COMBE', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'COL', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'FREDZE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'GENTIANES', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LA BRETELLE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LA BUCHE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES CHAMOIS', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'OLYMPIQUE', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: 'TOBOGAN', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: 'LES COINS BAS', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LES COINS HAUT', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'MONUMENT', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'AIGUILLE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'BARTAVELLE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES BESOENS', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES RHODOS', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES TIERCES', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'NANT ROUGE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LA CROCHE', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: 'LA GREVETTAZ', status: 'open', level: 'doubleBlack', grade: 'noire' },
+  { name: 'LIAISON', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: 'REBANS BAS', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: 'REBANS HAUT', status: 'closed', level: 'doubleBlack', grade: 'noire' },
+  { name: 'LUDOPARK', status: 'open' },
+  { name: 'LA RUELLE', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'ROUTE COL RUELLE', status: 'open', level: 'green', grade: 'verte' },
+  { name: 'LA CROIX', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LE COL', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'LES CHOUCAS', status: 'open', level: 'blue', grade: 'bleue' },
+  { name: 'BELLEVILLE', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'BOUQUETINS', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'CHOTON', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES MARMOTTES', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES PLANS', status: 'open', level: 'black', grade: 'rouge' },
+  { name: 'LES PRES', status: 'scheduled', level: 'doubleBlack', grade: 'noire' }
+]);

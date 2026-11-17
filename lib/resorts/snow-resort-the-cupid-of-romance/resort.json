@@ -1,0 +1,16 @@
+{
+  "name": "Snow Resort The Cupid of Romance",
+  "url": {
+    "host": "https://kijimadaira-ski.com",
+    "pathname": "/gelande/"
+  },
+  "trails": true,
+  "tags": [
+    "Japan",
+    "Nagano"
+  ],
+  "ll": [
+    138.4008047,
+    36.8198686
+  ]
+}
