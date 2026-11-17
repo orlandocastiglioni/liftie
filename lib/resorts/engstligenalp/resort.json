@@ -1,0 +1,24 @@
+{
+  "name": "Engstligenalp",
+  "url": {
+    "host": "https://engstligenalp.ch",
+    "pathname": "/winter/betriebsinfo/"
+  },
+  "api": {
+    "host": "https://engstligenalp.ch",
+    "pathname": "/wp-content/infosnow/winter.json"
+  },
+  "trails": {
+    "host": "https://engstligenalp.ch",
+    "pathname": "/wp-content/infosnow/winter.json",
+    "json": true
+  },
+  "tags": [
+    "Switzerland",
+    "Alps"
+  ],
+  "ll": [
+    7.5664537,
+    46.4592216
+  ]
+}
