@@ -1,0 +1,22 @@
+{
+  "name": "Elm Creek Park Reserve",
+  "url": {
+    "host": "https://www.threeriversparks.org",
+    "pathname": "/location/elm-creek-winter-recreation-area"
+  },
+  "trails": {
+    "host": "https://www.threeriversparks.org",
+    "pathname": "/page/trail-conditions-cross-country-skiing"
+  },
+  "no": {
+    "lifts": true
+  },
+  "tags": [
+    "Minnesota",
+    "Midwest"
+  ],
+  "ll": [
+    -93.440642,
+    45.138517
+  ]
+}
