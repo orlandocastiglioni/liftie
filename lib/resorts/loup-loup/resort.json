@@ -2,10 +2,7 @@
   "name": "Loup Loup Ski Bowl",
   "url": {
     "host": "https://skitheloup.org",
-    "pathname": "/mountain/conditions-weather/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/mountain/conditions-weather/"
   },
   "trails": true,
   "no": {

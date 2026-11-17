@@ -29,26 +29,31 @@ trails('howelsen-hill', [
   {
     name: 'Howelsen Meadows',
     status: 'hold',
-    level: 'blue'
+    level: 'blue',
+    hazard: true
   },
   {
     name: 'Hakan Spar',
     status: 'hold',
-    level: 'blue'
+    level: 'blue',
+    hazard: true
   },
   {
     name: 'Onyx Mine',
     status: 'hold',
-    level: 'blue'
+    level: 'blue',
+    hazard: true
   },
   {
     name: "Ricky's Ridge",
     status: 'hold',
-    level: 'black'
+    level: 'black',
+    hazard: true
   },
   {
     name: 'Emerald Meadows',
     status: 'hold',
-    level: 'black'
+    level: 'black',
+    hazard: true
   }
 ]);

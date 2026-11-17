@@ -25,7 +25,8 @@ trails('crosscut-mountain-sports-center', [
   {
     'name': 'North Bangtail',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Kiddy K',
@@ -70,7 +71,8 @@ trails('crosscut-mountain-sports-center', [
   {
     'name': 'South To Sweden',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Amphitheatre Hill',
@@ -105,12 +107,14 @@ trails('crosscut-mountain-sports-center', [
   {
     'name': "Montagne's Meander",
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'North to Norway',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Roller Coaster',
@@ -165,7 +169,8 @@ trails('crosscut-mountain-sports-center', [
   {
     'name': 'Narrow Gauge #8',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Crosscut Loop',
@@ -190,42 +195,50 @@ trails('crosscut-mountain-sports-center', [
   {
     'name': 'Narrow Gauge #7',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #5',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #6',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #4',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #3',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #2',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #1',
     'status': 'hold',
-    'level': 'green'
+    'level': 'green',
+    'hazard': true
   },
   {
     'name': 'Narrow Gauge #9',
     'status': 'hold',
-    'level': 'blue'
+    'level': 'blue',
+    'hazard': true
   },
   {
     'name': 'Panorama',

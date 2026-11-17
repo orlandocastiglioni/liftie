@@ -1,6 +1,19 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+import test from 'node:test';
+import parser from '../../lib/lifts/parser.js';
+import descriptor from '../../lib/resorts/catamount-outdoor/trails.js';
+import collect from '../../lib/trails/parse.js';
 import trails from '../trails/index.js';
 
-trails('catamount-outdoor', [
+// The capture (Trailforks region status, Jul 9 2026) is the default Mountain
+// Bike report - the only one resort.json's URL gets - so nothing is published.
+trails('catamount-outdoor', []);
+
+// The same page reporting Nordic Ski (activitytype 13 selected) publishes its
+// rows: the parser itself is unchanged, only gated on the activity.
+const expected = [
   {
     'name': 'A-line Drop',
     'status': 'open',
@@ -327,4 +340,24 @@ trails('catamount-outdoor', [
     'status': 'open',
     'level': 'doubleBlack'
   }
-]);
+];
+
+function parseWithActivity(value) {
+  const html = readFileSync(resolve(import.meta.dirname, 'example/catamount-outdoor.html'), 'utf8')
+    .replace('<option value="1" selected="selected">', '<option value="1">')
+    .replace(`<option value="${value}">`, `<option value="${value}" selected="selected">`);
+  return new Promise((ok, fail) =>
+    parser(
+      dom => collect(dom, descriptor),
+      (err, list) => (err ? fail(err) : ok(list))
+    ).end(html)
+  );
+}
+
+test('catamount-outdoor: a Nordic Ski report publishes its rows', async () => {
+  assert.deepEqual(await parseWithActivity('13'), expected);
+});
+
+test('catamount-outdoor: Winter Fat Bike is still a bike report', async () => {
+  assert.deepEqual(await parseWithActivity('17'), []);
+});

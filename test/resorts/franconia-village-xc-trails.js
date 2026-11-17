@@ -59,7 +59,8 @@ trails('franconia-village-xc', [
   {
     'name': 'Middle Earth',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Air Field',
@@ -74,7 +75,8 @@ trails('franconia-village-xc', [
   {
     'name': 'Ridge Run',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Swiss Border',

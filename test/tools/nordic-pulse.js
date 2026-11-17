@@ -21,7 +21,7 @@ test('nordic-pulse: extracts trails from the ng-state data-npww blob', (_t, done
       assert.deepEqual(list, [
         { name: 'Meadow Loop', status: 'open', level: 'green' },
         { name: 'River Run', status: 'closed', level: 'blue' },
-        { name: 'Summit Trail', status: 'hold', level: 'black' },
+        { name: 'Summit Trail', status: 'hold', level: 'black', hazard: true },
         { name: 'Expert Glade', status: 'open', level: 'doubleBlack' }
       ]);
       done();

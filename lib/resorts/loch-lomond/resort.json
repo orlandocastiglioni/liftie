@@ -2,10 +2,7 @@
   "name": "Loch Lomond",
   "url": {
     "host": "https://www.lochlomond.ca",
-    "pathname": "/conditions/",
-    "headers": {
-      "User-Agent": "IndiePeaks-lift-status/1.0 (+https://orlandocc.me/indiepeaks)"
-    }
+    "pathname": "/conditions/"
   },
   "trails": true,
   "tags": [

@@ -59,12 +59,14 @@ trails('fort-kent-outdoor-center', [
   {
     'name': 'Green Bean Trail',
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': "Ben's Incline",
     'status': 'hold',
-    'level': 'black'
+    'level': 'black',
+    'hazard': true
   },
   {
     'name': 'Red Barn Trail Head',
