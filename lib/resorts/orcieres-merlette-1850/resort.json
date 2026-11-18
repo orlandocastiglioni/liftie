@@ -1,0 +1,20 @@
+{
+  "name": "Orcières Merlette 1850",
+  "url": {
+    "host": "https://www.orcieres.com",
+    "pathname": "/en/live/resort-openings/",
+    "via": "renderd",
+    "waitSelector": "widget-digisnow-ski-area >>> .assetLine",
+    "shadow": true,
+    "settle": 3000
+  },
+  "trails": true,
+  "tags": [
+    "France",
+    "Alps"
+  ],
+  "ll": [
+    6.3205163,
+    44.6972477
+  ]
+}
