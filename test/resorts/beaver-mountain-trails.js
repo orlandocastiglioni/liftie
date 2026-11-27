@@ -1,6 +1,8 @@
 // skithebeav.com/mountain/conditions/ - trails share the lift page. Capture is
 // the frozen closing-day report (3/27/26): 33 open (Open + Groomed), 15 closed,
-// across all four levels including 2 terrain parks.
+// across all four levels including 2 terrain parks. The Groomed rows count as
+// open here only because the header ("44 Runs Open") vouches for them - see
+// beaver-mountain-2026-11-26.js for a board the header contradicts.
 import trails from '../trails/index.js';
 
 // The parser drops a report older than 14 days, so these tests pin the clock to
