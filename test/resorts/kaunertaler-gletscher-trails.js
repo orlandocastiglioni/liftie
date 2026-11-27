@@ -7,7 +7,7 @@ import parse from '../../lib/resorts/kaunertaler-gletscher/trails.js';
 import collect from '../../lib/trails/parse.js';
 import trails from '../trails/index.js';
 
-// Same 2026-01-15 winter capture as the lifts: all 27 rows of #pistenStatus in
+// Same 2026-01-15 winter capture as the lifts: the 27 rows of #pistenStatus in
 // page order, mixed open/closed, with every one of the resort's three grades
 // represented. `grade` is the German word the page actually prints; `level` is
 // the local blau->blue / rot->black / schwarz->doubleBlack reading, since
@@ -37,9 +37,7 @@ trails('kaunertaler-gletscher', [
   { 'name': 'Freier Fall', 'status': 'closed', 'level': 'doubleBlack', 'grade': 'Schwer' },
   { 'name': 'Adlerpiste', 'status': 'closed', 'level': 'doubleBlack', 'grade': 'Schwer' },
   { 'name': 'Schmugglerin', 'status': 'open', 'level': 'black', 'grade': 'Mittel' },
-  { 'name': 'Wallfahrer', 'status': 'closed', 'level': 'doubleBlack', 'grade': 'Schwer' },
-  { 'name': 'Gletscherstraße: Mautstelle - Ochsenalm', 'status': 'open', 'level': 'blue', 'grade': 'Leicht' },
-  { 'name': 'Gletscherstraße: Ochsenalm - Gletscherparkplatz', 'status': 'open', 'level': 'blue', 'grade': 'Leicht' }
+  { 'name': 'Wallfahrer', 'status': 'closed', 'level': 'doubleBlack', 'grade': 'Schwer' }
 ]);
 
 test('kaunertaler-gletscher trails reportedAt', (_t, done) => {
@@ -50,8 +48,9 @@ test('kaunertaler-gletscher trails reportedAt', (_t, done) => {
     (err, list) => {
       assert.ifError(err);
       assert.equal(list.reportedAt, '2026-01-15T08:05:00.000Z');
-      // non-enumerable, so it is not counted as a 28th piste
-      assert.equal(list.length, 27);
+      // non-enumerable, so it is not counted as a 26th piste; 27 board rows
+      // less the two Gletscherstraße road rows
+      assert.equal(list.length, 25);
       done();
     }
   );

@@ -1,5 +1,8 @@
 import trails from '../trails/index.js';
 
+// 'Take Off' and 'All Smiles' are also listed in the Lift 7 table; they are
+// published once, at their first (Chet's Dream) position.
+
 trails('loveland', [
   {
     name: 'All Smiles',
@@ -335,16 +338,6 @@ trails('loveland', [
     name: 'No. Blackjack',
     status: 'open',
     level: 'blue'
-  },
-  {
-    name: 'Take Off',
-    status: 'open',
-    level: 'green'
-  },
-  {
-    name: 'All Smiles',
-    status: 'open',
-    level: 'green'
   },
   {
     name: 'Zip Trail',
