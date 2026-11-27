@@ -1,10 +1,19 @@
 {
   "name": "BigRock Mountain",
   "url": {
-    "host": "https://www.bigrockmaine.com",
+    "host": "https://bigrockmaine.com",
     "pathname": "/trails/"
   },
-  "trails": true,
+  "api": {
+    "host": "https://bigrockmaine.com",
+    "pathname": "/wp-json/bigrock-ops/v1/public-report",
+    "json": true
+  },
+  "trails": {
+    "host": "https://bigrockmaine.com",
+    "pathname": "/wp-json/bigrock-ops/v1/public-report",
+    "json": true
+  },
   "tags": [
     "Maine",
     "New England"

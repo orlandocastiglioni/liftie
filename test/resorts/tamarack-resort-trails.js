@@ -1,14 +1,20 @@
 import trails from '../trails/index.js';
+import { pinDate } from './support/parse.js';
+
+// Same capture and clock as the lift test: both tab panels of the "Trails
+// Status" block (64 downhill runs, then the two terrain parks), in page order.
+// Beginner / Intermediate / Advanced / Terrain Park normalise directly.
+pinDate('2026-11-27T20:00:00Z');
 
 trails('tamarack-resort', [
   {
     'name': 'Adrenaline',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'After You',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
@@ -18,22 +24,22 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Buttercup',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Calle Ocho',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Canoe Ridge',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Discovery',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
@@ -43,38 +49,43 @@ trails('tamarack-resort', [
   },
   {
     'name': 'En Fuego',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
-  },
-  {
-    'name': 'Enigma',
-    'status': 'open',
-    'level': 'blue'
   },
   {
     'name': 'Funnel',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
-    'name': "Hilary's Step",
-    'status': 'open',
-    'level': 'green'
+    'name': 'Get Back',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Grand Finale',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Hibernator Glade',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Hillary Step',
+    'status': 'closed',
+    'level': 'blue'
   },
   {
     'name': 'Hip Hop',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Homestead',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
-  },
-  {
-    'name': 'Hoo Ya!',
-    'status': 'open',
-    'level': 'black'
   },
   {
     'name': 'Hootenanny',
@@ -82,18 +93,28 @@ trails('tamarack-resort', [
     'level': 'green'
   },
   {
-    'name': 'Hot Sauce',
+    'name': 'Hoo Ya!',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'Hotsauce',
     'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'La Bamba',
-    'status': 'open',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'La Bamba Cliffs',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Ladle',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -103,7 +124,7 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Lower Bliss',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -112,19 +133,19 @@ trails('tamarack-resort', [
     'level': 'blue'
   },
   {
+    'name': 'Lower Enigma',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
     'name': 'Lower Serenity',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Lower Showtime',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
-  },
-  {
-    'name': 'Lower Vista',
-    'status': 'open',
-    'level': 'black'
   },
   {
     'name': 'Lumberjack Land',
@@ -133,42 +154,47 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Lumberjack Way',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Me First',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
-    'name': 'Mid Mountain Way',
-    'status': 'open',
-    'level': 'blue'
+    'name': 'Mid-Mountain Way',
+    'status': 'closed',
+    'level': 'black'
   },
   {
-    'name': 'Mystery Glade',
-    'status': 'open',
+    'name': 'Mutton Buster',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Mystery Glades',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Next Up',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Oo-La-La',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Panorama',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Powder High',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
@@ -178,23 +204,28 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Rehab',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Rock Creek',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Rumba',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Salsa',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
+  },
+  {
+    'name': 'Serenity Canyon',
+    'status': 'closed',
+    'level': 'black'
   },
   {
     'name': 'Shortcut',
@@ -203,12 +234,12 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Showtime Return',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
-    'name': 'Snow Bunny',
-    'status': 'open',
+    'name': 'Snowbunny',
+    'status': 'closed',
     'level': 'green'
   },
   {
@@ -218,32 +249,37 @@ trails('tamarack-resort', [
   },
   {
     'name': 'Sugarloaf',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Tamarack',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Tango',
-    'status': 'open',
+    'status': 'closed',
+    'level': 'black'
+  },
+  {
+    'name': 'The Grove',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'The Spine',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Tula Tracks',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Upper Bliss',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -252,18 +288,23 @@ trails('tamarack-resort', [
     'level': 'blue'
   },
   {
+    'name': 'Upper Enigma',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
     'name': 'Upper Serenity',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Upper Showtime',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
-    'name': 'Upper Vista',
-    'status': 'open',
+    'name': 'Vista',
+    'status': 'closed',
     'level': 'black'
   },
   {
@@ -272,22 +313,27 @@ trails('tamarack-resort', [
     'level': 'black'
   },
   {
-    'name': 'Waltz',
-    'status': 'open',
+    'name': 'Waltz (Easy Way Down)',
+    'status': 'closed',
     'level': 'green'
   },
   {
-    'name': 'Wildwood Way',
-    'status': 'open',
+    'name': 'Wildwood Way Blue',
+    'status': 'closed',
+    'level': 'blue'
+  },
+  {
+    'name': 'Wildwood Way Green',
+    'status': 'closed',
     'level': 'green'
   },
   {
-    'name': 'Showtime Terrain Park',
+    'name': 'Discovery Terrain Park',
     'status': 'closed',
     'level': 'terrainPark'
   },
   {
-    'name': 'Discovery Terrain Park',
+    'name': 'Homestead Terrain Park',
     'status': 'closed',
     'level': 'terrainPark'
   }

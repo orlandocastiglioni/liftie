@@ -1,0 +1,26 @@
+{
+  "current": true,
+  "revision": "constructed-for-test",
+  "integration_version": "8",
+  "generated_at": "2026-12-20 08:15:02",
+  "state": {
+    "mountain_status": "open",
+    "base_depth": "18\"",
+    "primary_surface": "Machine Groomed",
+    "last_updated": "2026-12-20 08:10:44"
+  },
+  "counts": { "trails_open": 3, "trails_total": 5, "lifts_open": 2, "lifts_total": 4 },
+  "trails": [
+    { "name": "Space Walk", "difficulty": "easier", "status": "open", "night_lit": 1, "surface_override": "" },
+    { "name": "Comet", "difficulty": "more_difficult", "status": "open", "night_lit": 0, "surface_override": "" },
+    { "name": "Orion", "difficulty": "most_difficult", "status": "pending", "night_lit": 0, "surface_override": "" },
+    { "name": "Hooch", "difficulty": "most_difficult", "status": "race", "night_lit": 0, "surface_override": "" },
+    { "name": "Milky Way", "difficulty": "more_difficult", "status": "closed", "night_lit": 0, "surface_override": "" }
+  ],
+  "lifts": [
+    { "name": "Sunrise", "status": "open", "scheduled_open_time": "" },
+    { "name": "Apollo", "status": "scheduled", "scheduled_open_time": "10:00" },
+    { "name": "Space Shuttle", "status": "wind_hold", "scheduled_open_time": "" },
+    { "name": "Mercury", "status": "closed", "scheduled_open_time": "" }
+  ]
+}
