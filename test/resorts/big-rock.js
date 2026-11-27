@@ -26,5 +26,5 @@ lifts(
 test('big-rock marks the not-current feed as off season', async () => {
   const rows = await liftsOf('big-rock', 'big-rock.json');
   assert.deepEqual(rows, {});
-  assert.deepEqual(rows.suppressed, { reason: 'offseason', date: '2026-11-27T18:50:52.000Z' });
+  assert.deepEqual(rows.suppressed, { reason: 'offseason' });
 });

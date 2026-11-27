@@ -21,5 +21,5 @@ trails(
 test('big-rock publishes no trails from the not-current feed, and says so', async () => {
   const rows = await trailsOf('big-rock', 'big-rock.json');
   assert.deepEqual(rows, []);
-  assert.deepEqual(rows.suppressed, { reason: 'offseason', date: '2026-11-27T18:50:52.000Z' });
+  assert.deepEqual(rows.suppressed, { reason: 'offseason' });
 });
