@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="expires" content="-1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="etc/bootstrap.min.css">
+    <!-- JS utile -->
+    <script></script>
+    <script></script>
+    <!-- Autre CSS -->
+    <link
+        rel="stylesheet"
+        href="etc/light.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="circle.css">
+    <link rel="stylesheet" href="style.php?color=&colorText_Headind=&primaryBackgroundColor=&secondaryBackgroundColor=&colorPictoWeather=&colorText=&font1=&font2=&font3=&background=&border=&colorTitle=&print=&station=sept-laux"><link rel="stylesheet" href="stylePrint.php?font=">    
+    <title>Bulletin Neige 7 Laux</title>
+</head>
+<body style="overflow-x: hidden">
+<div class="intro col-md-12 col-12">
+        <div class="row row_up"><div class="col-md-12">
+                        <div class="intro_title">BULLETIN MÉTÉO & D'OUVERTURE DU DOMAINE</div>
+                    </div>
+                    <div class="col-md-2 domaine col-2"><img height="80px" src="station/sept-laux/logo.jpg"></div>
+                        <div class="col-md-8 col-8">
+                            <div class="intro_maj">Mise à jour le 27/11/2026 à 13:01 </div>
+                            <div class="intro_maj">  </div>
+                        </div>
+        </div>
+        </div>
+        <div class="col-12" style="background-color: #f8f8f8">
+                    <div class="col-md-12 col-lg-10 offset-lg-1 col-12 col-12"  style="background-color: #f8f8f8">
+                            <div class="jumbotron meteo"><div class="row bottom">
+                    <div class="col-md-1 col-1 col-1 title">
+                        <img class="image_text" src="image/base/meteo.svg" onload="SVGInject(this)">
+                    </div>
+                    <div class="col-md-9 col-8 col-8">
+                        <div class="title">
+                            <div><span class="text meteo_text"><strong>MÉTÉO</strong></span></div>
+                        </div>
+                    </div><div class="col-md-1 col-1 col-1"><div class="title">
+                                <button class="information image_info" id="button_tooltip_meteo">
+                                    <img src="image/document/info.svg" onload="SVGInject(this)">
+                                </button>
+                                <button class="information image_plus" onclick="hide('meteo_neige')">
+                                    <img src="image/document/arrow-circular-button.svg" id="button_meteo_neige" onload="SVGInject(this)">
+                                </button>
+                            </div></div></div><div class="meteo_neige" id="meteo_neige"><ul style="list-style: none; padding: 0; margin: 0">
+                                    <li id="slide1" class="col-lg-10 offset-lg-1 col-md-12 col-12 col-12"> <div class="card">
+                            <div class="card-header"> <div class="row card-header col-12" style="margin-top: 15px"><div class="col-12 center-meteo-smartphone">Bas du Domaine - 1350 m</div>
+                                </div>
+                            </div>
+                            <div class="card-body weather">
+                                <div class="col-md-12 weather_icon col-12 col-12">
+                                    <div class="row">
+                                        <!-- 1ere Partie --><div class="col-md-6 col-12 col-12 taille" ><div class="row left_weather border_bottom_meteo">
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image" src="image/meteo/103.svg" onload="SVGInject(this)" title="Belles éclaircies, passages nuageux"><div class="text">Matin</div><div class="subtext"><span class="bold">0</span>°C</div>
+                                                </div>
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image" src="image/meteo/101.svg" onload="SVGInject(this)" title="Soleil"><div class="text">Après-midi</div><div class="subtext"><span class="bold">2</span>°C</div>
+                                                </div>
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image_vent" src="image/meteo/vent.svg" onload="SVGInject(this)" title="Vitesse et direction du vent">
+                                                    <div class="subtext_vent"><span class="bold">4</span> km/h</div><div class="text_vent"><img src="image/meteo/direction_vent.svg" onload="SVGInject(this)" style="height: 16px; margin-right: 10px; margin-top: -4px" class="NORD"><div class="longText">NORD</div><div class="littleText">N</div></div><div class="border_right_meteo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 2eme Partie --><div class="col-md-6 col-12 col-12 taille"><div class="row middle_weather border_bottom_meteo">
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/image_neige.svg" onload="SVGInject(this)" title="Cumul de neige & Qualité de la neige">
+                                                        <div class="subtext"><span class="bold">0</span> Cm</div>
+                                                        <div class="text">N/D</div>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/limite_pluie_neige.svg" onload="SVGInject(this)" title="Limite pluie/neige, altitude à laquelle la pluie se transforme en neige">
+                                                        <div class="subtext"><span class="bold">1200</span> m</div>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/calendrier_neige.svg" onload="SVGInject(this)" title="Hauteur & date de la dernière chute de neige">
+                                                        <div class="subtext"><span class="bold">0</span> Cm</div>
+                                                        <div class="text_italic">27/03/2026</div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <!-- 3eme Partie -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul><ul style="list-style: none; padding: 0; margin: 0">
+                                    <li id="slide1" class="col-lg-10 offset-lg-1 col-md-12 col-12 col-12"> <div class="card">
+                            <div class="card-header"> <div class="row card-header col-12" style="margin-top: 15px"><div class="col-12 center-meteo-smartphone">Haut du Domaine - 2400 m</div>
+                                </div>
+                            </div>
+                            <div class="card-body weather">
+                                <div class="col-md-12 weather_icon col-12 col-12">
+                                    <div class="row">
+                                        <!-- 1ere Partie --><div class="col-md-6 col-12 col-12 taille" ><div class="row left_weather border_bottom_meteo">
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image" src="image/meteo/103.svg" onload="SVGInject(this)" title="Belles éclaircies, passages nuageux"><div class="text">Matin</div><div class="subtext"><span class="bold">-3</span>°C</div>
+                                                </div>
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image" src="image/meteo/101.svg" onload="SVGInject(this)" title="Soleil"><div class="text">Après-midi</div><div class="subtext"><span class="bold">-4</span>°C</div>
+                                                </div>
+                                                <div class="col-md-4 col-4 col-4 icon">
+                                                    <img class="image_vent" src="image/meteo/vent.svg" onload="SVGInject(this)" title="Vitesse et direction du vent">
+                                                    <div class="subtext_vent"><span class="bold">23</span> km/h</div><div class="text_vent"><img src="image/meteo/direction_vent.svg" onload="SVGInject(this)" style="height: 16px; margin-right: 10px; margin-top: -4px" class="NORDEST"><div class="longText">NORD EST</div><div class="littleText">NE</div></div><div class="border_right_meteo"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- 2eme Partie --><div class="col-md-6 col-12 col-12 taille"><div class="row middle_weather border_bottom_meteo">
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/image_neige.svg" onload="SVGInject(this)" title="Cumul de neige & Qualité de la neige">
+                                                        <div class="subtext"><span class="bold">0</span> Cm</div>
+                                                        <div class="text">N/D</div>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/limite_pluie_neige.svg" onload="SVGInject(this)" title="Limite pluie/neige, altitude à laquelle la pluie se transforme en neige">
+                                                        <div class="subtext"><span class="bold">1200</span> m</div>
+                                                    </div>
+                                                    <div class="col-md-4 col-4 col-4 icon">
+                                                        <img class="image" src="image/meteo/calendrier_neige.svg" onload="SVGInject(this)" title="Hauteur & date de la dernière chute de neige">
+                                                        <div class="subtext"><span class="bold">0</span> Cm</div>
+                                                        <div class="text_italic">27/03/2026</div>
+                                                    </div>
+                                                </div>
+                                        </div>
+                                        <!-- 3eme Partie -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>

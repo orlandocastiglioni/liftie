@@ -7,6 +7,9 @@
   "trails": {
     "host": "https://www.trailforks.com",
     "pathname": "/region/catamount-outdoor-family-center/status/",
+    "query": {
+      "activitytype": "13"
+    },
     "via": "renderd",
     "waitSelector": "table.statustable"
   },

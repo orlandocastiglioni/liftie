@@ -1,81 +1,92 @@
 import trails from '../trails/index.js';
 
-// Same winter fixture as the lift test (trails share the report page). Level is
-// mapped from the icon_track-* class (hardest wins); status from the td class.
+// Same capture as the lift test: 68 trail sections from the page list - the
+// drawer's duplicate copy is excluded - with the resort editing the board that
+// afternoon (one section already open). Level is data-level, hardest wins.
 trails('mont-sutton', [
+  {
+    'name': 'Alleghanys (haut/top)',
+    'status': 'closed',
+    'level': 'doubleBlack'
+  },
   {
     'name': 'Alleghanys (bas/bottom)',
     'status': 'open',
-    'level': 'green'
-  },
-  {
-    'name': 'Alleghanys (haut/top)',
-    'status': 'open',
-    'level': 'blue'
+    'level': 'doubleBlack'
   },
   {
     'name': 'Coucou',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Starlet',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Sous-bois Starlet',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Loup de Loup',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Bee-Bop',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'St-Bernard',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Ricochet',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Yum-Yum',
-    'status': 'open',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Forêt des merveilles',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
+    'name': 'Forêt des merveilles',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Connection',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Passeport',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Transit',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Cendrillon',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Capucine',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
@@ -84,258 +95,253 @@ trails('mont-sutton', [
     'level': 'green'
   },
   {
-    'name': 'Alouette (bas/bottom)',
-    'status': 'open',
-    'level': 'green'
-  },
-  {
     'name': 'Alouette (haut/top)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
+    'name': 'Alouette (bas/bottom)',
+    'status': 'closed',
+    'level': 'green'
+  },
+  {
     'name': 'Traverse',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Sous-Bois II',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Caprice',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Sutton-Ik',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Mohawk',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Détour',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'ABC',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Barcarole',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Dou-de-Lom',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Youppe-Youppe',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Sous-bois Youp',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Challenge',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Sous-bois Poma',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Bo-Réal',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Mic-Mac',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Stade de slalom',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Kangourou',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Surprise',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Sous-bois IV B',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Crocodile',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Sous-bois IV A',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Dynamique',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Alibi',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Sous-bois V',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Zig-Zag',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Alpine',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Escapade',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Iroquois',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Miracle',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Relais',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Sous-bois Miracle',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Entonnoir',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Sélection',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Attraction (bas/bottom)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'blue'
   },
   {
     'name': 'Attraction (haut/top)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Émotion ( haut/top)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Émotion (bas/bottom)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Intrépide (bas/bottom)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Intrépide (haut/top)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Bou-bou (bas/bottom)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Bou-bou (haut/top)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Exil',
-    'status': 'open',
+    'status': 'closed',
     'level': 'black'
   },
   {
     'name': 'Accès (4 au / to 2)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Accès (7 au / to 5)',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Paisible',
-    'status': 'open',
+    'status': 'closed',
     'level': 'green'
   },
   {
     'name': 'Fantaisie',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Extase',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
   },
   {
     'name': 'Séduction',
-    'status': 'open',
+    'status': 'closed',
     'level': 'doubleBlack'
-  },
-  {
-    'name': 'Forêt des merveilles',
-    'status': 'open',
-    'level': 'green'
   }
 ]);

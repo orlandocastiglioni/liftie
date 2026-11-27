@@ -1,8 +1,8 @@
 {
   "name": "Silver Mountain Resort",
   "url": {
-    "host": "https://www.silvermt.com",
-    "pathname": "/mountain-info/trail-status"
+    "host": "https://silvermt.com",
+    "pathname": "/snow-report/trail-status/"
   },
   "trails": true,
   "tags": [

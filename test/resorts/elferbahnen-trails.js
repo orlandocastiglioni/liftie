@@ -1,24 +1,30 @@
 import trails from '../trails/index.js';
 
-// 2026-01-24 wayback capture. The Elfer's whole pisted terrain is two rote
-// Abfahrten plus one ungraded ski route, which is why the trail count is the
-// smallest in the pass. Hölltal open with Elferhütte shut gives both status
-// glyphs on the trail side too.
+// Same capture as the lift test: the rows under the 'Slopes' caption - the two
+// rote Abfahrten, the ungraded Skiroute and the Krößbach practice slope, which
+// Intermaps files under slopes. Grades come off the slope icon, whose path
+// this region prints with an empty segment (slope_diff_set_6//701/288.png).
 trails('elferbahnen', [
   {
-    name: "Abfahrt 'Elferhütte'",
-    status: 'closed',
-    level: 'black',
-    grade: 'red'
+    'name': 'Abfahrt Elferhütte',
+    'status': 'closed',
+    'level': 'black',
+    'grade': 'red'
   },
   {
-    name: "Abfahrt 'Hölltal'",
-    status: 'open',
-    level: 'black',
-    grade: 'red'
+    'name': 'Abfahrt Hölltal',
+    'status': 'closed',
+    'level': 'black',
+    'grade': 'red'
   },
   {
-    name: 'Skiroute',
-    status: 'closed'
+    'name': 'Skiroute',
+    'status': 'closed'
+  },
+  {
+    'name': 'Übungslift Krößbach',
+    'status': 'closed',
+    'level': 'blue',
+    'grade': 'blue'
   }
 ]);
